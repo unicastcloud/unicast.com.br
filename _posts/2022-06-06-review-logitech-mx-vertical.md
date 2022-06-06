@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Review] Logitech MX Vertical"
-date: 2022-06-06 13:00:00 -0500
+date: 2022-06-06 10:00:00 -0500
 categories: [Tecnologia, Periféricos]
 tags: [mouse, logitech, mxvertical]
 ---
