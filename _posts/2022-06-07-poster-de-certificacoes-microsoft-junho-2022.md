@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Poster de certificações Microsoft - Junho 2022"
-date: 2021-07-13 10:30:00 -0500
+date: 2022-07-13 10:30:00 -0500
 categories: [Certificação, Notícias]
 tags: [certificação, azure, m365, microsoft]
 ---
