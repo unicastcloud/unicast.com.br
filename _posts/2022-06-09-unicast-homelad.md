@@ -1,0 +1,60 @@
+---
+layout: post
+title: "Unicast Homelab"
+date: 2022-06-09 09:00:00 -0500
+categories: [Homelab, Artigos]
+tags: [homelab, network, docker, kuberbetes, raspberrypi, ansible, devops, terraform, gitops, k8s, k3s, cluster, routing]
+---
+
+Fala galera!
+
+Este é o primeiro de uma série de artigos que irei produzir por aqui, documentando minhas experiências com meu homelab.
+
+Antes de mais nada, vamos ajustar algumas ideias.
+
+Uma das melhores maneiras de aprender sobre sistemas, aplicativos e tecnologia em geral é criando laboratórios práticos.
+
+Hoje em dia é muito fácil simular um ambiente de estudo/desenvolvimento em casa, qualquer PC mais atual tem a capacidade de rodar máquinas virtuais utilizando softwares como virtualbox, vmware ou até mesmo docker. 
+
+E se mesmo assim, você não tenha um PC suficientemente bom para criar seus laboratórios, você pode facilmente executá-lo em qualquer provedor de nuvem pública, a exemplo do Microsoft Azure.
+
+Hoje em dia estamos bem! Na minha época não era assim...
+
+Antigamente não existia computação em nuvem, computador em casa era luxo, internet, só discada e depois da meia noite, se não seu pai teria que vender um rim para poder pagar a conta telefônica. LoL :)
+
+Brincadeiras à parte, antigamente não era muito fácil aprender ou mesmo testar seus conhecimentos, era necessário estar trabalhando na área para ter contato com toda essa tecnologia. 
+
+Não tinha muito o que fazer, era ficar de olho em hardware usado e quando alguém não queria mais a gente levava para casa.
+
+Nos últimos anos eu acabei utilizando bastante meu PC, fiz um bom upgrade e deixei ele suficientemente bom para suportar meus laboratórios virtuais, porém, a maior parte dos meus laboratórios são executados no Azure.
+
+Se você já me acompanha a algum tempo, sabe que estou produzindo material técnico para o meu canal no YouTube Unicast Cloud Training, e este homelab será parte fundamental do material que irei compartilhar com vocês.
+
+Montar um homelab pode ser extremamente divertido e muito educativo. Se você estiver pensando em construir um, comece pequeno e vá expandindo no seu próprio ritmo. 
+
+O meu caso não é diferente, vou começar com o que tenho e vou completar com alguns equipamentos novos e usados.
+
+E é por este motivo que quero documentar todo o processo, pois vai ser bem bacana a evolução física e lógica deste projeto.
+
+Na minha opinião, esse é o maior benefício de um homelab. É pura diversão, um playground. É o lugar onde posso colocar em prática todo meu amor pela tecnologia. Simplesmente é um lugar para me divertir enquanto aprimoro minhas habilidades.
+
+Dito isso, criei um repositório no **GitHub** para documentar e centralizar todas as informações do Homelab. <https://github.com/asilvajunior/homelab>
+
+Aproveita e dá uma estrelinha lá para fortalecer LoL :)
+
+## A lista abaixo descreve o hardware e algumas especificações do meu homelab e infraestrutura de rede de momento.
+
+| Device             | CPU        | RAM   | Storage              | Operating System              | Purpose    | Note                           |
+| -------------------|------------|-------|----------------------|-------------------------------|------------|--------------------------------|
+| Dell OptiPlex 3050 | I7-6700    | 16GB  | 500GB HDD            | WIN19K Datacenter             | Hypervisor | Comprei usado no Mercado Lirve |
+| TP-Link TL-SG1008P | N/A        | N/A   | N/A                  | N/A                           | Switch PoE | Comprei novo no Mercado Livre  |
+| MikroTik hAP Ac2   | IPQ-4018   | 128MB | 16MB                 | RouterOS                      | Router     | Já tinha                       |
+| Raspberry Pi 3B+   | Cortex-A53 | 1GB   | 64GB SD Card         | Raspberry PI OS Lite (64-BIT) | Pi-hole    | Já tinha                       |
+
+![](/assets/img/23/homelab1.jpeg){: .shadow style="max-width: 30%" } _Raspberry Pi 3B+_
+![](/assets/img/23/homelab2.jpeg){: .shadow style="max-width: 30%" } _TP-Link TL-SG1008P_
+![](/assets/img/23/homelab3.jpeg){: .shadow style="max-width: 30%" } _Dell OptiPlex 3050_
+
+É isso galera, espero que gostem.
+
+Forte abraço a todos!
