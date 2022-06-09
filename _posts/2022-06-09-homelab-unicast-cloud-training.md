@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unicast Homelab"
+title: "[Homelab] Unicast Cloud Training"
 date: 2022-06-09 09:00:00 -0500
 categories: [Homelab, Artigos]
 tags: [homelab, network, docker, kuberbetes, raspberrypi, ansible, devops, terraform, gitops, k8s, k3s, cluster, routing]
@@ -9,6 +9,8 @@ tags: [homelab, network, docker, kuberbetes, raspberrypi, ansible, devops, terra
 Fala galera!
 
 Este é o primeiro de uma série de artigos que irei produzir por aqui, documentando minhas experiências com meu homelab.
+
+![](/assets/img/23/homelab3.jpeg){: .shadow style="max-width: 50%" } _Dell OptiPlex 3050_
 
 Antes de mais nada, vamos ajustar algumas ideias.
 
@@ -19,6 +21,8 @@ Hoje em dia é muito fácil simular um ambiente de estudo/desenvolvimento em cas
 E se mesmo assim, você não tenha um PC suficientemente bom para criar seus laboratórios, você pode facilmente executá-lo em qualquer provedor de nuvem pública, a exemplo do Microsoft Azure.
 
 Hoje em dia estamos bem! Na minha época não era assim...
+
+![](/assets/img/23/homelab1.jpeg){: .shadow style="max-width: 50%" } _Raspberry Pi 3B+_
 
 Antigamente não existia computação em nuvem, computador em casa era luxo, internet, só discada e depois da meia noite, se não seu pai teria que vender um rim para poder pagar a conta telefônica. LoL :)
 
@@ -32,6 +36,8 @@ Se você já me acompanha a algum tempo, sabe que estou produzindo material téc
 
 Montar um homelab pode ser extremamente divertido e muito educativo. Se você estiver pensando em construir um, comece pequeno e vá expandindo no seu próprio ritmo. 
 
+![](/assets/img/23/homelab2.jpeg){: .shadow style="max-width: 50%" } _TP-Link TL-SG1008P_
+
 O meu caso não é diferente, vou começar com o que tenho e vou completar com alguns equipamentos novos e usados.
 
 E é por este motivo que quero documentar todo o processo, pois vai ser bem bacana a evolução física e lógica deste projeto.
@@ -44,16 +50,12 @@ Aproveita e dá uma estrelinha lá para fortalecer LoL :)
 
 ## A lista abaixo descreve o hardware e algumas especificações do meu homelab e infraestrutura de rede de momento.
 
-| Device             | CPU        | RAM   | Storage              | Operating System              | Purpose    | Note                           |
-| -------------------|------------|-------|----------------------|-------------------------------|------------|--------------------------------|
-| Dell OptiPlex 3050 | I7-6700    | 16GB  | 500GB HDD            | WIN19K Datacenter             | Hypervisor | Comprei usado no Mercado Lirve |
-| TP-Link TL-SG1008P | N/A        | N/A   | N/A                  | N/A                           | Switch PoE | Comprei novo no Mercado Livre  |
-| MikroTik hAP Ac2   | IPQ-4018   | 128MB | 16MB                 | RouterOS                      | Router     | Já tinha                       |
-| Raspberry Pi 3B+   | Cortex-A53 | 1GB   | 64GB SD Card         | Raspberry PI OS Lite (64-BIT) | Pi-hole    | Já tinha                       |
-
-![](/assets/img/23/homelab1.jpeg){: .shadow style="max-width: 30%" } _Raspberry Pi 3B+_
-![](/assets/img/23/homelab2.jpeg){: .shadow style="max-width: 30%" } _TP-Link TL-SG1008P_
-![](/assets/img/23/homelab3.jpeg){: .shadow style="max-width: 30%" } _Dell OptiPlex 3050_
+| Device             | CPU        | RAM   | Storage  | Purpose    | Note                |
+| -------------------|------------|-------|----------|------------|---------------------|
+| Dell OptiPlex 3050 | I7-6700    | 16GB  | 500GB    | Hypervisor | Comprei usado no ML |
+| TP-Link TL-SG1008P | N/A        | N/A   | N/A      | Switch PoE | Comprei novo no ML  |
+| MikroTik hAP Ac2   | IPQ-4018   | 128MB | 16MB     | Router     | Já tinha            |
+| Raspberry Pi 3B+   | Cortex-A53 | 1GB   | 64GB     | Pi-hole    | Já tinha            |
 
 É isso galera, espero que gostem.
 
