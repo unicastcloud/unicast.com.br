@@ -10,8 +10,6 @@ Fala galera!
 
 Este é o primeiro de uma série de artigos que irei produzir por aqui, documentando minhas experiências com meu homelab.
 
-![](/assets/img/23/homelab3.jpeg){: .shadow style="max-width: 50%" } _Dell OptiPlex 3050_
-
 Antes de mais nada, vamos ajustar algumas ideias.
 
 Uma das melhores maneiras de aprender sobre sistemas, aplicativos e tecnologia em geral é criando laboratórios práticos.
@@ -40,7 +38,7 @@ Montar um homelab pode ser extremamente divertido e muito educativo. Se você es
 
 O meu caso não é diferente, vou começar com o que tenho e vou completar com alguns equipamentos novos e usados.
 
-E é por este motivo que quero documentar todo o processo, pois vai ser bem bacana a evolução física e lógica deste projeto.
+E é por este motivo que quero documentar todo o processo, pois vai ser bem bacana ver a evolução física e lógica deste projeto.
 
 Na minha opinião, esse é o maior benefício de um homelab. É pura diversão, um playground. É o lugar onde posso colocar em prática todo meu amor pela tecnologia. Simplesmente é um lugar para me divertir enquanto aprimoro minhas habilidades.
 
@@ -48,14 +46,42 @@ Dito isso, criei um repositório no **GitHub** para documentar e centralizar tod
 
 Aproveita e dá uma estrelinha lá para fortalecer LoL :)
 
-## A lista abaixo descreve o hardware e algumas especificações do meu homelab e infraestrutura de rede de momento.
+### **1. Objetivo do projeto**
 
-| Device             | CPU        | RAM   | Storage  | Purpose    | Note                |
-| -------------------|------------|-------|----------|------------|---------------------|
-| Dell OptiPlex 3050 | I7-6700    | 16GB  | 500GB    | Hypervisor | Comprei usado no ML |
-| TP-Link TL-SG1008P | N/A        | N/A   | N/A      | Switch PoE | Comprei novo no ML  |
-| MikroTik hAP Ac2   | IPQ-4018   | 128MB | 16MB     | Router     | Já tinha            |
-| Raspberry Pi 3B+   | Cortex-A53 | 1GB   | 64GB     | Pi-hole    | Já tinha            |
+- Criar conteúdo técnico para o canal do Youtube.
+- Estudar e melhorar conhecimentos em DevOps e IaC.
+- Criar laboratório de estudos para certificações.
+
+### **2. Premissas do projeto**
+
+- Suportar e executar cargas de trabalho reais
+- Baixo consumo energético
+- Baixo custo de investimento
+- Baixo ruído 
+- Pouco espaço físico
+- Escalável
+
+### **3. Componentes do projeto**
+
+- [X] Roteador MikroTik hAP Ac2 
+- [X] Switch PoE TP-Link TL-SG1008P
+- [X] Dell OptiPlex 3050
+- [X] Raspberry Pi 3B+ 
+- [ ] Raspberry Pi 4 (4GB) 
+- [ ] Raspberry Pi 4 (8GB) 
+- [ ] PoE HAT
+- [ ] Rack Mout
+- [ ] Carões SD classe 10
+- [ ] Patch Cord UTP CAT6
+
+### **4. Estado atual do projeto**
+
+| Device                 | CPU        | RAM   | Storage  | Purpose    | Note                |
+| -----------------------|------------|-------|----------|------------|---------------------|
+| **Dell OptiPlex 3050** | I7-6700    | 16GB  | 500GB    | Hypervisor | Comprei usado no ML |
+| **TP-Link TL-SG1008P** | N/A        | N/A   | N/A      | Switch PoE | Comprei novo no ML  |
+| **MikroTik hAP Ac2**   | IPQ-4018   | 128MB | 16MB     | Router     | Já tinha            |
+| **Raspberry Pi 3B+**   | Cortex-A53 | 1GB   | 64GB     | Pi-hole    | Já tinha            |
 
 É isso galera, espero que gostem.
 
