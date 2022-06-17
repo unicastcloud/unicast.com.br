@@ -3,7 +3,7 @@ layout: post
 title: "[Homelab] Unicast Cloud Training"
 date: 2022-06-09 09:00:00 -0500
 categories: [Homelab, Artigos]
-tags: [homelab, network, docker, kuberbetes, raspberrypi, ansible, devops, terraform, gitops, k8s, k3s, cluster, routing]
+tags: [homelab, network, docker, kubernetes, raspberrypi, ansible, devops, terraform, gitops, k8s, k3s, cluster, routing]
 ---
 
 Fala galera!
@@ -20,7 +20,7 @@ E se mesmo assim, você não tenha um PC suficientemente bom para criar seus lab
 
 Hoje em dia estamos bem! Na minha época não era assim...
 
-![](/assets/img/23/homelab1.jpeg){: .shadow style="max-width: 50%" } _Raspberry Pi 3B+_
+![](/assets/img/23/homelab1.jpeg){: .shadow style="max-width: 50%" } _Raspberry Pi 3B_
 
 Antigamente não existia computação em nuvem, computador em casa era luxo, internet, só discada e depois da meia noite, se não seu pai teria que vender um rim para poder pagar a conta telefônica. LoL :)
 
@@ -66,12 +66,12 @@ Aproveita e dá uma estrelinha lá para fortalecer LoL :)
 - [X] Roteador MikroTik hAP Ac2 
 - [X] Switch PoE TP-Link TL-SG1008P
 - [X] Dell OptiPlex 3050
-- [X] Raspberry Pi 3B+ 
+- [X] Raspberry Pi 3B
 - [ ] Raspberry Pi 4 (4GB) 
 - [ ] Raspberry Pi 4 (8GB) 
 - [ ] PoE HAT
 - [ ] Rack Mout
-- [ ] Carões SD classe 10
+- [X] Carões SD classe 10
 - [ ] Patch Cord UTP CAT6
 
 ### **4. Estado atual do projeto**
@@ -81,7 +81,7 @@ Aproveita e dá uma estrelinha lá para fortalecer LoL :)
 | **Dell OptiPlex 3050** | I7-6700    | 16GB  | 500GB    | Hypervisor | Comprei usado no ML |
 | **TP-Link TL-SG1008P** | N/A        | N/A   | N/A      | Switch PoE | Comprei novo no ML  |
 | **MikroTik hAP Ac2**   | IPQ-4018   | 128MB | 16MB     | Router     | Já tinha            |
-| **Raspberry Pi 3B+**   | Cortex-A53 | 1GB   | 64GB     | Pi-hole    | Já tinha            |
+| **Raspberry Pi 3B**    | Cortex-A53 | 1GB   | 64GB     | Pi-hole    | Já tinha            |
 
 É isso galera, espero que gostem.
 

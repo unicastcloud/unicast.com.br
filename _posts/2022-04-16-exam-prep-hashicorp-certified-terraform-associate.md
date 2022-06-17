@@ -3,7 +3,7 @@ layout: post
 title: "[Exam-Prep] HashiCorp Certified: Terraform Associate"
 date: 2022-04-16 09:00:00 -0500
 categories: [Certificação, Exam-Prep]
-tags: [certificação, devops, terraform, hashicorp, automation, iac, cicd]
+tags: [certificação, devops, terraform, hashicorp, automacao, iac, cicd]
 ---
 
 Fala galera!

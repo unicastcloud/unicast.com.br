@@ -3,7 +3,7 @@ layout: post
 title: "Microsoft EA x CSP, qual é a melhor opção?"
 date: 2022-05-28 09:00:00 -0500
 categories: [Arquitetura, Licenciamento]
-tags: [arquitetura, azure, microsoft, caf, csp, ea, licenciamento ]
+tags: [arquitetura, azure, microsoft, caf, csp, ea, licenciamento]
 ---
 
 Fala galera!
@@ -76,7 +76,7 @@ Com um contrato CSP, os clientes se beneficiam de uma equipe dedicada que conhec
 ### **Comparativo entre contratos EA x CSP**
 
 | **Pontos de comparação**     | **Contrato (EA)** | **Contrato (CSP)** |
-|:-----------------------------|:-----------------:|:-----------------:|
+|:-----------------------------|:-----------------:|:------------------:|
 | **Números de usuários <br /> ou dispositivos** | 500 e acima | Flexível |               
 | **Pagamento** | Antecipado, anual | Por mês |
 | **Faturamento** | Anualmente | Nenhum |
