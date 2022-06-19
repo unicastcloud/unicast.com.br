@@ -187,5 +187,3 @@ No fim, o mais importante é o resultado que você entrega e não o título que 
 É isso galera, espero que gostem.
 
 Forte abraço a todos!
-
-
