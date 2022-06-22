@@ -45,7 +45,7 @@ Para este laboratório iremos utilizar somente linha de comando (CLI) em ambos o
 
 Caso você queira reproduzir o laboratório via portal ou Winbox (interface GUI para gerenciar equipamentos Mikrotik), fique à vontade.
 
-## **Configurando VPN Site-toSite route-based no Azure**
+## **Configurando VPN Site-to-Site route-based no Azure**
 
 Nesta seção, veremos passo a passo como configurar o Site-to-Site VPN no lado do Azure. 
 
@@ -153,7 +153,7 @@ New-AzVirtualNetworkGatewayConnection -Name $ConName -ResourceGroupName $RG `
 -ConnectionType IPsec -ConnectionProtocol IKEv2 -RoutingWeight 10 -SharedKey $ShareKey
 ```
 
-## **Configurando VPN Site-toSite no Mikrotik RouterOS**
+## **Configurando VPN Site-to-Site no Mikrotik RouterOS**
 
 Nesta seção, veremos passo a passo como configurar o Site-to-Site VPN no lado do Mikrotik. 
 
@@ -217,7 +217,7 @@ add action=accept chain=dstnat comment="Unicastlab - VPN Azure to Mikrotik (DSTN
     dst-address=172.16.0.0/24 log=yes src-address=10.0.0.0/24
 ```
 
-### **2.7 [Extra] Configurando o Bypass de pacotes (Tablea Raw)**
+### **2.7 [Extra] Configurando o Bypass de pacotes (Tabela Raw)**
 
 Caso você esteja com contrack habilitado, você precisa fazer um bypass dos pacotes antes que cheguem até a
 connection tracking, assim será possível pingar e acessar as máquinas sem problemas.
@@ -237,7 +237,7 @@ add action=notrack chain=prerouting dst-address=172.16.0.0/24 src-address=10.0.0
 
 ### **2.8 [Extra] Configurando o TCP MSS (Tabela Mangle)**
 
-Outra dica interessante é o TCP MSS, quando você tem um alto volume de pacotes TCP no túnel VPN é normal ter descartes de pacotes. Com a Mangle você consegue fazer marcas especiais e modificar alguns campos do cabeçaho IP, desta forma é possível melhor o desempenho do fluxo de dados.
+Outra dica interessante é o TCP MSS, quando você tem um alto volume de pacotes TCP no túnel VPN é normal ter descartes de pacotes. Com a Mangle você consegue fazer marcas especiais e modificar alguns campos do cabeçalho IP, desta forma é possível melhorar o desempenho no fluxo de dados.
 
 ```bash
 /ip firewall mangle
