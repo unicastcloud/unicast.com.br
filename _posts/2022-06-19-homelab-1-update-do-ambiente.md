@@ -100,7 +100,7 @@ Segue link do projeto: <a href="https://github.com/pi-hole/pi-hole/blob/master/R
 - [ ] Raspberry Pi 4 (8GB) 
 - [ ] PoE HAT
 - [X] Rack Mout (parcialmente)
-- [X] Carões SD classe 10
+- [X] Cartões SD classe 10
 - [X] Patch Cord UTP CAT6
 - [X] Case Retroflag SuperPI para PI3
 
