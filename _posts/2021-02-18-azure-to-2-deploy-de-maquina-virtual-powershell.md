@@ -2,7 +2,7 @@
 layout: post
 title: "[Azure-To] #2 Deploy de Máquina Virtual [PowerShell]"
 date: 2021-02-18 06:54:00 -0500
-categories: [Como Fazer, Azure-To]
+categories: [Azure, Azure-To]
 tags: [maquinavirtual, azure, microsoft, infraestrutura, poweshell]
 ---
 

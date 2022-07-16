@@ -2,7 +2,7 @@
 layout: post
 title: "[Azure-To] #3 Deploy de Máquina Virtual [Azure CLI]"
 date: 2021-02-19 06:54:00 -0500
-categories: [Como Fazer, Azure-To]
+categories: [Azure, Azure-To]
 tags: [maquinavirtual, azure, microsoft, infraestrutura, azurecli]
 ---
 

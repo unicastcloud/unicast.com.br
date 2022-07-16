@@ -2,7 +2,7 @@
 layout: post
 title: "Os 5 R’S para migrar seus recursos para nuvem"
 date: 2022-03-01 09:00:00 -0500
-categories: [Arquitetura, Frameworks]
+categories: [Azure, Frameworks]
 tags: [arquitetura, azure, microsoft, caf, 5rs, migrate, rehost, refactor, rearchitect, rebuild, replace ]
 ---
 

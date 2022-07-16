@@ -2,7 +2,7 @@
 layout: post
 title: "[Azure-To] #8 Configurar Azure Bastion [Portal]"
 date: 2021-04-07 06:54:00 -0500
-categories: [Como Fazer, Azure-To]
+categories: [Azure, Azure-To]
 tags: [bastion, azure, microsoft, infraestrutura, segurança, acessoremoto, paas]
 ---
 

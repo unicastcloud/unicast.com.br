@@ -60,7 +60,7 @@ Sem problemas, tenho outros HATs e cartões, bora testar!
 
 Troca cartão, troca HAT e o problema persiste, comecei a pensar que era o HAT, pois como não tenho multímetro não tinha como aferir se estava chegando energia necessária para o PI4. Apesar que a olho nu estava tudo funcionando sem maiores problemas.
 
-![](/assets/img/28/home2-05.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/28/home2-05.png){: .shadow style="max-width: 70%" }
 
 Algo que era até simples de eliminar se eu tivesse uma fonte para ligar o PI4, a que tenho aqui só serve no PI3. Desta forma ficou somente a validação do achômetro.
 

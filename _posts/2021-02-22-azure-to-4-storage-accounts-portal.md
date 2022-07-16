@@ -2,7 +2,7 @@
 layout: post
 title: "[Azure-To] #4 Storage Accounts [Portal]"
 date: 2021-02-22 06:54:00 -0500
-categories: [Como Fazer, Azure-To]
+categories: [Azure, Azure-To]
 tags: [blobstorage, storage, fileshare, azure, microsoft, infraestrutura]
 ---
 
