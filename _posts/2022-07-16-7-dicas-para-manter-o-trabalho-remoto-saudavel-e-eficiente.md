@@ -12,11 +12,20 @@ Desde que o mundo entrou na pandemia do COVID-19, tudo mudou. O mundo como conhe
 
 Após mais de dois anos de período pandêmico, ainda estamos no chamado “novo normal” e ao que tudo indica, as mudanças no estilo de vida das pessoas e na forma de trabalho, serão permanentes.
 
-Primeiramente, Home Office é trabalho remoto. Necessariamente não precisa ser sua casa, pode ser um escritório particular, hotel, cafeteria ou algum lugar que tenha condições de exercer suas atividades fora do ambiente da empresa.
-
 Diante das recomendações da **OMS** (**Organização Mundial de Saúde**) e do Ministério da Saúde, o Brasil também teve que aderir as medidas de isolamento social, a fim de reduzir o progresso da contaminação e não colapsar o sistema de saúde.
 
 Com isso as empresas e os profissionais tiveram que sair correndo para se adequar e aderir o modelo de Home Office. Isso trouxe enormes desafios tanto para o colaborador quanto para as empresas.
+
+### **E a saúde mental, como está?**
+
+![](/assets/img/29/remoto1.png){: .shadow style="max-width: 90%" }
+
+Trabalho remoto não está condicionado somente ao trabalho em casa (Home Office), pode ser um hotel, cafeteria ou mesmo um espaço de coworking.
+
+O importante é estar em algum lugar que tenha condições de exercer suas atividades fora do ambiente da empresa.
+
+>**Lembre-se:** Quando você trabalha remotamente você sempre está trabalhando com alguém ou para alguém. Isso significa que a colaboração precisa fazer parte do seu dia a dia, não necessariamente em tempo real, mas não dá para economizar na comunicação.
+{: .prompt-tip }
 
 Recentemente estamos vivendo a era hibrida, com boa parte da população vacinada e mesmo que de forma tímida, o retorno ao escritório já é uma realidade.
 
