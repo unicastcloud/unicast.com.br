@@ -1,0 +1,17 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+asilva:
+  name: Antonio Junior
+  twitter: juninhosilva19
+  url: https://www.unicast.com.br
+
+rpaliosa:
+  name: Rodrigo Paliosa
+  twitter: rpaliosa
+  url: https://www.unicast.com.br
