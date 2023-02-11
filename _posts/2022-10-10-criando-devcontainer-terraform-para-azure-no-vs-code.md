@@ -41,7 +41,7 @@ Então, necessariamente este conteiner não precisa estar funcionando na sua má
 
 Uma vez instalados, você também precisa instalar a extensão no VS Code. Para isso, abra o VS Code, clique no ícone de extensões, procure **"Dev Containers"** e clique no botão de instalação.
 
-![](/assets/img/39/devcont01.png){: .shadow style="max-width: 70%" }
+![](/assets/img/39/devcont01.png){: "width=60%" }
 
 ### **Construindo o Contêiner**
 
@@ -62,15 +62,15 @@ Aproveita e de uma fortalecida ⭐ no repositório!
 
 Uma vez que o repositório tenha sido clonado, o VS Code solicitará a abertura do repositório em um contêiner, se isso não acontecer, ele pode ser acionado pelo comando (Ctrl+Shift+p) e selecionar o comando 'Dev Containers: Open Folder in Container'. Na primeira vez, VS Code automaticamente construirá e executará o contêiner localmente, anexando a interface do usuário IDE a ele.
 
-![](/assets/img/39/devcont02.png){: .shadow style="max-width: 70%" }
+![](/assets/img/39/devcont02.png){: "width=60%" }
 
 Selecione o repositório que você acabou de clonar (aquele com diretório .devcontainer na raiz), isso fará com que o VS Code construa o contêiner.
 
-![](/assets/img/39/devcont03.png){: .shadow style="max-width: 70%" }
+![](/assets/img/39/devcont03.png){: "width=60%" }
 
 Agora, com o conteiner funcional, você pode utilizá-lo e validar se as ferramentas e extensões foram instaladas corretamente.
 
-![](/assets/img/39/devcont04.png){: .shadow style="max-width: 70%" }
+![](/assets/img/39/devcont04.png){: "width=60%" }
 
 É isso galerinha, espero que gostem.
 

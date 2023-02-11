@@ -17,7 +17,7 @@ Existem muitas razões para que alguém queria deixar seu ambiente indisponível
 
 **O importante é:** no mundo globalizado em que vivemos hoje e com o boom da transformação digital em plenos pulmões, ninguém quer ficar com seu ambiente indisponível e virar capa de jornal (não impressso, mas digital LoL).
 
-![](/assets/img/32/ddos01.png){: .shadow style="max-width: 65%" }
+![](/assets/img/32/ddos01.png){: "width=60%" }
 
 Existem vários tipos de ataques DDoS, os mais comuns são:
 
@@ -31,13 +31,13 @@ Ambos vão explorar brechas na segurança do seu ambiente, os volumétricos são
 
 Basicamente é tomar uma pancada absurda de tráfego na sua rede, em alguns casos superior a 100 Gbps, aí meu amigo(a), na maioria dos casos é abraço!
 
-![](/assets/img/32/ddos02.gif){: .shadow style="max-width: 90%" }
+![](/assets/img/32/ddos02.gif){: "width=60%" }
 
 Mas fique calmo pequeno gafanhoto, a Microsoft já mitigou um ataque DDoS com tráfego de 3,47 Tb/s até então um dos maiores da história, pois na semana passada o Google registrou e mitigou o maior deles, em apenas dois minutos, o ataque passou de 100 mil requisições por segundo (RPS) para 46 milhões de requisições por segundo (RPS).
 
-![](/assets/img/32/ddos03.jpg){: .shadow style="max-width: 70%" } _Dados da Microsoft_
+![](/assets/img/32/ddos03.jpg){: "width=60%" } _Dados da Microsoft_
 
-![](/assets/img/32/ddos04.jpg){: .shadow style="max-width: 70%" } _Dados do Google_
+![](/assets/img/32/ddos04.jpg){: "width=60%" } _Dados do Google_
 
 >**Importante:** independente de fabricante ou solução, mitigar um ataque DDoS não é barato, mas não mitiga-lo pode ser mais caro ainda.
 {: .prompt-warning }
@@ -63,7 +63,7 @@ Agora basta inserir as informações de acordo com sua necessidade.
 
 Clique em **Review + create**
 
-![](/assets/img/32/ddos05.png){: .shadow style="max-width: 90%" }
+![](/assets/img/32/ddos05.png){: "width=60%" }
 
 ### **1.2 Habilitando DDoS Protection na VNET**
 
@@ -73,15 +73,15 @@ Você pode habilitar o DDoS Protection Standard de duas maneiras.
 
 1 - No momento que estiver criando sua VNET.
 
-![](/assets/img/32/ddos06.png){: .shadow style="max-width: 90%" }
+![](/assets/img/32/ddos06.png){: "width=60%" }
 
 2 - Com uma VNET já existente.
 
-![](/assets/img/32/ddos07.png){: .shadow style="max-width: 90%" }
+![](/assets/img/32/ddos07.png){: "width=60%" }
 
 E fim, está pronto! É muito simples habilitar a proteção em qualquer rede virtual nova ou existente, e ela não exige nenhum aplicativo ou alterações de recursos.
 
-![](/assets/img/32/ddos08.png){: .shadow style="max-width: 90%" }
+![](/assets/img/32/ddos08.png){: "width=60%" }
 
 Poucos passos e muita proteção para seu ambiente.
 
@@ -101,7 +101,7 @@ Poucos passos e muita proteção para seu ambiente.
 
 Além de ativar a proteção de DDoS, é muito importante que você monitore o serviço e tenha informações atualizadas sobre a saúde de seu ambiente.
 
-![](/assets/img/32/ddos09.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos09.png){: "width=60%" }
 
 ### **2.2 Configurando Alertas**
 
@@ -109,46 +109,46 @@ Ainda no **DDoS Protection Plan**, selecione **Alerts** na aba **monitoring**.
 
 Clique em **create** e em seguida **Alert rule**
 
-![](/assets/img/32/ddos11.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos11.png){: "width=60%" }
 
 Em **Scope** selecione o seu **IP público**
 
-![](/assets/img/32/ddos12.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos12.png){: "width=60%" }
 
 Em **Condition** selecione procure por **Under DDoS attack or not** e configure o **Threshold value** como 1, em seguida, clique em **Done**.
 
-![](/assets/img/32/ddos13.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos13.png){: "width=60%" }
 
-![](/assets/img/32/ddos14.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos14.png){: "width=60%" }
 
 Em **Actions** clique em **Crerate action group** 
 
 - Action group name: **acg-unicast**
 - Display name: **acg-unicast**
 
-![](/assets/img/32/ddos15.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos15.png){: "width=60%" }
 
 - Notification type: Email/SMS message/Push/Voice
 - Name: e-mail
 - Email: seu e-mail para receber os alertas.
 
-![](/assets/img/32/ddos16.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos16.png){: "width=60%" }
 
 Clique em **Review + create**
 
-![](/assets/img/32/ddos17.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos17.png){: "width=60%" }
 
 Em **Details**, preencha a severidade e nome de seu alerta.
 
-![](/assets/img/32/ddos18.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos18.png){: "width=60%" }
 
 Clique em **Review + create**
 
-![](/assets/img/32/ddos19.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos19.png){: "width=60%" }
 
 Você deve receber um e-mail de confimação.
 
-![](/assets/img/32/ddos20.png){: .shadow style="max-width: 80%" }
+![](/assets/img/32/ddos20.png){: "width=60%" }
 
 >**Dica:** Considere ativar o **Diagnostic setting** em seus IPs Públicos, coletar logs e métricas de seu DDoS Protection e enivar para uma Log Analytics.
 {: .prompt-tip }
@@ -167,9 +167,9 @@ Atualmente a Microsoft tem pareceria com dois sites:
 
 Os ambientes de simulação de parceiros são criados no Azure. Você só pode simular em endereços de IP públicos hospedados e que pertencem a uma assinatura do Azure, que será validada pelo Azure AD (Azure Active Directory) antes do teste.
 
-![](/assets/img/32/ddos21.png){: .shadow style="max-width: 80%" } _Exemplo de teste com BreakingPoint Cloud_
+![](/assets/img/32/ddos21.png){: "width=60%" } _Exemplo de teste com BreakingPoint Cloud_
 
-![](/assets/img/32/ddos22.png){: .shadow style="max-width: 80%" } _Exemplo de relatório de testes do Red Button_
+![](/assets/img/32/ddos22.png){: "width=60%" } _Exemplo de relatório de testes do Red Button_
 
 Após a conclusão do teste, você pode validar se o monitoramento está funcional.
 
@@ -180,7 +180,7 @@ Deixe visível as charts:
 - Max Inbound packets dropped DDoS
 - Max Under DDoS attack or not 
 
-![](/assets/img/32/ddos23.png){: .shadow style="max-width: 80%" } _Exemplo de métrica de ataque, você deve ver que o valor muda de 0 para 1, como a imagem_
+![](/assets/img/32/ddos23.png){: "width=60%" } _Exemplo de métrica de ataque, você deve ver que o valor muda de 0 para 1, como a imagem_
 
 É isso galerinha, espero que gostem.
 

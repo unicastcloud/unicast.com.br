@@ -43,11 +43,11 @@ Alguns cenários de utilização do BGP no Azure.
 
 O diagrama a seguir, mostra um exemplo de suporte a vários túneis entre uma VNet e um site local com failover automático baseado em BGP:
 
-![](/assets/img/17/bgp1.png){: .shadow style="max-width: 90%" }
+![](/assets/img/17/bgp1.png){: "width=60%" }
 
 O diagrama a seguir mostra um exemplo de topologia de vários saltos com vários caminhos que podem transitar o tráfego entre as duas redes locais por meio de gateways de VPN do Azure nas Redes Microsoft:
 
-![](/assets/img/17/bgp2.png){: .shadow style="max-width: 90%" }
+![](/assets/img/17/bgp2.png){: "width=60%" }
 
 E para contornar este problema, a solução é habilitar o BGP em seu Gateway de VPN do Azure.
 
@@ -63,7 +63,7 @@ Primeiro, vamos habilitar o BGP em nossa virtual network gateway. Essa configura
 
 Vá em **configuration**, clique em **Configure BGP** e habilite o **Gateway Private IPs.**
 
-![](/assets/img/17/bgp3.png){: .shadow style="max-width: 90%" }
+![](/assets/img/17/bgp3.png){: "width=60%" }
 
 Precisamos definir o ASN que será utilizado para cada rede, ambiente Azure e ambiente local. Em nosso exemplo, utilizaremos ASN de 16 bits. Você também pode usar um ASN público caso tenha. Mas a melhor prática é utilizar um ASN privado.
 
@@ -79,7 +79,7 @@ Vá em **configuration**, clique em **Configure BGP settings.**
 
 Em nosso exemplo, vamos utilizar o IP **172.16.0.254** e o ASN **65020**.
 
-![](/assets/img/17/bgp4.png){: .shadow style="max-width: 90%" }
+![](/assets/img/17/bgp4.png){: "width=60%" }
 
 Feito isso, clique em save.
 
@@ -89,7 +89,7 @@ Já com nossa virtual network gateway e local network gateway configurados no Az
 
 Vá em **configuration**, em BGP clique em **enable**.
 
-![](/assets/img/17/bgp5.png){: .shadow style="max-width: 90%" }
+![](/assets/img/17/bgp5.png){: "width=60%" }
 
 Feito isso, clique em save.
 
@@ -99,13 +99,13 @@ Com nossa conexão estabelecida, podemos verificar se estamos aprendendo as rota
 
 Vá em na sua virtual network gateway, **monitoring, BGP peers.**
 
-![](/assets/img/17/bgp6.png){: .shadow style="max-width: 90%" }
+![](/assets/img/17/bgp6.png){: "width=60%" }
 
 Veja que temos as informações referente a sessão BGP com nosso ambiente local.
 
 Verificando o ambiente ao lado local, também posso ver o status da conexão BGP com o Azure, bem como os prefixos aprendidos dinamicamente.
 
-![](/assets/img/17/bgp7.png){: .shadow style="max-width: 90%" }
+![](/assets/img/17/bgp7.png){: "width=60%" }
 
 É isso galera, BGP é um mundo a parte, continuem os estudos e pratiquem bastante.
 

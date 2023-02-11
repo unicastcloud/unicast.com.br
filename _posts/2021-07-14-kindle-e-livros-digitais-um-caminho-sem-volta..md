@@ -57,7 +57,7 @@ No meu caso, trocar o meu Paperwhite por outro não faria sentido algum, uma vez
 
 Já no modelo Oasis eu vi algumas vantagens que os outros modelos não possuem. Mais uma vez, não justifica o preço que a Amazon cobra por ele!
 
-![](/assets/img/08/kindle.jpg){: .shadow style="max-width: 70%" } _Docker para Desenvolvedores - Rafael Gomes_
+![](/assets/img/08/kindle.jpg){: "width=60%" } _Docker para Desenvolvedores - Rafael Gomes_
 
 **Vantagens do modelo Oasis:**
 

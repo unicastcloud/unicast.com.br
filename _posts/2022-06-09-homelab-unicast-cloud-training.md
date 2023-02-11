@@ -21,7 +21,7 @@ E se mesmo assim, você não tenha um PC suficientemente bom para criar seus lab
 
 Hoje em dia estamos bem! Na minha época não era assim...
 
-![](/assets/img/23/homelab1.jpeg){: .shadow style="max-width: 50%" } _Raspberry Pi 3B_
+![](/assets/img/23/homelab1.jpeg){: "width=60%" } _Raspberry Pi 3B_
 
 Antigamente não existia computação em nuvem, computador em casa era luxo, internet, só discada e depois da meia noite, se não seu pai teria que vender um rim para poder pagar a conta telefônica. LoL :)
 
@@ -35,7 +35,7 @@ Se você já me acompanha a algum tempo, sabe que estou produzindo material téc
 
 Montar um homelab pode ser extremamente divertido e muito educativo. Se você estiver pensando em construir um, comece pequeno e vá expandindo no seu próprio ritmo. 
 
-![](/assets/img/23/homelab2.jpeg){: .shadow style="max-width: 50%" } _TP-Link TL-SG1008P_
+![](/assets/img/23/homelab2.jpeg){: "width=60%" } _TP-Link TL-SG1008P_
 
 O meu caso não é diferente, vou começar com o que tenho e vou completar com alguns equipamentos novos e usados.
 

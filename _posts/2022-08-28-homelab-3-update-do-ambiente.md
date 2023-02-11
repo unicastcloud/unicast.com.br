@@ -27,13 +27,13 @@ Com a chegada do kit de espaçadores, consegui resolver o problema do HAT POE e 
 
 Não muito alto como estava e nem muito apertado para comprometer a ventilação.
 
-![](/assets/img/33/home3-01.jpg){: .shadow style="max-width: 60%" }
+![](/assets/img/33/home3-01.jpg){: "width=60%" }
 
 Sobre o espaçamento do HAT POE, consegue resolver com algumas porcas 2,5mm que vieram no kit de espaçadores.
 
-![](/assets/img/33/home3-02.jpg){: .shadow style="max-width: 60%" }
+![](/assets/img/33/home3-02.jpg){: "width=60%" }
 
-![](/assets/img/33/home3-03.jpg){: .shadow style="max-width: 60%" }
+![](/assets/img/33/home3-03.jpg){: "width=60%" }
 
 Por aqui, entre mortos e feridos, salvaram se todos!
 
@@ -68,9 +68,9 @@ Se tem algo muito legal em ter um homelab é poder brincar e experimentar vária
 
 A primeira modificação foi no sistema de resfriamento do HAT POE, acabei trocando o FAN por um mais robusto e com RGB. Além de ter ficado mais silencioso, ficou muito show!!!
 
-![](/assets/img/33/home3-04.gif){: .shadow style="max-width: 90%" }
+![](/assets/img/33/home3-04.gif){: "width=60%" }
 
-![](/assets/img/33/home3-05.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/33/home3-05.jpg){: "width=60%" }
 
 A próxima modificação será no OptiPlex, hoje ele está com Windows 2019 Datacenter + Hyper-V, mas andei dando uma olhada nas últimas atualizações do Proxmox e o coração bateu forte!
 
@@ -80,7 +80,7 @@ Irei instalar o Proxmox para fazer alguns testes e assim que possível escrevo s
 
 Bom, é isso, agora é brincar e estudar! 
 
-![](/assets/img/33/home3-06.gif){: .shadow style="max-width: 70%" }
+![](/assets/img/33/home3-06.gif){: "width=60%" }
 
 Logo, trago mais atualizações do projeto!
 

@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Sabe aquela frase: “É como andar de bicicleta, a gente nunca esquece!” Pois é, mesmo longe do mundo open source à alguns anos, meu amor pelo Linux é incondicional!
 
-![](/assets/img/19/lpi1.png){: .shadow style="max-width: 60%" }
+![](/assets/img/19/lpi1.png){: "width=60%" }
 
 Para quem me conhece a mais tempo, sabe que sempre trabalhei com redes e infraestrutura, meu dia a dia basicamente era trabalhar com roteadores e servidores Linux. Porém, se você olhar minhas certificações, não irá encontrar nenhuma certificação de Linux (até essa semana 😊) e mais estranho que isso, a grande maioria são certificações Microsoft.
 
@@ -23,7 +23,7 @@ Aliás, se você não sabe como instalar o WSL2 no seu Windows, segue este artig
 
 No final das contas, nunca deixei de utilizar o Linux.
 
-![](/assets/img/19/lpi2.webp){: .shadow style="max-width: 60%" }
+![](/assets/img/19/lpi2.webp){: "width=60%" }
 
 Como mencionei, o contato diário com o Linux me trouxe uma nostalgia muito grande, lembrei da época que nem existia EAD e tinha que sair daqui do interior de Minas Gerais para ficar uma semana em São Paulo e fazer os cursos da 4linux.
 
@@ -61,7 +61,7 @@ Como eu esperava, foi um exame muito fácil e utilizei pouco mais de 20 minutos 
 
 E para minha surpresa, eu quase gabaritei a prova! 😊
 
-![](/assets/img/19/lpi3.png){: .shadow style="max-width: 60%" }
+![](/assets/img/19/lpi3.png){: "width=60%" }
 
 No geral eu gostei muito da prova, foi muito divertida e o resultado me deixou ainda mais animado e com vontade de seguir para o próximo nível. A dúvida agora é: LPI ou Linux Foundation.
 

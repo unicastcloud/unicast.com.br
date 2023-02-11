@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Recentemente acabei de ler O Projeto Unicórnio de Gene Kim. E mais uma vez, um ótimo livro e fácil de ler.
 
-![](/assets/img/21/unicornio1.jpg){: .shadow style="max-width: 60%" }
+![](/assets/img/21/unicornio1.jpg){: "width=60%" }
 
 O livro se concentra na parte de desenvolvimento do Projeto Unicórnio da Parts Unlimited, que foi introduzido no conhecido livro [O projeto Fênix](http://www.unicast.com.br/posts/book-o-projeto-fenix.html) que já fiz uma resenha aqui no site.
 

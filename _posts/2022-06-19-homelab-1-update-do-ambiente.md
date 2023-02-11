@@ -42,7 +42,7 @@ Essa semana já coloquei o Switch PoE TP-Link TL-SG1008P e o Dell OptiPlex 3050 
 
 Fiz a instalação do Windows Server 2019 Datacenter e configurei a role do Hyper-V. Criei uma VM com Debian 11 para testar a conectividade com a rede do laboratório e tudo está funcionando sem maiores problemas.
 
-![](/assets/img/25/homelab1-1.png){: .shadow style="max-width: 80%" } _Windows Server 2019 Datacenter + Hyper-V + Debian 11_
+![](/assets/img/25/homelab1-1.png){: "width=60%" } _Windows Server 2019 Datacenter + Hyper-V + Debian 11_
 
 Agora é só fazer os ajustes finos e deixá-lo pronto para as aulas.
 
@@ -52,13 +52,13 @@ Simplesmente sensacional, não tem como não se apaixonar 😍😍😍!
 
 Como mencionei no meu post no Linkedin: Este é o DNS server mais nostálgico que você já viu na vida! 🎮💻🐧
 
-![](/assets/img/25/homelab1-2.jpeg){: .shadow style="max-width: 40%" }
+![](/assets/img/25/homelab1-2.jpeg){: "width=60%" }
 
-![](/assets/img/25/homelab1-3.jpeg){: .shadow style="max-width: 40%" }
+![](/assets/img/25/homelab1-3.jpeg){: "width=60%" }
 
-![](/assets/img/25/homelab1-4.jpeg){: .shadow style="max-width: 40%" }
+![](/assets/img/25/homelab1-4.jpeg){: "width=60%" }
 
-![](/assets/img/25/homelab1-5.jpeg){: .shadow style="max-width: 40%" }
+![](/assets/img/25/homelab1-5.jpeg){: "width=60%" }
 
 ### **Sobre o Pi-Hole**
 
@@ -72,7 +72,7 @@ O processo foi bem simples, após configurar o Pi-Hole só precisei modificar as
 
 Em apenas um dia de uso e já é possível ver bons resultados!
 
-![](/assets/img/25/homelab1-6.png){: .shadow style="max-width: 80%" }
+![](/assets/img/25/homelab1-6.png){: "width=60%" }
 
 Além da funcionalidade de DNS sinkhole o Pi-Hole tem outras funções bem interessantes.
 

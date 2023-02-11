@@ -49,13 +49,13 @@ Após instalar os módulos, você já pode executar o script.
 
 Assim que você rodar o script, ele abrirá o navegador para que você possa autenticar sua conta. Basta fazer o login que ele começar a coletar as informações necessárias.
 
-![](/assets/img/07/ari1.png){: .shadow style="max-width: 90%" }
+![](/assets/img/07/ari1.png){: "width=60%" }
 
 Assim que terminar a coleta, o script salva as informações em um arquivo Excel no **C:\AzureResourceInventory.**
 
 Agora, é só verificar as informações e planejar seu projeto de movimentação/migração da melhor maneira possível.
 
-![](/assets/img/07/ari2.png){: .shadow style="max-width: 90%" }
+![](/assets/img/07/ari2.png){: "width=60%" }
 
 Espero que gostem.
 

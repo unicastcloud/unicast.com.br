@@ -35,7 +35,7 @@ Os bloqueios podem ser aplicados a assinaturas, grupos de recursos ou recursos i
 4. Clique em **OK** para salvar o bloqueio: O recurso agora está protegido.
 5. Para remover o bloqueio, basta voltar à mesma interface, selecionar o bloqueio e, em seguida, excluir.
 
-![](/assets/img/46/locks01.png){: .shadow style="max-width: 70%" }
+![](/assets/img/46/locks01.png){: "width=60%" }
 
 É isso galera, espero que gostem!
 

@@ -19,7 +19,7 @@ A autenticação **multifator** visa incrementar etapas de segurança, exigindo 
 
 A Microsoft possui suporte de autenticação sem senha no Azure AD, possibilitando aos usuários fazer login em suas contas utilizando biometria com o Windows Hello ou chaves físicas compatíveis com o padrão **FIDO (Fast Identity Online)**.
 
-![](/assets/img/37/yubikey0.png){: .shadow style="max-width: 80%" }
+![](/assets/img/37/yubikey0.png){: "width=60%" }
 
 Hoje iremos abordar a autenticação sem senha baseada em **FIDO2** com chaves da **Yubico**
 
@@ -37,7 +37,7 @@ Vale a pena visitar o site do fabricante e conferir a diversidade de produtos: <
 
 Como vimos o Yubikey é um dispositivo de segurança na camada de hardware.
 
-![](/assets/img/37/yubikey2.png){: .shadow style="max-width: 80%" }
+![](/assets/img/37/yubikey2.png){: "width=60%" }
 
 Ele suporta vários protocolos como:
 
@@ -48,7 +48,7 @@ Ele suporta vários protocolos como:
 
 Você pode usar sua chave para fazer login em contas compatíveis com **one-time password** ou um par de chaves pública/privada baseado em **FIDO2** gerado pelo dispositivo. Após digitar sua credencial, você precisa pressionar o botão em sua chave física, o toque do dedo libera uma pequena carga elétrica que ativa o aparelho e libera sua autenticação.
 
-![](/assets/img/37/yubikey3.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey3.png){: "width=60%" }
 
 A Yubico suporta diversos serviços e aplicativos, entre eles: Microsoft, AWS, Google, Twitter, Instagram, Facebook, GitHub entre tantos outros.
 
@@ -60,7 +60,7 @@ Como qualquer dispositivo de tecnologia, o **Yubikey** tem seus prós e contras.
 
 Até aqui, tenho certeza de que você está bem animado em adquirir uma **Yubikey**, mas estamos no Brasil e Brasil não é para amadores! Lá fora, o **Yubikey** é encontrando entre US$ 45 a US$ 70 dependendo do modelo. Aqui no Brasil começa em R$400,00 reais e subindo!
 
-![](/assets/img/37/yubikey4.gif){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey4.gif){: "width=60%" }
 
 Calma, segura a informação, respira e vamos até o final do artigo!
 
@@ -79,7 +79,7 @@ E este tipo de padrão é o mais explorado por invasores.
 
 Mas eu sei, seu coração ainda está machucado com os valores praticados aqui no Brasil, você deve estar se perguntando: e se eu perder meu YubiKey? precisaria ter pelo menos duas chaves!
 
-![](/assets/img/37/yubikey5.webp){: .shadow style="max-width: 40%" }
+![](/assets/img/37/yubikey5.webp){: "width=60%" }
 
 De fato, isso é um problema, e o mundo ideal seria ter 2 chaves. Mas isso é com qualquer coisa que seja importante a você, é o famoso: quem tem 2 tem 1.
 
@@ -106,9 +106,9 @@ O primeiro passo é ativar o método de autenticação **FIDO2** em seu **AAD**.
 
 Navegue até seu **Azure Active Directory** > **Security** > **Authentication methods**, selecione **FIDO2 security key** habilite o recurso e clique em **Save**.
 
-![](/assets/img/37/yubikey6.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey6.png){: "width=60%" }
 
-![](/assets/img/37/yubikey7.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey7.png){: "width=60%" }
 
 Feito isso já podemos configurar o usuário para logar com a **YubiKey**.
 
@@ -117,37 +117,37 @@ Feito isso já podemos configurar o usuário para logar com a **YubiKey**.
 - Navegue até o menu Segurança e em seguida Opções de segurança adicionais.
 - Clique em Adicionar um novo modo de entrada ou de verificação e selecione usar uma chave de segurança.
 
-![](/assets/img/37/yubikey8.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey8.png){: "width=60%" }
 
 - Tenha sua **YubiKey** em mãos e clique em próximo.
 
-![](/assets/img/37/yubikey9.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey9.png){: "width=60%" }
 
 - Em seguida, insira sua chave.
 
-![](/assets/img/37/yubikey10.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey10.png){: "width=60%" }
 
 - Toque na sua **YubiKey** para confirmar o processo.
 
-![](/assets/img/37/yubikey11.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey11.png){: "width=60%" }
 
 - Dê um nome para sua chave de segurança e clique em próximo.
 
-![](/assets/img/37/yubikey12.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey12.png){: "width=60%" }
 
-![](/assets/img/37/yubikey13.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey13.png){: "width=60%" }
 
 - Agora você já deve visualizar sua chave no painel de segurança.
 
-![](/assets/img/37/yubikey14.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey14.png){: "width=60%" }
 
 Acesse o **portal.azure.com** selecione **Sign-in options** e em seguida **Sign in with a security key** toque em sua **YubiKey** e seu login será efetuado com sucesso.
 
-![](/assets/img/37/yubikey15.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey15.png){: "width=60%" }
 
-![](/assets/img/37/yubikey16.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey16.png){: "width=60%" }
 
-![](/assets/img/37/yubikey17.png){: .shadow style="max-width: 70%" }
+![](/assets/img/37/yubikey17.png){: "width=60%" }
 
 >Por um padrão de segurança da Microsoft, mesmo habilitando seu login via chave física, será necessário adicionar o seu PIN como camada adicional de segurança.
 {: .prompt-info }

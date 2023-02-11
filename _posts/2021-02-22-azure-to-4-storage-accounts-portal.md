@@ -25,13 +25,13 @@ Abra seu navegador e acesse o portal Azure em **http://portal.azure.com** e faç
 
 No portal da Azure clique em **Create a resource**
 
-![](/assets/img/02/storage1.png){: .shadow style="max-width: 90%" }
+![](/assets/img/02/storage1.png){: "width=60%" }
 
 ### **1.3 Azure Marketplace**
 
 Pesquise no Azure Marketplace por  Storage account e clique em Create
 
-![](/assets/img/02/storage2.png){: .shadow style="max-width: 90%" }
+![](/assets/img/02/storage2.png){: "width=60%" }
 
 ### **1.4 Configuração da Máquina Virtual**
 
@@ -45,7 +45,7 @@ Agora basta inserir as informações de acordo com sua necessidade, para este la
 * Account Kind:  **Storage (general purpose v2)**
 * Replication :  **Locally-redundant storage (LRS)**
 
-![](/assets/img/02/storage3.png){: .shadow style="max-width: 90%" }
+![](/assets/img/02/storage3.png){: "width=60%" }
 
 Clique em **Review + create**, e em seguida **Create**
 
@@ -57,7 +57,7 @@ Clique em **Container**, crie um novo contêiner chamado **lab01-container** com
 
 Em seguida clique em **Create**.
 
-![](/assets/img/02/storage4.png){: .shadow style="max-width: 90%" }
+![](/assets/img/02/storage4.png){: "width=60%" }
 
 Pronto, seu Blob Storage já está criado, agora você já pode acessa-lo e fazer o upload de seus arquvios.
 
@@ -71,7 +71,7 @@ Clique em File share, crie um novo File share chamado **lab01-share** e defina a
 
 Em seguida clique em **Create**.
 
-![](/assets/img/02/storage5.png){: .shadow style="max-width: 90%" }
+![](/assets/img/02/storage5.png){: "width=60%" }
 
 Pronto, seu File Share já está criado, agora você já pode acessa-lo e fazer o upload de seus arquvios.
 
@@ -81,7 +81,7 @@ Com seu File Share criado, você poderá realizar o mapeamento em seu computador
 
 Navegue até o **File Share** que você criou, clique em **Connect**. No menu a direita será exibido as informações necessárias para efetuar o compartilhamento com seu computador. Basta selecionar o **Sistema Operacional**, cópiar o código e utiliza-lo em seu computador.
 
-![](//assets/img/02/storage6.png){: .shadow style="max-width: 90%" }
+![](//assets/img/02/storage6.png){: "width=60%" }
 
 É isso galera, o processo é bem simples.
 

@@ -27,7 +27,7 @@ Alto, Checkpoint, Fortinet entre outros.
 >Então, meu **jovem Padawan**, pare de querer subir 10 degraus de uma vez e vamos fazer o **básico bem-feito**, garanto que assim você será um excelente profissional, seja em cloud ou não.
 {: .prompt-tip }
 
-![](/assets/img/27/route1.png){: .shadow style="max-width: 50%" }
+![](/assets/img/27/route1.png){: "width=60%" }
 
 ## **Rotas de sistema**
 
@@ -155,18 +155,18 @@ E é basicamente o que estamos fazendo no Azure, você pode entender que as rota
 
 **Cenário 1:** Configuração simples com uma Vnet, duas sub-redes e algumas VMs em cada sub-rede, ambas se comunicam de forma implicita por conta das rotas de sistema.
 
-![](/assets/img/27/route2.png){: .shadow style="max-width: 80%" }
+![](/assets/img/27/route2.png){: "width=60%" }
 
 **Cenário 2:** Utilizando UDR para encaminhar o tráfego de rede para o Azure Firewall.
 
-![](/assets/img/27/route3.png){: .shadow style="max-width: 80%" }
+![](/assets/img/27/route3.png){: "width=60%" }
 
 >**Importante:** As UDRs são aplicadas apenas ao tráfego que sai de uma sub-rede. você não pode criar rotas para especificar como o tráfego chega a uma sub-rede **pela Internet**. 
 {: .prompt-warning }
 
 **Cenário 3:** Utilizando UDR para encaminhar o tráfego de rede para o Virtual Appliance e comunicação com rede on-premises via Virtual Network Gateway.
 
-![](/assets/img/27/route4.png){: .shadow style="max-width: 80%" }
+![](/assets/img/27/route4.png){: "width=60%" }
 
 Este cenário é muito parecido com o mencionado acima, mas ele tem uma particularidade.
 
@@ -183,7 +183,7 @@ Este cenário é muito parecido com o mencionado acima, mas ele tem uma particul
 * O Firewall do Azure não oferece suporte a **DNAT** para endereços IP privados. Por isso, você deve usar UDRs para enviar tráfego de entrada ao Firewall do Azure dos gateways de VPN ou do ExpressRoute.
 * Mesmo que todos os clientes atuem localmente ou no Azure, o Gateway de Aplicativo do Azure e o Firewall do Azure precisam ter endereços IP públicos. Os endereços IP públicos permitem à Microsoft gerenciar os serviços.
 
-![](/assets/img/27/route5.png){: .shadow style="max-width: 80%" }
+![](/assets/img/27/route5.png){: "width=60%" }
 
 No diagrama acima podemos verificar que quando o tráfego sai do Gateway VPN (2), a UDR na sub-rede do gateway para 10.0.0.0/16 o enviará para o Load Balancer interno e em seguida para o Firewall do Azure. 
 

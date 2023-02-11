@@ -13,7 +13,7 @@ Atualmente estou estudando para o exame **Certified Kubernetes Administrator (CK
 
 Bom, **Kubernetes** e **Azure Kubernetes Services (AKS)** não são atividades do meu dia a dia, pelo menos não era. Como alguns de vocês sabem, eu fiquei um ano trabalhando como Azure Team Leader e agora estou desempenhando uma nova função como DevOps Tech Lead.
 
-![](/assets/img/34/k8spi4-01.gif){: .shadow style="max-width: 70%" }
+![](/assets/img/34/k8spi4-01.gif){: "width=60%" }
 
 É uma volta para área técnica, pero no mucho, ainda tenho bastante demanda operacional e administrativa, mas agora não tenho as demandas relacionadas a gestão de time e pessoas.
 
@@ -48,7 +48,7 @@ O Kubernetes removeu o **Docker** como **Container Runtime Interface (CRI)** na 
 >O Docker como um runtime subjacente está sendo preterido em favor de runtimes que usam a Container Runtime Interface (CRI) criada para Kubernetes. As imagens produzidas pelo Docker continuarão a funcionar em seu cluster com todos os tempos de execução, como sempre.
 {: .prompt-info }
 
-![](/assets/img/34/k8spi4-02.gif){: .shadow style="max-width: 70%" }
+![](/assets/img/34/k8spi4-02.gif){: "width=60%" }
 
 **Então, bora colocar esse cluster para funcionar!!!**
 
@@ -258,7 +258,7 @@ Desta forma já podemos verificar o status de nosso cluster:
 ```bash
 kubectl get nodes
 ```
-![](/assets/img/34/k8spi4-03.png){: .shadow style="max-width: 80%" }
+![](/assets/img/34/k8spi4-03.png){: "width=60%" }
 
 Veja que nosso cluster ainda está com status de **NotReady** isso acontece pois ainda não temos um controlador de rede para nosso cluster.
 
@@ -280,7 +280,7 @@ Após a instalação, podemos verificar se tudo está ok.
 kubectl get pods -A
 ```
 
-![](/assets/img/34/k8spi4-04.png){: .shadow style="max-width: 80%" }
+![](/assets/img/34/k8spi4-04.png){: "width=60%" }
 
 Agora, podemos verificar o status de nosso cluster novamente:
 
@@ -290,7 +290,7 @@ kubectl get nodes
 
 Veja que agora nosso cluster está com o status de **Ready**, isso conclui que estamos com nosso cluster operacional.
 
-![](/assets/img/34/k8spi4-05.png){: .shadow style="max-width: 80%" }
+![](/assets/img/34/k8spi4-05.png){: "width=60%" }
 
 ### **3.1 Configurando Worker Nodes**
 
@@ -340,11 +340,11 @@ Caso não tenha o token, volte ao **Master Node** e digite o seguinte comando:
 ```bash
 kubeadm token create --print-join-command
 ```
-![](/assets/img/34/k8spi4-06.png){: .shadow style="max-width: 80%" }
+![](/assets/img/34/k8spi4-06.png){: "width=60%" }
 
 Feito o join você terá a saída abaixo:
 
-![](/assets/img/34/k8spi4-07.png){: .shadow style="max-width: 80%" }
+![](/assets/img/34/k8spi4-07.png){: "width=60%" }
 
 Volte ao Master Node e verifique se o Worker Node está ativo no cluster.
 
@@ -352,7 +352,7 @@ Volte ao Master Node e verifique se o Worker Node está ativo no cluster.
 kubectl get nodes 
 ```
 
-![](/assets/img/34/k8spi4-08.png){: .shadow style="max-width: 80%" }
+![](/assets/img/34/k8spi4-08.png){: "width=60%" }
 
 Bazinga! Temos um cluster Kubernetes funcional, agora basta repetir os processos e continuar adicionando os próximos workers.
 

@@ -13,7 +13,7 @@ Muito feliz em anunciar que mais um projeto está saindo da gaveta.
 
 **O servidor de Discord da comunidade Azure Brasil está no ar!**
 
-![](/assets/img/10/azureBR.png){: .shadow style="max-width: 30%" }
+![](/assets/img/10/azureBR.png){: "width=60%" }
 
 Em fase beta, mas está no ar! 😊
 

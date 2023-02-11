@@ -17,7 +17,7 @@ A minha ideia é trazer aqui, dicas de livros que estou lendo ou já li, sobre o
 
 Minha dica de hoje é o livro: **Microsoft Azure: Arquitetura Bem Definida.**
 
-![](/assets/img/06/livro1.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/06/livro1.jpg){: "width=60%" }
 
 O livro foi escrito pelo time da Microsoft Brasil, e é focado em arquiteturas bem feitas no Microsoft Azure. O livro é indicado tanto para você que está iniciando a carreira no mundo cloud Azure, como para os mais experientes.
 

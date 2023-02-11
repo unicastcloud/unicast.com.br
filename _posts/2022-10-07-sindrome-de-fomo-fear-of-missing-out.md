@@ -34,7 +34,7 @@ Fique tranquilo, não vou falar sobre como ganhar 5k em 6 meses. **(É mentira!)
 
 Brincadeiras à parte, o tópico principal é falar sobre **FOMO**.
 
-![](/assets/img/38/fomo1.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/38/fomo1.jpg){: "width=60%" }
 
 ### **O que é FOMO?**
 

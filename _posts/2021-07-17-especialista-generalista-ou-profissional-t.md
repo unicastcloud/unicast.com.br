@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Você se considera um especialista, generalista ou profissional T?
 
-![](/assets/img/09/habilidade1.png){: .shadow style="max-width: 50%" }
+![](/assets/img/09/habilidade1.png){: "width=60%" }
 
 Ao seguir uma carreira, você pode optar em ser um generalista, que possui várias habilidades ou conhecimento em várias áreas e ferramentas, ou um especialista, que foca todo seu conhecimento e habilidade para se tonar especialista em uma área.
 
@@ -29,7 +29,7 @@ E talvez, pela falta de consenso, é que temos agora um novo perfil profissional
 
 Antes de mais nada, vamos entender uma pouco de cada perfil e voltamos a pergunta de um milhão de dólares!
 
-![](/assets/img/09/habilidade2.jpg){: .shadow style="max-width: 40%" } _Especialista_
+![](/assets/img/09/habilidade2.jpg){: "width=60%" } _Especialista_
 
 ### **Pontos positivos:**
 
@@ -41,7 +41,7 @@ Antes de mais nada, vamos entender uma pouco de cada perfil e voltamos a pergunt
 * **Inflexibilidade**: uma vez que você concentra todos os esforços em uma única área ou ferramenta, diminui a possibilidade de encontrar vagas fora deste nicho.
 * **Obsoleto**: um especialista corre sérios riscos de se tornar obsoleto, uma vez que dia após dia temos novas ferramentas, linguagens e mudanças no modo de trabalho.
 
-![](/assets/img/09/habilidade3.jpg){: .shadow style="max-width: 50%" } _Generalista_
+![](/assets/img/09/habilidade3.jpg){: "width=60%" } _Generalista_
 
 Um generalista é um profissional que conhece de tudo um pouco, tem habilidades e interesse em várias áreas. Um generalista também pode se tornar um líder, mas tendem a atuar em áreas com atuação mais ampla.
 
@@ -56,7 +56,7 @@ Um generalista é um profissional que conhece de tudo um pouco, tem habilidades 
 * **Instabilidade**: substituir um generalista pode ser mais fácil do que encontrar um especialista, devido a suas habilidades não serem tão únicas.
 * **Aprovação**: uma vez atuando em várias frentes, um generalista tem mais dificuldade em provar seu potencial.
 
-![](/assets/img/09/habilidade4.jpg){: .shadow style="max-width: 50%" } _T-Shaped_
+![](/assets/img/09/habilidade4.jpg){: "width=60%" } _T-Shaped_
 
 O profissional T, é a junção das habilidades do eixo vertical correspondente ao nível de experiencia em uma determinada área (**especialista**), e do eixo horizontal correspondente ao conhecimento e habilidades em várias disciplinas (**generalista**).
 

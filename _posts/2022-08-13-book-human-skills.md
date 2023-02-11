@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma indicação de livro, e que livro!
 
-![](/assets/img/31/humanskills01.jpg){: .shadow style="max-width: 60%" }
+![](/assets/img/31/humanskills01.jpg){: "width=60%" }
 
 Estou falando do **Human Soft Skills - Habilidades e Capital Humano para uma Carreira de Sucesso** lançado em 2021 e escrito por Glauter Jannuzzi.
 
@@ -47,7 +47,7 @@ E é isso que eu achei maravilhoso no livro, o autor conseguiu materializar a bu
 
 Achei um máximo os exemplos com referência ao filme Forrest Gump, pois ele está no meu TOP 5 de filmes que você precisa assistir antes de morrer.
 
-![](/assets/img/31/humanskills02.jpg){: .shadow style="max-width: 60%" } _Minha mãe sempre dizia: 'A vida era como uma caixa de chocolates. Você nunca sabe o que vai conseguir.'” – Forrest Gump_
+![](/assets/img/31/humanskills02.jpg){: "width=60%" } _Minha mãe sempre dizia: 'A vida era como uma caixa de chocolates. Você nunca sabe o que vai conseguir.'” – Forrest Gump_
 
 Diferente das habildiades técnicas, as habilidades humanas exigem muito mais de nós, e para se conhecer bem, você também vai precisar das outras pessoas.
 

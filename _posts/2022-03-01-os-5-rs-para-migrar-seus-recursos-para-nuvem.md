@@ -69,7 +69,7 @@ A abordagem de rebuild leva a modificação do código-fonte e significa reescre
 
 Às vezes, aplicativos SaaS (software como serviço) podem fornecer toda a funcionalidade necessária para o workload a ser migrado. Nesses casos, pode ser mais interessante substitui-lo por completo e eliminar o esforço de rearchitect e rebuild da aplicação. Essa abordagem requer pouco esforço, uma vez que só é necessária a carga de dados no novo workload.
 
-![](/assets/img/18/5r1.png){: .shadow style="max-width: 90%" }
+![](/assets/img/18/5r1.png){: "width=60%" }
 
 Embora a migração para a nuvem traga muitos benefícios, o processo em si é desafiador. Ao olhar para o gráfico acima, podemos concluir que planejamento e estratégia são as bases para uma migração de sucesso.
 

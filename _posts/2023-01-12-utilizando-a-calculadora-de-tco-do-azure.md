@@ -27,11 +27,11 @@ A análise mostrará cada área de custo com uma estimativa de seus gastos locai
 
 No navegador, navegue até a página <a href="https://azure.microsoft.com/en-us/pricing/tco/calculator/"> **Total Cost of Ownership (TCO) Calculator**</a>.
 
-![](/assets/img/49/tco01.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco01.png){: "width=60%" }
 
 Para adicionar detalhes de sua infraestrutura de servidor local, clique em **+ Add server workload** para definir suas cargas de trabalho.
 
-![](/assets/img/49/tco02.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco02.png){: "width=60%" }
 
 **Defina os seguintes valores:**
 
@@ -60,7 +60,7 @@ Selecione novamente **+ Add server workload** para definir as denmais cargas de 
 - **Optimize by**: CPU
 - **GPU**: None
 
-![](/assets/img/49/tco03.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco03.png){: "width=60%" }
 
 Agora, vamos adicionar os detalhes da nossa infraestrutura de **storage** e **networking**.
 
@@ -75,20 +75,20 @@ Para adicionar detalhes de storage, clique em **+ Add storage**.
 - **Backup**: 120 TB
 - **Archive**: 0 TB
 
-![](/assets/img/49/tco04.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco04.png){: "width=60%" }
 
 Em networking, defina os seguintes valores:
 
 - **Outbound bandwidth**: 15 TB
 - **Destination Region**: Brazil South
 
-![](/assets/img/49/tco05.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco05.png){: "width=60%" }
 
 Clique em **Next**.
 
 Ajuste a moeda para **Brazil - Real (R$) BRL**.
 
-![](/assets/img/49/tco06.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco06.png){: "width=60%" }
 
 Explore as opções e faça os ajustes necessários, em seguida, clique em **Next**.
 
@@ -101,15 +101,15 @@ Em View report, modifique as informações de acordo com sua necessidade, em nos
 - **Timeframe**: 3 Years
 - **Region**: Brazil South
 
-![](/assets/img/49/tco07.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco07.png){: "width=60%" }
 
-![](/assets/img/49/tco08.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco08.png){: "width=60%" }
 
-![](/assets/img/49/tco09.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco09.png){: "width=60%" }
 
 No final da página você pode fazer o download completo do relatório.
 
-![](/assets/img/49/tco10.png){: .shadow style="max-width: 80%" }
+![](/assets/img/49/tco10.png){: "width=60%" }
 
 É isso galera, espero que gostem!
 

@@ -27,43 +27,43 @@ A calculadora permite que os usuários insiram uma variedade de informações, i
 
 No navegador, navegue até a página <a href="https://azure.microsoft.com/en-us/pricing/calculator/"> **Azure Pricing Calculator**</a>.
 
-![](/assets/img/48/calc01.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc01.png){: "width=60%" }
 
 No menu a esquerda, clique em **Compute** e em seguida selecione **Virtual Machines**. Role para baixo para ver os detalhes da máquina virtual.
 
-![](/assets/img/48/calc02.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc02.png){: "width=60%" }
 
 Substitua o texto **Your Estimate** por nomes mais descritivos para sua estimativa. 
 
-![](/assets/img/48/calc03.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc03.png){: "width=60%" }
 
 Agora, vamos criar nossa estimativa de custos para uma máquina virtual, modifique as configurações de acordo com sua necessidade.
 
-![](/assets/img/48/calc04.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc04.png){: "width=60%" }
 
 Em **Saving Options**, selecione o modelo mais adequado para sua necessiade, aproveite para explorar as opções de reserva e verificar a diferença de custos.
 
-![](/assets/img/48/calc05.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc05.png){: "width=60%" }
 
 Em **Managed OS Disks** modifique as configurações de acordo com sua necessidade.
 
-![](/assets/img/48/calc06.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc06.png){: "width=60%" }
 
 Em **Bandwidth** modifique as configurações de acordo com sua necessidade.
 
-![](/assets/img/48/calc07.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc07.png){: "width=60%" }
 
 Pronto, já temos todas as informações referente a nossa máquina virtual, vamos adicionar mais um recurso para simular uma estimativa real de projeto.
 
-![](/assets/img/48/calc08.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc08.png){: "width=60%" }
 
 Volte ao menu principal, selecione **Networking** e em seguida **Application Gateway**. Role para baixo para ver os detalhes do application gateway.
 
-![](/assets/img/48/calc09.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc09.png){: "width=60%" }
 
 Modifique as configurações de acordo com sua necessidade.
 
-![](/assets/img/48/calc10.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc10.png){: "width=60%" }
 
 ### **2.1 Revisando a estimativa de custos**
 
@@ -71,11 +71,11 @@ Agora, revisaremos os resultados da Calculadora de preços do Azure.
 
 Role até a parte inferior da página para ver o total Custo mensal estimado.
 
-![](/assets/img/48/calc11.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc11.png){: "width=60%" }
 
 Explore as várias opções disponíveis na calculadora, altere a moeda para **Reais** e selecione **Export** para baixar uma cópia da estimativa para exibição off-line no formato Microsoft Excel (.xlsx).
 
-![](/assets/img/48/calc12.png){: .shadow style="max-width: 80%" }
+![](/assets/img/48/calc12.png){: "width=60%" }
 
 É isso galera, espero que gostem!
 

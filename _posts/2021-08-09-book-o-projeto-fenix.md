@@ -13,7 +13,7 @@ Vamos para mais uma indicação de livro, e que livro!
 
 Estou falando do best-seller lançado em 2013, O projeto fênix: um romance sobre TI, DevOps e sobre ajudar o seu negócio a vencer. Considerado por muitos a Bíblia do DevOps, o livro conta a turbulenta história de Bill Palmer, o gerente de TI da Parts Unlimited.
 
-![](/assets/img/13/projetofenix-2.jpg){: .shadow style="max-width: 60%" }
+![](/assets/img/13/projetofenix-2.jpg){: "width=60%" }
 
 O livro é escrito como um romance, portanto, tem uma leitura fácil e agradável.
 

@@ -24,7 +24,7 @@ Você precisa passar no exame **AZ-400: Designing and Implementing Microsoft Dev
 * Microsoft Certified: Azure Developer Associate
 * Microsoft Certified: Azure Administrator Associate
 
-![](/assets/img/35/az400-01.png){: .shadow style="max-width: 70%" }
+![](/assets/img/35/az400-01.png){: "width=60%" }
 
 ### **Os temas cobrados no exame são:**
 

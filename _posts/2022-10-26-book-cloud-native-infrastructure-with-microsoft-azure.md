@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma indicação de livro!!
 
-![](/assets/img/41/cloudnativeazure.png){: .shadow style="max-width: 60%" }
+![](/assets/img/41/cloudnativeazure.png){: "width=60%" }
 
 Estou falando do **Cloud Native Infrastructure with Microsoft Azure** lançado em 2022 e escrito por Nishant Singh e Michael Kehoe.
 

@@ -13,7 +13,7 @@ Em outubro de 2021 eu tirei minha certificação AZ-700 Azure Network Engineer A
 
 Final do ano passado foi complicado, fiquei 3 meses sem escrever aqui no site, mas foi por um bom motivo. Estava empenhado na missão para conquistar a certificação Microsoft Azure Expert Managed Services Provider (MSP), umas das mais difíceis e prestigiadas certificações do planeta. Fornecendo a mais alta qualidade em serviços gerenciados em nuvem Microsoft Azure, atuando de ponta a ponta, desde o planejamento, design, implementação, operação, otimização e sustentação do ambiente.
 
-![](/assets/img/20/emsp.png){: .shadow style="max-width: 60%" }
+![](/assets/img/20/emsp.png){: "width=60%" }
 
 Entre mais de 80 mil parceiros espalhados pelo mundo, menos de 100 empresas possuem esse reconhecimento.
 

@@ -17,15 +17,15 @@ Neste artigo iremos falar sobre o Azure Cost Management, uma solução gratuita 
 
 Para utilizar o Azure Cost Management, vá até a barra de pesquisas e procure por **Cost Management**.
 
-![](/assets/img/05/cost1.png){: .shadow style="max-width: 90%" }
+![](/assets/img/05/cost1.png){: "width=60%" }
 
 Em **Cost analysis**, você terá uma visão geral dos custos do seu ambiente.
 
-![](/assets/img/05/cost2.png){: .shadow style="max-width: 90%" }
+![](/assets/img/05/cost2.png){: "width=60%" }
 
 Na opção **Filters**, podemos selecionar vários filtros de gerenciamento, é possível filtrar os custos por assinatura, grupo de recursos, tipos de recurso, TAGs e muito mais.
 
-![](/assets/img/05/cost3.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/05/cost3.jpg){: "width=60%" }
 
 As TAGs são uma maneira simples e eficaz de gerenciar custos no Microsoft Azure. Com elas é possível filtrar ou agrupar recursos que você deseja gerenciar custos.
 
@@ -35,15 +35,15 @@ Desta forma, utilizando o Azure Cost Management, será possível filtrar somente
 
 Você também pode exportar os dados de seu ambiente para um conta de armazenamento ou mesmo utilizar esses dados no Power BI.
 
-![](/assets/img/05/cost4.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/05/cost4.jpg){: "width=60%" }
 
 Agora escolha o escopo de cobrança que deseja gerenciar, você pode gerenciar seus custos por assinaturas ou por grupo de recursos.
 
-![](/assets/img/05/cost5.png){: .shadow style="max-width: 90%" }
+![](/assets/img/05/cost5.png){: "width=60%" }
 
 Em **Time Filters**, você pode selecionar a janela de tempo que deseja gerenciar, por padrão já temos algumas opções pré-definidas, mas você também pode personalizar sua pesquisa com a opção **Custom date range**.
 
-![](/assets/img/05/cost6.png){: .shadow style="max-width: 90%" }
+![](/assets/img/05/cost6.png){: "width=60%" }
 
 Espero que gostem do material.
 

@@ -21,15 +21,15 @@ Atualmente eu uso o **MX Master 3** da Logitech, e sem dúvidas é o melhor mous
 
 Não é o mouse mais bonito do mundo, mas acho o design bem interessante.
 
-![](/assets/img/22/vertical1.jpg){: .shadow style="max-width: 50%" }
+![](/assets/img/22/vertical1.jpg){: "width=60%" }
 
-![](/assets/img/22/vertical2.jpg){: .shadow style="max-width: 50%" }
+![](/assets/img/22/vertical2.jpg){: "width=60%" }
 
 O MX Vertical é o mouse projetado para fornecer uma aderência mais neutra para evitar torções do antebraço que podem levar a **LER (Lesão por Esforço Repetitivo).**
 
 O MX Vertical é um mouse vertical com uma pegada **“handshake”**. Isso significa que segurar o mouse é quase como quando você está dando um aperto de mão.
 
-![](/assets/img/22/vertical3.jpg){: .shadow style="max-width: 50%" }
+![](/assets/img/22/vertical3.jpg){: "width=60%" }
 
 Ele fornece um ângulo de 57 graus que deve fornecer a postura ergonômica ideal para sua mão. Há uma borda para o polegar descansar e o dedo indicador e os dedos médios descansam nos botões esquerdo e direito.
 
@@ -39,7 +39,7 @@ Há os botões normais direito/esquerdo do mouse, a roda de rolagem central e, e
 
 Na parte inferior do mouse estão o botão liga/desliga e o botão de canal que permite alternar entre até 3 dispositivos diferentes emparelhados com este mouse, pois o mouse pode ser conectado ao seu computador ou tablet via Bluetooth ou o receptor USB incluído
 
-![](/assets/img/22/vertical4.jpg){: .shadow style="max-width: 50%" }
+![](/assets/img/22/vertical4.jpg){: "width=60%" }
 
 ### **Sobre o que achei até agora do MX Vertical.**
 

@@ -13,7 +13,7 @@ Estou de volta, sumi, mas foi por bons motivos.
 
 Estou voltando para área técnica! 
 
-![](/assets/img/30/kcna01.gif){: .shadow style="max-width: 80%" }
+![](/assets/img/30/kcna01.gif){: "width=60%" }
 
 Depois de um ano como Team Leader Azure, estou começando uma nova jornada como DevOps Tech Lead na Solo Network. Claro que não vou estar 100% de volta para área técnica, mas sem a gestão de pessoas, fico mais livre para focar em novas tecnologias, inovação, treinamentos e muito mais.
 
@@ -25,7 +25,7 @@ Diferente dos exames CKA, CKD e CKS, que são exames totalmente práticos, as pe
 
 Sim, mesmo com o retake, é pesado viu...
 
-![](/assets/img/30/kcna02.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/30/kcna02.jpg){: "width=60%" }
 
 Porém, fiquei bem feliz com a variedade de domínios que o exame cobre.
 

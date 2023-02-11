@@ -17,7 +17,7 @@ Opa, metodologia, cultura, conceito? Uai, **DevOps** e **SRE** não são título
 
 ### **_Calma, meu jovem Padawan!_**
 
-![](/assets/img/24/devops1.gif){: .shadow style="max-width: 90%" }
+![](/assets/img/24/devops1.gif){: "width=60%" }
 
 ### **Não é um título**
 
@@ -48,7 +48,7 @@ Veja, começa ficar claro que DevOps não é um título e sim uma abordagem para
 >Resumindo, **não** é **título**, **não** é **metodologia**, **não** é **software**, mas sim um modo de trabalhar para melhorar e integrar práticas, processos e sistemas.
 {: .prompt-warning }
 
-![](/assets/img/24/devops2.gif){: .shadow style="max-width: 60%" }
+![](/assets/img/24/devops2.gif){: "width=60%" }
 
 E é por isso que você já deve ter escutado que DevOps não é cargo e sim uma **cultura**.
 
@@ -59,7 +59,7 @@ Gosto muito da definição da Microsoft para DevOps:
 
 Dito isso, já podemos trazer a representação clássica do infinito DevOps. LoL
 
-![](/assets/img/24/devops3.png){: .shadow style="max-width: 60%" }
+![](/assets/img/24/devops3.png){: "width=60%" }
 
 #### **Alguns dos princípios básicos na adoção do DevOps**
 
@@ -114,7 +114,7 @@ E é por essa razão que as posições de **DevOps Engineer ou um Site Reliabili
 
 Antonio, eu já vaga de DevOps Engineer Júnior!
 
-![](/assets/img/24/devops4.gif){: .shadow style="max-width: 90%" } _Postei e sai correndo..._
+![](/assets/img/24/devops4.gif){: "width=60%" } _Postei e sai correndo..._
 
 >Estou lhe desanimado a se tornar um DevOps Engineer? De forma alguma, só estou lhe orientando a manter os pés no chão e continuar focado no seu desenvolvimento profissional, a medida que você vai acumulando experiência, o caminho vai se tornando natural.
 {: .prompt-tip }
@@ -125,7 +125,7 @@ O conceito de SRE surgiu em 2003 por parte da equipe de engenharia do Google e �
 
 Com foco na confiabilidade do sistema, o objetivo do SRE está em encontrar formas para aprimorar o design e a operação dos sistemas para fazê-los mais escaláveis, confiáveis e mais eficientes. Em geral, uma equipe SRE é responsável pela disponibilidade, latência, desempenho, eficiência, gerenciamento de mudanças, monitoramento, resposta a emergências e planejamento de capacidade dos serviços sob sua supervisão.
 
-![](/assets/img/24/devops5.jpg){: .shadow style="max-width: 60%" } _Ufa, tudo isso? Postei e sai correndo [2]..._ 
+![](/assets/img/24/devops5.jpg){: "width=60%" } _Ufa, tudo isso? Postei e sai correndo [2]..._ 
 
 >Resumindo, a equipe de SRE garante que a plataforma ou serviço esteja disponível para os clientes sempre que quiserem usá-la.
 {: .prompt-warning }
@@ -143,7 +143,7 @@ Segue o link para os livros: <a href="https://sre.google/books/" target="_blank"
 * Engenharia de versões: considere cuidadosamente as versões para garantir que elas sejam consistentes e não contribuam com indisponibilidades.
 * Simplicidade: um sistema muito complexo pode reduzir a confiabilidade e dificultar o dimensionamento para um local mais simples.
 
-![](/assets/img/24/devops6.png){: .shadow style="max-width: 60%" } _Hierarquia de Confiabilidade do Serviço_ 
+![](/assets/img/24/devops6.png){: "width=60%" } _Hierarquia de Confiabilidade do Serviço_ 
 
 ### **Diferenças entre DevOps e SRE**
 
@@ -173,7 +173,7 @@ Ambos acreditam no trabalhando em equipe e na responsabilidade compartilhada, de
 
 Como a maior parceria heroica dos quadrinhos! 
 
-![](/assets/img/24/devops7.jpg){: .shadow style="max-width: 70%" } _Batman e Robin_ 
+![](/assets/img/24/devops7.jpg){: "width=60%" } _Batman e Robin_ 
 
 ### **Qual caminho escolher?**
 

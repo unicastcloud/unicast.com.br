@@ -40,13 +40,13 @@ Com o Terraform é possível criar infraestruturas no Azure, AWS, Google Cloud e
 
 Esse tipo de automação torna o processo de administração da infra mais confiável, seguro e controlado, pois todas as alterações no código ficam registradas, facilitando a rastreabilidade do conteúdo e proporcionando uma maior velocidade no processo de entrega de uma nova infra ou de manutenção, eliminando a necessidade de executar processos manuais, os quais levariam mais tempo para ser executados e com risco de falha humana. 
 
-![](/assets/img/40/iac01.png){: .shadow style="max-width: 70%" }
+![](/assets/img/40/iac01.png){: "width=60%" }
 
 Link do Terraform: <a href="https://www.terraform.io/" target="_blank">HashiCorp Terraform</a>  
 
 ### **O que é Infracost?**
 
-![](/assets/img/40/iac02.png){: .shadow style="max-width: 35%" }
+![](/assets/img/40/iac02.png){: "width=60%" }
 
 Já o Infracost, é uma ferramenta auxiliar que mostra estimativas de custo para projetos de infraestrutura como código, como o Terraform. Isso ajuda DevOps, SRE e desenvolvedores a ver rapidamente uma previsão de custos antes de efetuar a implantação."
 
@@ -68,7 +68,7 @@ Baixe e descompacte aversão mais recente do Infracost: <a href="https://github.
 
 Movimente o arquivo executável para uma pasta, exemplo: C:\Infracost. No meu caso, utilizei a minha pasta C:\HashiCorp, pois já deixo o executável do Terraform por lá.
 
-![](/assets/img/40/iac03.png){: .shadow style="max-width: 70%" }
+![](/assets/img/40/iac03.png){: "width=60%" }
 
 Agora, basta criar uma variável de ambiente para o executável. Você pode fazer isso da seguinte forma:
 
@@ -78,7 +78,7 @@ Agora, basta criar uma variável de ambiente para o executável. Você pode faze
 4. Certifique-se de incluir um ponto e vírgula no final do anterior, pois esse é o delimitador, ou seja, c:\path; c:\path2
 5. Inicie um novo console para que as configurações entrem em vigor.
 
-![](/assets/img/40/iac04.png){: .shadow style="max-width: 50%" }
+![](/assets/img/40/iac04.png){: "width=60%" }
 
 Feito isso, já podemos validar a versão de nossa ferramenta:
 
@@ -86,7 +86,7 @@ Feito isso, já podemos validar a versão de nossa ferramenta:
 infracost --version
 ```
 
-![](/assets/img/40/iac05.png){: .shadow style="max-width: 80%" }
+![](/assets/img/40/iac05.png){: "width=60%" }
 
 Caso você utilize outro sistema operacional, você pode seguir os passos neste link: <a href="https://www.infracost.io/docs/" target="_blank">Get started</a>  
 
@@ -94,7 +94,7 @@ Caso você utilize outro sistema operacional, você pode seguir os passos neste 
 
 Inicie o seu VS Code vá para **"Extensions"**, depois disso, instale a seguinte extensão:
 
-![](/assets/img/40/iac06.png){: .shadow style="max-width: 70%" }
+![](/assets/img/40/iac06.png){: "width=60%" }
 
 Clique em **install**.
 
@@ -106,11 +106,11 @@ Agora, precisamos gerar uma chave API, execute o comando abaixo.
 infracost register
 ```
 
-![](/assets/img/40/iac07.png){: .shadow style="max-width: 80%" }
+![](/assets/img/40/iac07.png){: "width=60%" }
 
 Clique na URL e confirme a autenticação clicando em **"Login":**
 
-![](/assets/img/40/iac08.png){: .shadow style="max-width: 70%" }
+![](/assets/img/40/iac08.png){: "width=60%" }
 
 ### 4.1 **Estimando custos de infra no Azure (Terminal)**
 
@@ -127,7 +127,7 @@ Para estimar o custo de seu projeto, execute o seguinte comando:
 infracost breakdown --path . 
 ```
 
-![](/assets/img/40/iac09.png){: .shadow style="max-width: 80%" }
+![](/assets/img/40/iac09.png){: "width=60%" }
 
 O Infracost consegue calcular sem configurações extras os custos mensais dos recursos a serem implantados.
 
@@ -137,7 +137,7 @@ Você também pode usar a flag *--show-skipped* para verificar os recursos que s
 infracost breakdown --show-skipped --path . 
 ```
 
-![](/assets/img/40/iac10.png){: .shadow style="max-width: 80%" }
+![](/assets/img/40/iac10.png){: "width=60%" }
 
 ### 4.2 **Estimando custos de infra no Azure (Extensão VSCode)**
 
@@ -145,7 +145,7 @@ Com a extensão do Infracost instalada em seu VS Code, você pode verificar a es
 
 Funciona com blocos de `recursos` e `módulos`. 
 
-![](/assets/img/40/iac11.gif){: .shadow style="max-width: 70%" }
+![](/assets/img/40/iac11.gif){: "width=60%" }
 
 ### 5.1 **Refinando a estimativa de custos**
 
@@ -163,7 +163,7 @@ infracost configure set currency BRL
 
 Basta rodar a estimativa novamente e verificar o resultado em reais.
 
-![](/assets/img/40/iac12.png){: .shadow style="max-width: 80%" }
+![](/assets/img/40/iac12.png){: "width=60%" }
 
 Além disso, você pode alimentar o Infracost com um arquivo `yaml` personalizado, e refinar ainda mais a estimativa de custo:
 
@@ -183,13 +183,13 @@ Use o comando abaixo para gerar o relatório.
 infracost breakdown --path . --format html > report.html
 ```
 
-![](/assets/img/40/iac13.png){: .shadow style="max-width: 80%" }
+![](/assets/img/40/iac13.png){: "width=60%" }
 
 ### **Outras possibilidades**
 
 Você pode integrar o Infracost com muitas soluções de **CI/CD** como, GitHub Action, Azure Pipelines entre outros, desta forma ao ser criado um Pull Request (PR), ele fará um comentário com o custo da infra atual, e o futuro, como no exemplo que peguei no site deles abaixo!
 
-![](/assets/img/40/iac14.png){: .shadow style="max-width: 80%" }
+![](/assets/img/40/iac14.png){: "width=60%" }
 
 Espero que gostem!
 

@@ -19,7 +19,7 @@ Visando trazer a experiencia que já tenho no meu desktop para viagens, resolvi 
 
 Recentemente a Logitech lançou o MX Anywhere 3 um mouse similar ao MX Master 3, porém mais ergonômico e compacto.
 
-![](/assets/img/14/mx1.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/14/mx1.jpg){: "width=60%" }
 
 De cara, vale destacar que o MX Anywhere 3 não é um mouse de entrada, trata-se de um mouse topo de linha e isso reflete em seu preço.
 
@@ -27,7 +27,7 @@ Eu não sou adepto aos trackpads, e no meu caso, um bom mouse faz toda a diferen
 
 Sua maior característica está no scroll, que permite escolher entre duas resistências de rolagem, alternadas pelo botão logo abaixo dela. No lado esquerdo estão dois botões adicionais que podem ser usados para a navegação para frente / para trás em um navegador da web ou, alternativamente, para qualquer comando personalizado por meio do aplicativo da Logitech.
 
-![](/assets/img/14/mx2.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/14/mx2.jpg){: "width=60%" }
 
 A conectividade pode ser por Bluetooth ou 2,4 GHz com o dongle fornecido. A desvantagem de usar o dongle é que não há armazenamento embutido no mouse para ele. O que no meu caso nem tirei da caixa, pois a conectividade por Bluetooth era um dos principais atrativos.
 
@@ -37,7 +37,7 @@ Ainda falando de conectividade, existe a possibilidade de configurar até 3 disp
 
 Outro excelente recurso é o Flow da Logitech, que permite controlar perfeitamente dois PCs simplesmente arrastando o cursor para a borda da tela, desta forma, você nem precisa acionar o botão abaixo do mouse, o próprio software entende que você fez a troca do dispositivo.
 
-![](/assets/img/14/mx3.webp){: .shadow style="max-width: 70%" }
+![](/assets/img/14/mx3.webp){: "width=60%" }
 
 A recarga também é muito eficiente por meio de um cabo USB-C, para que você nunca tenha que se preocupar com a substituição das baterias. A vida útil da bateria é estimada em 70 dias com uma única carga.
 

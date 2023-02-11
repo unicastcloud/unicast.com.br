@@ -26,7 +26,7 @@ Implantar uma VPN Site to Site com Microsoft Azure e Mikrotik RouterOS.
 
 #### **Cenário proposto**
 
-![](/assets/img/26/mikrotik1.png){: .shadow style="max-width: 90%" }
+![](/assets/img/26/mikrotik1.png){: "width=60%" }
 
 Informações relevantes para a configuração do laboratório:
 

@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 O Windows possui um recurso disponível em PCs rodando Windows 10 chamado **Windows Subsystem for Linux ou WSL**. O WSL é um recurso que permite instalar e executar um ambiente Linux completo no Windows 10.
 
-![](/assets/img/11/wsl1.png){: .shadow style="max-width: 50%" }
+![](/assets/img/11/wsl1.png){: "width=60%" }
 
 Desta forma você pode executar um ambiente Linux diretamente no Windows sem modificações, software secundário ou configurações de dual-boot. 
 
@@ -43,21 +43,21 @@ wsl --set-default-version 2
 
 Abra a **Microsoft Store** e escolha a distribuição desejada.
 
-![](/assets/img/11/wsl2.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/11/wsl2.jpg){: "width=60%" }
 
 Para este artigo estou utilizando a versão do Ubuntu 20.04 TLS.
 
-![](/assets/img/11/wsl3.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/11/wsl3.jpg){: "width=60%" }
 
 Após baixar e instalar, é preciso executar a distribuição, você irá receber uma tela de terminal para configurar o nome de usuário e senha. Feito isso já tem sua distribuição Linux pronta para uso.
 
-![](/assets/img/11/wsl5.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/11/wsl5.jpg){: "width=60%" }
 
-![](/assets/img/11/wsl4.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/11/wsl4.jpg){: "width=60%" }
 
 Para melhorar a experiência de uso, recomendo utilizar o Windows Terminal, você pode encontra-lo na Microsoft Store.
 
-![](/assets/img/11/wsl6.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/11/wsl6.jpg){: "width=60%" }
 
 No momento estou estudando bastante material de IaC, e este recurso é uma mão na roda!
 

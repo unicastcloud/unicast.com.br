@@ -28,7 +28,7 @@ Criar alertas com base as previsões de custos do Azure, pode ajudar a ajustar s
 
 Pense nisso, se você vai atingir seu orçamento mensal no dia 20 do mês em vez do último dia, você gostaria de saber disso o mais cedo possível, não? 
 
-![](/assets/img/42/alerts01.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/42/alerts01.jpg){: "width=60%" }
 
 Quanto mais cedo você souber, melhor poderá gerenciar os gastos.
 
@@ -38,11 +38,11 @@ Abra seu navegador e acesse o portal Azure em **http://portal.azure.com** e faç
 
 No portal da Azure pesquise por **Cost Management + Billing** em seguida, selecione **Cost Management.**
 
-![](/assets/img/42/alerts02.png){: .shadow style="max-width: 80%" }
+![](/assets/img/42/alerts02.png){: "width=60%" }
 
 Agora, clique em **Budgets** e em seguida **add**.
 
-![](/assets/img/42/alerts03.png){: .shadow style="max-width: 80%" }
+![](/assets/img/42/alerts03.png){: "width=60%" }
 
 Na próxima tela, em **Create budget**, selecione os valores apropriados:
 
@@ -51,13 +51,13 @@ Na próxima tela, em **Create budget**, selecione os valores apropriados:
 - Reset period: Monthly
 - Provide an amount for the Budget: valor desejado do alerta
 
-![](/assets/img/42/alerts04.png){: .shadow style="max-width: 80%" }
+![](/assets/img/42/alerts04.png){: "width=60%" }
 
 Clique em **next**.
 
 Na tela **Set alerts** selecione o tipo como **Forecasted** e forneça a porcentagem do orçamento. 
 
-![](/assets/img/42/alerts05.png){: .shadow style="max-width: 80%" }
+![](/assets/img/42/alerts05.png){: "width=60%" }
 
 Por exemplo, se você forneceu seu orçamento como **R$1,000** e selecionou a porcentagem do orçamento como **80%**, o alerta será acionado em **R$800,00**.
 
@@ -67,7 +67,7 @@ Feito isso é só clicar em **create**.
 
 Depois de configurar seu alerta, fique atento a e-mails como o abaixo. Se você estiver criando uma assinatura ou um orçamento de grupo de recursos, também poderá acionar a automação de alerta usando grupos de ação.
 
-![](/assets/img/42/alerts06.png){: .shadow style="max-width: 80%" }
+![](/assets/img/42/alerts06.png){: "width=60%" }
 
 É isso galerinha, espero que gostem.
 

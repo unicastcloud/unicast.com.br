@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Primeiro artigo do ano, vamos que vamos que 2023 será um ano de muito conteúdo e compartilhamento!
 
-![](/assets/img/45/storage01.gif){: .shadow style="max-width: 70%" }
+![](/assets/img/45/storage01.gif){: "width=60%" }
 
 Neste artigo, discutiremos sobre o Armazenamento do Azure e os diferentes tipos de serviços de armazenamento fornecidos pela plataforma. 
 

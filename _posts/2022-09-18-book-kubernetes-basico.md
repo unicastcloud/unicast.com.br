@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma indicação/resenha de livro.
 
-![](/assets/img/36/k8s-1.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/36/k8s-1.jpg){: "width=60%" }
 
 Estou falando do **Kubernetes Básico: Mergulhe no futuro da infraestrutura** nome meio estranho, mas é a tradução da sua versão em inglês **Kubernetes: Up and Running** lançado em 2017.
 

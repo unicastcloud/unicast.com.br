@@ -23,7 +23,7 @@ Configurar resolução de nomes DNS para o domínio Unicast Lab. Você criará u
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo** , na caixa de Pesquisa, digite **Private DNS zones** e clique em **Create** 
 
-![](/assets/img/47/dns01.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns01.png){: "width=60%" }
 
 **Especifique as configurações do recurso:**
 
@@ -34,11 +34,11 @@ Siga as etapas necessárias para configurar o DNS.
 * Name: **unicastlab.com.br**
 * Region: **Brazil South** (ou outra região de sua preferência)
 
-![](/assets/img/47/dns02.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns02.png){: "width=60%" }
 
-![](/assets/img/47/dns03.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns03.png){: "width=60%" }
 
-![](/assets/img/47/dns04.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns04.png){: "width=60%" }
 
 ### **2.1 Criar Virtual Network**
 
@@ -46,7 +46,7 @@ Vamos criar um VNET para habilitar o registro automático no Azure DNS.
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo** , na caixa de Pesquisa, digite **Virtual network** e clique em **Create** 
 
-![](/assets/img/47/dns05.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns05.png){: "width=60%" }
 
 **Especifique as configurações do recurso:**
 
@@ -57,11 +57,11 @@ Siga as etapas necessárias para configurar o VNET.
 * Name: **unicastlab.com.br**
 * Region: **Brazil South** (ou outra região de sua preferência)
 
-![](/assets/img/47/dns06.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns06.png){: "width=60%" }
 
-![](/assets/img/47/dns07.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns07.png){: "width=60%" }
 
-![](/assets/img/47/dns08.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns08.png){: "width=60%" }
 
 ### **2.2 Habilitar o registro automático no Azure DNS**
 
@@ -69,15 +69,15 @@ Acesse a zona de DNS privada que criamos no início do artigo.
 
 Selecione no menu a esquerda, **Virtual network links** e sem seguida, clique em **Add**.
 
-![](/assets/img/47/dns09.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns09.png){: "width=60%" }
 
 Configure as informações e selecione a VNET que criamos anteriormente.
 
-![](/assets/img/47/dns10.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns10.png){: "width=60%" }
 
 Pronto, agora já podemos testar nosso recurso de auto registro.
 
-![](/assets/img/47/dns11.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns11.png){: "width=60%" }
 
 ### **3.1 Criar máquinas virtuais para validação e testes**
 
@@ -102,7 +102,7 @@ Basta escolher um método para o deploy e adicionar as duas VMS na rede virtual 
 
 No meu caso, estou utilizando 2 VMs com o sistema operacional **Ubuntu**.
 
-![](/assets/img/47/dns12.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns12.png){: "width=60%" }
 
 ### **3.2 Verificar registros automático de DNS**
 
@@ -110,11 +110,11 @@ Após a criação de nossas VMs, vamos validar se o registro de nomes foi ativad
 
 Na página inicial do portal do Azure, selecione **Private DNS zones**, selecione **unicast.com.br.**
 
-![](/assets/img/47/dns13.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns13.png){: "width=60%" }
 
 Verifique se os registros de host (A) estão listados para ambas as VMs, conforme abaixo:
 
-![](/assets/img/47/dns14.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns14.png){: "width=60%" }
 
 ### **4.1 Validar resolução de nomes**
 
@@ -143,7 +143,7 @@ ping vm-02.unicastlab.com.br -c 5
 
 O resultado deve ser:
 
-![](/assets/img/47/dns15.png){: .shadow style="max-width: 70%" }
+![](/assets/img/47/dns15.png){: "width=60%" }
 
 Parabéns! Você criou uma zona DNS privada, adicionou uma resolução de nome e um link de registro automático e testou a resolução de nome em sua configuração.
 

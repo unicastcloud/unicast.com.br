@@ -11,11 +11,11 @@ Fala galera! Seis tão baum?
 
 Quem trabalha com redes no modelo Hub/Spoke no Azure certamente já teve problemas em modificar o espaço de rede de uma VNET.
 
-![](/assets/img/16/vnets1.png){: .shadow style="max-width: 90%" }
+![](/assets/img/16/vnets1.png){: "width=60%" }
 
 Isso acontece devido a configuração de peering entre as VNETs, de forma simples, não é possível modificar o espaço de rede sem remover o peering das VNETs.
 
-![](/assets/img/16/vnets2.png){: .shadow style="max-width: 90%" }
+![](/assets/img/16/vnets2.png){: "width=60%" }
 
 Remover e criar o peering entre as VNETs não é algo complicado ou mesmo demorado, o maior problema é a perda de conectividade que o ambiente sofrerá durante o procedimento de remoção, mudança de endereçamento e criação do novo peering.
 
@@ -27,17 +27,17 @@ A primeira coisa que devemos fazer é habilitar a nova feature.
 
 Vá na sua assinatura e em seguida, **Settings > Preview features.**
 
-![](/assets/img/16/vnets3.png){: .shadow style="max-width: 90%" }
+![](/assets/img/16/vnets3.png){: "width=60%" }
 
 Procure por **AllowUpdateAddressSpaceInPeeredVnets**, selecione e clique em Register.
 
-![](/assets/img/16/vnets4.png){: .shadow style="max-width: 90%" }
+![](/assets/img/16/vnets4.png){: "width=60%" }
 
 ### **2.1 Modificar o espaço de rede**
 
 Agora já é possível modificar o novo espaço de rede para sua VNET sem precisar excluir o peering entre elas.
 
-![](/assets/img/16/vnets5.png){: .shadow style="max-width: 90%" }
+![](/assets/img/16/vnets5.png){: "width=60%" }
 
 ### **3.1 Sincronizar VNETs**
 
@@ -45,11 +45,11 @@ Após a modificação, é necessário sincronizar o novo endereçamento entre as
 
 No portal do Azure, você verá uma mensagem como está nas configurações de peering da VNET.
 
-![](/assets/img/16/vnets6.png){: .shadow style="max-width: 90%" }
+![](/assets/img/16/vnets6.png){: "width=60%" }
 
 Para fazer o sincronismo selecione a VNET e clique em Sync.
 
-![](/assets/img/16/vnets7.png){: .shadow style="max-width: 90%" }
+![](/assets/img/16/vnets7.png){: "width=60%" }
 
 Pronto, agora você tem suas VNETs atualizadas sem qualquer downtime.
 

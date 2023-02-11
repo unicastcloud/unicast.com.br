@@ -40,7 +40,7 @@ Um IP público que deve atender às seguintes características:
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo** , na caixa de Pesquisa, digite **Bastion** e clique em **Enter** para obter os resultados da pesquisa.
 
-![](/assets/img/04/bastion1.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/04/bastion1.jpg){: "width=60%" }
 
 **Especifique as configurações do recurso Bastion:**
 
@@ -52,13 +52,13 @@ Você pode criar uma rede virtual no portal durante esse processo ou usar uma re
 * A sub-rede precisa ser nomeada **AzureBastionSubnet** .
 * A sub-rede precisa ter pelo menos /27 ou maior.
 
-![](/assets/img/04/bastion2.png){: .shadow style="max-width: 90%" }
+![](/assets/img/04/bastion2.png){: "width=60%" }
 
 Clique em **Gerenciar configuração de sub-rede**.
 
 Na aba **Configurações**, crie um novo **espaço de endereço.**
 
-![](/assets/img/04/bastion3.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/04/bastion3.jpg){: "width=60%" }
 
 Agora crie uma nova **sub-rede.**
 
@@ -75,7 +75,7 @@ Volte a configuração do Bastion e complete as informações:
 * Nome do endereço IP público: **RG-unicast-vnet-ip**
 * SKU do endereço IP público: **Standard**
 
-![](/assets/img/04/bastion4.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/04/bastion4.jpg){: "width=60%" }
 
 Agora basta clicar em **Revisar + criar.**
 
@@ -83,23 +83,23 @@ Agora basta clicar em **Revisar + criar.**
 
 No portal do Azure vá até a máquina virtual à qual você deseja se conectar e selecione **Conectar**. Selecione **Bastion** no menu suspenso.
 
-![](/assets/img/04/bastion5.png){: .shadow style="max-width: 90%" }
+![](/assets/img/04/bastion5.png){: "width=60%" }
 
 Observe que esta VM não tem um endereço IP público, o que significa que eu não posso me conectar a ela a partir da internet.
 
-![](/assets/img/04/bastion6.png){: .shadow style="max-width: 90%" }
+![](/assets/img/04/bastion6.png){: "width=60%" }
 
 Depois de selecionar o Bastion, clique em **Usar o Bastion.**
 
-![](/assets/img/04/bastion7.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/04/bastion7.jpg){: "width=60%" }
 
 Na página **Conectar-se usando o Azure Bastion**, insira o nome de usuário e a senha para sua máquina virtual e selecione **Conectar**.
 
-![](/assets/img/04/bastion8.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/04/bastion8.jpg){: "width=60%" }
 
 Agora uma nova aba será aberta e você estará logado em sua VM.
 
-![](/assets/img/04/bastion10.jpg){: .shadow style="max-width: 90%" }
+![](/assets/img/04/bastion10.jpg){: "width=60%" }
 
 A conexão RDP com essa máquina virtual via Bastion será aberta diretamente no portal do Azure (via HTML5) usando a porta 443 e o serviço Bastion.
 

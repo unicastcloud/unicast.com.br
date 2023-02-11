@@ -25,7 +25,7 @@ Abra seu navegador e acesse o portal Azure em **http://portal.azure.com** e faç
 
 No portal da Azure clique em **Create a resource**
 
-![](/assets/img/01/vm01.png){: .shadow style="max-width: 90%" }
+![](/assets/img/01/vm01.png){: "width=60%" }
 
 ### **1.3 Azure Marketplace**
 
@@ -33,7 +33,7 @@ Pesquise no Azure Marketplace por **Windows Server**. E selecione na lista de re
 
 No menu, escolha a opção **Datacenter [smalldisk] Windows Server 2016** e em seguida, clique em **Create**.
 
-![](/assets/img/01/vm02.png){: .shadow style="max-width: 90%" }
+![](/assets/img/01/vm02.png){: "width=60%" }
 
 ### **1.4 Configuração da Máquina Virtual**
 
@@ -52,7 +52,7 @@ Agora basta inserir as informações de acordo com sua necessidade, para este la
 * Select inbound ports: **RDP 3389** (Aqui já vamos deixar habilitado o acesso remoto ao servidor)
 * Already have a Windows license?: **No**
 
-![](/assets/img/01/vm03.png){: .shadow style="max-width: 90%" }
+![](/assets/img/01/vm03.png){: "width=60%" }
 
 Clique em **Next: Disks>**
 
@@ -60,7 +60,7 @@ Clique em **Next: Disks>**
 
 OS disk type: **Standard HDD**
 
-![](/assets/img/01/vm04.png){: .shadow style="max-width: 90%" }
+![](/assets/img/01/vm04.png){: "width=60%" }
 
 Clique em Next: Networking >
 
@@ -72,7 +72,7 @@ Virtual network address range: 10.0.0.0/16
 Subnet name: **subnet0**
 Subnet address range: 10.0.0.0/24
 
-![](/assets/img/01/vm05.png){: .shadow style="max-width: 90%" }
+![](/assets/img/01/vm05.png){: "width=60%" }
 
 Para este laboratório não vamos alterar mais nenhuma opção, com isso clique em **Next: Management >** em seguida **Next: Advanced >** e **Next: Tags >** e por fim Next: **Review + create.**
 
@@ -80,7 +80,7 @@ Para este laboratório não vamos alterar mais nenhuma opção, com isso clique 
 
 Será exibida uma tela com o resumo de todas as configurações executadas bem como a validação delas.
 
-![](/assets/img/01/vm06.png){: .shadow style="max-width: 90%" }
+![](/assets/img/01/vm06.png){: "width=60%" }
 
 Agora basta clicar em Create e aguardar o deploy de sua VM.
 

@@ -33,21 +33,21 @@ Ao acoplar o HAT no raspberry pi, você precisa utilizar espaçadores de 2,5mm p
 
 Como mencionei no primeiro post, o case para o cluster veio errado e vou precisar comprar mais um para poder compor todas as partes, nele, vei alguns spacers de acrílico, vai me fazer falta lá na frente, mas é o que tenho de momento para resolver o problema de espaçamento do HAT.
 
-![](/assets/img/28/home2-01.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/28/home2-01.jpg){: "width=60%" }
 
 Resolver "mais ou menos", o spacer acabou sendo um pouco maior e com isso, quando o HAT está acoplado ele fica um pouco acima, não encaixando o conector por inteiro na GPIO do raspberry pi.
 
-![](/assets/img/28/home2-02.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/28/home2-02.jpg){: "width=60%" }
 
 Outro detalhe é no espaçador entre as placas, com o HAT acoplado o rasbberry fica maior e com isso a lâmina de acrílico fica pegando na placa, a alternativa foi dobrar os espaçadores, não ficou feio, mas também não ficou bonito. E novamente, vai me fazer falta lá na frente.
 
-![](/assets/img/28/home2-03.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/28/home2-03.jpg){: "width=60%" }
 
 Conclusão, resolvi os problemas, pero no mucho!
 
 Comprei um kit de espaçadores de 2.5mm no aliespress, e espero que com ele eu consiga resolver os problemas do HAT e do rack.
 
-![](/assets/img/28/home2-04.png){: .shadow style="max-width: 70%" }
+![](/assets/img/28/home2-04.png){: "width=60%" }
 
 ### **Segundo problema**
 
@@ -61,7 +61,7 @@ Sem problemas, tenho outros HATs e cartões, bora testar!
 
 Troca cartão, troca HAT e o problema persiste, comecei a pensar que era o HAT, pois como não tenho multímetro não tinha como aferir se estava chegando energia necessária para o PI4. Apesar que a olho nu estava tudo funcionando sem maiores problemas.
 
-![](/assets/img/28/home2-05.png){: .shadow style="max-width: 70%" }
+![](/assets/img/28/home2-05.png){: "width=60%" }
 
 Algo que era até simples de eliminar se eu tivesse uma fonte para ligar o PI4, a que tenho aqui só serve no PI3. Desta forma ficou somente a validação do achômetro.
 
@@ -93,7 +93,7 @@ Mas para minha felicidade, mesmo que parcial (descobri que os cartões **Xing Li
 
 Ou seja, descoberto o problema. Os cartões **Xing Ling**, são uma porcaria e não funcionou de forma alguma, porém, ainda vou fazer um teste com eles no PI3 com fonte de alimentação, ainda acho que sim, tem algo de errado quando o PI4 está com o HAT PoE, é meio doido, mas faz algum sentido.
 
-![](/assets/img/28/home2-06.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/28/home2-06.jpg){: "width=60%" }
 
 Agora, a pergunta que fica é: por que o cartão original da Sandisk Ultra funciona e o Extreme Pro não?
 
@@ -103,7 +103,7 @@ Aliás, depois que o primeiro deu certo, testei o segundo cartão no segundo con
 
 Ou seja, por hora dá para seguir a vida e começar os testes com o cluster Kubernetes!
 
-![](/assets/img/28/home2-07.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/28/home2-07.jpg){: "width=60%" }
 
 ### **Atualizando os componentes do projeto**
 

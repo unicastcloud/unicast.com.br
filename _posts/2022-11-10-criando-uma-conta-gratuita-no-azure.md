@@ -65,11 +65,11 @@ Para uma conta no Azure, você deve ter,
 
 Acesse a página: <a href="https://azure.microsoft.com/pt-br/free/">Crie sua conta gratuita do Azure hoje | Página do Microsoft Azure</a> e em seguida, clique em **Início gratuito**.   
 
-![](/assets/img/44/freeaz01.png){: .shadow style="max-width: 70%" }
+![](/assets/img/44/freeaz01.png){: "width=60%" }
 
 Agora, basta escolher uma conta para o cadastro ou criar uma nova.
 
-![](/assets/img/44/freeaz02.png){: .shadow style="max-width: 70%" }
+![](/assets/img/44/freeaz02.png){: "width=60%" }
 
 Para prosseguir com a conta gratuita do Azure, seu perfil será criado e você precisará fornecer suas informações básicas. Para fazer isso, insira os seguintes detalhes:
 
@@ -82,23 +82,23 @@ Para prosseguir com a conta gratuita do Azure, seu perfil será criado e você p
 - Estado
 - Código postal
 
-![](/assets/img/44/freeaz03.png){: .shadow style="max-width: 70%" }
+![](/assets/img/44/freeaz03.png){: "width=60%" }
 
 Aceite os Termos e Condições e clique em Avançar para prosseguir.
 
-![](/assets/img/44/freeaz04.png){: .shadow style="max-width: 70%" }
+![](/assets/img/44/freeaz04.png){: "width=60%" }
 
 ### **1.2 Adicionando informações de cobrança**
 
 Para a perspectiva de verificação de identidade, você precisará fornecer os detalhes do seu cartão de crédito e clicar no botão Sign up para continuar.
 
-![](/assets/img/44/freeaz05.png){: .shadow style="max-width: 70%" }
+![](/assets/img/44/freeaz05.png){: "width=60%" }
 
 Feita as validações necessárias você estará pronto para começar a usar o Azure com uma avaliação gratuita de 30 dias, incluindo US$ 200 em crédito gratuito.
 
 Basta clicar em **Go to Azure portal** e começar a utilizar os recursos!
 
-![](/assets/img/44/freeaz06.png){: .shadow style="max-width: 70%" }
+![](/assets/img/44/freeaz06.png){: "width=60%" }
 
 É isso galera, espero que gostem!
 

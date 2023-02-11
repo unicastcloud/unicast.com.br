@@ -13,7 +13,7 @@ Estou preparando uma série de artigos relacionados a configuração de Load Bal
 
 A Microsoft oferece uma variedade de serviços de balanceamento de carga, gateway de aplicativos, front-end e gerenciamento de tráfego. Neste artigo, vamos explorar cada um desses serviços e como eles podem ser usados ​​para melhorar a disponibilidade, escalabilidade e desempenho de sua infraestrutura de nuvem.
 
-![](/assets/img/52/lb1.png){: .shadow style="max-width: 70%" }
+![](/assets/img/52/lb1.png){: "width=60%" }
 
 ### **O que é um Load Balancer?**
 
@@ -44,7 +44,7 @@ Vamos explorar cada um desses serviços!
 
 O Azure Load Balancer é um serviço de balanceamento de carga que distribui o tráfego entrante entre várias instâncias de uma aplicação. Ele pode ser configurado para balancear a carga entre instâncias de uma mesma região ou entre regiões, garantindo que o tráfego seja distribuído de forma equilibrada e evitando problemas de sobrecarga em uma única instância. Ele também oferece recursos de alta disponibilidade, como failover automático em caso de falha de uma instância.
 
-![](/assets/img/52/lb2.png){: .shadow style="max-width: 70%" }
+![](/assets/img/52/lb2.png){: "width=60%" }
 
 #### **Algumas características do Azure Load Balancer:**
 
@@ -64,7 +64,7 @@ O Azure Load Balancer é um serviço de balanceamento de carga que distribui o t
 
 O Azure Application Gateway é um gateway web que é usado para roteamento de tráfego baseado em URL. Ele é útil para aplicativos web que precisam de roteamento avançado, como roteamento baseado em regras de negócios ou roteamento de tráfego para diferentes aplicativos. Ele também oferece recursos de segurança, como proteção contra ataques DDoS e suporte a certificados SSL.
 
-![](/assets/img/52/lb3.png){: .shadow style="max-width: 70%" }
+![](/assets/img/52/lb3.png){: "width=60%" }
 
 #### **Algumas características do Azure Application Gateway:**
 
@@ -84,7 +84,7 @@ O Azure Application Gateway é um gateway web que é usado para roteamento de tr
 
 O Azure Front Door é um serviço de front-end que fornece roteamento global, cache e aceleração de conteúdo. Ele é projetado para aplicativos web que precisam de alta disponibilidade e desempenho global. Ele também oferece recursos de segurança, como proteção contra ataques DDoS e suporte a certificados SSL. Ele tem muitas opções de configuração e personalização, como balanceamento de carga, failover automático, criação de URL personalizadas e suporte a vários protocolos.
 
-![](/assets/img/52/lb4.png){: .shadow style="max-width: 70%" }
+![](/assets/img/52/lb4.png){: "width=60%" }
 
 #### **Algumas características do Azure Front Door:**
 
@@ -104,7 +104,7 @@ O Azure Front Door é um serviço de front-end que fornece roteamento global, ca
 
 O Azure Traffic Manager é um serviço de gerenciamento de tráfego que permite que você direcione o tráfego para diferentes instâncias de uma aplicação em diferentes regiões. Ele também oferece recursos de alta disponibilidade, como failover automático em caso de falha de uma instância. Ele é útil para aplicativos que precisam de escalabilidade global e desempenho melhorado para os usuários.
 
-![](/assets/img/52/lb5.png){: .shadow style="max-width: 70%" }
+![](/assets/img/52/lb5.png){: "width=60%" }
 
 #### **Algumas características do Azure Traffic Manager**
 
@@ -157,7 +157,7 @@ Todos serviços de Load Balancer da Microsoft são projetados para melhorar a di
 
 O fluxograma a seguir ajudará você a escolher uma solução de balanceamento de carga para seu aplicativo. O fluxograma orienta você por um conjunto de critérios de decisão essenciais que geram uma recomendação.
 
-![](/assets/img/52/lb6.png){: .shadow style="max-width: 70%" }
+![](/assets/img/52/lb6.png){: "width=60%" }
 
 **Fonte**: <a href="https://learn.microsoft.com/pt-br/azure/architecture/guide/technology-choices/load-balancing-overview#decision-tree-for-load-balancing-in-azure"> **Documentação Oficial**</a>.
 

@@ -23,7 +23,7 @@ Linux - Redefinirá uma chave de credenciais/ssh dos usuários existentes, se n�
 
 Dentro das configurações de sua máquina virtual, vá ao menu na laterla esquerda e procure por Support + troubleshooting em seguida Reset Password.
 
-![](/assets/img/03/reset.png){: .shadow style="max-width: 90%" }
+![](/assets/img/03/reset.png){: "width=60%" }
 
 Basta ajustar as informações e fazer o update.
 
@@ -31,7 +31,7 @@ Basta ajustar as informações e fazer o update.
 
 Dentro das configurações de sua máquina virtual, vá ao menu na laterla esquerda e procure por Support + troubleshooting em seguida Reset Password.
 
-![](/assets/img/03/reset-2.png){: .shadow style="max-width: 90%" }
+![](/assets/img/03/reset-2.png){: "width=60%" }
 
 Basta ajustar as informações e fazer o update.
 

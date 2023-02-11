@@ -39,11 +39,11 @@ Caso você precise aumentar o poder computacional de seu application gateway, vo
 
 Em nosso exemplo, temos 11 endereços válidos.
 
-![](/assets/img/15/appgw1.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw1.png){: "width=60%" }
 
 Se tentarmos aumentar a capacidade de instancias para 12 por exemplo, teremos o seguinte erro:
 
-![](/assets/img/15/appgw2.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw2.png){: "width=60%" }
 
 Ou seja, não temos endereços válidos para aumentar a capacidade acima de 11.
 
@@ -57,11 +57,11 @@ Para este exemplo, criarei mais uma subnet, utilizando a mesma vnet que já esta
 
 **Address space:** 10.0.0.0/24
 
-![](/assets/img/15/appgw3.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw3.png){: "width=60%" }
 
 **Subnets:**
 
-![](/assets/img/15/appgw4.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw4.png){: "width=60%" }
 
 Veja que estou criando uma nova subnet, pois não tenho mais endereços disponíveis no /24 para aumentar o /28 do application gateway.
 
@@ -69,15 +69,15 @@ Veja que estou criando uma nova subnet, pois não tenho mais endereços disponí
 
 Vamos criar mais uma subnet em nossa vnet-unicastlab. O endereço será 10.1.0.0/24.
 
-![](/assets/img/15/appgw5.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw5.png){: "width=60%" }
 
-![](/assets/img/15/appgw6.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw6.png){: "width=60%" }
 
 ### **2.1 Parando o Application Gateway**
 
 Você pode utilizar o Cloud Shell.
 
-![](/assets/img/15/appgw7.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw7.png){: "width=60%" }
 
 ```bash
 az network application-gateway stop 
@@ -99,7 +99,7 @@ az network application-gateway show \
 
 Você terá uma saída em JSON como está:
 
-![](/assets/img/15/appgw8.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw8.png){: "width=60%" }
 
 Para modificar nossa subnet, precisamos copiar o subnet id autal e apontar a nova subnet em nosso comando. Ficando assim:
 
@@ -113,9 +113,9 @@ az network application-gateway update \
 
 Verifique se seu application gateway já está com a nova subnet configurada.
 
-![](/assets/img/15/appgw9.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw9.png){: "width=60%" }
 
-![](/assets/img/15/appgw10.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw10.png){: "width=60%" }
 
 ### **3.1 Iniciando o Application Gateway**
 
@@ -130,13 +130,13 @@ az network application-gateway start \
 
 Você pode confirmar o status de seu application gateway em: configurações, propriedades.
 
-![](/assets/img/15/appgw11.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw11.png){: "width=60%" }
 
 Como fizemos a adição de um /24, agora é possível aumentar a capacidade de nosso application gateway em até 125 instancias, que é o máximo permitido.
 
-![](/assets/img/15/appgw12.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw12.png){: "width=60%" }
 
-![](/assets/img/15/appgw13.png){: .shadow style="max-width: 90%" }
+![](/assets/img/15/appgw13.png){: "width=60%" }
 
 E isso ai galera, espero que gostem e que o artigo seja útil a vocês.
 

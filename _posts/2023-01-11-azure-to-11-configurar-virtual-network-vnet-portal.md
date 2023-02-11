@@ -23,7 +23,7 @@ Neste artigo, criaremos uma rede virtual, implantaremos duas máquinas virtuais 
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo**, na caixa de Pesquisa, digite **Virtual networks** e clique em **Create** 
 
-![](/assets/img/50/vnet01.png){: .shadow style="max-width: 70%" }
+![](/assets/img/50/vnet01.png){: "width=60%" }
 
 **Especifique as configurações do recurso:**
 
@@ -34,19 +34,19 @@ Siga as etapas necessárias para configurar sua vnet.
 * Name: **vnet-unicastlab-001**
 * Region: **Brazil South** (ou outra região de sua preferência)
 
-![](/assets/img/50/vnet02.png){: .shadow style="max-width: 70%" }
+![](/assets/img/50/vnet02.png){: "width=60%" }
 
 Clique em **Next: IP Address**, configure de acordo com suas necessidades, para nosso laboratório, seguiremos com o **default**.
 
-![](/assets/img/50/vnet03.png){: .shadow style="max-width: 70%" }
+![](/assets/img/50/vnet03.png){: "width=60%" }
 
 clique em **Next: Security**, configure de acordo com suas necessidades, para nosso laboratório, seguiremos com os padrões desabilitados.
 
-![](/assets/img/50/vnet04.png){: .shadow style="max-width: 70%" }
+![](/assets/img/50/vnet04.png){: "width=60%" }
 
 Clique em **Review + Create**.
 
-![](/assets/img/50/vnet05.png){: .shadow style="max-width: 70%" }
+![](/assets/img/50/vnet05.png){: "width=60%" }
 
 ### **2.1 Criar máquinas virtuais para validação e testes**
 
@@ -66,7 +66,7 @@ Basta escolher um método para o deploy e adicionar as duas VMS na rede virtual 
 
 No meu caso, estou utilizando 2 VMs com o sistema operacional **Ubuntu**.
 
-![](/assets/img/50/vnet06.png){: .shadow style="max-width: 70%" }
+![](/assets/img/50/vnet06.png){: "width=60%" }
 
 ### **3.1 Validar comunicação**
 
@@ -96,7 +96,7 @@ ping 10.1.0.4 -c 5
 
 O resultado deve ser:
 
-![](/assets/img/50/vnet07.png){: .shadow style="max-width: 70%" }
+![](/assets/img/50/vnet07.png){: "width=60%" }
 
 É isso galera, espero que gostem!
 

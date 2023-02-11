@@ -31,7 +31,7 @@ E para lhe ajudar nesta jornada, selecionei alguns tópicos que considero extrem
 
 São os **5 mandamentos do Arquiteto de Nuvem Azure**.
 
-![](/assets/img/51/arc1.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/51/arc1.jpg){: "width=60%" }
 
 ### **Sobre os 5 mandamentos do Arquiteto de Nuvem Azure**
 
@@ -39,7 +39,7 @@ Os 5 mandamentos do arquiteto de nuvem Azure são diretrizes importantes a serem
 
 Seguir esses mandamentos pode ajudar a garantir que a solução seja projetada de forma a atender às necessidades do negócio, seja escalável, eficiente e economicamente viável, e garantir que a solução possa ser mantida e atualizada facilmente.
 
-![](/assets/img/51/arc2.jpg){: .shadow style="max-width: 80%" }
+![](/assets/img/51/arc2.jpg){: "width=60%" }
 
 >Lembre-se: os 5 mandamentos do Arquiteto de Nuvem Azure é somente uma forma lúdica que encontrei para descrever tópicos importantes a serem desenvolvidos por você!
 {: .prompt-tip }
@@ -82,7 +82,7 @@ Em resumo, seguir 5 mandamentos do arquiteto de nuvem Azure pode trazer vários 
 
 ### **Como chegar lá?**
 
-![](/assets/img/51/arc3.png){: .shadow style="max-width: 80%" }
+![](/assets/img/51/arc3.png){: "width=60%" }
 
 Se você está interessado em se tornar um arquiteto de nuvem Azure, existem alguns passos que você pode seguir para se preparar e alcançar esse objetivo.
 

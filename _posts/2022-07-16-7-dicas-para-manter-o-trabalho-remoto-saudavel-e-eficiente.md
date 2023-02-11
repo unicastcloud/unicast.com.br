@@ -19,7 +19,7 @@ Com isso as empresas e os profissionais tiveram que sair correndo para se adequa
 
 ### **E a saúde mental, como está?**
 
-![](/assets/img/29/remoto1.png){: .shadow style="max-width: 90%" }
+![](/assets/img/29/remoto1.png){: "width=60%" }
 
 Trabalho remoto não está condicionado somente ao trabalho em casa (Home Office), pode ser um hotel, cafeteria ou mesmo um espaço de coworking.
 
