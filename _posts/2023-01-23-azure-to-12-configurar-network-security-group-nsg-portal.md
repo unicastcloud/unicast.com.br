@@ -53,25 +53,25 @@ No meu caso, estou utilizando o sistema operacional **Windows Server 2019 Datace
 - Administrator account password: **Pa$$w0rd1234**
 - Inbound port rules: **None**
 
-![](/assets/img/53/nsg01.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg01.png){: "width=70%" }
 
 Na aba **Networking**, configure da seguinte forma:
 
 NIC network security group: **None**
 
-![](/assets/img/53/nsg02.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg02.png){: "width=70%" }
 
 Deixe os padrões restantes e clique no botão **Review+Create**.
 
 Na máquina virtual, clique em **Networking**, revise a guia **Inbound port rules**, observe que não há nenhum **network security group** associado à interface de rede da máquina virtual ou à sub-rede à qual a interface de rede está anexada.
 
-![](/assets/img/53/nsg03.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg03.png){: "width=70%" }
 
 ### **2.1 Criar Network Security Group (NSG)**
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo**, na caixa de Pesquisa, digite **Network Security Groups** e clique em **+ Add, + Create, + New**.
 
-![](/assets/img/53/nsg04.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg04.png){: "width=70%" }
 
 **Especifique as configurações do recurso:**
 
@@ -82,19 +82,19 @@ Siga as etapas necessárias para configurar seu NSG.
 - Name: **nsg-unicast-01**
 - Region: **Brazil South** (ou outra região de sua preferência)
 
-![](/assets/img/53/nsg05.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg05.png){: "width=70%" }
 
 1. Clique em **Review+Create** e depois da validação clique em **Create**.
 2. Após a criação do NSG, clique em **Go to resource.**
 3. Em **Settings**, clique em **Network interfaces** e depois em **Associate**.
 
-![](/assets/img/53/nsg06.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg06.png){: "width=70%" }
 
 4. Selecione a interface de rede identificada na tarefa anterior.
 
-![](/assets/img/53/nsg07.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg07.png){: "width=70%" }
 
-![](/assets/img/53/nsg08.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg08.png){: "width=70%" }
 
 ### **2.2 Configurar regras de inbound para permitir acesso RDP**
 
@@ -104,7 +104,7 @@ Nesta tarefa, permitiremos o tráfego **RDP** para a máquina virtual configuran
 2. No painel **Overview**, clique em **Connect**.
 3. Tente se conectar à máquina virtual selecionando **RDP**, baixando e executando o arquivo **RDP**. Por padrão, o **NSG** não irá permitir o acesso. Feche a janela de erro.
 
-![](/assets/img/53/nsg09.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg09.png){: "width=70%" }
 
 4. Vá na máquina virtual, em **Settings**, clique em **Networking** e observe as regras de **inbound** para o network security group anexado à interface de rede, ela nega todo o tráfego de entrada, exceto o tráfego dentro da rede virtual e do balanceador de carga.
 5. Na guia **Inbound port rules**, clique em **Add inbound port rule**. Clique em **Add** quando terminar.
@@ -120,13 +120,13 @@ Nesta tarefa, permitiremos o tráfego **RDP** para a máquina virtual configuran
 - Priority: 300
 - Name: AllowAnyRDPInbound
 
-![](/assets/img/53/nsg10.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg10.png){: "width=70%" }
 
 Selecione Adicionar e aguarde o provisionamento da regra, em seguida, tente novamente o acesso **RDP** na máquina virtual. Desta vez, você deve ter sucesso.
 
-![](/assets/img/53/nsg11.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg11.png){: "width=70%" }
 
-![](/assets/img/53/nsg12.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg12.png){: "width=70%" }
 
 ### **2.3 Configurar regras de outbound para negar o acesso a Internet**
 
@@ -136,13 +136,13 @@ Nesta tarefa, vamos trabalhar de forma inversa, criaremos uma regra de outbound 
 2. Depois que a máquina iniciar, abra o navegador de internet.
 3. Verifique se você pode acessar **https://www.google.com** (Você precisará trabalhar com os pop-ups de segurança aprimorada do IE).
 
-![](/assets/img/53/nsg13.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg13.png){: "width=70%" }
 
 4. De volta ao portal do Azure, navegue de volta para a máquina virtual.
 5. Em **Settings**, clique em **Networking** e em **Outbound port rules**.
 6. Observe que há uma regra, **AllowInternetOutbound**. Esta é uma regra padrão e não pode ser removida.
 
-![](/assets/img/53/nsg14.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg14.png){: "width=70%" }
 
 7. Clique em **Add outbound port rule** no NSG da máquina virtual (anexado à interface de rede) e configure uma nova regra de segurança de **outbound** com uma prioridade mais alta que negará o tráfego da Internet. Clique em **Add** quando terminar.
 
@@ -158,14 +158,14 @@ Nesta tarefa, vamos trabalhar de forma inversa, criaremos uma regra de outbound 
 - Priority: 4000
 - Name: DenyInternet
 
-![](/assets/img/53/nsg15.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg15.png){: "width=70%" }
 
-![](/assets/img/53/nsg16.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg16.png){: "width=70%" }
 
 1. Clique em **Add** e retorne à VM com acesso via **RDP**.
 2.  Verifique se você pode acessar **https://www.google.com**. (Você precisará trabalhar com os pop-ups de segurança aprimorada do IE).
 
-![](/assets/img/53/nsg17.png){: style="max-width: 70%" }
+![](/assets/img/53/nsg17.png){: "width=70%" }
 
 De forma simples, testamos o funcionamento do **Network Security Group (NSG)** nas duas maneiras possíveis, regras de entrada **(inbound)** e regras de saída **(outbound)**.
 
