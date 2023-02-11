@@ -1,11 +1,11 @@
 ---
-title: Quem sou?
+title: Quem somos?
 icon: fas fa-info-circle
 order: 4
 ---
 
 <p>
-<img src="/assets/img/avatar.png">
+<img src="/assets/img/asilva.png">
 </p>
 
 ## **Olá 👋**
@@ -22,13 +22,36 @@ Sou criador da comunidade **Azure Brasil no Discord** e estou sempre disposto a 
 * 🏅 Sou **Microsoft MVP** desde 2022
 * 📝 Escrevo regularmente artigos no **Unicast Cloud Blog**
 * 🌱 Atualmente aprendendo **Terraform e Kubernetes**
-* 💬 Pergunte-me sobre **Azure, DevOps, Linux, Terraform e Kubernetes**
 
 ### **Conecte-se comigo:**
 
 <div> 
-  <a href="https://www.linkedin.com/in/antoniocarlosjr" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="https://discord.gg/S6zFKGA7hg" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href= "https://www.youtube.com/channel/UCYpdjQbbkBQpDWI1rapkVUA" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white" target="_blank"></a>
-  <a href="https://www.instagram.com/unicastlab/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/antoniocarlosjr" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=fflat&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://mvp.microsoft.com/en-us/PublicProfile/5004987?fullName=Antonio%20Carlos%20da%20Silva%20Junior" target="_blank"><img src="https://img.shields.io/badge/-MVP%20Profile-blue?style=flat&logo=website&logoColor=white&link="_blank"></a> 
+  <a href="https://www.instagram.com/jr_silva19/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" target="_blank"></a>
+</div>
+
+----
+
+<p>
+<img src="/assets/img/rpaliosa.png">
+</p>
+
+## **Olá 👋**
+
+Sou Rodrigo Paliosa após mais de 15 anos implementando e gerenciando sistemas ERP focados em vendas e Soluções Microsoft para Pequenas Empresas, atualmente como Consultor Técnico Azure, ajudo Parceiros de Negócios e Clientes em Treinamento, Licenciamento e Implantação de Infraestrutura, Automação, DevOps, Soluções de Segurança e Serviços de Monitoramento .
+
+Entre 2019 e 2021 morei no Japão, onde tive intenso contato com a cultura, disciplina e metodologias Kaizen 5S, PDCA e Lean, baseadas no sistema Toyota de Produção.
+
+É um prazer receber sua visita no meu linkedin e fique a vontade para estabelecer uma rede.
+
+* 💻 Atualmente trabalho como **Cloud Analyst na Telefónica Tech**
+* 📝 Escrevo regularmente artigos no **Unicast Cloud Blog**
+* 🌱 Atualmente aprendendo **DevOps**
+
+### **Conecte-se comigo:**
+
+<div> 
+  <a href="https://www.linkedin.com/in/rodrigo-paliosa/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=fflat&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://www.instagram.com/rodrigo.paliosa/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" target="_blank"></a>
 </div>
