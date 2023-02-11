@@ -28,7 +28,7 @@ Criar alertas com base as previsões de custos do Azure, pode ajudar a ajustar s
 
 Pense nisso, se você vai atingir seu orçamento mensal no dia 20 do mês em vez do último dia, você gostaria de saber disso o mais cedo possível, não? 
 
-![](/assets/img/42/alerts_01.jpg){: .shadow style="max-width: 70%" }
+![](/assets/img/42/alerts01.jpg){: .shadow style="max-width: 70%" }
 
 Quanto mais cedo você souber, melhor poderá gerenciar os gastos.
 
