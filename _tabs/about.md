@@ -27,7 +27,6 @@ Sou criador da comunidade **Azure Brasil no Discord** e estou sempre disposto a 
 
 <div> 
   <a href="https://www.linkedin.com/in/antoniocarlosjr" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=fflat&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="https://mvp.microsoft.com/en-us/PublicProfile/5004987?fullName=Antonio%20Carlos%20da%20Silva%20Junior" target="_blank"><img src="https://img.shields.io/badge/-MVP%20Profile-blue?style=flat&logo=website&logoColor=white&link="_blank"></a> 
   <a href="https://www.instagram.com/jr_silva19/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" target="_blank"></a>
 </div>
 
