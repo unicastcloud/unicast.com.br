@@ -3,7 +3,7 @@
 -
   type: linkedin
   icon: 'fab fa-linkedin'   
-  url:  'https://www.linkedin.com/in/antoniocarlosjr/'  
+  url:  'https://www.linkedin.com/company/unicastbr/'  
 -
   type: mvp
   icon: 'fab fa-windows'
@@ -19,7 +19,7 @@
 -
   type: github
   icon: 'fab fa-github'
-  url: 'https://github.com/asilvajunior' 
+  url: 'https://github.com/unicastcloud' 
 
 #-
 #  type: discord
