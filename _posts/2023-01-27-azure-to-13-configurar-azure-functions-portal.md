@@ -17,12 +17,12 @@ O Azure Functions é uma plataforma de computação em nuvem altamente escaláve
 
 O Azure Functions oferece várias características e vantagens que o tornam uma opção atraente para aplicativos em nuvem. Aqui estão algumas das mais importantes:
 
-**1. Escalabilidade automática:** O Azure Functions se adapta automaticamente à demanda de tráfego, aumentando ou diminuindo o número de instâncias conforme necessário. Isso significa que você não precisa se preocupar com a administração da infraestrutura subjacente.
-**2. Suporte a vários linguagens de programação:** O Azure Functions suporta uma ampla gama de linguagens de programação, incluindo C#, Java, JavaScript, Python, PHP e muito mais. Isso significa que você pode escolher a linguagem que melhor atenda às suas necessidades.
-**3. Integração fácil com outros serviços:** O Azure Functions pode ser facilmente integrado a outros serviços do Azure, como o Azure Event Grid, o Azure Cosmos DB e o Azure Storage, entre outros. Isso permite que você crie soluções completas e integradas sem precisar se preocupar com a infraestrutura subjacente.
-**4. Preço baseado no uso:** Você só paga pelo que usa com o Azure Functions, o que significa que você não precisa se preocupar com despesas desnecessárias ou recursos ociosos. Além disso, o Azure Functions oferece uma opção de preço gratuito para que você possa experimentar antes de se comprometer com uma compra.
-**5. Execução de tarefas programadas:** O Azure Functions permite a execução de tarefas programadas, o que significa que você pode automatizar tarefas repetitivas e programá-las para ocorrer em momentos específicos.
-**6. Alta disponibilidade:** O Azure Functions é projetado para oferecer alta disponibilidade, o que significa que você pode ter certeza de que suas funções estarão sempre disponíveis quando você precisar.
+1. **Escalabilidade automática:** O Azure Functions se adapta automaticamente à demanda de tráfego, aumentando ou diminuindo o número de instâncias conforme necessário. Isso significa que você não precisa se preocupar com a administração da infraestrutura subjacente.
+2. **Suporte a vários linguagens de programação:** O Azure Functions suporta uma ampla gama de linguagens de programação, incluindo C#, Java, JavaScript, Python, PHP e muito mais. Isso significa que você pode escolher a linguagem que melhor atenda às suas necessidades.
+3. **Integração fácil com outros serviços:** O Azure Functions pode ser facilmente integrado a outros serviços do Azure, como o Azure Event Grid, o Azure Cosmos DB e o Azure Storage, entre outros. Isso permite que você crie soluções completas e integradas sem precisar se preocupar com a infraestrutura subjacente.
+4. **Preço baseado no uso:** Você só paga pelo que usa com o Azure Functions, o que significa que você não precisa se preocupar com despesas desnecessárias ou recursos ociosos. Além disso, o Azure Functions oferece uma opção de preço gratuito para que você possa experimentar antes de se comprometer com uma compra.
+5. **Execução de tarefas programadas:** O Azure Functions permite a execução de tarefas programadas, o que significa que você pode automatizar tarefas repetitivas e programá-las para ocorrer em momentos específicos.
+6. **Alta disponibilidade:** O Azure Functions é projetado para oferecer alta disponibilidade, o que significa que você pode ter certeza de que suas funções estarão sempre disponíveis quando você precisar.
 
 ### **Objetivo**
 
@@ -93,7 +93,7 @@ O resultado será uma URL semelhante a está:
 
 Quando você pressiona enter, sua função é executada e cada chamada é rastreada. 
 
-Para visualizar os traces, retorne ao Portal **HttpTrigger1 | Code + Test** e clique em **Monitor**. Você pode configurar o Application Insights selecionando o **timestamp** de **data/hora** e clicando em **Run query in Application Insights.**
+Para visualizar os traces, retorne ao Portal **HttpTrigger1** | Code + Test e clique em **Monitor**. Você pode configurar o Application Insights selecionando o **timestamp** de **data/hora** e clicando em **Run query in Application Insights.**
 
 ![](/assets/img/55/functions10.png){: "width=60%" }
 
