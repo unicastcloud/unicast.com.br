@@ -58,15 +58,15 @@ Clique em **Review and Create** para iniciar o processo de validação automáti
 
 Nesta tarefa, verificaremos se a instância do contêiner está em execução garantindo que a página de boas-vindas seja exibida.
 
-1. Após a conclusão da implantação, clique no link **Go to resource.**
+Após a conclusão da implantação, clique no link **Go to resource.**
 
 ![](/assets/img/57/aci04.png){: "width=60%" }
 
-2. Em **Overview** **unilabcontainer**, certifique-se de que o Status do contêiner seja **Running**.
+Em **Overview** **unilabcontainer**, certifique-se de que o Status do contêiner seja **Running**.
 
 ![](/assets/img/57/aci05.png){: "width=60%" }
 
-3. Localize o nome de domínio (FQDN).
+Localize o nome de domínio (FQDN).
 
 ![](/assets/img/57/aci06.png){: "width=60%" }
 
