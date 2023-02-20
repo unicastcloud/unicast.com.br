@@ -23,16 +23,18 @@ O diagrama abaixo demonstra uma arquitetura de Private Link Service **integrando
 
 Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / Servidor** <p>
 
-1. A VNET que terá o papel de **Servir**, precisa ter o recurso atrás de um **Standard Load Balancer.**
-2. Um Private Link Service é criado e linkado ao **Frontend IP Interno** do Standard Load Balancer.
-3. Um Link **Service ID** (URI ou Alias) é compartilhado com o **Private Link** da **Subscription / Vnet** que terá a função de  **Cliente** do recurso.
-4. Do lado do ambiente **Cliente** é criado um **Private EndPoint** com as informações0 do **Service ID** bem como as configurações de DNS para registro do Private IP Address.
-5. O ambiente **Servidor** recebe um pedido para **Aprovar ou Rejeitar** a conexão.
+1. A VNET que terá o papel de **Servir**, precisa ter o recurso atrás de um **Standard Load Balancer.** <p>
+2. Um Private Link Service é criado e linkado ao **Frontend IP Interno** do Standard Load Balancer. <p>
+3. Um Link **Service ID** (URI ou Alias) é compartilhado com o **Private Link** da **Subscription / Vnet** que terá a função de  **Cliente** do recurso. <p>
+4. Do lado do ambiente **Cliente** é criado um **Private EndPoint** com as informações0 do **Service ID** bem como as configurações de DNS para registro do Private IP Address. <p>
+5. O ambiente **Servidor** recebe um pedido para **Aprovar ou Rejeitar** a conexão. <p>
 6. Em caso de aprovação, O ambiente **Cliente** inicia a conexão com o ambiente **Servidor**
+<p>
 
 ### **Objetivo**
 
 Permitir que uma Virtual Machine de uma **Subscription A, na Região EAST US2** acesse um Servidor Apache em uma Virtual Machine localizada na **Subscription B, da Região India Central**.
+<p>
 
 ### **1.1 Criando o Azure**
 
