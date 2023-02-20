@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "[Azure-To] #16 Configurar Azure Private Link Service"
-author: asilva
-author: rpaliosa
+author: [asilva, rpaliosa]
 date: 2023-02-20 09:00:00 -0300
 categories: [Azure, Azure-To]
 tags: [azure, microsoft, network, privatelinkservice, az700]
@@ -36,13 +35,14 @@ Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / 
 
 Permitir que uma Virtual Machine de uma **Subscription A, na Região EAST US2** acesse um Servidor Apache em uma Virtual Machine localizada na **Subscription B, da Região India Central**.
 
+>**Observação:** 
+Este artigo não abordará a criação das Máquinas Virtuais!!! 
+{: .prompt-warning }
+
 ### **1.1 Criando o Azure**
 
 - a 
 - b 
-
->**Observação:** 
-{: .prompt-warning }
 
 ### **2.1 .....**
 
