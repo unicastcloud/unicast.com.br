@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Azure-To] #16 Configurar Azure Private Link Service"
-author: asilva, rpaliosa
+author: asilva
 date: 2023-02-20 09:00:00 -0300
 categories: [Azure, Azure-To]
 tags: [azure, microsoft, network, private link service, az700]
@@ -26,7 +26,7 @@ Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / 
 1. A VNET que terá o papel de **Servir**, precisa ter o recurso atrás de um **Standard Load Balancer.** <p>
 2. Um Private Link Service é criado e linkado ao **Frontend IP Interno** do Standard Load Balancer. <p>
 3. Um Link **Service ID** (URI ou Alias) é compartilhado com o **Private Link** da **Subscription / Vnet** que terá a função de  **Cliente** do recurso. <p>
-4. Do lado do ambiente **Cliente** é criado um **Private EndPoint** com as informações0 do **Service ID** bem como as configurações de DNS para registro do Private IP Address. <p>
+4. Do lado do ambiente **Cliente** é criado um **Private EndPoint** com as informações do **Service ID** bem como as configurações de DNS para registro do Private IP Address. <p>
 5. O ambiente **Servidor** recebe um pedido para **Aprovar ou Rejeitar** a conexão. <p>
 6. Em caso de aprovação, O ambiente **Cliente** inicia a conexão com o ambiente **Servidor**
 <p>
