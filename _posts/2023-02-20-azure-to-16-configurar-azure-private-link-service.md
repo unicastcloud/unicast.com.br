@@ -5,7 +5,7 @@ author: asilva
 author: rpaliosa
 date: 2023-02-20 09:00:00 -0300
 categories: [Azure, Azure-To]
-tags: [azure, microsoft, network, private link service, az700]
+tags: [azure, microsoft, network, privatelinkservice, az700]
 ---
 
 Saudações Pessoal!!!
@@ -19,7 +19,7 @@ De forma objetiva, o Azure Private Link Service cria uma conexão **Privada** po
 É isto mesmo que você está lendo, o **Azure Private Link Service** é uma alternativa de **Conexão Privada** para casos em que não se opte por Gateway de VPN ou Peering. <br>
 O diagrama abaixo demonstra uma arquitetura de Private Link Service **integrando 2 Vnet´s distintas de Subscritprions Distintas**, onde recursos da **Subscription A, na Região A** se comunicam com VM´s da **Subscription B, na Região B** interligadas a um **Standard Load Balancer**
 
-![](/assets/img/58/pvtls01.png){:"width=60%"}
+![](/assets/img/59/pvtls01.png){:"width=60%"}
 <br>
 
 Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / Servidor** 
