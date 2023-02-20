@@ -43,7 +43,7 @@ Na página **Assign Policy**, mantenha o Escopo padrão.
 
 ![](/assets/img/58/policy3.png){: "width=60%" }
 
-![](/assets/img/58/policy4.png{: "width=60%" }
+![](/assets/img/58/policy4.png){: "width=60%" }
 
 Na guia Parameters, selecione **Brazil South**. 
 
