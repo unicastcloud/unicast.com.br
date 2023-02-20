@@ -2,6 +2,7 @@
 layout: post
 title: "[Azure-To] #16 Configurar Azure Private Link Service"
 author: asilva
+author: rpaliosa
 date: 2023-02-20 09:00:00 -0300
 categories: [Azure, Azure-To]
 tags: [azure, microsoft, network, private link service, az700]
@@ -43,5 +44,5 @@ Permitir que uma Virtual Machine de uma **Subscription A, na Região EAST US2** 
 >**Observação:** 
 {: .prompt-warning }
 
-### **2.1 Adicionando secrets no Azure Key Vault**
+### **2.1 .....**
 
