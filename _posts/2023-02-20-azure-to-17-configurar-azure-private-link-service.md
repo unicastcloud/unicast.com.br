@@ -9,13 +9,16 @@ tags: [azure, microsoft, network, privatelinkservice, az700]
 
 Saudações Pessoal!!!
 
-No cardápio de hoje vamos servir Azure Private Link Service. <br>
+No cardápio de hoje vamos servir Azure Private Link Service. 
+
 Masssss, antes de por a "mão na massa", vamos entender em quais momentos seria legal servir este "prato" blz...
 
 ### **Sobre Azure Private Link Service**
 
-De forma objetiva, o Azure Private Link Service cria uma conexão **Privada** por dentro do **Backbone Microsoft**, entre VNET´s que podem estar inclusive em **Regiões Diferentes** e até mesmo, criar Conexão entre VNET´s de **Subscriptions Diferentes!!!** <br>
-É isto mesmo que você está lendo, o **Azure Private Link Service** é uma alternativa de **Conexão Privada** para casos em que não se opte por Gateway de VPN ou Peering. <br>
+De forma objetiva, o Azure Private Link Service cria uma conexão **Privada** por dentro do **Backbone Microsoft**, entre VNET´s que podem estar inclusive em **Regiões Diferentes** e até mesmo, criar Conexão entre VNET´s de **Subscriptions Diferentes!!!** 
+
+É isto mesmo que você está lendo, o **Azure Private Link Service** é uma alternativa de **Conexão Privada** para casos em que não se opte por Gateway de VPN ou Peering.
+
 O diagrama abaixo demonstra uma arquitetura de Private Link Service **integrando 2 Vnet´s distintas de Subscritprions Distintas**, onde recursos da **Subscription A, na Região A** se comunicam com VM´s da **Subscription B, na Região B** interligadas a um **Standard Load Balancer**
 
 ![](/assets/img/59/pvtls01.png){:"width=60%"}
