@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Azure-To] #17 Configurar Azure Private Link Service"
+title: "[Azure-To] #17 Configurar Azure Private Link Service [Portal]"
 authors: [asilva, rpaliosa]
 date: 2023-02-20 09:00:00 -0300
 categories: [Azure, Azure-To]
@@ -22,7 +22,6 @@ De forma objetiva, o Azure Private Link Service cria uma conexão **Privada** po
 O diagrama abaixo demonstra uma arquitetura de Private Link Service **integrando 2 Vnet´s distintas de Subscritprions Distintas**, onde recursos da **Subscription A, na Região A** se comunicam com VM´s da **Subscription B, na Região B** interligadas a um **Standard Load Balancer**
 
 ![](/assets/img/59/pvtls01.png){:"width=60%"}
-<br>
 
 Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / Servidor** 
 
@@ -33,70 +32,67 @@ Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / 
 5. O ambiente **Servidor** recebe um pedido para **Aprovar ou Rejeitar** a conexão. 
 6. Em caso de aprovação, O ambiente **Cliente** inicia a conexão com o ambiente **Servidor**
 
-
 ### **Objetivo**
 
-Permitir que uma Virtual Machine de uma **Subscription A, na Região Central India** simulando a função de *Cliente* acesse servidores Apache em Virtual Machines localizadas na **Subscription B, da Região East US2**, simulando a função de *Servidor*.<br> 
+Permitir que uma Virtual Machine de uma **Subscription A, na Região Central India** simulando a função de *Cliente* acesse servidores Apache em Virtual Machines localizadas na **Subscription B, da Região East US2**, simulando a função de *Servidor*.
 Detalhes no diagama abaixo:
 
 ![](/assets/img/59/pvtls02.png){:"width=60%"}
-
 
 >**Observação:** Este Artigo parte do princípio que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e  Network Security Group **(NSG)**!!!
 {: .prompt-warning }
 
 ### **1. Criar ambiente da Subscription Servidor em EAST US 2**
 
-1.1 - Criar o **Resource Group** ```RG-Servidor``` na região **EAST US 2**
+#### 1.1 - Criar o **Resource Group** ```RG-Servidor``` na região **EAST US 2**
 
-1.2 - Criar a **VNET** ```Vnet1-Servidor``` com o Range de IP ```192.168.0.0/16``` e a **Subnet** ```Sub1-Servidor``` com Range de IP ```192.168.0.0/24```
+#### 1.2 - Criar a **VNET** ```Vnet1-Servidor``` com o Range de IP ```192.168.0.0/16``` e a **Subnet** ```Sub1-Servidor``` com Range de IP ```192.168.0.0/24```
 
-1.3 - Criar o **Network Security Group** chamado ```NSG1``` e associar a Subnet **Sub1-Servidor**
+#### 1.3 - Criar o **Network Security Group** chamado ```NSG1``` e associar a Subnet **Sub1-Servidor**
 
-1.4 - Criar a Virtual Machine chamada **VM-Apache1** conforme descrição imagens abaixo:  
+#### 1.4 - Criar a Virtual Machine chamada **VM-Apache1** conforme descrição imagens abaixo:  
 
 ![](/assets/img/59/pvtls03.png){:"width=60%"}
----
+
 ![](/assets/img/59/pvtls04.png){:"width=60%"}
----
+
 >**Observação:** A Virtual Machine deve ser criada com o atributo **NONE** para **Public IP** e **Nic Network Security Group** !!!
 {: .prompt-warning }
 
 ![](/assets/img/59/pvtls05.png){:"width=60%"}
 
-1.5 - Acessar o Painel de Administração da VM **Apache1** e na Categoria **Operations**, clicar em **Run Command** e depois em **RunShellScript**
+#### 1.5 - Acessar o Painel de Administração da VM **Apache1** e na Categoria **Operations**, clicar em **Run Command** e depois em **RunShellScript**
 
 ![](/assets/img/59/pvtls06.png){:"width=60%"}
 
-1.6 - Digitar o script conforme a figura a baixo e clicar em **Run**
+#### 1.6 - Digitar o script conforme a figura a baixo e clicar em **Run**
 
 ![](/assets/img/59/pvtls07.png){:"width=60%"}
 
-```
+```bash
 apt update -y
 apt install apache2 -y
 cd /var/www/html
 mv index.html index2.html
 echo "SERVIDOR APACHE 01" > index.html
 ```
-1.7 - O resultado do Script deve retornar mensagem similar a figura abaixo.
+
+O resultado do Script deve retornar mensagem similar a figura abaixo.
 
 ![](/assets/img/59/pvtls08.png){:"width=60%"}
 
 >**Observação:** Para criar a **vm-apache2** basta executar novamente as etapas **1.4**, **1.5**, **1.6** e **1.7**, porém, alterando a linha **echo** do Script para:
-```echo "SERVIDOR APACHE 02" > index.html```
+```bash
+echo "SERVIDOR APACHE 02" > index.html
+```
 {: .prompt-warning }
 
 ### **2. Criar Load Balancer Interno para vm-apache1 e vm-apache2**
 
-2.1 - 
-
----
-
-| Recurso | Descrição |
-| ----------| ----------- |
-| Resouce Group         | ```RG-Servidor```         |
-| Region                | ```EAST US2```           |
+| **Recurso**           | **Descrição**                |
+| ----------------------| :---------------------------:|
+| Resouce Group         | ```RG-Servidor```            |
+| Region                | ```EAST US2```               |
 | Image                 | ```Ubuntu Server 20.04 LTS```|
-| Size                  | ```B1S``` ou ```B2S```        |
-| Disk                  | ```SSD Standard```         |
+| Size                  | ```B1S``` ou ```B2S```       |
+| Disk                  | ```SSD Standard```           |
