@@ -33,16 +33,67 @@ Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / 
 
 ### **Objetivo**
 
-Permitir que uma Virtual Machine de uma **Subscription A, na Região EAST US2** acesse um Servidor Apache em uma Virtual Machine localizada na **Subscription B, da Região India Central**.
+Permitir que uma Virtual Machine de uma **Subscription A, na Região Central India** simulando a função de *Cliente* acesse servidores Apache em Virtual Machines localizadas na **Subscription B, da Região East US2**, simulando a função de *Servidor*.<br> 
+Detalhes no diagama abaixo:
 
->**Observação:** 
-Este artigo não abordará a criação das Máquinas Virtuais!!! 
+![](/assets/img/59/pvtls02.png){:"width=60%"}
+
+
+>**Observação:** Este Artigo parte do princípio que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e  Network Security Group **(NSG)**!!!
 {: .prompt-warning }
 
-### **1.1 Criando o Azure**
+### **1. Criar ambiente da Subscription Servidor em EAST US 2**
 
-- a 
-- b 
+1.1 - Criar o **Resource Group** ```RG-Servidor``` na região **EAST US 2**
 
-### **2.1 .....**
+1.2 - Criar a **VNET** ```Vnet1-Servidor``` com o Range de IP ```192.168.0.0/16``` e a **Subnet** ```Sub1-Servidor``` com Range de IP ```192.168.0.0/24```
 
+1.3 - Criar o **Network Security Group** chamado ```NSG1``` e associar a Subnet **Sub1-Servidor**
+
+1.4 - Criar a Virtual Machine chamada **VM-Apache1** conforme descrição imagens abaixo:  
+
+![](/assets/img/59/pvtls03.png){:"width=60%"}
+---
+![](/assets/img/59/pvtls04.png){:"width=60%"}
+---
+>**Observação:** A Virtual Machine deve ser criada com o atributo **NONE** para **Public IP** e **Nic Network Security Group** !!!
+{: .prompt-warning }
+
+![](/assets/img/59/pvtls05.png){:"width=60%"}
+
+1.5 - Acessar o Painel de Administração da VM **Apache1** e na Categoria **Operations**, clicar em **Run Command** e depois em **RunShellScript**
+
+![](/assets/img/59/pvtls06.png){:"width=60%"}
+
+1.6 - Digitar o script conforme a figura a baixo e clicar em **Run**
+
+![](/assets/img/59/pvtls07.png){:"width=60%"}
+
+```
+apt update -y
+apt install apache2 -y
+cd /var/www/html
+mv index.html index2.html
+echo "SERVIDOR APACHE 01" > index.html
+```
+1.7 - O resultado do Script deve retornar mensagem similar a figura abaixo.
+
+![](/assets/img/59/pvtls08.png){:"width=60%"}
+
+>**Observação:** Para criar a **vm-apache2** basta executar novamente as etapas **1.4**, **1.5**, **1.6** e **1.7**, porém, alterando a linha **echo** do Script para:
+```echo "SERVIDOR APACHE 02" > index.html```
+{: .prompt-warning }
+
+### **2. Criar Load Balancer Interno para vm-apache1 e vm-apache2**
+
+2.1 - 
+
+---
+
+| Recurso | Descrição |
+| ----------| ----------- |
+| Resouce Group         | ```RG-Servidor```         |
+| Region                | ```EAST US2```           |
+| Image                 | ```Ubuntu Server 20.04 LTS```|
+| Size                  | ```B1S``` ou ```B2S```        |
+| Disk                  | ```SSD Standard```         |
