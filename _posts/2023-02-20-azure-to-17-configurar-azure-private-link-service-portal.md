@@ -44,13 +44,10 @@ Detalhes no diagama abaixo:
 
 ### **1. Criar ambiente da Subscription Servidor em EAST US 2**
 
-#### 1.1 - Criar o **Resource Group** ```RG-Servidor``` na região **EAST US 2**
-
-#### 1.2 - Criar a **VNET** ```Vnet1-Servidor``` com o Range de IP ```192.168.0.0/16``` e a **Subnet** ```Sub1-Servidor``` com Range de IP ```192.168.0.0/24```
-
-#### 1.3 - Criar o **Network Security Group** chamado ```NSG1``` e associar a Subnet **Sub1-Servidor**
-
-#### 1.4 - Criar a Virtual Machine chamada **VM-Apache1** conforme descrição imagens abaixo:  
+1. Criar o **Resource Group** ```RG-Servidor``` na região **EAST US 2**
+2. Criar a **VNET** ```Vnet1-Servidor``` com o Range de IP ```192.168.0.0/16``` e a **Subnet** ```Sub1-Servidor``` com Range de IP ```192.168.0.0/24```
+3. Criar o **Network Security Group** chamado ```NSG1``` e associar a Subnet **Sub1-Servidor**
+4. Criar a Virtual Machine chamada **VM-Apache1** conforme descrição imagens abaixo:  
 
 ![](/assets/img/59/pvtls03.png){:"width=60%"}
 
@@ -61,11 +58,13 @@ Detalhes no diagama abaixo:
 
 ![](/assets/img/59/pvtls05.png){:"width=60%"}
 
-#### 1.5 - Acessar o Painel de Administração da VM **Apache1** e na Categoria **Operations**, clicar em **Run Command** e depois em **RunShellScript**
+#### **1.2 - Instalar Servidor Apache nas VMs**
+
+Acessar o Painel de Administração da VM **Apache1** e na Categoria **Operations**, clicar em **Run Command** e depois em **RunShellScript**
 
 ![](/assets/img/59/pvtls06.png){:"width=60%"}
 
-#### 1.6 - Digitar o script conforme a figura a baixo e clicar em **Run**
+Digitar o script conforme a figura a baixo e clicar em **Run**
 
 ![](/assets/img/59/pvtls07.png){:"width=60%"}
 
