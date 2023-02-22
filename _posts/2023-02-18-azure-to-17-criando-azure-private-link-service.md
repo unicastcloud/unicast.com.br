@@ -15,7 +15,7 @@ Masssss, antes de por a "mão na massa", vamos entender em quais momentos seria 
 
 ### **Sobre Azure Private Link Service**
 
-De forma objetiva, o Azure Private Link Service cria uma conexão **Privada** por dentro do **Backbone Microsoft**, entre VNET´s que podem estar inclusive em **Regiões Diferentes** e até mesmo, criar Conexão entre VNET´s de **Subscriptions Diferentes!!!** 
+De forma objetiva e resumida, o Azure Private Link Service cria uma conexão **Privada** por dentro do **Backbone Microsoft**, entre VNET´s que podem estar inclusive em **Regiões Diferentes** e até mesmo, criar Conexão entre VNET´s de **Subscriptions Diferentes!!!** 
 
 É isto mesmo que você está lendo, o **Azure Private Link Service** é uma alternativa de **Conexão Privada** para casos em que não se opte por Gateway de VPN ou Peering.
 
