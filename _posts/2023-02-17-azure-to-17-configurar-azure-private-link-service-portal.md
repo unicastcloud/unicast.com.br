@@ -1,16 +1,11 @@
 ---
 layout: post
-<<<<<<< HEAD:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service.md
-title: "[Azure-To] #17 Configurar Azure Private Link Service"
+title: "[Azure-To] #17 Configurar Azure Private Link Service[Portal]"
 authors: [rpaliosa, asilva ]
 date: 2023-02-17 09:00:00 -0300
-=======
-title: "[Azure-To] #17 Configurar Azure Private Link Service [Portal]"
-authors: [asilva, rpaliosa]
-date: 2023-02-20 09:00:00 -0300
->>>>>>> 0b63a838ea3efb6c82fc3315b8664980ec18851d:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service-portal.md
 categories: [Azure, Azure-To]
 tags: [azure, microsoft, network, privatelinkservice, az700]
+=======
 ---
 
 Saudações Pessoal!!!
@@ -27,12 +22,8 @@ De forma objetiva, o Azure Private Link Service cria uma conexão **Privada** po
 
 O diagrama abaixo demonstra uma arquitetura de Private Link Service **integrando 2 Vnet´s distintas de Subscritprions Distintas**, onde recursos da **Subscription A, na Região A** se comunicam com VM´s da **Subscription B, na Região B** por meio de um **Standard Load Balancer**
 
-<<<<<<< HEAD:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service.md
 ![](/assets/img/59/pvtls-01.png){:"width=60%"}
 <br>
-=======
-![](/assets/img/59/pvtls01.png){:"width=60%"}
->>>>>>> 0b63a838ea3efb6c82fc3315b8664980ec18851d:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service-portal.md
 
 Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / Servidor** 
 
@@ -45,26 +36,17 @@ Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / 
 
 ### **Objetivo**
 
-<<<<<<< HEAD:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service.md
 O objtivo deste artigo é criar um **Private Link Service** para que a Virtual Machine **vm-paris1** de uma **Subscription A, na Região France Central** acesse Servidores Apache localizados na **Subscription B, da Região East US - Virginia**. <br>
-=======
-Permitir que uma Virtual Machine de uma **Subscription A, na Região Central India** simulando a função de *Cliente* acesse servidores Apache em Virtual Machines localizadas na **Subscription B, da Região East US2**, simulando a função de *Servidor*.
->>>>>>> 0b63a838ea3efb6c82fc3315b8664980ec18851d:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service-portal.md
 Detalhes no diagama abaixo:
 
 ![](/assets/img/59/pvtls-02.png){:"width=60%"}
 
-<<<<<<< HEAD:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service.md
 
 >**Observação:** Este Artigo parte do princípio que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e fundamentos do Private Endpoint**!!!
-=======
->**Observação:** Este Artigo parte do princípio que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e  Network Security Group **(NSG)**!!!
->>>>>>> 0b63a838ea3efb6c82fc3315b8664980ec18851d:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service-portal.md
 {: .prompt-warning }
 
 ### **1. Criar ambiente da Subscription EAST US-Virginia**
 
-<<<<<<< HEAD:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service.md
 1.1 - Criar o **Resource Group** ```RG-Virginia``` na região **EAST US**
 
 1.2 - Criar a **VNET** ```Vnet1-Virginia``` com o Range de IP ```172.16.0.0/16``` e a **Subnet** ```Sub1-Virginia``` com Range de IP ```172.16.0.0/24```
@@ -79,35 +61,11 @@ Detalhes no diagama abaixo:
 ---
 
 >**Observação:** A Virtual Machine deve ser criada com o atributo **NONE** para **Public IP** . Concluir a criação da VM sem nenhuma outra configuração!!!
-=======
-1. Criar o **Resource Group** ```RG-Servidor``` na região **EAST US 2**
-2. Criar a **VNET** ```Vnet1-Servidor``` com o Range de IP ```192.168.0.0/16``` e a **Subnet** ```Sub1-Servidor``` com Range de IP ```192.168.0.0/24```
-3. Criar o **Network Security Group** chamado ```NSG1``` e associar a Subnet **Sub1-Servidor**
-4. Criar a Virtual Machine chamada **VM-Apache1** conforme descrição imagens abaixo:  
-
-![](/assets/img/59/pvtls03.png){:"width=60%"}
-
-![](/assets/img/59/pvtls04.png){:"width=60%"}
-
->**Observação:** A Virtual Machine deve ser criada com o atributo **NONE** para **Public IP** e **Nic Network Security Group** !!!
->>>>>>> 0b63a838ea3efb6c82fc3315b8664980ec18851d:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service-portal.md
 {: .prompt-warning }
 
 1.4 - Após concluir a criação da **VM-APACHE1**, acessar o painel de administração, selecionar no lado esquerdo da tela a opção **Run Command**, **RunShellScript** e digitar o script que fará a instalação do Servidor apache, conforme imagem abaixo: <br>
 
-<<<<<<< HEAD:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service.md
 ![](/assets/img/59/pvtls-virginia04.png){:"width=60%"}
-=======
-#### **1.2 - Instalar Servidor Apache nas VMs**
-
-Acessar o Painel de Administração da VM **Apache1** e na Categoria **Operations**, clicar em **Run Command** e depois em **RunShellScript**
-
-![](/assets/img/59/pvtls06.png){:"width=60%"}
-
-Digitar o script conforme a figura a baixo e clicar em **Run**
-
-![](/assets/img/59/pvtls07.png){:"width=60%"}
->>>>>>> 0b63a838ea3efb6c82fc3315b8664980ec18851d:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service-portal.md
 
 ```bash
 apt update -y
@@ -116,19 +74,7 @@ cd /var/www/html
 rm -f index.html
 echo "APACHE 1 EM SERVIDOR VIRGINIA" > index.html
 ```
-<<<<<<< HEAD:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service.md
 >**Observação:** Aguardar a conclusão da execução sem sair da tela. Será exibido um log abaixo do **Botão Run** indicando que o Servidor Apache foi instalado!!!
-=======
-
-O resultado do Script deve retornar mensagem similar a figura abaixo.
-
-![](/assets/img/59/pvtls08.png){:"width=60%"}
-
->**Observação:** Para criar a **vm-apache2** basta executar novamente as etapas **1.4**, **1.5**, **1.6** e **1.7**, porém, alterando a linha **echo** do Script para:
-```bash
-echo "SERVIDOR APACHE 02" > index.html
-```
->>>>>>> 0b63a838ea3efb6c82fc3315b8664980ec18851d:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service-portal.md
 {: .prompt-warning }
 
 1.5 - Para a criação da **VM-APACHE2**, repetir os passos **1.3** e **1.4**, porém, fazendo uma alteração na última linha do Script, conforme imagem abaixo:
@@ -141,7 +87,6 @@ echo "SERVIDOR APACHE 02" > index.html
 
 ### **2. Criar Load Balancer Interno para vm-apache1 e vm-apache2**
 
-<<<<<<< HEAD:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service.md
 
 2.1 - Na Barra Superior de Pesquisa do Azure, pesquisar por **Load Balancers**
 
@@ -300,12 +245,3 @@ Conforme detalhado no **ítem 3.8** , é nesta etapa que será utilizado o **Ali
 O artigo termina por aqui, massss deixo como recomendação uma pesquisa mais profunda sobre **Azure Private Link Service!!!**
 
 Grato pela leitura e Até breve!!! 🍻🚀 
-=======
-| **Recurso**           | **Descrição**                |
-| ----------------------| :---------------------------:|
-| Resouce Group         | ```RG-Servidor```            |
-| Region                | ```EAST US2```               |
-| Image                 | ```Ubuntu Server 20.04 LTS```|
-| Size                  | ```B1S``` ou ```B2S```       |
-| Disk                  | ```SSD Standard```           |
->>>>>>> 0b63a838ea3efb6c82fc3315b8664980ec18851d:_posts/2023-02-20-azure-to-17-configurar-azure-private-link-service-portal.md
