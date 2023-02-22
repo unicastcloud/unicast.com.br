@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Azure-To] #17 Configurar Azure Private Link Service[Portal]"
+title: "[Azure-To] #17 Configurar Azure Private Link Service [Portal]"
 author: [rpaliosa, asilva]
 date: 2023-02-18 09:00 -0300
 categories: [Azure, Azure-To]
@@ -22,7 +22,6 @@ De forma objetiva e resumida, o Azure Private Link Service cria uma conexão **P
 O diagrama abaixo demonstra uma arquitetura de Private Link Service **integrando 2 Vnet´s distintas de Subscritprions Distintas**, onde recursos da **Subscription A, na Região A** se comunicam com VM´s da **Subscription B, na Região B** por meio de um **Standard Load Balancer**
 
 ![](/assets/img/59/pvtls-01.png){:"width=60%"}
-<br>
 
 Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / Servidor** 
 
@@ -35,11 +34,10 @@ Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / 
 
 ### **Objetivo**
 
-O objtivo deste artigo é criar um **Private Link Service** para que a Virtual Machine **vm-paris1** de uma **Subscription A, na Região France Central** acesse Servidores Apache localizados na **Subscription B, da Região East US - Virginia**. <br>
+O objtivo deste artigo é criar um **Private Link Service** para que a Virtual Machine **vm-paris1** de uma **Subscription A, na Região France Central** acesse Servidores Apache localizados na **Subscription B, da Região East US - Virginia**.
 Detalhes no diagama abaixo:
 
 ![](/assets/img/59/pvtls-02.png){:"width=60%"}
-
 
 >**Observação:** Este Artigo parte do princípio que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e fundamentos do Private Endpoint**!!!
 {: .prompt-warning }
@@ -83,9 +81,7 @@ echo "APACHE 1 EM SERVIDOR VIRGINIA" > index.html
 >**Observação:** Aguardar a conclusão da execução sem sair da tela. Será exibido um log abaixo do **Botão Run** indicando que o Servidor Apache foi instalado!!!
 {: .prompt-warning }
 
-
 ### **2. Criar Load Balancer Interno para vm-apache1 e vm-apache2**
-
 
 2.1 - Na Barra Superior de Pesquisa do Azure, pesquisar por **Load Balancers**
 
@@ -142,8 +138,10 @@ Será através deste IP que a **VM-PARIS1** acessará os Servidores Apache!!!
 
 ![](/assets/img/59/pvtls-virginia17.png){:"width=60%"}
 
-3.5 - Este é um ponto que exige **Muita Atenção!**<br>
-Para que seja possível a comunicação entre **Subscriptions Diferentes** é necessário selecionar a opção **Anyone with your alias**, clicar em **Add Subscription** e do lado direito da tela **Inserir a Subscription que hospeda a VM que deverá consultar os Servidores Apache**; <br>
+3.5 - Este é um ponto que exige **Muita Atenção!**
+
+Para que seja possível a comunicação entre **Subscriptions Diferentes** é necessário selecionar a opção **Anyone with your alias**, clicar em **Add Subscription** e do lado direito da tela **Inserir a Subscription que hospeda a VM que deverá consultar os Servidores Apache**;
+
 Neste exemplo foi usada a Subscription **France Central** que hospeda a **VM-PARIS1**.
 
 ![](/assets/img/59/pvtls-virginia18.png){:"width=60%"}
@@ -158,7 +156,8 @@ Neste exemplo foi usada a Subscription **France Central** que hospeda a **VM-PAR
 
 ![](/assets/img/59/pvtls-virginia20.png){:"width=60%"}
 
-3.8 - Do lado esquerdo, clique em **Propriedades** e procure pelo atributo **Alias**. <br>
+3.8 - Do lado esquerdo, clique em **Propriedades** e procure pelo atributo **Alias**.
+
 Esta **String** será utilizada durante a criação do **Private Endpoint** na Subscription **France Central** que hospeda a **VM-PARIS1**
 
 ![](/assets/img/59/pvtls-virginia21.png){:"width=60%"}
@@ -189,7 +188,6 @@ A **vm-paris1** será implantada na Região **France Central** em uma **Subscrip
 ---
 >**Observação:** A Virtual Machine deve ser criada com IP Público para realização dos testes!!!
 {: .prompt-warning }
-
 
 ### **5. Configurar o Private Endpoint para vm-paris1**
 
@@ -226,7 +224,6 @@ Conforme detalhado no **ítem 3.8** , é nesta etapa que será utilizado o **Ali
 
 ![](/assets/img/59/pvtls-paris11.png){:"width=60%"}
 
-
 ### **6. Testando o Private Link Service**
 
 6.1 - Acessar o Painel de Administração da **vm-paris1** e confirmar o **Public IP Address**
@@ -239,7 +236,6 @@ Conforme detalhado no **ítem 3.8** , é nesta etapa que será utilizado o **Ali
 
 >**Observação:** Embora a **vm-paris1** tenha sido acessada por IP Público, a comunicação com os Servidores Apache em **East US** ocorre de forma **privada** através do **Backbone Microsoft!!!**, sem a necessidade de **Peering ou Gateway de VPN!!!**
 {: .prompt-warning }
-
 
 O artigo termina por aqui, massss deixo como recomendação uma pesquisa mais profunda sobre **Azure Private Link Service!!!**
 
