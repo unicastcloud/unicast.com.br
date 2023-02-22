@@ -28,7 +28,7 @@ Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / 
 1. A VNET que terá o papel de **Servir**, precisa ter o recurso atrás de um **Standard Load Balancer.**
 2. Um Private Link Service é criado e linkado ao **Frontend IP Interno** do Standard Load Balancer. 
 3. Um Link **Service ID** (URI ou Alias) é compartilhado com o **Private Endpoint** da **Subscription / Vnet** que terá a função de  **Cliente** do recurso. 
-4. Do lado do ambiente **Cliente** é criado um **Private EndPoint** com o Alias **String de Conexãoas do Private Link Service**. 
+4. Do lado do ambiente **Cliente** é criado um **Private EndPoint** com o Alias **(String de Conexão do Private Link Service em East US)**. 
 5. O ambiente **Servidor** recebe um pedido para **Aprovar ou Rejeitar** a conexão. 
 6. Em caso de aprovação, O ambiente **Cliente** inicia a conexão **Privada por dentro do BackBone Microsoft** com o ambiente **Servidor**.
 
@@ -39,7 +39,7 @@ Detalhes no diagama abaixo:
 
 ![](/assets/img/59/pvtls-02.png){:"width=60%"}
 
->**Observação:** Este Artigo parte do princípio de que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e fundamentos do Private Endpoint**!!!
+>**Observação:** Este Artigo parte do princípio de que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e fundamentos do Private Endpoint!!!
 {: .prompt-warning }
 
 ### **1. Criar ambiente da Subscription EAST US-Virginia**
