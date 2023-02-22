@@ -200,25 +200,25 @@ A **vm-paris1** será implantada na Região **France Central** em uma **Subscrip
 
 5.3 - Em Basics, Selecione o Resource Group e os detalhes da Instância.
 
-![](/assets/img/59/pvtls-paris6.png){:"width=60%"}
+![](/assets/img/59/pvtls-paris6.PNG){:"width=60%"}
 
 5.4 - **Atenção!**
 
 Conforme detalhado no **ítem 3.8** , é nesta etapa que será utilizado o **Alias** do **Private Link Services** da Subscription onde foram implantados os Servidores Apache.
 
-![](/assets/img/59/pvtls-paris7.png){:"width=60%"}
+![](/assets/img/59/pvtls-paris7.PNG){:"width=60%"}
 
 5.5 - Siga para **Virtual Network** conforme imagem abaixo:
 
-![](/assets/img/59/pvtls-paris8.png){:"width=60%"}
+![](/assets/img/59/pvtls-paris8.PNG){:"width=60%"}
 
 5.6 - Por se tratar de uma conexão entre Redes de Subscriptions diferentes, não é possível ativar a Integração com a Zona DNS. Avançar até **Review + Create**.
 
-![](/assets/img/59/pvtls-paris9.png){:"width=60%"}
+![](/assets/img/59/pvtls-paris9.PNG){:"width=60%"}
 
 5.7 - Concluir a criação do Private Endpoint.
 
-![](/assets/img/59/pvtls-paris10.png){:"width=60%"}
+![](/assets/img/59/pvtls-paris10.PNG){:"width=60%"}
 
 5.8 - Ao finalizar a criação do Private Endpoint, clicar em **Go to Resource** para chegar ao Painel de Administração, onde é possível confirmar o sucesso da conexão com a **Subscription** em **East US Virginia**
 
