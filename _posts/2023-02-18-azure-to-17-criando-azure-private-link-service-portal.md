@@ -116,7 +116,7 @@ Será através deste IP que a **VM-PARIS1** acessará os Servidores Apache!!!
 2.8 - Para finalizar a criação do Load Balancer, clique em **Review + Create** e a seguir em **Create**
 
 ![](/assets/img/59/pvtls-virginia12.png){:"width=60%"}
----
+
 ![](/assets/img/59/pvtls-virginia13.png){:"width=60%"}
 
 
@@ -145,7 +145,7 @@ Para que seja possível a comunicação entre **Subscriptions Diferentes** é ne
 Neste exemplo foi usada a Subscription **France Central** que hospeda a **VM-PARIS1**.
 
 ![](/assets/img/59/pvtls-virginia18.png){:"width=60%"}
----
+
 ![](/assets/img/59/pvtls-0.png){:"width=60%"}
 
 3.6 - Clique em **Next Tags** e conclua a criação do Private Link Service.
@@ -169,10 +169,9 @@ Esta **String** será utilizada durante a criação do **Private Endpoint** na S
 >**Observação:** O ítem **Private Endpoint Connections** exibe se a relação de confiança entre as 2 Subscriptions ocorreu com sucesso (Approved). Também é possivel **Rejeitar** ou **Remover** a conexão!!!
 {: .prompt-warning }
 
-
 ### **4. Configurar ambiente para vm-paris1 em France Central**
 
-A **vm-paris1** será implantada na Região **France Central** em uma **Subscription diferente** de onde foi implantado os Servidores Apache **(vm-apache1 e vm-apache2)**,
+A **vm-paris1** será implantada na Região **France Central** em uma **Subscription diferente** de onde foi implantado os Servidores Apache **(vm-apache1 e vm-apache2)**.
 
 4.1 - Criar o **Resource Group** ```RG-Paris``` na região **France Central**
 
@@ -181,11 +180,11 @@ A **vm-paris1** será implantada na Região **France Central** em uma **Subscrip
 4.3 - Criar a Virtual Machine chamada **vm-paris1** conforme imagens a seguir:  
 
 ![](/assets/img/59/pvtls-paris1.png){:"width=60%"}
----
+
 ![](/assets/img/59/pvtls-paris2.png){:"width=60%"}
----
+
 ![](/assets/img/59/pvtls-paris3.png){:"width=60%"}
----
+
 >**Observação:** A Virtual Machine deve ser criada com IP Público para realização dos testes!!!
 {: .prompt-warning }
 
@@ -203,7 +202,8 @@ A **vm-paris1** será implantada na Região **France Central** em uma **Subscrip
 
 ![](/assets/img/59/pvtls-paris6.png){:"width=60%"}
 
-5.4 - **Atenção!**<br>
+5.4 - **Atenção!**
+
 Conforme detalhado no **ítem 3.8** , é nesta etapa que será utilizado o **Alias** do **Private Link Services** da Subscription onde foram implantados os Servidores Apache.
 
 ![](/assets/img/59/pvtls-paris7.png){:"width=60%"}
