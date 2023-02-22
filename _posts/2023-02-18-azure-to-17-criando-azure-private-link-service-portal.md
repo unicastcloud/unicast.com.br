@@ -95,11 +95,11 @@ echo "APACHE 1 EM SERVIDOR VIRGINIA" > index.html
 
 2.4 - Clique em **+ Add a Frontend IP Configuration**
 
-![](/assets/img/59/pvtls-virginia08.PNG){:"width=60%"}
+![](/assets/img/59/pvtls-virginia08.png){:"width=60%"}
 
 2.5 - Configure o **Frontend IP** conforme imagem a seguir:
 
-![](/assets/img/59/pvtls-virginia09.PNG){:"width=60%"}
+![](/assets/img/59/pvtls-virginia09.png){:"width=60%"}
 
 >**Observação:** O Frontend IP pode ser um IP atribuído dinamicamente pelo Azure ou definido de forma Fixa pelo Administrador. Neste exemplo foi definido o IP ```172.16.0.250```.
 Será através deste IP que a **VM-PARIS1** acessará os Servidores Apache!!!
