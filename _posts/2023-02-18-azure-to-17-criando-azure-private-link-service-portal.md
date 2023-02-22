@@ -21,7 +21,7 @@ De forma objetiva e resumida, o Azure Private Link Service cria uma conexão **P
 
 O diagrama abaixo demonstra uma arquitetura de Private Link Service **integrando 2 Vnet´s distintas de Subscritprions Distintas**, onde recursos da **Subscription A, na Região A** se comunicam com VM´s da **Subscription B, na Região B** por meio de um **Standard Load Balancer**
 
-![](/assets/img/59/pvtls-01.png){:"width=60%"}
+![](/assets/img/59/pvtls-01.PNG){:"width=60%"}
 
 Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / Servidor** 
 
@@ -85,21 +85,21 @@ echo "APACHE 1 EM SERVIDOR VIRGINIA" > index.html
 
 2.1 - Na Barra Superior de Pesquisa do Azure, pesquisar por **Load Balancers**
 
-![](/assets/img/59/pvtls-virginia06.png){:"width=60%"}
+![](/assets/img/59/pvtls-virginia06.PNG){:"width=60%"}
 
 2.2 - Selecione **Load Balancer** e clique em **+ Create**
 
 2.3 - Configure conforme imagem abaixo e clique em **+ Frontend IP Configuration**
 
-![](/assets/img/59/pvtls-virginia07.png){:"width=60%"}
+![](/assets/img/59/pvtls-virginia07.PNG){:"width=60%"}
 
 2.4 - Clique em **+ Add a Frontend IP Configuration**
 
-![](/assets/img/59/pvtls-virginia08.png){:"width=60%"}
+![](/assets/img/59/pvtls-virginia08.PNG){:"width=60%"}
 
 2.5 - Configure o **Frontend IP** conforme imagem a seguir:
 
-![](/assets/img/59/pvtls-virginia09.png){:"width=60%"}
+![](/assets/img/59/pvtls-virginia09.PNG){:"width=60%"}
 
 >**Observação:** O Frontend IP pode ser um IP atribuído dinamicamente pelo Azure ou definido de forma Fixa pelo Administrador. Neste exemplo foi definido o IP ```172.16.0.250```.
 Será através deste IP que a **VM-PARIS1** acessará os Servidores Apache!!!
@@ -107,7 +107,7 @@ Será através deste IP que a **VM-PARIS1** acessará os Servidores Apache!!!
 
 2.6 - Avance para a Guia **Backend Pool** e siga as configurações conforme a próxima imagem e no fim da página **Clique em Save**
 
-![](/assets/img/59/pvtls-virginia10.png){:"width=60%"}
+![](/assets/img/59/pvtls-paris10.PNG){:"width=60%"}
 
 2.7 - Em **inbounbd Rules** clique em **+ Add a Load balancing Rule** e siga as instruções abaixo, com atenção ao ítem **Health Probe - Create New**
 
@@ -132,11 +132,11 @@ Será através deste IP que a **VM-PARIS1** acessará os Servidores Apache!!!
 
 3.3 - Em Basics, Seleciona o Resource Group e digite o nome da Instância. Clique em **Outbound Settings** para proceguir.
 
-![](/assets/img/59/pvtls-virginia16.png){:"width=60%"}
+![](/assets/img/59/pvtls-virginia16.PNG){:"width=60%"}
 
 3.4 - Selecione as configurações conforme próxima imagem e continue para **Access Security**
 
-![](/assets/img/59/pvtls-virginia17.png){:"width=60%"}
+![](/assets/img/59/pvtls-virginia17.PNG){:"width=60%"}
 
 3.5 - Este é um ponto que exige **Muita Atenção!**
 
