@@ -27,19 +27,19 @@ Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / 
 
 1. A VNET que terá o papel de **Servir**, precisa ter o recurso atrás de um **Standard Load Balancer.**
 2. Um Private Link Service é criado e linkado ao **Frontend IP Interno** do Standard Load Balancer. 
-3. Um Link **Service ID** (URI ou Alias) é compartilhado com o **Private Link** da **Subscription / Vnet** que terá a função de  **Cliente** do recurso. 
-4. Do lado do ambiente **Cliente** é criado um **Private EndPoint** com as informações do **Service ID** bem como as configurações de DNS para registro do Private IP Address. 
+3. Um Link **Service ID** (URI ou Alias) é compartilhado com o **Private Endpoint** da **Subscription / Vnet** que terá a função de  **Cliente** do recurso. 
+4. Do lado do ambiente **Cliente** é criado um **Private EndPoint** com o Alias **String de Conexãoas do Private Link Service**. 
 5. O ambiente **Servidor** recebe um pedido para **Aprovar ou Rejeitar** a conexão. 
-6. Em caso de aprovação, O ambiente **Cliente** inicia a conexão com o ambiente **Servidor**
+6. Em caso de aprovação, O ambiente **Cliente** inicia a conexão **Privada por dentro do BackBone Microsoft** com o ambiente **Servidor**.
 
 ### **Objetivo**
 
-O objtivo deste artigo é criar um **Private Link Service** para que a Virtual Machine **vm-paris1** de uma **Subscription A, na Região France Central** acesse Servidores Apache localizados na **Subscription B, da Região East US - Virginia**.
+O objetivo deste artigo é criar um **Private Link Service** para que a Virtual Machine **vm-paris1** de uma **Subscription A, na Região France Central** acesse Servidores Apache localizados na **Subscription B, da Região East US - Virginia**.
 Detalhes no diagama abaixo:
 
 ![](/assets/img/59/pvtls-02.png){:"width=60%"}
 
->**Observação:** Este Artigo parte do princípio que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e fundamentos do Private Endpoint**!!!
+>**Observação:** Este Artigo parte do princípio de que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e fundamentos do Private Endpoint**!!!
 {: .prompt-warning }
 
 ### **1. Criar ambiente da Subscription EAST US-Virginia**
@@ -71,14 +71,14 @@ cd /var/www/html
 rm -f index.html
 echo "APACHE 1 EM SERVIDOR VIRGINIA" > index.html
 ```
->**Observação:** Aguardar a conclusão da execução sem sair da tela. Será exibido um log abaixo do **Botão Run** indicando que o Servidor Apache foi instalado!!!
+>**Observação:** Aguardar a conclusão da execução sem sair da tela. Será exibido um Log abaixo do **Botão Run** indicando que o Servidor Apache foi instalado!!!
 {: .prompt-warning }
 
-1.5 - Para a criação da **VM-APACHE2**, repetir os passos **1.3** e **1.4**, porém, fazendo uma alteração na última linha do Script, conforme imagem abaixo:
+1.5 - Para a criação da **VM-APACHE2**, repetir os passos **1.3** e **1.4**, porém fazendo uma alteração na última linha do Script, conforme imagem abaixo:
 
 ![](/assets/img/59/pvtls-virginia05.png){:"width=60%"}
 
->**Observação:** Aguardar a conclusão da execução sem sair da tela. Será exibido um log abaixo do **Botão Run** indicando que o Servidor Apache foi instalado!!!
+>**Observação:** Aguardar a conclusão da execução sem sair da tela. Será exibido um Log abaixo do **Botão Run** indicando que o Servidor Apache foi instalado!!!
 {: .prompt-warning }
 
 ### **2. Criar Load Balancer Interno para vm-apache1 e vm-apache2**
@@ -130,7 +130,7 @@ Será através deste IP que a **VM-PARIS1** acessará os Servidores Apache!!!
 
 ![](/assets/img/59/pvtls-virginia15.png){:"width=60%"}
 
-3.3 - Em Basics, Seleciona o Resource Group e digite o nome da Instância. Clique em **Outbound Settings** para proceguir.
+3.3 - Em Basics, Seleciona o Resource Group e digite o nome da Instância. Clique em **Outbound Settings** para prosseguir.
 
 ![](/assets/img/59/pvtls-virginia16.PNG){:"width=60%"}
 
@@ -140,7 +140,7 @@ Será através deste IP que a **VM-PARIS1** acessará os Servidores Apache!!!
 
 3.5 - Este é um ponto que exige **Muita Atenção!**
 
-Para que seja possível a comunicação entre **Subscriptions Diferentes** é necessário selecionar a opção **Anyone with your alias**, clicar em **Add Subscription** e do lado direito da tela **Inserir a Subscription que hospeda a VM que deverá consultar os Servidores Apache**;
+Para que seja possível a comunicação entre **Subscriptions Diferentes** é necessário selecionar a opção **Anyone with your alias**, clicar em **Add Subscription** e do lado direito da tela **Inserir a Subscription que hospeda a VM que deverá consultar os Servidores Apache**.
 
 Neste exemplo foi usada a Subscription **France Central** que hospeda a **VM-PARIS1**.
 
