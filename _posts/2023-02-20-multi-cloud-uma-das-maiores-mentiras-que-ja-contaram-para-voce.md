@@ -123,7 +123,7 @@ E assim galera, a estratégia de multi-cloud é totalmente falida? Não, o títu
 
 É importante observar que a autilização de uma estratéfia multi-cloud, pode variar de acordo com o modelo de negócio. Por exemplo, uma financeira, pode ser mais propensa a adotar este tipo de estratégia devido a requisitos regulatórios específicos, e o exemplo mais comum é o PIX.
 
-Não existe mágica, não existe sistma infalível, e não existe verdade absoluta, leia bastante, analise sempre as opções e avalie os riscos.
+Não existe mágica, não existe sistema infalível, e não existe verdade absoluta, leia bastante, estude, analise sempre as opções e avalie os riscos.
 
 > **Não tretarás porque és de boas!** 😂
 {: .prompt-tip }
