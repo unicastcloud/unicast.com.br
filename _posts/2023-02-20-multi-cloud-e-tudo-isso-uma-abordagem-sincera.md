@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Multi-Cloud uma das maiores mentiras que já contaram para você"
+title: "Multi-Cloud é tudo isso? Uma abordagem sincera!"
 author: asilva
 date: 2023-02-20 09:20 -0300
 categories: [Carreira e Negócios, Habilidades]
@@ -121,7 +121,7 @@ Como com qualquer estratégia tecnológica, é essencial avaliar cuidadosamente 
 
 E assim galera, a estratégia de multi-cloud é totalmente falida? Não, o título pode doer no coração de alguns serumaninhos, sim! Mas o objetivo deste artigo é justamente trazer ao debate um tema que por vezes é alimentado por interesses comerciais ou pessoais de gurus e mentores de internet, em vez de ser baseado em dados e necessidades reais das empresas.
 
-É importante observar que a autilização de uma estratéfia multi-cloud, pode variar de acordo com o modelo de negócio. Por exemplo, uma financeira, pode ser mais propensa a adotar este tipo de estratégia devido a requisitos regulatórios específicos, e o exemplo mais comum é o PIX.
+É importante observar que a utilização de uma estratégia multi-cloud, pode variar de acordo com o modelo de negócio. Por exemplo, uma financeira, pode ser mais propensa a adotar este tipo de estratégia devido a requisitos regulatórios específicos, e o exemplo mais comum é o PIX.
 
 Não existe mágica, não existe sistema infalível, e não existe verdade absoluta, leia bastante, estude, analise sempre as opções e avalie os riscos.
 
