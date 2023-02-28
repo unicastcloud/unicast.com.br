@@ -117,9 +117,16 @@ Ninguém quer duplicar ou tripiclar o trabalho e aumentar absurdamente a complex
 
 Com base em minha experiência e nas informações apresentadas, é seguro dizer que a estratégia de multi-cloud pode não ser a melhor opção para todas as empresas e profissionais. Embora a flexibilidade e a escolha pareçam atraentes, as complexidades envolvidas na gestão de várias plataformas de nuvem e a falta de interoperabilidade podem levar a problemas significativos de segurança, custos e eficiência.
 
-Além disso, é importante ter em mente que o hype em torno da multi-cloud pode ser alimentado por interesses comerciais ou pessoais de gurus e mentores de internet, em vez de ser baseado em dados e necessidades reais das empresas.
-
 Como com qualquer estratégia tecnológica, é essencial avaliar cuidadosamente os custos, benefícios e riscos envolvidos antes de decidir adotar a estratégia de multi-cloud. Em muitos casos, uma abordagem mais simplificada, como a adoção de uma única plataforma de nuvem pública ou a combinação de nuvem pública e privada, pode ser mais eficaz e eficiente.
+
+E assim galera, a estratégia de multi-cloud é totalmente falida? Não, o título pode doer no coração de alguns serumaninhos, sim! Mas o objetivo deste artigo é justamente trazer ao debate um tema que por vezes é alimentado por interesses comerciais ou pessoais de gurus e mentores de internet, em vez de ser baseado em dados e necessidades reais das empresas.
+
+É importante observar que a autilização de uma estratéfia multi-cloud, pode variar de acordo com o modelo de negócio. Por exemplo, uma financeira, pode ser mais propensa a adotar este tipo de estratégia devido a requisitos regulatórios específicos, e o exemplo mais comum é o PIX.
+
+Não existe mágica, não existe sistma infalível, e não existe verdade absoluta, leia bastante, analise sempre as opções e avalie os riscos.
+
+> **Não tretarás porque és de boas!** 😂
+{: .prompt-tip }
 
 É isso galera, espero que gostem!
 
