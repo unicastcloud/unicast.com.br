@@ -25,23 +25,23 @@ Embora a multi-cloud possa parecer uma boa ideia na teoria, na prática ela é e
 
 ### **Perspectiva das empresas**
 
-1. **É excessivamente complicado de manter**
+- **É excessivamente complicado de manter**
 
 A multi-cloud é uma abordagem complicada para hospedar aplicativos e serviços. Cada plataforma de nuvem tem sua própria interface de usuário, APIs, requisitos de segurança e configurações de rede. Gerenciar vários provedores de nuvem é muito mais complicado do que gerenciar um único provedor. Isso aumenta significativamente o tempo e o custo de gerenciamento de sua infraestrutura de nuvem.
 
-2. **É mais caro**
+- **É mais caro**
 
 Embora a multi-cloud possa parecer uma maneira de economizar dinheiro em hospedagem em nuvem, na verdade, ela pode acabar sendo muito cara. Gerenciar várias plataformas de nuvem requer mais recursos, o que aumenta o custo geral de gerenciamento da infraestrutura de nuvem. Além disso, cada provedor de nuvem tem sua própria estrutura de preços, o que significa que você pode acabar pagando mais por recursos semelhantes em diferentes plataformas de nuvem.
 
-3. **É arriscado**
+- **É arriscado**
 
 Usar vários provedores de nuvem aumenta significativamente o risco de problemas de segurança, como violações de dados e perda de informações importantes. Além disso, gerenciar várias plataformas de nuvem aumenta o risco de problemas de compatibilidade, o que pode levar a tempo de inatividade e problemas de desempenho.
 
-4. **É ineficiente**
+- **É ineficiente**
 
 Gerenciar várias plataformas de nuvem é inerentemente ineficiente. Cada provedor de nuvem tem suas próprias ferramentas de gerenciamento e recursos de monitoramento, o que significa que você precisará aprender a usar várias ferramentas de gerenciamento diferentes e monitorar várias fontes de dados. Isso aumenta o tempo e o custo de gerenciamento da infraestrutura de nuvem.
 
-5. **É desnecessário**
+- **É desnecessário**
 
 A maioria das empresas podem obter tudo o que precisam de um único provedor de nuvem confiável. A maioria dos provedores de nuvem oferece uma ampla gama de recursos e serviços, além de opções de redundância e recuperação de desastres. Ao escolher um provedor de nuvem confiável, as empresas podem simplificar seu ambiente de nuvem, reduzir custos e melhorar a eficiência.
 
