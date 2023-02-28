@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Multi-Cloud é tudo isso? Uma abordagem sincera!"
+title: "Multi-Cloud é tudo isso, uma abordagem sincera!"
 author: asilva
 date: 2023-02-20 09:20 -0300
 categories: [Carreira e Negócios, Habilidades]
