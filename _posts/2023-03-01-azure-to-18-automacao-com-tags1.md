@@ -87,7 +87,7 @@ Será neste ambiente que a **"brincadeira"** vai acontecer rs rs. Por Padrão o 
 ---
 ![](/assets/img/61/azure-to-18-tag14.png){: "width=60%" }
 
-### **3. Executando a Automação **
+### **3. Executando a Automação**
 
 3.1 - O 1º passo é listar de forma resumida os **Grupos de Recursos**  que possuem a **TAG** **"excluir-tudo"** através do comando <br>
 ```az group list --tag=excluir-tudo -otable```
