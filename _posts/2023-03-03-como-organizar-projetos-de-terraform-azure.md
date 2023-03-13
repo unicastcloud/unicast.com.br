@@ -129,7 +129,7 @@ resource "azurerm_virtual_machine" "main" {
 
 Mais detalhes no repositório: <a href="https://github.com/asilvajunior/devops-case-studies/tree/main/01_terraform_monolithic" target="_blank">Terraform on Azure Reference Monolithic Sample</a> 
 
-### **2. Multi Monolítica:**
+### **2. Multi Monolítica**
 
 Nesta abordagem, cada ambiente é separado em um diretório diferente, cada um com seu próprio arquivo main.tf. Isso torna mais fácil gerenciar recursos específicos do ambiente, pois há um arquivo separado para cada ambiente. No entanto, isso pode levar a uma duplicação desnecessária de código, pois recursos comuns são duplicados em cada arquivo.
 
@@ -337,7 +337,7 @@ resource "azurerm_virtual_machine" "main" {
 
 Mais detalhes no repositório: <a href="https://github.com/asilvajunior/devops-case-studies/tree/main/02_terraform_multi_monolithic" target="_blank">Terraform on Azure Reference Multi Monolithic</a> 
 
-### **3. Modular:**
+### **3. Modular**
 
 O uso de módulos permite a reutilização de código em vários projetos Terraform. Em vez de definir todos os recursos em um único arquivo, cada recurso é colocado em seu próprio módulo, com um arquivo separado para cada recurso. Isso torna mais fácil gerenciar e reutilizar o código, pois os módulos podem ser facilmente importados em outros projetos.
 
@@ -390,7 +390,7 @@ module "dns" {
 
 Mais detalhes no repositório: <a href="https://github.com/asilvajunior/devops-case-studies/tree/main/03_terraform_modular" target="_blank">Terraform on Azure Reference Modular</a> 
 
-### **4. Multi Ambiente:**
+### **4. Multi Ambiente**
 
 Esta abordagem envolve o uso de workspaces e arquivos tfvars separados para cada ambiente. Os workspaces permitem que você execute o mesmo código em vários ambientes, enquanto os arquivos tfvars permitem que você configure as variáveis específicas de cada ambiente. Isso torna mais fácil gerenciar recursos para diferentes ambientes e permite que você execute o mesmo código em diferentes ambientes.
 
@@ -507,6 +507,8 @@ disable_password_authentication = false
 ```
 
 Mais detalhes no repositório: <a href="https://github.com/asilvajunior/devops-case-studies/tree/main/04_terraform_modular_multi_env" target="_blank">Terraform on Azure Reference Modular Multi Environment Sample</a> 
+
+### **Conclusão**
 
 Organizar seus projetos em Terraform pode parecer uma tarefa pequena, mas é uma parte importante do processo de desenvolvimento. 
 
