@@ -130,6 +130,6 @@ Digite novamente o comando
 
 Bommmmm, o artigo termina por aqui, massss deixo como recomendação um Hands On da **TFTEC** onde o **Raphael Andrade** apresenta no seu Canal do <a href="https://www.youtube.com/watch?v=HkW5zpGx40w" target="_blank">Youtube</a>  a como **Criar uma Automação Start / Stop de Máquinas Virtuais** também com o auxílio de **TAGS** 
  
-https://www.youtube.com/watch?v=HkW5zpGx40w
+{% include embed/youtube.html id='HkW5zpGx40w' %}
 
 Tkssss pela leitura e Até breve!!! 🍻🚀 

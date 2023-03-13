@@ -9,7 +9,7 @@ tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]
 
 Fala galera! Seis tão baum?
 
-Hoje vamos falar de **Terraform**!. 
+Hoje vamos falar de **Terraform**!
 
 Primeiramente, vamos fazer uma breve abordagem do que é o **Terraform**.
 
