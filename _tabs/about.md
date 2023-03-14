@@ -18,7 +18,7 @@ Ao longo destes anos procuro compartilhar a minha paixão, conhecimento e experi
 
 Sou criador da comunidade **Azure Brasil no Discord** e estou sempre disposto a aprimorar minhas habilidades técnicas e aprender algo novo a cada dia.
 
-* 💻 Atualmente trabalho como **DevOps Tech Lead na Solo Network**
+* 💻 Atualmente trabalho como **DevOps Tech Lead**
 * 🏅 Sou **Microsoft MVP** desde 2022
 * 📝 Escrevo regularmente artigos no **Unicast Cloud Blog**
 * 🌱 Atualmente aprendendo **Terraform e Kubernetes**
@@ -42,7 +42,7 @@ Sou Rodrigo Paliosa após mais de 15 anos implementando e gerenciando sistemas E
 
 Entre 2019 e 2021 morei no Japão, onde tive intenso contato com a cultura, disciplina e metodologias Kaizen 5S, PDCA e Lean, baseadas no sistema Toyota de Produção.
 
-É um prazer receber sua visita no meu linkedin e fique a vontade para estabelecer uma rede.
+É um prazer receber sua visita, fique a vontade para estabelecer uma rede.
 
 * 💻 Atualmente trabalho como **Cloud Analyst na Telefónica Tech**
 * 📝 Escrevo regularmente artigos no **Unicast Cloud Blog**
