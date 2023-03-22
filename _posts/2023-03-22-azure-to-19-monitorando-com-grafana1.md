@@ -2,7 +2,7 @@
 layout: post
 title: "[Azure-To] #19 Monitorando Azure com Grafana [Portal]"
 author: [rpaliosa]
-date: 2023-03-23 07:00 -0300
+date: 2023-03-22 07:00 -0300
 categories: [Azure, Azure-To]
 tags: [azure,microsoft,devops,observabillity,monitoramento,grafana,azuread,infraestrutura]
 ---
@@ -201,7 +201,7 @@ campos **Application (client) ID** e **Directory (tenant) ID**
 
 8.1 - Clique novamente no Ícone **Add Panel** conforme imagem e depois em **Add a New Panel**
 
-![](/assets/img/63/azgrafana25.png ){: "width=60%" }}
+![](/assets/img/63/azgrafana25.png ){: "width=60%" }
 
 8.2 - Em **Select a Resource**, procure por **SQL Databases** e clique em **Apply**. 
 
