@@ -26,7 +26,7 @@ O Grafana é um Oceano de possibilidades, visite sempre o Site Oficial e se cone
 
 O objetivo deste artigo é **Integrar o Grafana ao Azure para Monitorar Virtual Machine, SQL Database e VNET**.
 
->**Observação:** Este artigo sugere que o Leitor já possua um ambiente Azure com os seguintes recursos:
+>**Observação:** Este artigo sugere que o Leitor já possua um ambiente Azure com os seguintes recursos compartilhando a mesma VNET:
 * 1 VM Linux (B2S) **(Utilizei Ubuntu 20.04)**
 * 1 VM Windows 10 (B2S)
 * 1 SQL Database 
