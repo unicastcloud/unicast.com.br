@@ -190,7 +190,7 @@ No VS Code, por exemplo, a extensão **"HashiCorp Terraform"** é uma das mais u
 
 Ao utilizar essas extensões, você ganha mais agilidade no desenvolvimento e diminui a chance de erros em seu código. Portanto, é altamente recomendado que você explore as opções disponíveis e escolha aquela que melhor se adapta ao seu fluxo de trabalho.
 
-### **9. Utilize ferramentas adicionais para aumentar o potencial do Terraform**
+### **10. Utilize ferramentas adicionais para aumentar o potencial do Terraform**
 
 Existem diversas ferramentas adicionais que podem ajudar a aumentar o potencial do Terraform e melhorar ainda mais a experiência de desenvolvimento. 
 
