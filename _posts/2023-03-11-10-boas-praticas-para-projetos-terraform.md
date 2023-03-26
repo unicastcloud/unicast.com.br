@@ -81,7 +81,7 @@ Algumas dicas para aproveitar ao máximo os **Dynamic Blocks** no Terraform:
 
 Ao usar Dynamic Blocks no Terraform, você pode tornar sua configuração mais dinâmica e flexível, permitindo que ela se adapte a mudanças em seus dados externos.
 
-### **6. Tire proveito dos Dynamic Blocks**
+### **6. Utilize loops e condicionais**
 
 O Terraform oferece suporte a loops e condicionais em sua linguagem **HCL (HashiCorp Configuration Language)**, o que pode tornar a criação de recursos e configurações muito mais eficiente e fácil de gerenciar.
 
