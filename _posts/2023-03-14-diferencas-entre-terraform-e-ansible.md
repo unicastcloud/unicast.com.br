@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Se você está acompanhando nossas postagens recentes, deve ter conferido nosso último artigo que explicava as diferenças entre **Infrastructure as Code (IaC) e Configuration Management (CM)**. Se ainda não leu, não se preocupe, deixaremos o link no final deste post para você conferir. 
 
-Hoje, daremos continuidade a esse tema, mas agora vamos focar em duas ferramentas muito populares na comunidade de DevOps: **Terraform** e **Ansible**. Veremos as semelhanças e diferenças entre elas e entenderemos qual é a melhor escolha para cada tipo de ambiente. Então, continue lendo para descobrir mais sobre Terraform vs. Ansible!
+Hoje, daremos continuidade a esse tema, mas agora vamos focar em duas ferramentas muito populares na comunidade de DevOps: **Terraform** e **Ansible**. Veremos as semelhanças e diferenças entre elas e entenderemos qual é a melhor escolha para cada tipo de ambiente. 
 
 ![](/assets/img/65/tfeansible01.png){: "width=60%" }
 
