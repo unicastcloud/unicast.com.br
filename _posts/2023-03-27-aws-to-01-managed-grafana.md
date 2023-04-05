@@ -4,7 +4,7 @@ title: "[AWS-To] #01 Monitorando com AWS Managed Grafana [Portal]"
 author: [rpaliosa]
 date: 2023-03-27 00:01 -0300
 categories: [AWS, AWS-To]
-tags: aws,devops,observabillity,monitoramento,grafana,infraestrutura,cloud]
+tags: [aws, devops, observabillity, monitoramento, grafana, infraestrutura, cloud]
 ---
 
 ### Saudações Pessoal!!!
