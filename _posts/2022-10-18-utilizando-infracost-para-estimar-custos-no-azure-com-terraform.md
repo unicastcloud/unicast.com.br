@@ -4,7 +4,7 @@ title: "Utilizando Infracost para estimar custos no Azure com Terraform"
 author: asilva
 date: 2022-10-18 09:00:00 -0500
 categories: [DevOps, Terraform]
-tags: [Terraform, devops, vscode, azcli, azure, iac, infracost]
+tags: [terraform, devops, vscode, azcli, azure, iac, infracost]
 ---
 
 Fala galera! Seis tão baum?

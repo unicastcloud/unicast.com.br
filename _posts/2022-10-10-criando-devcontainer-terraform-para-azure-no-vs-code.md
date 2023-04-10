@@ -4,7 +4,7 @@ title: "Criando DevContainer Terraform para Azure no VS Code"
 author: asilva
 date: 2022-10-10 09:00:00 -0500
 categories: [DevOps, Terraform]
-tags: [Terraform, devops, vscode, azcli, azure, iac, devcontainer, container, docker]
+tags: [terraform, devops, vscode, azcli, azure, iac, devcontainer, container, docker]
 ---
 
 Fala galera! Seis tão baum?
