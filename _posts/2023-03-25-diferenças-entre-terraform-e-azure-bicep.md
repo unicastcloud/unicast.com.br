@@ -144,9 +144,11 @@ resource myVM 'Microsoft.Compute/virtualMachines@2020-06-01' = {
 
 ### **3. Comparando as duas ferramentas**
 
-- **Terraform** tem a vantagem de ser uma ferramenta mais amplamente usada e suporta uma ampla variedade de provedores em nuvem, tornando-o uma opção ideal para organizações com ambientes em nuvem heterogêneos. Sua linguagem declarativa é fácil de entender e pode ser usada para provisionar uma ampla variedade de recursos. No entanto, pode ser mais difícil de aprender e usar do que Azure Bicep, e sua sintaxe pode ser mais verbosa em comparação.
+Ambas as ferramentas, **Terraform** e **Azure Bicep**, têm suas vantagens e desvantagens e são ótimas opções para provisionamento de infraestrutura no Azure. Embora o **Azure Bicep** seja uma ferramenta relativamente nova, ele já se mostrou uma alternativa sólida ao **Terraform**. 
 
-- **Azure Bicep** é uma opção melhor para organizações que usam principalmente o Azure, já que é especificamente projetado para o Azure. Sua sintaxe mais concisa e intuitiva torna mais fácil criar e gerenciar recursos no Azure, e suporta herança, modularidade e validação de tipo, tornando mais fácil criar e gerenciar recursos complexos. No entanto, sua funcionalidade pode ser limitada em comparação com Terraform, e sua adoção pode ser mais difícil para organizações com pouca experiência em IaC.
+- O **Terraform** tem a vantagem de ser uma ferramenta mais amplamente usada e suporta uma ampla variedade de provedores em nuvem, tornando-o uma opção ideal para organizações com ambientes em nuvem heterogêneos. Sua linguagem declarativa é fácil de entender e pode ser usada para provisionar uma ampla variedade de recursos. No entanto, pode ser mais difícil de aprender e usar do que Azure Bicep, e sua sintaxe pode ser mais verbosa em comparação.
+
+- O **Azure Bicep** é uma opção melhor para organizações que usam principalmente o Azure, já que é especificamente projetado para o Azure. Sua sintaxe mais concisa e intuitiva torna mais fácil criar e gerenciar recursos no Azure, e suporta herança, modularidade e validação de tipo, tornando mais fácil criar e gerenciar recursos complexos. No entanto, sua funcionalidade pode ser limitada em comparação com Terraform, e sua adoção pode ser mais difícil para organizações com pouca experiência em IaC.
 
 | **Características**                                   | **Terraform**     | **Azure Bicep**         |
 |-------------------------------------------------------|:-----------------:|:-----------------------:|
@@ -164,9 +166,7 @@ resource myVM 'Microsoft.Compute/virtualMachines@2020-06-01' = {
 | **Suporte a controle de versão**                      | Sim	              | Sim	                    | 
 | **Preço**                                             | Grátis            | Grátis                  | 
 
-Ambas as ferramentas, **Terraform** e **Azure Bicep**, têm suas vantagens e desvantagens e são ótimas opções para provisionamento de infraestrutura no Azure. Embora o **Azure Bicep** seja uma ferramenta relativamente nova, ele já se mostrou uma alternativa sólida ao **Terraform**. 
-
-o entanto, é importante lembrar que o mercado ainda é mais aderente a utilizar o **Terraform** devido à sua popularidade e tempo de existência.
+No entanto, é importante lembrar que o mercado ainda é mais aderente a utilizar o **Terraform** devido à sua popularidade e tempo de existência.
 
 Apesar de ser uma ferramenta mais recente, o **Azure Bicep** tem uma curva de aprendizado mais baixa e uma sintaxe semelhante ao **JSON**, o que facilita a escrita de código para desenvolvedores que já possuem familiaridade com a linguagem. Além disso, a integração com o Azure é excelente e permite uma experiência de usuário mais fluída. 
 
