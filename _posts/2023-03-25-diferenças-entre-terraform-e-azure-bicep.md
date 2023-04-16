@@ -58,7 +58,7 @@ resource "azurerm_virtual_machine" "example" {
 
 **Azure Bicep** é uma linguagem de **DSL** para provisionamento de recursos no Azure. Ela oferece uma sintaxe mais concisa e intuitiva do que o **Azure Resource Manager (ARM) templates**, tornando mais fácil criar e gerenciar recursos no Azure. Além disso, Azure Bicep suporta herança, modularidade e validação de tipo, tornando mais fácil criar e gerenciar recursos complexos.
 
-```json
+```
 param location string = 'eastus'
 param vmName string = 'myVM'
 param adminUsername string = 'myUsername'
