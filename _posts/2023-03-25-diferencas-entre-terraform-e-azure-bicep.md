@@ -9,7 +9,7 @@ tags: [devops, terraform, hashicorp, bicep, arm, automacao, iac, cicd, azure]
 
 Fala galera! Seis tão baum?
 
-provavelmente já ouviu falar de **Terraform** e **Azure Bicep**. Ambas as ferramentas são usadas para provisionar recursos na plataforma **Azure**, mas cada uma tem suas próprias características e benefícios. 
+Provavelmente você já ouviu falar de **Terraform** e **Azure Bicep**. Ambas as ferramentas são usadas para provisionar recursos na plataforma **Azure**, mas cada uma tem suas próprias características e benefícios. 
 
 Neste artigo, vamos explorar as diferenças entre **Terraform** e **Azure Bicep** e ajudá-lo a escolher a melhor opção para suas necessidades.
 
