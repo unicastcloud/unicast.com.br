@@ -25,7 +25,7 @@ O exame possui **2 horas** de duração e é composto de **15 à 20 questões** 
 
 Os candidatos são avaliados em sua capacidade de executar tarefas comuns, como implantação e escalonamento de aplicativos, criação e configuração de pods e serviços, gerenciamento de armazenamento persistente, atualização e reversão de implantações e muito mais. A documentação oficial do Kubernetes está disponível durante o exame e os candidatos são incentivados a usá-la para concluir as tarefas.
 
-Na hora do exame, você terá acesso a uma máquina virtual com um cluster do Kubernetes e deverá demonstrar suas habilidades em tarefas como implantar, configurar e solucionar problemas em aplicativos no cluster.
+Na hora do exame, você terá acesso a uma máquina virtual com um cluster do Kubernetes e deverá demonstrar suas habilidades.
 
 ![](/assets/img/66/cka02.png){: "width=60%" }
 
@@ -67,7 +67,7 @@ O tempo é um desafio, então é fundamental administrar bem o tempo, pois você
 
 Além disso, é essencial prestar atenção no **contexto** correto em que as tarefas estão sendo executadas. Para isso, é importante saber quais clusters estão disponíveis na prova e como selecioná-los. Por fim, é fundamental saber procurar rapidamente as informações na documentação oficial, pois isso economiza muito tempo durante a prova.
 
-se você estudar bem os conceitos, souber procurar rapidamente as informações na documentação e se sair bem nos laboratórios práticos da **KodeKloud** e **Killer.sh**, você perceberá que a prova é mais tranquila do que parece. 
+Se você estudar bem os conceitos, souber procurar rapidamente as informações na documentação e se sair bem nos laboratórios práticos da **KodeKloud** e **Killer.sh**, você perceberá que a prova é mais tranquila do que parece. 
 
 E lembre-se, a prática é essencial para se sair bem neste exame!!! 
 
