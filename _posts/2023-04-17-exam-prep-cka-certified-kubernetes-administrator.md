@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Hoje vou falar sobre a certificação **Certified Kubernetes Administrator (CKA)** e o exame que realizei recentemente. 
 
-![](/assets/img/66/cka01.png){: "width=40%" "height=40%" }
+![](/assets/img/66/cka01.png){: "style="max-width: 50%" }
 
 Se você trabalha com tecnologia, certamente já ouviu falar do **Kubernetes**, a plataforma de orquestração de contêineres mais popular do mundo. E, se você quer ser reconhecido como um profissional capacitado em **Kubernetes**, a certificação **Certified Kubernetes Administrator (CKA)** é essencial pra você!
 
