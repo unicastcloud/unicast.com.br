@@ -15,7 +15,7 @@ Hoje vamos falar de um assunto um tanto polêmico, mas que precisa ser abordado:
 
 Muitos profissionais entraram na onda de serem **"multi-cloud"**, como se essa abordagem fosse o **Santo Graal** e que muitas empresas já a utilizam de forma massiva. 
 
-Mas, na verdade, essa é uma das maiores mentiras que já contaram para você.
+Mas na verdade, não é bem assim!
 
 ![](/assets/img/60/multi02.jpg){: "width=60%" }
 
