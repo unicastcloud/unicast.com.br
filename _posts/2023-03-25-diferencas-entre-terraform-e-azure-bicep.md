@@ -3,7 +3,7 @@ layout: post
 title: "Diferenças entre Terraform e Azure Bicep"
 author: asilva
 date: 2023-03-25 09:20 -0300
-categories: [DevOps, Terraform]
+categories: [DevOps, Automação de TI]
 tags: [devops, terraform, hashicorp, bicep, arm, automacao, iac, cicd, azure]
 ---
 
