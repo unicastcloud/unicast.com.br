@@ -88,7 +88,7 @@ avatar: "../assets/img/logo.jpg"
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active:  "giscus"    # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -101,7 +101,7 @@ comments:
     repo: "unicastcloud/unicast.com.br"
     repo_id:
     category: "Comments"
-    category_id: "39338615"
+    category_id:
     mapping:           # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
