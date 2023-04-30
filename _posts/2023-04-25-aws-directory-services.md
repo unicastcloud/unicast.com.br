@@ -3,7 +3,7 @@ layout: post
 title: "Fundamentos sobre AWS Directory Services [Portal]"
 author: [rpaliosa]
 date: 2023-04-26 00:01 -0300
-categories: [AWS, Identidade]
+categories: [AWS, AWS-To]
 tags: [aws, active directory, iam, identidade, infraestrutura, cloud]
 ---
 
