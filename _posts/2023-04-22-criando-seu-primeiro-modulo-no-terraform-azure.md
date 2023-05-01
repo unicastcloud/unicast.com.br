@@ -2,7 +2,7 @@
 layout: post
 title: "Criando seu primeiro módulo no Terraform [Azure]"
 author: asilva
-date: 2023-04-03 09:20 -0300
+date: 2023-04-22 09:20 -0300
 categories: [DevOps, Terraform]
 tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]
 ---
@@ -57,7 +57,7 @@ O nosso módulo estará dentro da pasta **azure-storage-account-module**, então
 
 No arquivo ```main.tf``` (do modulo), vamos adicionar o código para criação da storage account com bloco de storage:
 
-```
+```bash
 resource "azurerm_storage_account" "storage-account" {
   name                     = var.storage_account_name
   resource_group_name      = var.resource_group_name
@@ -138,7 +138,7 @@ Mas como utilizá-lo em nosso projeto?
 
 Vamos configurar nosso arquivo ```main.tf``` na raiz do nosso projeto e utilizar o módulo que acabamos de criar:
 
-```
+```bash
 provider "azurerm" {
   features {}
 }
@@ -193,7 +193,7 @@ terraform plan
 
 Ao executar esse comando, você verá uma saída semelhante a esta:
 
-```
+```bash
 Terraform will perform the following actions:
 
   # module.azure_storage_account.azurerm_storage_account.storage-account will be created
@@ -257,7 +257,7 @@ Para implantar o recurso na nossa conta do Azure, podemos executar o comando:
 terraform apply
 ```
 
-```
+```bash
 Terraform will perform the following actions:
 
   # module.azure_storage_account.azurerm_storage_account.storage-account will be created
