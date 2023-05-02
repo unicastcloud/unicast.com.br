@@ -2,7 +2,7 @@
 layout: post
 title: "Trabalhando com variáveis no Terraform [Azure]"
 author: asilva
-date: 2023-04-03 09:20 -0300
+date: 2023-04-06 09:20 -0300
 categories: [DevOps, Terraform]
 tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]
 ---
