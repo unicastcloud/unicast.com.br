@@ -3,7 +3,7 @@ layout: post
 title: "5 práticas para reduzir seus gastos com o Microsoft Azure"
 author: asilva
 date: 2021-06-16 09:00:00 -0500
-categories: [Azure, Otimização de Custos]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, budget, costmanagement]
 ---
 

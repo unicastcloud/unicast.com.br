@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #18 Automatizando Exclusão de Resource Group com Tags [Portal]"
 author: [rpaliosa]
 date: 2023-03-01 09:00 -0300
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft,management, tags, resourcegroup, cloudshell, azurecli, az104]
 ---
 

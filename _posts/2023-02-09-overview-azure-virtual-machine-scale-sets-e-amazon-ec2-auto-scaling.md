@@ -3,7 +3,7 @@ layout: post
 title: "Overview Azure Virtual Machine Scale Sets e Amazon EC2 Auto Scaling"
 author: rpaliosa
 date: 2023-02-09 09:00:00 -0500
-categories: [Azure, Alta Disponibilidade]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, aws, amazon, network, ha, altadisponibilidade]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Gerenciando gastos no Azure com Azure Cost Management"
 author: asilva
 date: 2021-06-24 09:00:00 -0500
-categories: [Azure, Otimização de Custos]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, budget, costmanagement]
 ---
 

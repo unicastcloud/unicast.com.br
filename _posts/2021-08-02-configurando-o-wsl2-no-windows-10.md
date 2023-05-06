@@ -3,7 +3,7 @@ layout: post
 title: "Configurando o WSL2 no Windows 10"
 author: asilva
 date: 2021-08-02 09:00:00 -0500
-categories: [Linux, Artigos]
+categories: [Software Livre, Linux]
 tags: [windows, wsl2, linux, debian, ubuntu]
 ---
 

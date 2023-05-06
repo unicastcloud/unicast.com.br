@@ -3,7 +3,7 @@ layout: post
 title: "Configurando VPN Site to Site com Azure e MikroTik [CLI-Only]"
 author: asilva
 date: 2022-06-20 09:00:00 -0500
-categories: [Azure, Network]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, network, vnet, vpn, mikrotik, ipsec, vpngateway, s2s, powershell, cli, routeros]
 ---
 

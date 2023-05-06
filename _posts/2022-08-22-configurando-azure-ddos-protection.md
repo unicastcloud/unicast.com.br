@@ -3,7 +3,7 @@ layout: post
 title: "Configurando Azure DDoS Protection"
 author: asilva
 date: 2022-08-22 09:00:00 -0500
-categories: [Azure, Network]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, network, dos, ddos]
 ---
 

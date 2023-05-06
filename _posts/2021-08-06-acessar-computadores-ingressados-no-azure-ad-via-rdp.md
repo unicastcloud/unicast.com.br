@@ -3,7 +3,7 @@ layout: post
 title: "Acessar computadores ingressados no Azure AD via RDP"
 author: asilva
 date: 2021-08-06 09:00:00 -0500
-categories: [Azure, Identidade]
+categories: [Cloud, Azure]
 tags: [windows, azuread, azure, activedirectory, rdp]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Alterando endereçamento de rede em VNETs com peering no Azure"
 author: asilva
 date: 2022-01-15 09:00:00 -0500
-categories: [Azure, Network]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, network, vnet, peering, hubandspoke]
 ---
 

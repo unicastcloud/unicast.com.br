@@ -3,7 +3,7 @@ layout: post
 title: "Autenticação sem senha com Azure AD e chave Yubikey (FIDO2)"
 author: asilva
 date: 2022-10-12 09:00:00 -0500
-categories: [Azure, Identidade]
+categories: [Cloud, Azure]
 tags: [azuread, azure, activedirectory, yubikey, yubico, passwordless, fido2]
 ---
 

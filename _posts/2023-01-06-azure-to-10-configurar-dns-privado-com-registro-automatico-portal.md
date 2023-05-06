@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #10 Configurar DNS privado com registro automático [Portal]"
 author: asilva
 date: 2023-01-06 09:00:00 -0300
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, infraestrutura, dns]
 ---
 

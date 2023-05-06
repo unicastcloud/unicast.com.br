@@ -3,7 +3,7 @@ layout: post
 title: "Microsoft EA x CSP, qual é a melhor opção?"
 author: asilva
 date: 2022-05-28 09:00:00 -0500
-categories: [Azure, Licenciamento]
+categories: [Cloud, Azure]
 tags: [arquitetura, azure, microsoft, caf, csp, ea, licenciamento]
 ---
 

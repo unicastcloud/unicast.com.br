@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #13 Configurar Azure Functions [Portal]"
 author: asilva
 date: 2023-01-27 09:00:00 -0300
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, functions, paas]
 ---
 

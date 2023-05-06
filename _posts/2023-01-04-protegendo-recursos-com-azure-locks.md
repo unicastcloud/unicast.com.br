@@ -3,7 +3,7 @@ layout: post
 title: "Protegendo recursos com Azure Locks"
 author: asilva
 date: 2023-01-04 09:00:00 -0300
-categories: [Azure, Infraestrutura]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, resources, locks]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Difenrenças entre: Load Balancer, Application Gateway, Front Door e Traffic Manager"
 author: asilva
 date: 2023-01-20 09:00:00 -0300
-categories: [Azure, Network]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, infraestrutura, networking, loadbalancer, waf, gateway]
 ---
 

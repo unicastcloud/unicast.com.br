@@ -3,7 +3,7 @@ layout: post
 title: "Azure Resource Inventory"
 author: asilva
 date: 2021-07-07 09:00:00 -0500
-categories: [Azure, Ferramentas]
+categories: [Cloud, Azure]
 tags: [arquitetura, azure, microsoft, ferramentas, ari, resourceinventory]
 ---
 

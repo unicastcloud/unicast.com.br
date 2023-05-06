@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #9 Configurar Azure App Service [Portal]"
 author: asilva
 date: 2022-11-07 09:00:00 -0500
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, infraestrutura, web, appservice, app, webapp]
 ---
 

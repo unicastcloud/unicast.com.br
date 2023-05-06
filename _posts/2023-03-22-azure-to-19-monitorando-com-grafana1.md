@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #19 Monitorando Azure com Grafana [Portal]"
 author: [rpaliosa]
 date: 2023-03-22 07:00 -0300
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, devops, observabillity, monitoramento, grafana, azuread, infraestrutura]
 ---
 

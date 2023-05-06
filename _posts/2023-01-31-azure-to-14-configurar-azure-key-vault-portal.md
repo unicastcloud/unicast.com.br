@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #14 Configurar Azure Key Vault [Portal]"
 author: asilva
 date: 2023-01-31 09:00:00 -0300
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, keyvault, secrets]
 ---
 

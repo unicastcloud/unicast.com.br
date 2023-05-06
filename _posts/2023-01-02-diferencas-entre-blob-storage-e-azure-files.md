@@ -3,7 +3,7 @@ layout: post
 title: "Diferenças entre Blob Storage e Azure Files"
 author: asilva
 date: 2023-01-02 09:00:00 -0500
-categories: [Azure, Infraestrutura]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, storage, fileshare, blob]
 ---
 

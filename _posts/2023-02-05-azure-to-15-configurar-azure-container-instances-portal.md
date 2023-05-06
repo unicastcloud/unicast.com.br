@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #15 Configurar Azure Container Instances [Portal]"
 author: asilva
 date: 2023-02-05 09:00:00 -0300
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, aci, container, docker]
 ---
 

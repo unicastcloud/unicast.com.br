@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #4 Storage Accounts [Portal]"
 author: asilva
 date: 2021-02-22 06:54:00 -0500
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [blobstorage, storage, fileshare, azure, microsoft, infraestrutura]
 ---
 

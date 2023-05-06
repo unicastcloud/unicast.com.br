@@ -3,7 +3,7 @@ layout: post
 title: "Criando alerta de previsão de gastos no Azure"
 author: asilva
 date: 2022-11-01 09:00:00 -0500
-categories: [Azure, Otimização de Custos]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, budget, costmanagement]
 ---
 

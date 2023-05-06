@@ -3,7 +3,7 @@ layout: post
 title: "Utilizando a calculadora de TCO do Azure"
 author: asilva
 date: 2023-01-12 09:00:00 -0300
-categories: [Azure, Otimização de Custos]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, budget, costmanagement, calculator, pricing, tco]
 ---
 

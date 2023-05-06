@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #16 Criando Azure Policy [Portal]"
 author: asilva
 date: 2023-02-11 09:20 -0300
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, segurança, politicas, policy]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "5 benefícios em adotar o Azure Virtual Desktop"
 author: asilva
 date: 2021-06-18 09:00:00 -0500
-categories: [Azure, Adoção]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, avd, remotedesktop, infraestrutura]
 ---
 

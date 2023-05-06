@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #17 Configurar Azure Private Link Service [Portal]"
 author: [rpaliosa, asilva]
 date: 2023-02-18 09:00 -0300
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, network, privatelinkservice, az700]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Entendendo o fluxo de roteamento no Azure"
 author: asilva
 date: 2022-06-25 09:00:00 -0500
-categories: [Azure, Network]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, network, rotas, udr]
 ---
 

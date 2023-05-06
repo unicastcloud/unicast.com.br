@@ -3,7 +3,7 @@ layout: post
 title: "Alterar endereçamento de rede do Azure Application Gateway"
 author: asilva
 date: 2022-01-09 09:00:00 -0500
-categories: [Azure, Network]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, network, applicationgateway]
 ---
 

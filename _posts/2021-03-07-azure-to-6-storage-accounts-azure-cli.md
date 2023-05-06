@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #6 Storage Accounts [Azure CLI]"
 author: asilva
 date: 2021-03-07 06:54:00 -0500
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [blobstorage, storage, fileshare, azure, microsoft, infraestrutura, azurecli]
 ---
 

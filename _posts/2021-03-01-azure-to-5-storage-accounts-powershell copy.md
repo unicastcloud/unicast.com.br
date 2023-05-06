@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #5 Storage Accounts [PowerShell]"
 author: asilva
 date: 2021-03-01 06:54:00 -0500
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [blobstorage, storage, fileshare, azure, microsoft, infraestrutura, poweshell]
 ---
 

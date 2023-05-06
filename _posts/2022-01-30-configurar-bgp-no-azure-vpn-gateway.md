@@ -3,7 +3,7 @@ layout: post
 title: "Configurar BGP no Azure VPN Gateway"
 author: asilva
 date: 2022-01-30 09:00:00 -0500
-categories: [Azure, Network]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, network, vnet, bgp, roteamento, vpn, ipsec, vpngateway]
 ---
 

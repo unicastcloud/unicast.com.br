@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #7 Redefinir senha de VMs pelo Portal da Azure"
 author: asilva
 date: 2021-03-28 06:54:00 -0500
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [maquinavirtual, azure, microsoft, infraestrutura]
 ---
 

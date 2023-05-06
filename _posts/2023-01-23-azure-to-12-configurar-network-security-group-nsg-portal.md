@@ -3,7 +3,7 @@ layout: post
 title: "[Azure-To] #12 Configurar Network Security Group (NSG) [Portal]"
 author: asilva
 date: 2023-01-23 09:00:00 -0300
-categories: [Azure, Azure-To]
+categories: [Cloud, Azure]
 tags: [azure, microsoft, infraestrutura, vnet, virtualnetwork, networking, nsg]
 ---
 
