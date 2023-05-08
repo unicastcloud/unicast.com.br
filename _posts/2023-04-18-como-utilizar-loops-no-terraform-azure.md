@@ -2,7 +2,7 @@
 layout: post
 title: "Como utilizar loops no Terraform [Azure]"
 author: asilva
-date: 2023-04-15 09:20 -0300
+date: 2023-04-18 09:20 -0300
 categories: [DevOps, Terraform]
 tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]
 ---
