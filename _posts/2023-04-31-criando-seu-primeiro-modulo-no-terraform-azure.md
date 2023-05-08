@@ -2,7 +2,7 @@
 layout: post
 title: "Criando seu primeiro módulo no Terraform [Azure]"
 author: asilva
-date: 2023-04-22 09:20 -0300
+date: 2023-04-31 09:20 -0300
 categories: [DevOps, Terraform]
 tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]
 ---
