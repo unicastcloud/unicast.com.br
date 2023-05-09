@@ -91,10 +91,10 @@ Abaixo, segue uma tabela comparativa entre os três tipos de provisioners:
 
 |                  | **file**                 | **local-exec**              | **remote-exec**                             |
 |------------------|:------------------------:|:---------------------------:|:-------------------------------------------:|
-| **O que faz**    | Cria arquivos/diretórios | Executa comandos localmente | Executa comandos através de uma conexão SSH |
-| **Vantagens**    | Não requer conexão SSH	  | Pode ser usado para executar comandos complexos | Pode ser usado em máquinas sem acesso direto à internet|
-| **Desvantagens** | Não é adequado para comandos	complexos ou interativos |          | Pode ser mais lento do que o provisioner local-exec em ambientes locais |
-| **Quando usar**  | Quando você precisa criar arquivos	| Quando você precisa executar comandos simples	| Quando você precisa executar comandos complexos ou remotos |
+| **O que faz**    | Cria arquivos/diretórios | Executa comandos localmente | Executa comandos através <br /> de uma conexão SSH |
+| **Vantagens**    | Não requer conexão SSH	  | Pode ser usado para executar <br /> comandos complexos | Pode ser usado em máquinas <br /> sem acesso direto à internet|
+| **Desvantagens** | Não é adequado para comandos	<br /> complexos ou interativos |          | Pode ser mais lento do que <br /> o provisioner local-exec em ambientes locais |
+| **Quando usar**  | Quando você precisa <br /> criar arquivos	| Quando você precisa <br /> executar comandos simples	| Quando você precisa executar <br /> comandos complexos ou remotos |
 
 ### **6. Exemplo de uso**
 
