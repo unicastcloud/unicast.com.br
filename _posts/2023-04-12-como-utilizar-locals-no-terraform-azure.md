@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como utilizar Locals no Terraform [Azure]"
+title: "Como utilizar locals no Terraform [Azure]"
 author: asilva
 date: 2023-04-12 09:20 -0300
 categories: [DevOps, Terraform]
