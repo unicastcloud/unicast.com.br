@@ -2,7 +2,7 @@
 layout: post
 title: "Trabalhando com depends_on no Terraform [Azure]"
 author: asilva
-date: 2023-04-28 09:20 -0300
+date: 2023-04-27 09:30 -0300
 categories: [DevOps, Terraform]
 tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]
 ---
@@ -43,7 +43,7 @@ resource "azurerm_virtual_network" "example" {
 }
 ````
 
-Neste exemplo, estamos criando uma rede virtual no Microsoft Azure. Estamos usando o **depends_on** para garantir que a rede virtual seja criada somente depois que o grupo de recursos (`azurerm_resource_group`) tenha sido criado.
+Neste exemplo, estamos criando uma rede virtual no Microsoft Azure. Estamos usando o **depends_on** para garantir que a rede virtual seja criada somente depois que o grupo de recursos `azurerm_resource_group` tenha sido criado.
 
 Além disso, você pode usar o **depends_on** para especificar dependências entre recursos de maneira mais complexa. Por exemplo, você pode usar o **depends_on** para garantir que um recurso seja atualizado somente depois que outro recurso tenha sido atualizado. 
 
@@ -87,7 +87,7 @@ resource "azurerm_virtual_machine" "example" {
 }
 ````
 
-Neste exemplo, estamos criando uma instância de máquina virtual no Microsoft Azure. Estamos usando o depends_on para garantir que a instância de máquina virtual seja atualizada somente depois que o disco (`azurerm_managed_disk`) tenha sido atualizado.
+Neste exemplo, estamos criando uma instância de máquina virtual no Microsoft Azure. Estamos usando o depends_on para garantir que a instância de máquina virtual seja atualizada somente depois que o disco `azurerm_managed_disk` tenha sido atualizado.
 
 Outro exemplo de uso do **depends_on** é com a utilização de módulos no Terraform.
 
