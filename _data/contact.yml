@@ -5,10 +5,6 @@
   icon: 'fab fa-linkedin'   
   url:  'https://www.linkedin.com/company/unicastbr/'  
 -
-  type: mvp
-  icon: 'fab fa-windows'
-  url: 'https://mvp.microsoft.com/en-us/PublicProfile/5004987?fullName=Antonio%20Carlos%20da%20Silva%20Junior'
--
   type: instagram
   icon: 'fab fa-instagram'
   url:  'https://www.instagram.com/unicastlab/'  
@@ -16,10 +12,21 @@
   type: youtube
   icon: 'fab fa-youtube'
   url: 'https://www.youtube.com/channel/UCYpdjQbbkBQpDWI1rapkVUA'
+
+-
+  type: spotify
+  icon: 'fab fa-spotify'
+  url: 'https://open.spotify.com/show/4h44R75Kcg9WQvOr4GxKJK?si=f2a2980a66e94b7d'
+
 -
   type: github
   icon: 'fab fa-github'
   url: 'https://github.com/unicastcloud' 
+
+#-
+#  type: mvp
+#  icon: 'fab fa-windows'
+#  url: 'https://mvp.microsoft.com/en-us/PublicProfile/5004987?fullName=Antonio%20Carlos%20da%20Silva%20Junior'
 
 #-
 #  type: discord
