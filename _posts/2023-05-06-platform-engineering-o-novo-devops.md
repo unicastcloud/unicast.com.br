@@ -2,7 +2,7 @@
 layout: post
 title: "Platform Engineering, o novo DevOps?"
 author: asilva
-date: 2023-06-06 09:00:00 -0500
+date: 2023-05-06 09:00:00 -0500
 categories: [Carreira e Negócios, Habilidades]
 tags: [devops, sre, sysadmin, observabilidade, hardskill, habilidades, platformengineering]
 ---
