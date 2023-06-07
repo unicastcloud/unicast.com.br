@@ -2,7 +2,7 @@
 layout: post
 title: "Trabalhando com Workspaces no Terraform [Azure]"
 author: asilva
-date: 2023-05-10 09:30 -0300
+date: 2023-05-10 09:00 -0300
 categories: [DevOps, Terraform]
 tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]
 ---
