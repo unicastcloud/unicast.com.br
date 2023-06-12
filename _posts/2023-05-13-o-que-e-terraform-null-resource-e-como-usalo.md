@@ -68,7 +68,7 @@ Com esse exemplo, após a criação da instância de máquina virtual no Azure, 
 
 Você pode personalizar esse comando para realizar qualquer ação necessária após a criação do recurso.
 
-### **8. Conclusão**
+### **5. Conclusão**
 
 O **null_resource** é uma ferramenta poderosa no Terraform que permite executar ações sem criar recursos de infraestrutura. Com sua flexibilidade, você pode executar scripts locais, fazer chamadas de API e executar tarefas customizadas. Além disso, os triggers permitem controlar quando as ações devem ser executadas, adicionando ainda mais controle ao seu fluxo de trabalho.
 
