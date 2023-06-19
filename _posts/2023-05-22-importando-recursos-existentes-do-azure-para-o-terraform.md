@@ -83,7 +83,7 @@ Utilize o comando `az group show`
 ````bash
 az group show -n meu_resource_group
 ````
-![](/assets/img/70/tf-import02.pngg){: "width=60%" }
+![](/assets/img/70/tf-import02.png){: "width=60%" }
 
 **Passo 3: Execução do comando de importação:**
 
