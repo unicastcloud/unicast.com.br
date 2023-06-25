@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Importando recursos existentes para o Terraform sem sofrimento"
+title: "Importando recursos existentes para o Terraform de forma descomplicada"
 author: asilva
 date: 2023-05-31 09:00 -0300
 categories: [DevOps, Terraform]
