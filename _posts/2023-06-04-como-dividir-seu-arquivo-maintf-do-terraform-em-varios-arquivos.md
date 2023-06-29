@@ -283,7 +283,7 @@ Por fim, execute o comando `terraform apply` para aplicar as alterações no amb
 
 ### **6. Conclusão**
 
-Dividir o arquivo `m`ain.tf` do Terraform em vários arquivos é uma prática recomendada para organizar e simplificar o gerenciamento do código. Neste artigo, vimos como realizar essa divisão passo a passo, criando arquivos separados para recursos, fontes de dados, variáveis, outputs, providers e versions.
+Dividir o arquivo `main.tf` do Terraform em vários arquivos é uma prática recomendada para organizar e simplificar o gerenciamento do código. Neste artigo, vimos como realizar essa divisão passo a passo, criando arquivos separados para recursos, fontes de dados, variáveis, outputs, providers e versions.
 
 Ao adotar essa abordagem, você obtém benefícios como maior **organização**, **reusabilidade**, **colaboração em equipe** e **manutenção simplificada**.
 
