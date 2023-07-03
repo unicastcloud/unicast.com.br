@@ -16,7 +16,7 @@ Antes de mergulharmos nos detalhes sobre referenciar recursos de módulos Terraf
 
 Os módulos Terraform, por sua vez, são blocos de construção reutilizáveis que encapsulam recursos e configurações específicos. Eles permitem criar componentes de infraestrutura consistentes, modularizados e compartilháveis. Os módulos podem ser criados por você mesmo ou disponibilizados pela comunidade, oferecendo uma maneira eficaz de reutilizar e compartilhar configurações.
 
-Confira mais sobre módulos no Terraform em nosso artigo:<a href="https://unicast.com.br/posts/criando-seu-primeiro-modulo-no-terraform-azure/" target="_blank">Criando seu primeiro módulo no Terraform [Azure]</a>.
+Confira mais sobre módulos no Terraform em nosso artigo:s<a href="https://unicast.com.br/posts/criando-seu-primeiro-modulo-no-terraform-azure/" target="_blank">Criando seu primeiro módulo no Terraform [Azure]</a>.
 
 ### **2. A Importância de referenciar módulos**
 
