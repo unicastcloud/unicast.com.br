@@ -30,7 +30,7 @@ Agora, com as verificações orientadas por configuração, você pode adicionar
 
 Por exemplo, você pode definir regras para garantir que determinadas configurações de segurança estejam presentes em todos os recursos provisionados. Isso ajuda a garantir a conformidade com as políticas internas e a reduzir erros de configuração.
 
-### **4. Exemplo de uso**
+### **3. Exemplo de uso**
 
 Vamos ver alguns exemplos de uso desses recursos na prática.
 
@@ -76,7 +76,7 @@ resource "azurerm_virtual_machine" "example" {
 
 Nesse exemplo, a verificação garante que as máquinas virtuais no Azure tenham pelo menos uma tag: `"Environment"`. Se alguma máquina virtual não cumprir essa regra, o Terraform exibirá um erro durante a execução do plano ou da aplicação.
 
-### **5. Conclusão**
+### **4. Conclusão**
 
 O Terraform **1.5** trouxe duas funcionalidades importantes: importação de recursos existentes e verificações orientadas por configuração. Esses recursos permitem que os usuários gerenciem facilmente recursos já provisionados e garantam a conformidade de sua infraestrutura. Ao adotar essas novas funcionalidades, é possível agilizar o gerenciamento de infraestrutura e reduzir erros de configuração.
 
