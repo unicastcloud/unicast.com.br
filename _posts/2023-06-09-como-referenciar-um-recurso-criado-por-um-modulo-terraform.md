@@ -8,7 +8,7 @@ tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]
 
 Fala galera! Seis tão baum?
 
-este post, vamos discutir a importância de referenciar recursos criados por módulos Terraform e como fazer isso de forma eficiente. Aprender a referenciar corretamente os recursos é fundamental para garantir a integridade e a manutenibilidade de suas configurações de infraestrutura.
+Neste post, vamos discutir a importância de referenciar recursos criados por módulos Terraform e como fazer isso de forma eficiente. Aprender a referenciar corretamente os recursos é fundamental para garantir a integridade e a manutenibilidade de suas configurações de infraestrutura.
 
 ### **1. O que são Terraform e Módulos Terraform?**
 
