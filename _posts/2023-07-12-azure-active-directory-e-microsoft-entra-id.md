@@ -2,7 +2,7 @@
 layout: post
 title: "Azure Active Directory (Azure AD) agora é Microsoft Entra ID"
 author: asilva
-date: 2023-07-12 09:00:00 -0500
+date: 2023-07-12 09:10:00 -0500
 categories: [Cloud, Azure]
 tags: [azuread, azure, activedirectory, identity, microsoftentra, microsoftentraid]
 ---
