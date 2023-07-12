@@ -27,7 +27,7 @@ A mudança de nome também está alinhada com a abordagem de marca unificada da 
 
 ![](/assets/img/71/entra01.png){: "width=60%" } _Planos e ofertas para Microsoft Entra ID_
 
-![](/assets/img/71/entra02.png){: "width=60%" } _Microsoft Entra admin center_
+![](/assets/img/71/entra02.jpeg){: "width=60%" } _Microsoft Entra admin center_
 
 ### **3. Benefícios do Microsoft Entra ID**
 
