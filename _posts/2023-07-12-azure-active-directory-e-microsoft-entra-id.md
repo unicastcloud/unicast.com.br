@@ -25,9 +25,9 @@ A **Microsoft** recentemente decidiu renomear o **Azure Active Directory (Azure 
 
 A mudança de nome também está alinhada com a abordagem de marca unificada da **Microsoft**, onde a empresa está unindo diferentes serviços e produtos sob uma única marca para melhorar a compreensão e a experiência do usuário. Ao renomear o **Azure AD** para **Microsoft Entra ID**, a Microsoft está reforçando sua presença no mercado de identidade e acesso, oferecendo uma solução robusta e abrangente para as necessidades das organizações.
 
-![](/assets/img/71/entra01.png){: "width=60%" } _Planos e ofertas para Microsoft Entra ID_
+![](/assets/img/72/entra01.png){: "width=60%" } _Planos e ofertas para Microsoft Entra ID_
 
-![](/assets/img/71/entra02.jpeg){: "width=60%" } _Microsoft Entra admin center_
+![](/assets/img/72/entra02.jpeg){: "width=60%" } _Microsoft Entra admin center_
 
 ### **3. Benefícios do Microsoft Entra ID**
 

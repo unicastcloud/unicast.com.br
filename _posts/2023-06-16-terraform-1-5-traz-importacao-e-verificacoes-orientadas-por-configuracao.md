@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Terraform 1.5 traz importação e verificações orientadas por configuração"
+author: asilva
 date: 2023-06-16 09:00 -0300
 categories: [DevOps, Terraform]
 tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]

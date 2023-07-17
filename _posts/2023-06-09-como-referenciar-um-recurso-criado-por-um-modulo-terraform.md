@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Como referenciar um recurso criado por um módulo Terraform"
+author: asilva
 date: 2023-06-09 09:00 -0300
 categories: [DevOps, Terraform]
 tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]

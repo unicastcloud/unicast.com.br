@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Como dividir seu arquivo main.tf do Terraform em vários arquivos"
+author: asilva
 date: 2023-06-04 09:00 -0300
 categories: [DevOps, Terraform]
 tags: [devops, terraform, hashicorp, automacao, iac, cicd, azure]
