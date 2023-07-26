@@ -125,7 +125,37 @@ Quando o deploy estiver concluído, acesse a página inicial do portal do Azure,
 
 ### **3.1. Criando o Load Balancer**
 
+Agora, vamos criar a cereja do bolo, nosso Load Balancer. 
 
+Para iniciar nosso laboratório, precisamos criar nossa VNET e a sub-rede que iremos utilizar em nosso back-end.
+
+Na página inicial do Portal do Azure, clique em ‘**Create a resource**’ em seguida na página Novo, na caixa de Pesquisa, digite **Load Balancer** e clique em + **Add, + Create, + New.**
+
+![](/assets/img/71/lb11.png){: "width=60%" }
+
+Na guia **Basic**, forneça os seguintes detalhes:
+
+- Subscription: o nome da assinatura que você está usando neste laboratório
+- Resource group: rg-unicast-lb
+- Name: **lb-unicast-01**
+- Region: **(US) East US**
+- SKU: **Standard**
+- Type: **Internal**
+
+![](/assets/img/71/lb12.png){: "width=60%" }
+
+Na guia **Frontend IP configuration**, forneça os seguintes detalhes:
+
+- Name: **LoadBalancerFrontEnd**
+- Virtual network: **vnet-unicast-lb**
+- Subnet: **snet-frontend-01**
+- Assignment: **Dynamic**
+
+![](/assets/img/71/lb13.png){: "width=60%" }
+
+Clique em **Review + create**.
+
+![](/assets/img/71/lb14.png){: "width=60%" }
 
 ### **4.1 Criando os recursos do Load Balancer**
 
