@@ -159,7 +159,60 @@ Clique em **Review + create**.
 
 ### **4.1 Criando os recursos do Load Balancer**
 
+Nesta seção, você definirá as configurações do balanceador de carga para um pool de endereços de back-end e, em seguida, criará uma investigação de integridade e uma regra do balanceador de carga.
 
+**Crie um pool de back-end e adicione VMs ao pool de back-end**
+
+O pool de endereços de back-end contém os endereços IP dos NICs virtuais conectados ao balanceador de carga.
+
+Na página inicial do portal do Azure, selecione o load balancer criado.
+
+Em **Settings**, selecione **Backend pools**, em seguida **Add**.
+
+Insira as informações da abaixo:
+
+- Name: **myBackendPool**
+- Virtual network: **vnet-unicast-lb**
+
+Em **IP configurations**, selecione as 3 máquinas virtuais.
+
+![](/assets/img/71/lb15.png){: "width=60%" }
+
+**Configurando o Health Probes**
+
+O balanceador de carga monitora o status do seu aplicativo com uma investigação de integridade. A investigação de integridade adiciona ou remove VMs do balanceador de carga com base em sua resposta às verificações de integridade. 
+
+Em **Settings**, selecione **Health probes**, em seguida **Add**.
+
+Insira as informações da abaixo:
+
+- Name: **myHealthProbe**
+- Protocol: **TCP**
+- Port: **80**
+- Interval: **15**
+
+![](/assets/img/71/lb16.png){: "width=60%" }
+
+**Criando a regra de load balancer**
+
+Uma regra de balanceador de carga é usada para definir como o tráfego é distribuído para as VMs. Você define a configuração de IP de front-end para o tráfego de entrada e o pool de IP de back-end para receber o tráfego. A porta de origem e destino são definidas na regra.
+
+Em **Settings**, selecione **Load balancing rules**, em seguida **Add**.
+
+Insira as informações da abaixo:
+
+- Name: **myHTTPRule**
+- IP Version: **IPv4**
+- Frontend IP address: **LoadBalancerFrontEnd**
+- Backend pool: **myBackendPool**
+- Protocol: **TCP**
+- Port: **80**
+- Backend port: **80**
+- Health probe: **myHealthProbe**
+- Session persistence: **None**
+- Idle timeout: **15**
+
+![](/assets/img/71/lb17.png){: "width=60%" }
 
 ### **5.1 Criar máquina virtual para validação e testes**
 
