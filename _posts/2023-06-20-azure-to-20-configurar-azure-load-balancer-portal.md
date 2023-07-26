@@ -216,7 +216,44 @@ Insira as informações da abaixo:
 
 ### **5.1 Criar máquina virtual para validação e testes**
 
+Nesta seção, vamos criar uma VM de teste para testar nosso balanceador de carga.
 
+Como é um processo simples e já documentado aqui no site, não vou me atentar em descrever todos os passos.
+
+Você pode consultar os seguintes artigos:
+
+- [Azure-To] #1 Deploy de Máquina Virtual [Portal](https://unicast.com.br/posts/azure-to-1-deploy-de-maquina-virtual-portal/)
+- [Azure-To] #2 Deploy de Máquina Virtual [PowerShell](https://unicast.com.br/posts/azure-to-2-deploy-de-maquina-virtual-powershell/)
+- [Azure-To] #3 Deploy de Máquina Virtual [Azure CLI](https://unicast.com.br/posts/azure-to-3-deploy-de-maquina-virtual-azure-cli/)
+
+Basta escolher um método para o deploy e adicionar as duas VMS na rede virtual (VNET) que criamos.
+
+Use as seguintes configurações:
+
+- Subscription: o nome da assinatura que você está usando neste laboratório
+- Resource group: **rg-unicast-lb**
+- Virtual machine name:	**myTestVM**
+- Region:	**(US) East US**
+- Availability options:	**No infrastructure redundancy required**
+- Image:	**Windows Server 2019 Datacenter - Gen 2**
+- Size:	**Standard_DS2_v3 - 2 vcpu, 8 GiB memory**
+
+![](/assets/img/71/lb18.png){: "width=60%" }
+
+Na guia **Networking**, use as seguinte configurações:
+
+- Virtual network: **vnet-unicast-lb**
+- Subnet:	**snet-backend-01**
+- Public IP:	**Change to None**
+- NIC network security group:	**Advanced**
+- Configure network security group:	selecione a existente **nsg-backend-01**
+- Load balancing options: **None**
+
+![](/assets/img/71/lb19.png){: "width=60%" }
+
+Selecione **Review + create.**
+
+![](/assets/img/71/lb20.png){: "width=60%" }
 
 ### **6.1 Testando o Load Balancer**
 
