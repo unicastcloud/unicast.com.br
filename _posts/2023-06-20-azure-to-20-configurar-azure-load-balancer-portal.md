@@ -38,11 +38,90 @@ O diagrama abaixo ilustra o ambiente que você implantará neste exercício.
 
 ### **1.1 Criando a Rede Virtual**
 
+Para iniciar nosso laboratório, precisamos criar nossa VNET e a sub-rede que iremos utilizar em nosso back-end.
 
+Na página inicial do Portal do Azure, clique em ‘**Create a resource**’ em seguida na página Novo, na caixa de Pesquisa, digite **Virtual Network** e clique em + **Add, + Create, + New.**
+
+![](/assets/img/71/lb02.png){: "width=60%" }
+
+Forneça os seguintes detalhes básicos para a nova VNET.
+
+- Subscription: o nome da assinatura que você está usando neste laboratório
+- Resource group: selecione seu grupo de recursos ou crie um novo.
+- Virtual network name: **vnet-unicast-lb**
+- Region: **(US) East US**
+
+![](/assets/img/71/lb03.png){: "width=60%" }
+
+Avance para a sessão **IP addresses** e fornece os seguintes detalhes:
+
+**Back-end subnet:**
+
+Address range: **10.1.0.0/16**
+Subnet name: **snet-backend-01**
+Address range: **10.1.0.0/24**
+
+**Front-end subnet:**
+
+Address range: **10.1.0.0/16**
+Subnet name: **snet-backend-01**
+Address range: **10.1.0.0/24**
+
+![](/assets/img/71/lb04.png){: "width=60%" }
+
+Volte na sessão Security e habilite a opção **Enable Azure Bastion**.
+
+Azure Bastion host name: **unicastBastion**
+
+![](/assets/img/71/lb05.png){: "width=60%" }
+
+Veja que ele já cria automaticamente a subnet especial para o Azure Bastion.
+
+![](/assets/img/71/lb06.png){: "width=60%" }
+
+Estamos ativando essa opção para poder fazer o acesso a nossa VM de testes via **Azure Bastion** e testar nosso load balancer interno.
+
+Selecione **Review + create**.
+
+Revise suas configurações e clique em **Create**.
+
+![](/assets/img/71/lb07.png){: "width=60%" }
 
 ### **2.1 Criando servidores de back-end**
 
+Agora, vamos criar três VMs, que estarão no mesmo conjunto de disponibilidade, para o pool de back-end do balanceador de carga, o script abaixo adicionará as VMs ao pool de back-end e instalará o IIS nas três VMs para testar o balanceador de carga.
 
+Basta fazer o download no seguinte repositório: <a href="https://github.com/asilvajunior/azure-script-tools/tree/main/Azure%20VM%20IIS%20(Load%20Balancer)%20" target="_blank"> Azure VM IIS (Load Balancer)</a>
+
+Siga os seguintes passos:
+
+No portal do Azure, abra uma sessão do **Cloud Shell com PowerShell**.
+
+![](/assets/img/71/lb08.png){: "width=60%" }
+
+Na barra de ferramentas do painel Cloud Shell, selecione o ícone **Upload/Download**  arquivos, no menu suspenso, selecione **Upload** e carregue os arquivos um por um.
+
+Agora, basta executar o seguinte comando:
+
+````powershell
+$RGName = "rg-unicast-lb"
+
+New-AzResourceGroupDeployment -ResourceGroupName $RGName -TemplateFile 01_az_backend.json -TemplateParameterFile 02_az_backend.parameters_vm1.json
+New-AzResourceGroupDeployment -ResourceGroupName $RGName -TemplateFile 01_az_backend.json -TemplateParameterFile 03_az_backend.parameters_vm2.json
+New-AzResourceGroupDeployment -ResourceGroupName $RGName -TemplateFile 01_az_backend.json -TemplateParameterFile 04_az_backend.parameters_vm3.json
+````
+
+![](/assets/img/71/lb09.png){: "width=60%" }
+
+>Observação : você será solicitado a fornecer uma senha de administrador.
+{: .prompt-info }
+
+Quando o deploy estiver concluído, acesse a página inicial do portal do Azure, selecione Máquinas Virtuais e verifique se ambas as máquinas virtuais foram criadas.
+
+![](/assets/img/71/lb10.png){: "width=60%" }
+
+>Pode levar de 5 a 10 minutos para criar essas três VMs. Você não precisa esperar até que este trabalho seja concluído, você já pode continuar com a próxima tarefa.
+{: .prompt-info }
 
 ### **3.1. Criando o Load Balancer**
 
@@ -52,7 +131,7 @@ O diagrama abaixo ilustra o ambiente que você implantará neste exercício.
 
 
 
-### **5.1 Criar máquinas virtuais para validação e testes**
+### **5.1 Criar máquina virtual para validação e testes**
 
 
 
