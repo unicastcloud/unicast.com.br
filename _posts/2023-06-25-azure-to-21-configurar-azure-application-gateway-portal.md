@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "[Azure-To] #20 Configurar Azure Application Gateway [Portal]"
+title: "[Azure-To] #21 Configurar Azure Application Gateway [Portal]"
 author: asilva
-date: 2023-06-20 09:00 -0300
+date: 2023-06-25 09:00 -0300
 categories: [Cloud, Azure]
 tags: [azure, microsoft, infraestrutura, networking, loadbalancer, waf, gateway, applicationgateway]
 ---
 
 Fala galera! Seis tão baum?
 
-Faz um tempinho que não escrevo um artigos sobre Azure, então vamos lá para mais uma sequencia de artigos do Azure-To!
+Vamos lá para mais uma sequência de artigos sobre Load Balancers no Microsoft Azure!
 
 ### **Sobre Azure Application Gateway**
 
@@ -36,7 +36,7 @@ Para simplificar, este artigo usa uma configuração simples com um IP de front-
 
 Na página inicial do Portal do Azure, clique em ‘**Create a resource**’ em seguida na página Novo, na caixa de Pesquisa, digite **Application Gateway** e clique em + Add, + Create, + New.
 
-![](/assets/img/71/appgw01.png){: "width=60%" }
+![](/assets/img/73/appgw01.png){: "width=60%" }
 
 Forneça os seguintes detalhes básicos para a nova instância do application gateway.
 
@@ -46,7 +46,7 @@ Forneça os seguintes detalhes básicos para a nova instância do application ga
 - Region: **(US) East US**
 - Virtual Network: **Create new**
 
-![](/assets/img/71/appgw02.png){: "width=60%" }
+![](/assets/img/73/appgw02.png){: "width=60%" }
 
 Para VNET, forneça os seguintes detalhes:
 
@@ -54,7 +54,7 @@ Para VNET, forneça os seguintes detalhes:
 - Address range: **10.0.0.0/16**
 - Subnet name: **snet-appgw-01**
 
-![](/assets/img/71/appgw03.png){: "width=60%" }
+![](/assets/img/73/appgw03.png){: "width=60%" }
 
 Após a criação do recurso, adicionar a subnet de backend à VNET.
 
@@ -62,7 +62,7 @@ Após a criação do recurso, adicionar a subnet de backend à VNET.
 - Subnet name: **snet-backend-01**
 - Address range: **10.0.1.0/24**
 
-![](/assets/img/71/appgw04.png){: "width=60%" }
+![](/assets/img/73/appgw04.png){: "width=60%" }
 
 Aceite os valores padrão para as outras configurações e selecione avançar.
 
@@ -70,39 +70,39 @@ Na guia **Frontends**, verifique se o tipo de endereço IP do frontend está def
 
 Selecione Adicionar novo para o endereço IP público e digite **pip-aapgw-01** para o nome do endereço IP público e selecione OK.
 
-![](/assets/img/71/appgw05.png){: "width=60%" }
+![](/assets/img/73/appgw05.png){: "width=60%" }
 
 Na guia **Backends**, selecione Adicionar um **backend pool**.
 
 Insira os seguintes valores para criar um backend pool vazio:
 
-![](/assets/img/71/appgw06.png){: "width=60%" }
+![](/assets/img/73/appgw06.png){: "width=60%" }
 
 Na guia **Configuration**, você conectará o pool de front-end e back-end usando uma regra de roteamento.
 
 Na coluna **Routing rules**, selecione Adicionar uma regra de roteamento.
 
-![](/assets/img/71/appgw07.png){: "width=60%" }
+![](/assets/img/73/appgw07.png){: "width=60%" }
 
 Na guia **Listener**, insira ou selecione as seguintes informações:
 
-![](/assets/img/71/appgw08.png){: "width=60%" }
+![](/assets/img/73/appgw08.png){: "width=60%" }
 
 Na guia **Backend targets**, insira ou selecione as seguintes informações:
 
-![](/assets/img/71/appgw09.png){: "width=60%" }
+![](/assets/img/73/appgw09.png){: "width=60%" }
 
-![](/assets/img/71/appgw10.png){: "width=60%" }
+![](/assets/img/73/appgw10.png){: "width=60%" }
 
 Aceite os valores padrão para as outras configurações.
 
-![](/assets/img/71/appgw11.png){: "width=60%" }
+![](/assets/img/73/appgw11.png){: "width=60%" }
 
 Selecione Next **Tags**, e em seguida, **Review + create**.
 
 Revise as configurações na guia **Review + create**
 
-![](/assets/img/71/appgw12.png){: "width=60%" }
+![](/assets/img/73/appgw12.png){: "width=60%" }
 
 ### **2.1 Criar máquinas virtuais para validação e testes**
 
@@ -128,7 +128,7 @@ Siga os seguintes passos:
 
 No portal do Azure, abra uma sessão do Cloud Shell com PowerShell.
 
-![](/assets/img/71/appgw13.png){: "width=60%" }
+![](/assets/img/73/appgw13.png){: "width=60%" }
 
 Na barra de ferramentas do painel Cloud Shell, selecione o ícone **Upload/Download**  arquivos, no menu suspenso, selecione **Upload** e carregue os seguintes arquivos `01_az_backend.json` e `02_backend.parameters.json` no diretório inicial do Cloud Shell, um por um.
 
@@ -139,11 +139,11 @@ $RGName = "rg-unicast-appgw"
 New-AzResourceGroupDeployment -ResourceGroupName $RGName -TemplateFile 01_az_backend.json -TemplateParameterFile 02_az_backend.parameters.json
 ````
 
-![](/assets/img/71/appgw14.png){: "width=60%" }
+![](/assets/img/73/appgw14.png){: "width=60%" }
 
 Quando o deploy estiver concluído, acesse a página inicial do portal do Azure, selecione Máquinas Virtuais e verifique se ambas as máquinas virtuais foram criadas.
 
-![](/assets/img/71/appgw15.png){: "width=60%" }
+![](/assets/img/73/appgw15.png){: "width=60%" }
 
 ### **3.1. Adicionando backend servers no backend pool**
 
@@ -153,21 +153,21 @@ No menu portal do Azure, selecione **All resources** ou procure e selecione Todo
 2. Selecione **BackendPool**.
 3. Na página de edição, em **Backend targets**, **Target type**, selecione Máquina virtual e adicione as duas máquinas virtuais criadas.
 
-![](/assets/img/71/appgw16.png){: "width=60%" }
+![](/assets/img/73/appgw16.png){: "width=60%" }
 
 ### **4.1 Testando o Application Gateway**
 
 Vá até a aba **Overview** do application gateway, copie o IP público e cole em seu navegador.
 
-![](/assets/img/71/appgw17.png){: "width=60%" }
+![](/assets/img/73/appgw17.png){: "width=60%" }
 
 Verifique a resposta. Uma resposta válida verifica se o gateway de aplicativo foi criado com êxito e pode se conectar com êxito ao back-end.
 
-![](/assets/img/71/appgw18.png){: "width=60%" }
+![](/assets/img/73/appgw18.png){: "width=60%" }
 
 Atualize o navegador várias vezes e você verá as conexões com a VM1 e VM2.
 
-![](/assets/img/71/appgw19.png){: "width=60%" }
+![](/assets/img/73/appgw19.png){: "width=60%" }
 
 Parabéns! Você configurou e testou um **Application Gateway** do Azure.
 
