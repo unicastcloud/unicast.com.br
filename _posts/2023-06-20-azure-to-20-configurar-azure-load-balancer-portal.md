@@ -257,10 +257,33 @@ Selecione **Review + create.**
 
 ### **6.1 Testando o Load Balancer**
 
+Vamos agora fazer o acesso a nossa VM de testes e testar nosso load balancer.
 
+Vá até o load balancer, em **Overview** anote o endereço IP privado.
 
+![](/assets/img/71/lb21.png){: "width=60%" }
 
+Vá agora na VM de testes criada anteriormente, em **Overview** selecione **Connect**.
 
+![](/assets/img/71/lb22.png){: "width=60%" }
+
+Em seguida, selecione a opção **Bastion**.
+
+![](/assets/img/71/lb23.png){: "width=60%" }
+
+Insira as credenciais e clique em **Connect**.
+
+![](/assets/img/71/lb24.png){: "width=60%" }
+
+A janela com a VM **amyTestVM** será aberta em outra guia do navegador.
+
+Agora, abra o **Internet Explorer**, e insira o **endereço privado** do load balancer.
+
+![](/assets/img/71/lb25.png){: "width=60%" }
+
+Se você selecionar o botão de atualização no navegador algumas vezes, verá que a resposta vem aleatoriamente de diferentes VMs no pool de back-end do balanceador de carga interno.
+
+![](/assets/img/71/lb26.png){: "width=60%" }
 
 Parabéns! Você configurou e testou um **Load Balancer** do Azure.
 
