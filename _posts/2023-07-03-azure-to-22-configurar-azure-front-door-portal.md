@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Azure-To] #21 Configurar Azure Front Door [Portal]"
+title: "[Azure-To] #22 Configurar Azure Front Door [Portal]"
 author: asilva
 date: 2023-07-03 09:00 -0300
 categories: [Cloud, Azure]
