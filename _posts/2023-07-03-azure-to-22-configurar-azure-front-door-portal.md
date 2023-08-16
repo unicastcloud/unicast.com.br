@@ -53,7 +53,7 @@ Forneça os seguintes detalhes:
 - Publish: **Code**
 - Runtime stack: **NET 6 (LTS)**
 - Operating System: **Windows** 
-- Region: **(US) Central US**
+- Region: **Brazil South**
 - Windows Plan: crie um novo plano **myAppServicePlanBrazilSouth**
 - Princing Plan: **Standard S1 100 total ACU, 1.75 GB memory**
 
@@ -71,7 +71,7 @@ Forneça os seguintes detalhes:
 - Publish: **Code**
 - Runtime stack: **NET 6 (LTS)**
 - Operating System: **Windows** 
-- Region: **(US) Central US**
+- Region: **(US) East US**
 - Windows Plan: crie um novo plano **myAppServicePlanEastUs**
 - Princing Plan: **Standard S1 100 total ACU, 1.75 GB memory**
 
