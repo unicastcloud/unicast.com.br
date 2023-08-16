@@ -93,7 +93,7 @@ Forneça os seguintes detalhes:
 - Resource group: selecione seu grupo de recursos ou crie um novo.
 - Resource group location: **Brazil South**.
 
-![](/assets/img/74/frontdoor07.png){: "width=60%" }
+![](/assets/img/75/traffic07.png){: "width=60%" }
 
 Selecione **Create.**
 
