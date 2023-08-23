@@ -53,7 +53,7 @@ A adição desse recurso reflete o compromisso da Microsoft em fornecer certific
 
 **Demonstração completa do novo recurso:** <a href="https://www.microsoft.com/videoplayer/embed/RW1a0L5" target="_blank"> Microsoft new exam resource video.</a> 
 
-### **4. Conclusão**
+### **Conclusão**
 
 O acesso ao Microsoft Learn durante os exames de certificação representa um avanço no processo de avaliação. No entanto, sua aplicação requer uma abordagem estratégica.
 
