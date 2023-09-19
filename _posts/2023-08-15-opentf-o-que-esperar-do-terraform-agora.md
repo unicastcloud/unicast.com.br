@@ -15,19 +15,19 @@ Essa mudança causou um alvoroço na comunidade de DevOps, levando a discussões
 
 Neste artigo, vamos explorar os eventos que levaram a essa mudança e o surgimento do *OpenTF*, bem como as incertezas que pairam sobre o horizonte.
 
-### **1. O Terraform e Sua Jornada Open Source**
+### **1. O Terraform e sua jornada open source**
 
 Para quem não está familiarizado, o Terraform é uma das ferramentas mais populares no universo da infraestrutura como código (IaC). Desenvolvido pela HashiCorp, o Terraform permitiu que equipes automatizassem a criação e gerenciamento de infraestrutura em diversos provedores de nuvem. Mas eis que surge uma reviravolta: a HashiCorp decidiu adotar uma nova licença para o Terraform, gerando um misto de expectativas e ansiedades na comunidade.
 
 Desde o seu início, o Terraform conquistou corações e mentes com sua abordagem revolucionária de automação de infraestrutura. Construído como um projeto de código aberto, o Terraform operou sob a licença Mozilla Public License v2 (MPL v2), permitindo que a comunidade contribuísse, adaptasse e utilizasse a ferramenta livremente.
 
-### **2. O Anúncio da Mudança de Licença**
+### **2. O anúncio da mudança de licença**
 
 A HashiCorp anunciou a mudança de licença do Terraform para a Business Source License v1.1 (BSL v1.1).
 
 Antes de entrarmos em detalhes sobre o que o OpenTF significa, vamos esclarecer a troca de licença. A HashiCorp optou por mudar o Terraform para uma licença "Business Source License" (BSL). Isso significa que o código do Terraform permanece open source, mas com algumas restrições para usos comerciais. Em essência, essa mudança visa garantir o desenvolvimento sustentável do projeto.
 
-### **3. O Nascimento do OpenTF**
+### **3. O nascimento do OpenTF**
 
 o OpenTF é um fork do Terraform, criado como resposta à mudança de licença da HashiCorp. Um grupo de entusiastas do Terraform decidiu criar uma alternativa para manter o projeto verdadeiramente open source e comunitário. Este movimento foi impulsionado por preocupações sobre as implicações da nova licença no desenvolvimento colaborativo e no acesso à ferramenta.
 
@@ -35,7 +35,7 @@ O manifesto do OpenTF destaca esses princípios e o compromisso de manter o Terr
 
 Você pode conferir o manifesto <a href="https://opentf.org/announcement" target="_blank"> aqui</a>.
 
-### **4. Incertezas no Horizonte**
+### **4. Incertezas no horizonte**
 
 Com essas mudanças, surgem várias incertezas. Não sabemos se a HashiCorp continuará a disponibilizar uma versão gratuita do Terraform como fazia até então. Também não temos garantia de que o OpenTF será amplamente adotado pela comunidade, e como isso afetará o desenvolvimento e a manutenção da ferramenta.
 
