@@ -19,7 +19,7 @@ Este ano estou focando meus estudos no mundo DevOps, e com isso voltei a utiliza
 
 Mas passou, hoje em dia não tenho tempo para lidar com a dependência de alguns softwares que não são suportados para o Linux, e para minha produtividade, ter meu ambiente principal em Windows, ainda é mais produtivo. Com isso, fico com o WSL2 que por sinal me atende muito bem.
 
-Aliás, se você não sabe como instalar o WSL2 no seu Windows, segue este artigo: <http://www.unicast.com.br/posts/configurando-o-wsl2-no-windows-10.html>
+Aliás, se você não sabe como instalar o WSL2 no seu Windows, segue este artigo: <https://www.unicast.com.br/posts/configurando-o-wsl2-no-windows-10.html>
 
 No final das contas, nunca deixei de utilizar o Linux.
 

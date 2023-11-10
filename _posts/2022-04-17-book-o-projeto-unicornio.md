@@ -13,7 +13,7 @@ Recentemente acabei de ler O Projeto Unicórnio de Gene Kim. E mais uma vez, um 
 
 ![](/assets/img/21/unicornio1.jpg){: "width=60%" }
 
-O livro se concentra na parte de desenvolvimento do Projeto Unicórnio da Parts Unlimited, que foi introduzido no conhecido livro [O projeto Fênix](http://www.unicast.com.br/posts/book-o-projeto-fenix.html) que já fiz uma resenha aqui no site.
+O livro se concentra na parte de desenvolvimento do Projeto Unicórnio da Parts Unlimited, que foi introduzido no conhecido livro [O projeto Fênix](https://www.unicast.com.br/posts/book-o-projeto-fenix.html) que já fiz uma resenha aqui no site.
 
 O projeto Unicórnio foi lançado no final de 2019 e basicamente é uma continuação do **Projeto Fênix**. Se você ainda não leu, sugiro começar por ele!
 

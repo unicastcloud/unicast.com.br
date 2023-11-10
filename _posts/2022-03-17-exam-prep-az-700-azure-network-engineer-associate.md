@@ -21,7 +21,7 @@ Como coordenador na Solo Network, sou responsável por garantir que as demandas 
 
 Ainda quero trazer bastante material sobre esta certificação, fiquem ligados!
 
-Mas voltando ao foco principal, eu estava muito animado em realizar este exame, e até escrevi sobre ele aqui no site: <a href="http://www.unicastlab.com.br/exame-az-700-azure-network-engineer-associate.html" target="_blank">Exame AZ-700 Azure Network Engineer Associate.</a>
+Mas voltando ao foco principal, eu estava muito animado em realizar este exame, e até escrevi sobre ele aqui no site: <a href="https://www.unicastlab.com.br/exame-az-700-azure-network-engineer-associate.html" target="_blank">Exame AZ-700 Azure Network Engineer Associate.</a>
 
 Como sou da área de redes, eu queria muito fazer este exame logo no lançamento.
 

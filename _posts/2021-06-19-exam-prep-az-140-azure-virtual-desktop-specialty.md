@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Final de semana começando e estou muito feliz em compartilhar com vocês minha experiência no exame Exam <a href="https://docs.microsoft.com/en-us/learn/certifications/exams/az-140" target="_blank">AZ-140: Configuring and Operating Microsoft Azure Virtual Desktop - Learn | Microsoft Docs.</a>
 
-Como mencionei anteriormente o [Exame AZ-140 Azure Virtual Desktop Specialty - Unicast Cloud](http://www.unicast.com.br/exame-az-140-azure-virtual-desktop-specialty.html), saiu de sua fase beta para regular no dia 10/06, então já estava na expectativa dos resultados.
+Como mencionei anteriormente o [Exame AZ-140 Azure Virtual Desktop Specialty - Unicast Cloud](https://www.unicast.com.br/exame-az-140-azure-virtual-desktop-specialty.html), saiu de sua fase beta para regular no dia 10/06, então já estava na expectativa dos resultados.
 
 Eu estava muito animado em fazer este exame, nos últimos meses venho trabalhando com AVD diariamente, e queria testar meus conhecimentos. 
 
