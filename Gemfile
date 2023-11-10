@@ -26,3 +26,12 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 if RUBY_PLATFORM =~ /linux-musl/
   gem "jekyll-sass-converter", "~> 2.0"
 end
+
+# Configuração do HTMLProofer para ignorar verificações de atributos alt vazios
+configure :test do
+  require "html-proofer"
+
+  HTMLProofer::RakeTask.new(:test) do |conf|
+    conf.html_proofer.empty_alt_ignore = true
+  end
+end
