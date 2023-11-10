@@ -5,12 +5,7 @@ source "https://rubygems.org"
 gem "jekyll-theme-chirpy", "~> 6.3"
 
 group :test do
-  gem "html-proofer", "~> 4.4" do
-    gem "safe_yaml", "~> 1.0" # Adicione essa linha se ainda não estiver presente
-
-    # Adicione a opção --empty_alt_ignore ao html-proofer
-    link "--empty_alt_ignore"
-  end
+  gem "html-proofer", "~> 4.4"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
