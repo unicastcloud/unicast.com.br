@@ -5,7 +5,12 @@ source "https://rubygems.org"
 gem "jekyll-theme-chirpy", "~> 6.3"
 
 group :test do
-  gem "html-proofer", "~> 3.18"
+  gem "html-proofer", "~> 4.4" do
+    gem "safe_yaml", "~> 1.0" # Adicione essa linha se ainda não estiver presente
+
+    # Adicione a opção --empty_alt_ignore ao html-proofer
+    link "--empty_alt_ignore"
+  end
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -25,13 +30,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # Lock jekyll-sass-converter to 2.x on Linux-musl
 if RUBY_PLATFORM =~ /linux-musl/
   gem "jekyll-sass-converter", "~> 2.0"
-end
-
-# Configuração do HTMLProofer para ignorar verificações de atributos alt vazios
-configure :test do
-  require "html-proofer"
-
-  HTMLProofer::RakeTask.new(:test) do |conf|
-    conf.html_proofer.empty_alt_ignore = true
-  end
 end
