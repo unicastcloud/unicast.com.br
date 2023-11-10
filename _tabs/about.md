@@ -5,7 +5,7 @@ order: 4
 ---
 
 <p>
-<img src="/assets/img/asilva.png">
+<img src="/assets/img/asilva.png" alt="">
 </p>
 
 ## **Olá 👋**
@@ -26,14 +26,14 @@ Sou criador da comunidade **Azure Brasil no Discord** e estou sempre disposto a 
 ### **Conecte-se comigo:**
 
 <div> 
-  <a href="https://www.linkedin.com/in/antoniocarlosjr" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=fflat&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="https://www.instagram.com/jr_silva19/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/antoniocarlosjr" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=fflat&logo=linkedin&logoColor=white" target="_blank" alt=""></a>
+  <a href="https://www.instagram.com/jr_silva19/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" target="_blank" alt=""></a>
 </div>
 
 ----
 
 <p>
-<img src="/assets/img/rpaliosa.png">
+<img src="/assets/img/rpaliosa.png" alt="">
 </p>
 
 ## **Olá 👋**
@@ -49,6 +49,6 @@ Entre 2019 e 2021 morei no Japão, onde tive intenso contato com a cultura, disc
 ### **Conecte-se comigo:**
 
 <div> 
-  <a href="https://www.linkedin.com/in/rodrigo-paliosa/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=fflat&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="https://www.instagram.com/rodrigo.paliosa/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/rodrigo-paliosa/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=fflat&logo=linkedin&logoColor=white" target="_blank" alt=""></a>
+  <a href="https://www.instagram.com/rodrigo.paliosa/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" target="_blank" alt=""></a>
 </div>
