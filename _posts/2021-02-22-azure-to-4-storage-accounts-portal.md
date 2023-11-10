@@ -81,7 +81,7 @@ Com seu File Share criado, você poderá realizar o mapeamento em seu computador
 
 Navegue até o **File Share** que você criou, clique em **Connect**. No menu a direita será exibido as informações necessárias para efetuar o compartilhamento com seu computador. Basta selecionar o **Sistema Operacional**, cópiar o código e utiliza-lo em seu computador.
 
-![](//assets/img/02/storage6.png){: "width=60%" }
+![](/assets/img/02/storage6.png){: "width=60%" }
 
 É isso galera, o processo é bem simples.
 

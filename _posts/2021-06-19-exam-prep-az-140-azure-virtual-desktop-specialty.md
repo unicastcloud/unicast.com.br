@@ -29,7 +29,7 @@ Bom, sem mais delongas, vamos ao que interessa!
 * Manage User Environments and Apps (20-25%)
 * Monitor and Maintain an Azure Virtual Desktop Infrastructure (20-25%)
 
-Segue o link do conteúdo completo que é cobrado na prova: <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4MFST" target="_blank">Skills Measured.</a> 
+Segue o link do conteúdo completo que é cobrado na prova: <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4MFST" target="_blank" alt="">Skills Measured.</a> 
 
 ### **Material utilizado**
 
@@ -39,7 +39,7 @@ No meu caso, trabalho quase diariamente com ambientes AVD, então estava confort
 
 Para uma revisão mais focada no exame eu assisti uma série de vídeos da Azure Academy produzido pelo **Dean Cefola**, o material é muito bom, cobre os temas da prova e a explicação do Dean é excelente.
 
-Segue a playlist referente ao exame AZ-140: <a href="https://www.youtube.com/playlist?list=PL-V4YVm6AmwW1DBM25pwWYd1Lxs84ILZT" target="_blank">Want to ACE The AZ-140 WVD Exam, Start Here! - YouTube</a>
+Segue a playlist referente ao exame AZ-140: <a href="https://www.youtube.com/playlist?list=PL-V4YVm6AmwW1DBM25pwWYd1Lxs84ILZT" target="_blank" alt="">Want to ACE The AZ-140 WVD Exam, Start Here! - YouTube</a>
 
 ### **Sobre o exame**
 

@@ -33,6 +33,6 @@ Seja qual for seu nível profissional com TI, este é um livro que você não po
 
 E digo mais, se você não trabalha com TI e gostaria de entender um pouco mais sobre este universo, projeto fênix é uma excelente leitura.
 
-O livro está disponível em formato digital e físico: <a href="https://www.amazon.com.br/projeto-f%C3%AAnix-comemorativa-romance-neg%C3%B3cio/dp/8550814067/ref=sr_1_1?crid=9HM24X13U2T&keywords=projeto+fenix&qid=1654458718&sprefix=projeto+fe%2Caps%2C181&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12" target="_blank"> O projeto fênix – Edição comemorativa: um romance sobre TI, DevOps e sobre ajudar o seu negócio a vencer | Amazon.com.br</a> 
+O livro está disponível em formato digital e físico: <a href="https://www.amazon.com.br/projeto-f%C3%AAnix-comemorativa-romance-neg%C3%B3cio/dp/8550814067/ref=sr_1_1?crid=9HM24X13U2T&keywords=projeto+fenix&qid=1654458718&sprefix=projeto+fe%2Caps%2C181&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12" target="_blank" alt=""> O projeto fênix – Edição comemorativa: um romance sobre TI, DevOps e sobre ajudar o seu negócio a vencer | Amazon.com.br</a> 
 
 Boa leitura a todos e um forte abraço.
