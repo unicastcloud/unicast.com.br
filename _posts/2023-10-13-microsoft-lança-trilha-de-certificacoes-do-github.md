@@ -32,13 +32,13 @@ A Trilha de Certificações do GitHub inclui várias certificações diferentes,
 **Certificação GitHub Fundations** Será a certificação que destaca sua compreensão dos tópicos e conceitos sobre os fundamentos de open-source, contribuição e tarefas do GitHub.
 Este Exame irá abranger em conhecimento a colaboração, os produtos do GitHub, básico de Git e como trabalhar com os repositórios do GitHub.
 
-**Material de estudo:** <a href="https://learn.microsoft.com/en-us/collections/o1njfe825p602p" target="_blank"> GitHub Fundations.</a> 
+**Material de estudo:** <a href="https://learn.microsoft.com/en-us/collections/o1njfe825p602p" target="_blank"> GitHub Foundations.</a> 
 
 ![](/assets/img/77/02.jpeg){: "width=60%" } 
 
 **Certificação GitHub Actions** Será a certificação que destaca a sua proficiência em automatizar fluxos de trabalho e acelerar o desenvolvimento com o GitHub Actions. Teste suas habilidades para simplificar o fluxo de trabalho, automatizar tarefas e otimizar pipelines de software, incluindo CI/CD, tudo em fluxo de trabalho personalizáveis.
 
-**Material de estudo:** <a href="https://learn.microsoft.com/en-us/collections/n5p4a5z7keznp5" target="_blank"> GitHub Fundations.</a> 
+**Material de estudo:** <a href="https://learn.microsoft.com/en-us/collections/n5p4a5z7keznp5" target="_blank"> GitHub Actions.</a> 
 
 ![](/assets/img/77/03.jpeg){: "width=60%" } 
 
@@ -68,7 +68,7 @@ Então, o que você está esperando? Vá em frente, estude, e já se inscreva na
 
 ![](/assets/img/77/05.jpeg){: "width=60%" } 
 
-**Lista de espera:** <a href="https://resources.github.com/learn/certifications/" target="_blank"> Join the waitlist.</a> 
+**Lista de espera:** <a href="https://resources.github.com/learn/certifications/" target="_blank"> Join the whitelist.</a> 
 
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para compartilhá-los conosco na seção de comentários abaixo!
 
