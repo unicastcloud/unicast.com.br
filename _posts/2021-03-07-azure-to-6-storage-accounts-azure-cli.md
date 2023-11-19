@@ -19,7 +19,7 @@ Novamente a dica é simples, mas o intuito é lhe encorajar a utilizar mais coma
 
 Criar uma Storage Account via Azure CLI.
 
-### **1.1 Definindo as variáveis de rede**
+## **1.1 Definindo as variáveis de rede**
 
 ```bash
 resourceGroup='lab01-RG'

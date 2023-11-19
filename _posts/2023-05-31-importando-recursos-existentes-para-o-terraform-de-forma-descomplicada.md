@@ -13,13 +13,13 @@ Importar recursos existentes para o Terraform pode ser um desafio. No nosso últ
 
 Agora, vamos abordar duas ferramentas populares que podem facilitar a importação de recursos: o **Terraformer** e o **Terrafy**. Vamos explorar cada uma delas e fornecer exemplos de casos de uso reais.
 
-### **1. Dificuldades de importar recursos existentes para o Terraform**
+## **1. Dificuldades de importar recursos existentes para o Terraform**
 
 Quando se trata de importar recursos existentes para o Terraform, os desafios podem surgir devido à necessidade de sincronizar o estado atual com a configuração gerenciada pelo Terraform. 
 
 Isso pode envolver a criação de definições de recursos no formato **HCL (HashiCorp Configuration Language)** e a manutenção de um estado consistente. Felizmente, existem ferramentas que podem nos ajudar a simplificar esse processo.
 
-### **2. O que é o Terraformer?**
+## **2. O que é o Terraformer?**
 
 O **Terraformer** é uma ferramenta desenvolvida pela equipe de engenharia do **Waze SRE (Site Reliability Engineering)** para facilitar a importação de recursos existentes de provedores de nuvem para o Terraform. Ele é uma opção poderosa e flexível para a importação de recursos do **Azure**, **AWS**, **Google Cloud Platform** e outros provedores de nuvem populares.
 
@@ -29,7 +29,7 @@ O **Terraformer** utiliza as APIs dos provedores de nuvem para obter informaçõ
 
 Essa abordagem automatizada simplifica o processo de importação de recursos para o Terraform, poupando tempo e esforço manual na criação dessas configurações. Além disso, o Terraformer suporta a importação incremental, permitindo que você atualize e gerencie recursos importados com facilidade.
 
-### **3. Por que usar o Terraformer?**
+## **3. Por que usar o Terraformer?**
 
 O **Terraformer** oferece várias vantagens ao importar recursos existentes para o Terraform:
 
@@ -37,7 +37,7 @@ O **Terraformer** oferece várias vantagens ao importar recursos existentes para
 - **Conformidade com as boas práticas do Terraform:** A ferramenta gera automaticamente arquivos de configuração do Terraform que seguem as melhores práticas recomendadas.
 - **Suporte a vários provedores:** O Terraformer suporta diversos provedores de nuvem, permitindo importar recursos de diferentes ambientes.
 
-### **4. Usando o Terraformer na prática**
+## **4. Usando o Terraformer na prática**
 
 Agora, vamos ver como utilizar o Terraformer na prática para importar um Network Security Group (NSG) do Azure para o Terraform.
 
@@ -102,7 +102,7 @@ Resumindo, este é o fluxo de trabalho do Terraformer:
 3. **terraformer** converte o estado em configuração com base no esquema do provedor (**terraform providers schema**)
 4. Adiciona dependências cruzadas de recursos à configuração.
 
-### **5. O que é o Terrafy?**
+## **5. O que é o Terrafy?**
 
 O **Terrafy** é uma ferramenta desenvolvida para simplificar a importação de recursos existentes do Microsoft Azure para o Terraform. Diferentemente do Terraformer, que é uma ferramenta mais abrangente, o **Terrafy** é específico para o Azure e oferece recursos especializados para facilitar a migração de recursos desse provedor para o Terraform.
 
@@ -110,14 +110,14 @@ O **Terrafy** foi projetado com o objetivo de simplificar o processo de importa�
 
 Com o **Terrafy**, você pode importar recursos do Azure para o Terraform de maneira mais eficiente. A ferramenta utiliza a API do Azure para obter informações sobre os recursos existentes, como máquinas virtuais, grupos de recursos, redes, políticas, entre outros. Em seguida, o Terrafy gera os arquivos de configuração do Terraform correspondentes.
 
-### **6. Por que usar o Terrafy?**
+## **6. Por que usar o Terrafy?**
 
 O **Terrafy** oferece vantagens semelhantes ao Terraformer, com foco específico no Azure:
 
 - **Simplicidade**: O Terrafy foi projetado para ser fácil de usar, com uma configuração simplificada.
 - **Suporte especializado para o Azure**: O Terrafy oferece recursos específicos do Azure, como a importação de recursos do Azure Policy.
 
-### **7. Usando o Terrafy na prática**
+## **7. Usando o Terrafy na prática**
 
 Agora, vamos explorar o uso do Terrafy para importar um Network Security Group (NSG) do Azure para o Terraform.
 
@@ -180,7 +180,7 @@ Resumindo, este é o fluxo de trabalho do Terrafy:
 - **aztfy** pede ao usuário para inserir o identificador de recurso do Terraform para cada recurso do Azure
 - **aztfy** importa automaticamente cada recurso para o estado e converter o estado em uma configuração de terraform válida
 
-### **8. Comparando o Terraformer x Terrafy**
+## **8. Comparando o Terraformer x Terrafy**
 
 Ao comparar o Terraformer e o Terrafy para importar recursos existentes do Azure para o Terraform, é importante entender suas diferenças e considerar suas respectivas vantagens. 
 
@@ -213,7 +213,7 @@ Ao comparar o Terraformer e o Terrafy para importar recursos existentes do Azure
 - A configuração gerada não garante ser válida
 - Sem dependências cruzadas de recursos
 
-### **9. Conclusão**
+## **9. Conclusão**
 
 Após testar ambas as ferramentas, é evidente que elas podem funcionar como uma maneira conveniente de codificar a infraestrutura existente, mas cada uma delas possui suas limitações. 
 

@@ -24,18 +24,18 @@ O MikroTik possui vários modelos de dispositivos de rede, sugiro você dar uma 
 
 Implantar uma VPN Site to Site com Microsoft Azure e Mikrotik RouterOS.
 
-### **Cenário proposto**
+## **Cenário proposto**
 
 ![](/assets/img/26/mikrotik1.png){: "width=60%" }
 
 Informações relevantes para a configuração do laboratório:
 
-### **Microsoft Azure**
+## **Microsoft Azure**
 
 - VNET: 10.0.0.0/24
 - Public IP: 13.85.83.ZZ (trocar para seu cenário)
 
-### **Unicast on-premises**
+## **Unicast on-premises**
 
 - VNET: 172.16.0.0/24
 - Public IP: 47.180.119.YY (trocar para seu cenário)

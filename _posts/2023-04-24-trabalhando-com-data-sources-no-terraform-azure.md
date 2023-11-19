@@ -13,15 +13,15 @@ Estamos de volta com mais um post da série de artigos sobre **Terraform**. Se v
 
 Neste artigo, vamos falar sobre como trabalhar com **Data Sources** no **Terraform**. Se você já está familiarizado com o **Terraform**, deve saber que ele é uma ferramenta incrível para gerenciamento de infraestrutura como código. E uma das grandes vantagens do **Terraform** é a possibilidade de usar **Data Sources** para obter informações de recursos já existentes.
 
-### **1. Mas o que é um Data Source?**
+## **1. Mas o que é um Data Source?**
 
 Um **Data Source** no **Terraform** é um tipo de recurso que permite obter informações de um recurso existente. Diferentemente dos recursos que criamos com o Terraform, os **Data Sources** não criam nada, eles apenas fornecem informações para serem usadas em outros recursos. Eles são muito úteis quando precisamos de informações sobre um recurso que já existe e que precisamos usar em outros recursos que estamos criando.
 
-### **2. Por que utilizar Data Sources?**
+## **2. Por que utilizar Data Sources?**
 
 A principal vantagem de usar **Data Sources** é que eles permitem que possamos reutilizar recursos existentes em nosso ambiente de infraestrutura. Quando precisamos criar novos recursos, é muito comum precisarmos de informações que já existem em outros recursos, como o ID de um recurso, o nome de uma rede, entre outras informações. Em vez de criar tudo do zero, podemos usar os **Data Sources** para obter essas informações e usá-las em nossos recursos.
 
-### **3. Como utilizar Data Sources?**
+## **3. Como utilizar Data Sources?**
 
 A sintaxe para criar um **Data Source** no Terraform é bastante simples. Primeiro, precisamos definir o tipo de **Data Source** que queremos usar (por exemplo, `"azurerm_resource_group"`). Em seguida, precisamos especificar os argumentos necessários para obter as informações que queremos. 
 
@@ -51,7 +51,7 @@ resource "azurerm_virtual_machine" "example" {
 
 Neste exemplo, estamos criando uma VM no Azure. Observe que estamos usando as informações obtidas do **Data Source** para definir a localização da VM e o nome do grupo de recursos. Essas informações são essenciais para criar a VM no ambiente correto.
 
-### **4. Exemplo de uso**
+## **4. Exemplo de uso**
 
 Agora que entendemos como os **Data Sources** funcionam no **Terraform**, vamos ver um exemplo real de como eles podem ser usados em um ambiente Azure.
 
@@ -126,7 +126,7 @@ data "azurerm_subnet" "example" {
 
 Neste exemplo, estamos criando uma nova **VM** no Azure e usando a mesma **VNet** de outro grupo de recursos. Observe que estamos usando o **Data Source** que criamos anteriormente para obter informações sobre a **VNet**. Estamos especificando o nome e o grupo de recursos da nova VM, além de outras informações como tamanho da VM, imagem do sistema operacional, nome da interface de rede, entre outras.
 
-### **5. Conclusão**
+## **5. Conclusão**
 
 Os **Data Sources** são uma poderosa ferramenta no Terraform que nos permitem reutilizar recursos existentes em nosso ambiente de infraestrutura. Eles nos permitem criar recursos de maneira mais eficiente, evitando duplicação de esforços e minimizando a possibilidade de erros.
 

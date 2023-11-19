@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Neste post, vamos discutir a importância de referenciar recursos criados por módulos Terraform e como fazer isso de forma eficiente. Aprender a referenciar corretamente os recursos é fundamental para garantir a integridade e a manutenibilidade de suas configurações de infraestrutura.
 
-### **1. O que são Terraform e Módulos Terraform?**
+## **1. O que são Terraform e Módulos Terraform?**
 
 Antes de mergulharmos nos detalhes sobre referenciar recursos de módulos Terraform, vamos entender o que são o Terraform e os módulos Terraform. O Terraform é uma ferramenta de infraestrutura como código (IaC) desenvolvida pela HashiCorp, que permite criar, modificar e gerenciar recursos de infraestrutura de forma declarativa. Com o Terraform, é possível descrever sua infraestrutura desejada em arquivos de configuração, chamados de arquivos de manifesto.
 
@@ -19,17 +19,17 @@ Os módulos Terraform, por sua vez, são blocos de construção reutilizáveis q
 
 Confira mais sobre módulos no Terraform em nosso artigo: <a href="https://unicast.com.br/posts/criando-seu-primeiro-modulo-no-terraform-azure/" target="_blank">Criando seu primeiro módulo no Terraform [Azure]</a>.
 
-### **2. A Importância de referenciar módulos**
+## **2. A Importância de referenciar módulos**
 
 Quando você usa módulos Terraform em suas configurações, é essencial referenciar corretamente os recursos criados por esses módulos em outros lugares do seu código. Isso é importante para garantir que suas configurações estejam corretamente conectadas e que os recursos dependam uns dos outros da maneira esperada.
 
 Ao referenciar um recurso de um módulo, você está estabelecendo uma dependência explícita entre esse recurso e outros recursos que o utilizam. Isso permite que o Terraform gerencie corretamente a ordem de criação, atualização e destruição desses recursos. Além disso, a referência adequada a recursos de módulos facilita a manutenção e a escalabilidade de suas configurações.
 
-### **3. Identificar recursos e fontes de dados**
+## **3. Identificar recursos e fontes de dados**
 
 Primeiro, identifique os recursos e fontes de dados que podem ser separados em arquivos individuais. No nosso exemplo, temos um recurso de grupo de recursos, uma rede virtual e uma VM.
 
-### **4. Exemplo de uso**
+## **4. Exemplo de uso**
 
 Vamos explorar um exemplo mais robusto para entender melhor como referenciar um recurso criado por um módulo Terraform em outro módulo no Microsoft Azure. Além disso, veremos como utilizar o `depends_on` para estabelecer a ordem correta de criação dos recursos.
 
@@ -77,7 +77,7 @@ No exemplo acima, estamos utilizando a cláusula `depends_on` para estabelecer a
 
 Além disso, estamos referenciando a saída `database_server_name` do módulo de banco de dados SQL utilizando `module.database.database_server_name`. Essa referência permite que o servidor de aplicativos utilize corretamente o nome do servidor de banco de dados na sua configuração.
 
-### **5. Conclusão**
+## **5. Conclusão**
 
 É importante ressaltar que este foi um exemplo básico para ilustrar os conceitos de referência entre módulos e dependência. Na prática, você pode criar infraestruturas muito mais complexas e escaláveis usando esses conceitos.
 

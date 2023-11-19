@@ -15,13 +15,13 @@ O **null_resource** é mais uma ferramenta poderosa que o **Terraform** oferece 
 
 Vamos nos aprofundar nos detalhes do **null_resource** e ver como ele pode ser usado para tarefas que não exigem a criação de recursos de infraestrutura. Vamos lá!
 
-### **1. O que é o null_resource?**
+## **1. O que é o null_resource?**
 
 O **null_resource** é um recurso especial fornecido pelo Terraform que permite executar ações sem criar nenhum recurso físico na infraestrutura. Em vez de provisionar um recurso como uma instância de máquina virtual, um banco de dados ou uma rede, o **null_resource** pode ser usado para executar comandos locais, scripts, chamadas de API ou qualquer outra ação que não precise ser representada por um recurso específico.
 
 No Terraform, os recursos **null_resource** são úteis quando você precisa executar um script localmente, interagir com uma API externa, realizar tarefas de pós-provisionamento ou até mesmo como uma forma de realizar operações customizadas e flexíveis.
 
-### **2. Casos de uso do null_resource**
+## **2. Casos de uso do null_resource**
 
 Agora que entendemos o que é o **null_resource**, vamos explorar alguns dos casos de uso em que ele pode ser aplicado:
 
@@ -29,7 +29,7 @@ Agora que entendemos o que é o **null_resource**, vamos explorar alguns dos cas
 - **Chamadas de API:** Com o null_resource, você pode fazer chamadas de API para serviços externos, como notificar um serviço de monitoramento sobre a criação de um recurso ou enviar uma solicitação a um provedor de serviços externo.
 - **Operações customizadas:** Caso você precise executar tarefas customizadas que não estão disponíveis como recursos nativos do Terraform, o null_resource permite que você crie suas próprias lógicas e ações.
 
-### **3. O que é um trigger no null_resource?**
+## **3. O que é um trigger no null_resource?**
 
 No **null_resource**, um trigger é um evento ou condição que dispara a execução das ações definidas no recurso. Os triggers permitem que você controle quando o **null_resource** deve ser executado, garantindo que as ações ocorram apenas quando necessário.
 
@@ -39,7 +39,7 @@ Existem diferentes tipos de triggers disponíveis para o **null_resource**, como
 - **Variáveis:** Ao usar variáveis, você pode definir quando o null_resource deve ser acionado com base em determinados valores. Por exemplo, quando uma variável de ambiente atinge um certo estado.
 - **Dependências:** Ao especificar dependências em outros recursos do Terraform, você pode acionar o null_resource quando esses recursos forem modificados ou atualizados.
 
-### **4. Exemplo do null_resource com trigger**
+## **4. Exemplo do null_resource com trigger**
 
 Agora vamos mostrar um exemplo prático de como usar o **null_resource** com um trigger para executar uma ação após a criação de um recurso no Microsoft Azure.
 
@@ -68,7 +68,7 @@ Com esse exemplo, após a criação da instância de máquina virtual no Azure, 
 
 Você pode personalizar esse comando para realizar qualquer ação necessária após a criação do recurso.
 
-### **5. Conclusão**
+## **5. Conclusão**
 
 O **null_resource** é uma ferramenta poderosa no Terraform que permite executar ações sem criar recursos de infraestrutura. Com sua flexibilidade, você pode executar scripts locais, fazer chamadas de API e executar tarefas customizadas. Além disso, os triggers permitem controlar quando as ações devem ser executadas, adicionando ainda mais controle ao seu fluxo de trabalho.
 

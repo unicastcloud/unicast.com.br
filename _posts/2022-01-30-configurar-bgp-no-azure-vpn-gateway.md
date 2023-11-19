@@ -57,7 +57,7 @@ Mesmo assim, caso haja necessidade, posso abordar este tema em um outro artigo.
 
 Sem mais delongas, vamos para a configuração.
 
-### **1.1 Configurando virtual network gateway**
+## **1.1 Configurando virtual network gateway**
 
 Primeiro, vamos habilitar o BGP em nossa virtual network gateway. Essa configuração é referente ao BGP do lado do Azure. Iremos definir o IP e o ASN que irá fechar o peering com o ambiente local.
 
@@ -71,7 +71,7 @@ Em **Autonomous system number (ASN)**, vamos definir o ASN do lado do Azure como
 
 Feito isso, clique em save.
 
-### **2.1 Configurando local network gateway**
+## **2.1 Configurando local network gateway**
 
 Agora, vamos configurar as informações referente ao nosso ambiente local. Será algo bem parecido com a virtual network gateway, mas agora vamos apontar o IP e ASN configurados em nossa rede local.
 
@@ -83,7 +83,7 @@ Em nosso exemplo, vamos utilizar o IP **172.16.0.254** e o ASN **65020**.
 
 Feito isso, clique em save.
 
-### **3.1 Configurando a conexão**
+## **3.1 Configurando a conexão**
 
 Já com nossa virtual network gateway e local network gateway configurados no Azure, precisamos habilitar o BGP em nossa conexão.
 
@@ -93,7 +93,7 @@ Vá em **configuration**, em BGP clique em **enable**.
 
 Feito isso, clique em save.
 
-### **4.1 Verificando as rotas BGP**
+## **4.1 Verificando as rotas BGP**
 
 Com nossa conexão estabelecida, podemos verificar se estamos aprendendo as rotas vai protocolo BGP.
 

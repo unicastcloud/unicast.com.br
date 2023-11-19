@@ -46,7 +46,7 @@ O Azure Load Balancer é um serviço de balanceamento de carga que distribui o t
 
 ![](/assets/img/52/lb2.png){: "width=60%" }
 
-### **Algumas características do Azure Load Balancer:**
+## **Algumas características do Azure Load Balancer:**
 
 - Funciona na camada 4 (Transport Layer) do modelo OSI.
 - Balanceamento de carga entre instâncias de uma mesma região ou entre regiões.
@@ -54,7 +54,7 @@ O Azure Load Balancer é um serviço de balanceamento de carga que distribui o t
 - Suporte a protocolos como TCP, UDP e HTTP/HTTPS.
 - Ideal para aplicações que precisam garantir alta disponibilidade e escalabilidade.
 
-### **Cenários para utilizar o Azure Load Balancer:**
+## **Cenários para utilizar o Azure Load Balancer:**
 
 - Você tem uma aplicação web que precisa ser altamente disponível e escalável.
 - Você tem várias instâncias de uma aplicação em uma região e precisa distribuir o tráfego entre elas de forma equilibrada.
@@ -66,7 +66,7 @@ O Azure Application Gateway é um gateway web que é usado para roteamento de tr
 
 ![](/assets/img/52/lb3.png){: "width=60%" }
 
-### **Algumas características do Azure Application Gateway:**
+## **Algumas características do Azure Application Gateway:**
 
 - Funciona na camada 7 (Aplication Layer) do modelo OSI.
 - Roteamento de tráfego baseado em URL.
@@ -74,7 +74,7 @@ O Azure Application Gateway é um gateway web que é usado para roteamento de tr
 - Suporte a protocolos como HTTP e HTTPS.
 - Ideal para aplicativos web que precisam de roteamento avançado.
 
-### **Cenários para utilizar o Azure Application Gateway:**
+## **Cenários para utilizar o Azure Application Gateway:**
 
 - Você tem uma aplicação web que precisa de roteamento avançado baseado em regras de negócios.
 - Você precisa proteger sua aplicação web contra ataques DDoS.
@@ -86,7 +86,7 @@ O Azure Front Door é um serviço de front-end que fornece roteamento global, ca
 
 ![](/assets/img/52/lb4.png){: "width=60%" }
 
-### **Algumas características do Azure Front Door:**
+## **Algumas características do Azure Front Door:**
 
 - Funciona na camada 7 (Aplication Layer) do modelo OSI.
 - Roteamento global, cache e aceleração de conteúdo
@@ -94,7 +94,7 @@ O Azure Front Door é um serviço de front-end que fornece roteamento global, ca
 - Suporte a vários protocolos
 = Ideal para aplicativos web que precisam de alta disponibilidade e desempenho global
 
-### **Cenários para utilizar o Azure Front Door:**
+## **Cenários para utilizar o Azure Front Door:**
 
 - Você tem uma aplicação web que precisa de alta disponibilidade e desempenho global.
 - Você precisa de roteamento global, cache e aceleração de conteúdo.
@@ -106,14 +106,14 @@ O Azure Traffic Manager é um serviço de gerenciamento de tráfego que permite 
 
 ![](/assets/img/52/lb5.png){: "width=60%" }
 
-### **Algumas características do Azure Traffic Manager**
+## **Algumas características do Azure Traffic Manager**
 
 - Funciona na camada 7 (Aplication Layer) do modelo OSI.
 - Direcionamento de tráfego para diferentes instâncias de uma aplicação em diferentes regiões.
 - Recursos de alta disponibilidade, como failover automático.
 - Ideal para aplicativos que precisam de escalabilidade global e desempenho melhorado para usuários em diferentes localizações geográficas.
 
-### **Cenários para utilizar o Azure Traffic Manager:**
+## **Cenários para utilizar o Azure Traffic Manager:**
 
 - Você tem instâncias de uma aplicação em várias regiões e precisa direcionar o tráfego para as instâncias mais próximas do usuário.
 - Você precisa garantir escalabilidade global e desempenho melhorado para usuários em diferentes localizações geográficas.

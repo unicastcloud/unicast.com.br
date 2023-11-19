@@ -13,7 +13,7 @@ Se você está acompanhando nossa série de artigos sobre **Terraform**, sabe qu
 
 O **dynamic block** é um recurso do **Terraform** que permite criar blocos de forma dinâmica em seu código. Ele se comporta de forma semelhante a um loop for ou for-each, permitindo iterar não apenas sobre um intervalo de valores, mas também criar blocos dinâmicos aninhados que podem ser complexos.
 
-### **1. Por que usar o dynamic block?**
+## **1. Por que usar o dynamic block?**
 
 O **dynamic block** pode ser utilizado em diversas situações, mas sua principal vantagem é permitir que você crie blocos de recursos dinamicamente. 
 
@@ -21,7 +21,7 @@ Por exemplo, você pode utilizar o **dynamic block** para criar um conjunto de r
 
 Embora o **dynamic block** possa ser um conceito difícil de entender no começo, ele oferece muitos benefícios. Ele permite que você crie blocos de recursos de forma dinâmica, o que pode economizar muito tempo e evitar erros manuais. Além disso, o dynamic block pode tornar seu código mais fácil de ler e manter, pois você pode iterar sobre listas de valores em vez de escrever manualmente cada bloco de recurso.
 
-### **2. Como utilizar o dynamic block?**
+## **2. Como utilizar o dynamic block?**
 
 O **dynamic block** consiste em três elementos principais:
 
@@ -60,7 +60,7 @@ Nesse exemplo, estamos criando um grupo de segurança de rede no Azure e usando 
 
 Note que estamos utilizando a variável `security_rule.value` para acessar os valores de cada regra de segurança na lista. Essa sintaxe é usada dentro do dynamic block e é usada para acessar os valores das chaves dentro da lista. No exemplo acima, estamos acessando os valores das chaves `name`, `priority`, `direction`, etc.
 
-### **3. Uso real do dynamic block**
+## **3. Uso real do dynamic block**
 
 O dynamic block pode ser utilizado em várias situações, como na criação de recursos no **Azure**, **AWS**, **GCP** e outros provedores. Um exemplo prático é a criação de um cluster **Kubernetes** no **Azure Kubernetes Service (AKS)**, onde é possível utilizar o dynamic block para habilitar ou não recursos como o Azure Defender e o cluster privado.
 
@@ -131,7 +131,7 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
 
 Neste exemplo, o recurso de cluster privado é criado apenas se a variável `enable_private_cluster` for verdadeira. Para isso, utilizamos o dynamic block para criar o bloco de recurso `private_cluster` apenas se a variável for verdadeira.
 
-### **4. Conclusão**
+## **4. Conclusão**
 
 Exploramos a funcionalidade do dynamic block no Terraform. Vimos que essa é uma técnica avançada, que pode ser difícil no começo, mas que traz muitos benefícios para o gerenciamento de infraestrutura.
 

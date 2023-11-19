@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos lá para mais uma sequência de artigos sobre Load Balancers no Microsoft Azure!
 
-### **Sobre Azure Front Door**
+## **Sobre Azure Front Door**
 
 O **Azure Front Door** é um serviço de roteamento de tráfego global e balanceamento de carga da Microsoft. Ele oferece uma maneira altamente escalável e confiável de direcionar o tráfego de entrada para aplicativos baseados na nuvem, melhorando a disponibilidade e o desempenho para os usuários finais em diferentes regiões geográficas. O Front Door atua como um ponto de entrada na borda da rede da Microsoft, direcionando o tráfego para recursos hospedados em várias regiões do Azure.
 
@@ -27,7 +27,7 @@ O **Azure Front Door** é um serviço de roteamento de tráfego global e balance
 
 O **Azure Front Door** é uma solução poderosa para empresas que buscam fornecer aplicativos de alta disponibilidade e desempenho global para seus usuários. Ele ajuda a otimizar a experiência do usuário final, garantindo que o tráfego seja direcionado de maneira eficiente e segura para as regiões apropriadas do Azure.
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, você definirá uma configuração para o **Azure Front Door** que irá agrupar duas instâncias de um aplicativo Web executado em diferentes regiões do Azure. 
 
@@ -37,7 +37,7 @@ Iremos testar o failover automático para o próximo site disponível quando o s
 
 ![](/assets/img/74/frontdoor01.png){: "width=60%" }
 
-### **1.1 Criando os aplicativos Web (Web Apps)**
+## **1.1 Criando os aplicativos Web (Web Apps)**
 
 Este lab requer duas instâncias de um aplicativo Web executado em diferentes regiões do Azure. Ambas as instâncias do aplicativo da Web são executadas no modo Ativo/Ativo, portanto, qualquer uma delas pode receber tráfego. Esta configuração difere de uma configuração Ativa/Stand-By, onde se atua como um failover.
 
@@ -81,7 +81,7 @@ Ficando assim:
 
 ![](/assets/img/74/frontdoor05.png){: "width=60%" }
 
-### **2.1 Criando o Azure Front Door**
+## **2.1 Criando o Azure Front Door**
 
 Agora, vamos criar e configurar o Azure Front Door para direcionar o tráfego do usuário com base na latência mais baixa entre os dois servidores de aplicativos Web.
 
@@ -116,7 +116,7 @@ Para atualizar o grupo de origem, clique em **Add an origin** e selecione o segu
 
 E por fim clique em **Update.**
 
-### **3.1 Testando o Azure Front Door**
+## **3.1 Testando o Azure Front Door**
 
 Depois de criar o Front Door, leva alguns minutos para que a configuração seja implantada globalmente. Assim que estiver concluído, podemos acessar o frontend criado.
 

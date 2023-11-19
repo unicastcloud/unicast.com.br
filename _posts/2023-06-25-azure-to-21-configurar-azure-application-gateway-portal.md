@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos lá para mais uma sequência de artigos sobre Load Balancers no Microsoft Azure!
 
-### **Sobre Azure Application Gateway**
+## **Sobre Azure Application Gateway**
 
 O **Azure Application Gateway** é um serviço de entrega de aplicativos web da Microsoft Azure, projetado para otimizar o tráfego de aplicativos e melhorar a segurança, o desempenho e a escalabilidade de aplicações baseadas na web.
 
@@ -26,13 +26,13 @@ Aqui estão alguns pontos-chave sobre o Azure Application Gateway:
 - Integração com Azure Monitor
 - Suporte a Vários Protocolos
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, criaremos uma nova rede virtual para o Application Gateway. As instâncias do Application Gateway são criadas em sub-redes separadas. E por isso,precisamos criar duas sub-redes: uma para o Application Gateway e outra para os servidores de back-end.
 
 Para simplificar, este artigo usa uma configuração simples com um IP de front-end público, um ouvinte básico para hospedar um único site no Application Gateway, uma regra de roteamento de solicitação básica e duas máquinas virtuais no pool de back-end.
 
-### **1.1 Criando o Application Gateway**
+## **1.1 Criando o Application Gateway**
 
 Na página inicial do Portal do Azure, clique em ‘**Create a resource**’ em seguida na página Novo, na caixa de Pesquisa, digite **Application Gateway** e clique em + Add, + Create, + New.
 
@@ -104,7 +104,7 @@ Revise as configurações na guia **Review + create**
 
 ![](/assets/img/73/appgw12.png){: "width=60%" }
 
-### **2.1 Criar máquinas virtuais para validação e testes**
+## **2.1 Criar máquinas virtuais para validação e testes**
 
 Agora, precisamos validar se nosso Application Gateway está funcionando corretamente.
 
@@ -145,7 +145,7 @@ Quando o deploy estiver concluído, acesse a página inicial do portal do Azure,
 
 ![](/assets/img/73/appgw15.png){: "width=60%" }
 
-### **3.1. Adicionando backend servers no backend pool**
+## **3.1. Adicionando backend servers no backend pool**
 
 No menu portal do Azure, selecione **All resources** ou procure e selecione Todos os recursos. Em seguida, selecione o Application Gateway criado.
 
@@ -155,7 +155,7 @@ No menu portal do Azure, selecione **All resources** ou procure e selecione Todo
 
 ![](/assets/img/73/appgw16.png){: "width=60%" }
 
-### **4.1 Testando o Application Gateway**
+## **4.1 Testando o Application Gateway**
 
 Vá até a aba **Overview** do application gateway, copie o IP público e cole em seu navegador.
 

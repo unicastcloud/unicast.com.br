@@ -15,17 +15,17 @@ Se você já passou por situações em que erros passaram despercebidos e acabar
 
 Vamos explorar o que é o **TFLint**, como ele funciona e como você pode usá-lo para verificar seu código Terraform. Vamos lá!
 
-### **1. O que é o TFLint?**
+## **1. O que é o TFLint?**
 
 O **TFLint** é uma ferramenta de análise estática de código específica para o Terraform. Ele verifica seu código em busca de erros, possíveis problemas e más práticas, seguindo as melhores práticas recomendadas pela comunidade Terraform.
 
 Com o **TFLint**, você pode garantir que seu código esteja bem estruturado, evitando erros que possam comprometer sua infraestrutura.
 
-### **2. Como o TFLint funciona?**
+## **2. Como o TFLint funciona?**
 
 O **TFLint** funciona analisando os arquivos de código Terraform em busca de problemas comuns e recomendações de melhores práticas. Ele verifica aspectos como recursos obsoletos, recursos não utilizados, má formatação, falta de tags, entre outros. O **TFLint** usa regras pré-definidas para realizar essa análise e fornece mensagens de erro ou aviso caso algum problema seja encontrado.
 
-### **3. Como instalar o TFLint?**
+## **3. Como instalar o TFLint?**
 
 A instalação do **TFLint** é simples e direta. Siga os seguintes passos para instalar o **TFLint** em seu sistema:.
 
@@ -61,11 +61,11 @@ Isso exibirá a versão do **TFLint** instalada em seu sistema. Se você receber
 
 Agora que o **TFLint** está instalado, você pode prosseguir para a configuração e utilização dessa poderosa ferramenta para verificar seu código Terraform.
 
-### **4. Como configurar o TFLint?**
+## **4. Como configurar o TFLint?**
 
 Antes de utilizar o **TFLint**, você pode configurar as regras e personalizá-lo de acordo com suas necessidades. O **TFLint** suporta a criação de um arquivo de configuração chamado `.tflint.hcl`, onde você pode definir regras específicas, ignorar determinados erros e muito mais.
 
-### **5. Exemplo de configuração do arquivo .tflint.hcl**
+## **5. Exemplo de configuração do arquivo .tflint.hcl**
 
 O arquivo `.tflint.hcl` é um arquivo de configuração usado pelo **TFLint** para personalizar o comportamento das verificações de código Terraform. Ele permite que você defina regras específicas, configure severidades de erros, exclua diretórios ou arquivos específicos da verificação e muito mais.
 
@@ -98,7 +98,7 @@ Por fim, usamos `exclude_paths` para definir quais diretórios ou arquivos devem
 
 Ao personalizar o arquivo `.tflint.hcl` de acordo com suas necessidades específicas, você pode adaptar as verificações do **TFLint** ao seu ambiente e garantir a conformidade do seu código Terraform com as melhores práticas.
 
-### **6. Utilizando o TFLint para verificar seu código**
+## **6. Utilizando o TFLint para verificar seu código**
 
 Agora que o **TFLint** está instalado e configurado, vamos ver como utilizá-lo para verificar seu código Terraform. Suponha que você tenha o seguinte código Terraform para criar uma instância do Azure Virtual Machine:
 
@@ -165,7 +165,7 @@ Isso exibirá todas as regras suportadas pelo TFLint, permitindo que você explo
 
 Lembre-se de executar o **TFLint** regularmente à medida que você desenvolve seu código Terraform, para identificar e corrigir problemas antes de implantar sua infraestrutura.
 
-### **7. Conclusão**
+## **7. Conclusão**
 
 O **TFLint** é uma ferramenta poderosa para garantir a qualidade do seu código Terraform. Com sua análise estática, você pode identificar e corrigir erros e más práticas antes de implantar sua infraestrutura. Ao utilizar o **TFLint**, você evita dores de cabeça no futuro e garante um ambiente de infraestrutura mais confiável. 
 

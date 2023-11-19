@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Faz um tempinho que não escrevo um artigos sobre Azure, então vamos lá para mais uma sequencia de artigos do Azure-To!
 
-### **Sobre Azure Load Balancer**
+## **Sobre Azure Load Balancer**
 
 O Azure Load Balancer é um serviço de balanceamento de carga de rede oferecido pela Microsoft Azure. Ele ajuda a distribuir o tráfego de entrada entre várias máquinas virtuais (VMs) ou instâncias de máquinas físicas em uma mesma rede, garantindo assim que os recursos sejam utilizados de maneira eficiente e que as aplicações permaneçam disponíveis e responsivas.
 
@@ -26,7 +26,7 @@ Principais características do Azure Load Balancer:
 - **Health Probes**: O Azure Load Balancer realiza verificações de integridade das VMs ou instâncias físicas para garantir que apenas servidores saudáveis recebam tráfego.
 - **Session Persistence**: Para algumas aplicações que requerem que uma mesma sessão seja direcionada sempre para a mesma VM, o serviço suporta "session persistence" (persistência de sessão).
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, vamos criar um balanceador de carga interno.
 
@@ -36,7 +36,7 @@ O diagrama abaixo ilustra o ambiente que você implantará neste exercício.
 
 ![](/assets/img/71/lb01.png){: "width=60%" }
 
-### **1.1 Criando a Rede Virtual**
+## **1.1 Criando a Rede Virtual**
 
 Para iniciar nosso laboratório, precisamos criar nossa VNET e a sub-rede que iremos utilizar em nosso back-end.
 
@@ -87,7 +87,7 @@ Revise suas configurações e clique em **Create**.
 
 ![](/assets/img/71/lb07.png){: "width=60%" }
 
-### **2.1 Criando servidores de back-end**
+## **2.1 Criando servidores de back-end**
 
 Agora, vamos criar três VMs, que estarão no mesmo conjunto de disponibilidade, para o pool de back-end do balanceador de carga, o script abaixo adicionará as VMs ao pool de back-end e instalará o IIS nas três VMs para testar o balanceador de carga.
 
@@ -123,7 +123,7 @@ Quando o deploy estiver concluído, acesse a página inicial do portal do Azure,
 >Pode levar de 5 a 10 minutos para criar essas três VMs. Você não precisa esperar até que este trabalho seja concluído, você já pode continuar com a próxima tarefa.
 {: .prompt-info }
 
-### **3.1. Criando o Load Balancer**
+## **3.1. Criando o Load Balancer**
 
 Agora, vamos criar a cereja do bolo, nosso Load Balancer. 
 
@@ -157,7 +157,7 @@ Clique em **Review + create**.
 
 ![](/assets/img/71/lb14.png){: "width=60%" }
 
-### **4.1 Criando os recursos do Load Balancer**
+## **4.1 Criando os recursos do Load Balancer**
 
 Nesta seção, você definirá as configurações do balanceador de carga para um pool de endereços de back-end e, em seguida, criará uma investigação de integridade e uma regra do balanceador de carga.
 
@@ -214,7 +214,7 @@ Insira as informações da abaixo:
 
 ![](/assets/img/71/lb17.png){: "width=60%" }
 
-### **5.1 Criar máquina virtual para validação e testes**
+## **5.1 Criar máquina virtual para validação e testes**
 
 Nesta seção, vamos criar uma VM de teste para testar nosso balanceador de carga.
 
@@ -255,7 +255,7 @@ Selecione **Review + create.**
 
 ![](/assets/img/71/lb20.png){: "width=60%" }
 
-### **6.1 Testando o Load Balancer**
+## **6.1 Testando o Load Balancer**
 
 Vamos agora fazer o acesso a nossa VM de testes e testar nosso load balancer.
 

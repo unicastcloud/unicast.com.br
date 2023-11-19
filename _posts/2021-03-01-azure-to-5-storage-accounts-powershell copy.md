@@ -17,7 +17,7 @@ A dica é simples, mas o intuito é lhe encorajar a utilizar mais comandos via C
 
 Criar uma Storage Account via Powershell
 
-### **1.1 Definindo as variáveis de rede**
+## **1.1 Definindo as variáveis de rede**
 
 ```powershell
 $resourceGroup  = "lab01-RG"

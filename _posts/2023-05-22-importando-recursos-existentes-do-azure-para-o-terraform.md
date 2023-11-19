@@ -13,7 +13,7 @@ Nesta série de artigos, estamos explorando as diversas funcionalidades e recurs
 
 Hoje, vamos abordar um tema importante para quem está migrando para a infraestrutura como código: como importar recursos existentes do **Azure** para o **Terraform**. Vamos explorar o poderoso recurso do Terraform chamado "**import**" e entender como utilizá-lo de forma eficiente.
 
-### **1. O que é o Terraform Import?**
+## **1. O que é o Terraform Import?**
 
 O **Terraform** **Import** é um comando do Terraform que permite importar recursos existentes de provedores de infraestrutura para o estado do Terraform. Ele é usado para trazer recursos já existentes, criados manualmente ou por outros meios, para dentro do controle do Terraform, permitindo que você gerencie esses recursos como código.
 
@@ -23,7 +23,7 @@ Essa funcionalidade é útil quando você já possui infraestrutura existente e 
 
 O **Terraform** **Import** é um recurso poderoso, mas também requer atenção aos detalhes. Cada provedor de infraestrutura tem sua própria sintaxe e identificadores únicos para os recursos. É importante consultar a documentação do provedor, como no caso do Azure, para entender como identificar corretamente os recursos que você deseja importar.
 
-### **2. Como funciona a importação no Terraform?**
+## **2. Como funciona a importação no Terraform?**
 
 Quando você realiza a importação de um recurso, o Terraform cria uma entrada correspondente no estado do Terraform para representar esse recurso. Essa entrada no estado é utilizada para rastrear o estado atual do recurso e gerenciar as alterações subsequentes.
 
@@ -49,7 +49,7 @@ Ao executar o comando de importação, o Terraform consulta o provedor de infrae
 
 É importante ressaltar que a importação no Terraform não gera automaticamente a configuração correspondente no arquivo de configuração. Ela apenas traz o recurso para o estado do Terraform. Isso significa que, após a importação, você precisará atualizar manualmente o arquivo de configuração do Terraform para refletir as configurações desejadas.
 
-### **3. Importando um Resource Group do Azure**
+## **3. Importando um Resource Group do Azure**
 
 Vamos agora ao exemplo prático de como importar um recurso do Azure para o Terraform. Vamos considerar o cenário de importar um grupo de recursos existente no Azure.
 
@@ -115,7 +115,7 @@ A importação de um **Resource Group** é apenas um exemplo. Você pode aplicar
 
 A partir desse ponto, você poderá utilizar os recursos do Terraform para gerenciar e fazer alterações nesse Resource Group. Por exemplo, você pode atualizar as configurações do Resource Group no arquivo de configuração do Terraform, como adicionar tags, e em seguida, aplicar as alterações usando o comando terraform apply.
 
-### **4. Conclusão**
+## **4. Conclusão**
 
 A importação de recursos existentes do Azure para o Terraform é um processo essencial quando você deseja começar a gerenciar sua infraestrutura existente como código. O Terraform Import permite trazer recursos já criados manualmente ou por outros meios para dentro do controle do Terraform, proporcionando automação, controle de versão e colaboração.
 
