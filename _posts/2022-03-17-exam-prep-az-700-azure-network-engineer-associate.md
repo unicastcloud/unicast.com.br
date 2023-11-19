@@ -27,7 +27,7 @@ Como sou da área de redes, eu queria muito fazer este exame logo no lançamento
 
 Bom, falando um pouco do exame, os candidatos devem ser especialistas no planejamento, na implementação e na manutenção de soluções de rede do Azure, incluindo rede híbrida, conectividade, roteamento, segurança e acesso privado aos serviços do Azure.
 
-### **Os temas cobrados no exame são**
+## **Os temas cobrados no exame são**
 
 * Design, implement, and manage hybrid networking (10-15%)
 * Design and implement core networking infrastructure (20-25%)
@@ -37,7 +37,7 @@ Bom, falando um pouco do exame, os candidatos devem ser especialistas no planeja
 
 Aqui vale uma ressalva, o conteúdo do exame sofreu atualizações em 23 de novembro de 2021, então vale a pena conferir <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4PaHw" target="_blank">Skills Measured</a> com carinho!
 
-### **Material utilizado**
+## **Material utilizado**
 
 Para este exame eu utilizei a documentação oficial da Microsoft AZ-700 Designing and Implementing Microsoft Azure Networking Solutions.
 
@@ -51,7 +51,7 @@ Completando a lista, vale a pena dar uma olhada no material do <a href="https://
 
 Como teste prático, tem este material da measureup com 30 perguntas com um preço justo, $9.98 da data que estou escrevendo este artigo. <a href="https://www.measureup.com/microsoft-assessment-az-700-designing-implementing-azure-networking-solutions.html" target="_blank">Assessment AZ-700: Designing and Implementing Microsoft Azure Networking Solutions</a>
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Este exame é necessário que você gerencie o tempo com sabedoria, pois as questões são longas e é necessário dedicar um tempo maior em cada pergunta, são poucas perguntas curtas, prepare o inglês que ele será fundamental.
 

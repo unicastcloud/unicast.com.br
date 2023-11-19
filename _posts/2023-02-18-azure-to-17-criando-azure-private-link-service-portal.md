@@ -13,7 +13,7 @@ No cardápio de hoje vamos servir Azure Private Link Service.
 
 Masssss, antes de por a "mão na massa", vamos entender em quais momentos seria legal servir este "prato" blz...
 
-### **Sobre Azure Private Link Service**
+## **Sobre Azure Private Link Service**
 
 De forma objetiva e resumida, o Azure Private Link Service cria uma conexão **Privada** por dentro do **Backbone Microsoft**, entre VNET´s que podem estar inclusive em **Regiões Diferentes** e até mesmo, criar Conexão entre VNET´s de **Subscriptions Diferentes!!!** 
 
@@ -32,7 +32,7 @@ Basicamente, a engrenagem roda com uma certa semelhança ao sistema **Cliente / 
 5. O ambiente **Servidor** recebe um pedido para **Aprovar ou Rejeitar** a conexão. 
 6. Em caso de aprovação, O ambiente **Cliente** inicia a conexão **Privada por dentro do BackBone Microsoft** com o ambiente **Servidor**.
 
-### **Objetivo**
+## **Objetivo**
 
 O objetivo deste artigo é criar um **Private Link Service** para que a Virtual Machine **vm-paris1** de uma **Subscription A, na Região France Central** acesse Servidores Apache localizados na **Subscription B, da Região East US - Virginia**.
 Detalhes no diagama abaixo:
@@ -42,7 +42,7 @@ Detalhes no diagama abaixo:
 >**Observação:** Este Artigo parte do princípio de que o leitor já domina a criação de Máquinas Virtuais, Virtual Network e fundamentos do Private Endpoint!!!
 {: .prompt-warning }
 
-### **1. Criar ambiente da Subscription EAST US-Virginia**
+## **1. Criar ambiente da Subscription EAST US-Virginia**
 
 1.1 - Criar o **Resource Group** ```RG-Virginia``` na região **EAST US**
 
@@ -81,7 +81,7 @@ echo "APACHE 1 EM SERVIDOR VIRGINIA" > index.html
 >**Observação:** Aguardar a conclusão da execução sem sair da tela. Será exibido um Log abaixo do **Botão Run** indicando que o Servidor Apache foi instalado!!!
 {: .prompt-warning }
 
-### **2. Criar Load Balancer Interno para vm-apache1 e vm-apache2**
+## **2. Criar Load Balancer Interno para vm-apache1 e vm-apache2**
 
 2.1 - Na Barra Superior de Pesquisa do Azure, pesquisar por **Load Balancers**
 
@@ -120,7 +120,7 @@ Será através deste IP que a **VM-PARIS1** acessará os Servidores Apache!!!
 ![](/assets/img/59/pvtls-virginia13.png){:"width=60%"}
 
 
-### **3. Criar Private Link Service para vm-apache1 e vm-apache2**
+## **3. Criar Private Link Service para vm-apache1 e vm-apache2**
 
 3.1 - Digite na **Barra de Pesquisa** do Azure ``` Private Link Service``` e clique no serviço.
 
@@ -169,7 +169,7 @@ Esta **String** será utilizada durante a criação do **Private Endpoint** na S
 >**Observação:** O ítem **Private Endpoint Connections** exibe se a relação de confiança entre as 2 Subscriptions ocorreu com sucesso (Approved). Também é possivel **Rejeitar** ou **Remover** a conexão!!!
 {: .prompt-warning }
 
-### **4. Configurar ambiente para vm-paris1 em France Central**
+## **4. Configurar ambiente para vm-paris1 em France Central**
 
 A **vm-paris1** será implantada na Região **France Central** em uma **Subscription diferente** de onde foi implantado os Servidores Apache **(vm-apache1 e vm-apache2)**.
 
@@ -188,7 +188,7 @@ A **vm-paris1** será implantada na Região **France Central** em uma **Subscrip
 >**Observação:** A Virtual Machine deve ser criada com IP Público para realização dos testes!!!
 {: .prompt-warning }
 
-### **5. Configurar o Private Endpoint para vm-paris1**
+## **5. Configurar o Private Endpoint para vm-paris1**
 
 5.1 - Na **Barra de Pesquisa** do Azure, pesquisar por ``` Private Endponit``` 
 
@@ -224,7 +224,7 @@ Conforme detalhado no **ítem 3.8** , é nesta etapa que será utilizado o **Ali
 
 ![](/assets/img/59/pvtls-paris11.png){:"width=60%"}
 
-### **6. Testando o Private Link Service**
+## **6. Testando o Private Link Service**
 
 6.1 - Acessar o Painel de Administração da **vm-paris1** e confirmar o **Public IP Address**
 

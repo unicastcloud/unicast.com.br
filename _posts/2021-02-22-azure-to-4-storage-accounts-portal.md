@@ -11,29 +11,29 @@ Fala galera! Seis tão baum?
 
 Neste Azure-To iremos aprender como criar uma Storage Account via Portal e implementar os serviços de Blob Storage e File Storage.
 
-### **Objetivo**
+## **Objetivo**
 
 * Criar uma Storage Account
 * Implementar o Azure Blob Storage
 * Implementar o Azure File Storage
 
-### **1.1 Acessando o Portal**
+## **1.1 Acessando o Portal**
 
 Abra seu navegador e acesse o portal Azure em **http://portal.azure.com** e faça login usando sua conta da Microsoft.
 
-### **1.2 Criando um recurso**
+## **1.2 Criando um recurso**
 
 No portal da Azure clique em **Create a resource**
 
 ![](/assets/img/02/storage1.png){: "width=60%" }
 
-### **1.3 Azure Marketplace**
+## **1.3 Azure Marketplace**
 
 Pesquise no Azure Marketplace por  Storage account e clique em Create
 
 ![](/assets/img/02/storage2.png){: "width=60%" }
 
-### **1.4 Configuração da Máquina Virtual**
+## **1.4 Configuração da Máquina Virtual**
 
 Agora basta inserir as informações de acordo com sua necessidade, para este laboratório vamos seguir com estas:
 
@@ -49,7 +49,7 @@ Agora basta inserir as informações de acordo com sua necessidade, para este la
 
 Clique em **Review + create**, e em seguida **Create**
 
-### **2.1 Criando o serviço de Blob Storage**
+## **2.1 Criando o serviço de Blob Storage**
 
 No portal Azure, navegue até a storage account que você criou e clique em **Containers**.
 
@@ -61,7 +61,7 @@ Em seguida clique em **Create**.
 
 Pronto, seu Blob Storage já está criado, agora você já pode acessa-lo e fazer o upload de seus arquvios.
 
-### **3.1 Criando o serviço de File Storage**
+## **3.1 Criando o serviço de File Storage**
 
 Agora vamos criar nosso File Share
 
@@ -75,7 +75,7 @@ Em seguida clique em **Create**.
 
 Pronto, seu File Share já está criado, agora você já pode acessa-lo e fazer o upload de seus arquvios.
 
-### **3.2 Mapeamento de arquivos File Share**
+## **3.2 Mapeamento de arquivos File Share**
 
 Com seu File Share criado, você poderá realizar o mapeamento em seu computador, da mesma maneira que faria com um compartilhamento de rede local.
 

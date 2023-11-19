@@ -15,11 +15,11 @@ O Windows possui um recurso disponível em PCs rodando Windows 10 chamado **Wind
 
 Desta forma você pode executar um ambiente Linux diretamente no Windows sem modificações, software secundário ou configurações de dual-boot. 
 
-### **1.1 Instalando o WSL2**
+## **1.1 Instalando o WSL2**
 
 Para instalar o WSL é bastante simples, basta executar os comandos de powershell como administrador.
 
-### Habilitar o recurso WSL2
+## Habilitar o recurso WSL2
 
 ```powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
@@ -33,13 +33,13 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 Após concluir a instalação, reinicie o computador.
 
-### Defina o WSL2 como a versão padrão
+## Defina o WSL2 como a versão padrão
 
 ```powershell
 wsl --set-default-version 2
 ```
 
-### **2.1 Instalando uma distribuição Linux**
+## **2.1 Instalando uma distribuição Linux**
 
 Abra a **Microsoft Store** e escolha a distribuição desejada.
 

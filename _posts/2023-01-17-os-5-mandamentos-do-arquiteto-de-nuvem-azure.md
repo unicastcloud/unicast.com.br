@@ -33,7 +33,7 @@ São os **5 mandamentos do Arquiteto de Nuvem Azure**.
 
 ![](/assets/img/51/arc1.jpg){: "width=60%" }
 
-### **Sobre os 5 mandamentos do Arquiteto de Nuvem Azure**
+## **Sobre os 5 mandamentos do Arquiteto de Nuvem Azure**
 
 Os 5 mandamentos do arquiteto de nuvem Azure são diretrizes importantes a serem seguidas ao projetar e implementar soluções na nuvem Azure.
 
@@ -44,7 +44,7 @@ Seguir esses mandamentos pode ajudar a garantir que a solução seja projetada d
 >Lembre-se: os 5 mandamentos do Arquiteto de Nuvem Azure é somente uma forma lúdica que encontrei para descrever tópicos importantes a serem desenvolvidos por você!
 {: .prompt-tip }
 
-### **Por que seguir os 5 mandamentos do Arquiteto de Nuvem Azure?**
+## **Por que seguir os 5 mandamentos do Arquiteto de Nuvem Azure?**
 
 Atualmente, a percepção de valor que uma empresa tem quando um arquiteto segue os 5 mandamentos do arquiteto de nuvem Azure é alta. Isso ocorre porque esses mandamentos abrangem as principais preocupações das empresas quando se trata de implementar soluções na nuvem, como **escalabilidade**, **disponibilidade**, **segurança**, **gerenciabilidade e custo**.
 
@@ -52,23 +52,23 @@ Quando um arquiteto segue esses mandamentos, ele garante que a solução seja es
 
 Em resumo, quando um arquiteto segue os 5 mandamentos do arquiteto de nuvem Azure, ele garante que a solução seja projetada de forma a atender às necessidades do negócio, seja escalável, eficiente e economicamente viável, e garante que a solução possa ser mantida e atualizada facilmente. Isso traz uma percepção de valor elevado para a empresa, pois aumenta a confiança na solução e garante a estabilidade e segurança do negócio.
 
-### **Mandamenteo 1: Escalabilidade**
+## **Mandamenteo 1: Escalabilidade**
 
 Garantir que sua solução possa escalar de acordo com as necessidades do negócio é crucial para garantir que ela possa lidar com cargas de trabalho crescentes. Isso pode ser alcançado através da escalabilidade horizontal, adicionando mais instâncias de uma máquina virtual, ou escalabilidade vertical, aumentando o tamanho de uma instância de máquina virtual. Um exemplo de escalabilidade horizontal é utilizar o balanceamento de carga para distribuir o tráfego entre várias instâncias de uma máquina virtual.
 
-### **Mandamenteo 2: Disponibilidade**
+## **Mandamenteo 2: Disponibilidade**
 
 Projetar sua solução para tolerar falhas de componentes individuais é importante para garantir alta disponibilidade. Isso pode ser alcançado utilizando técnicas de tolerância a falhas, como replicação geográfica, balanceamento de carga e failover automatizado. Um exemplo de tolerância a falhas é utilizar o Azure Availability Zones para replicar seus recursos em diferentes zonas de disponibilidade dentro de uma região, garantindo que sua solução possa lidar com falhas em um único local.
 
-### **Mandamenteo 3: Segurança**
+## **Mandamenteo 3: Segurança**
 
 Implementar medidas de segurança é crucial para proteger sua solução contra ameaças internas e externas. Isso inclui a utilização de segurança de rede, segurança de dados e autenticação e autorização. Um exemplo de segurança de rede é utilizar o Azure Virtual Network para criar uma rede virtual privada e controlar o acesso às suas máquinas virtuais.
 
-### **Mandamenteo 4: Gerenciabilidade**
+## **Mandamenteo 4: Gerenciabilidade**
 
 Projetar sua solução para ser fácil de gerenciar e monitorar é importante para garantir que ela possa ser mantida e atualizada facilmente. Isso inclui a utilização de ferramentas de automação, monitoramento e análise. Um exemplo de gerenciabilidade é utilizar o Azure Monitor para coletar e analisar dados de métricas de recursos, ajudando a identificar problemas e otimizar o uso de recursos
 
-### **Mandamenteo 5: Custo**
+## **Mandamenteo 5: Custo**
 
 Otimizar o custo de sua solução é importante para garantir que ela seja economicamente viável. Isso inclui a utilização de melhores práticas de gerenciamento de recursos e a otimização do uso de recursos. Um exemplo de otimização de custos é utilizar o Azure Reservations
 
@@ -80,7 +80,7 @@ Em resumo, seguir 5 mandamentos do arquiteto de nuvem Azure pode trazer vários 
 - Sua solução será fácil de gerenciar e monitorar, o que ajuda a identificar problemas e otimizar o uso de recursos.
 - Sua solução será otimizada para o custo, garantindo que ela seja economicamente viável e não gere gastos excessivos.
 
-### **Como chegar lá?**
+## **Como chegar lá?**
 
 ![](/assets/img/51/arc3.png){: "width=60%" }
 

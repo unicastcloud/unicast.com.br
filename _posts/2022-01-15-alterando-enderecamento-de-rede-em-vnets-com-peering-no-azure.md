@@ -21,7 +21,7 @@ Remover e criar o peering entre as VNETs não é algo complicado ou mesmo demora
 
 Recentemente, a Microsoft anunciou uma nova maneira de lidar com esse problema, alterando o espaço de endereço sem a necessidade de remover o peering.
 
-### **1.1 Registrar o recurso**
+## **1.1 Registrar o recurso**
 
 A primeira coisa que devemos fazer é habilitar a nova feature.
 
@@ -33,13 +33,13 @@ Procure por **AllowUpdateAddressSpaceInPeeredVnets**, selecione e clique em Regi
 
 ![](/assets/img/16/vnets4.png){: "width=60%" }
 
-### **2.1 Modificar o espaço de rede**
+## **2.1 Modificar o espaço de rede**
 
 Agora já é possível modificar o novo espaço de rede para sua VNET sem precisar excluir o peering entre elas.
 
 ![](/assets/img/16/vnets5.png){: "width=60%" }
 
-### **3.1 Sincronizar VNETs**
+## **3.1 Sincronizar VNETs**
 
 Após a modificação, é necessário sincronizar o novo endereçamento entre as VNETs com peering.
 

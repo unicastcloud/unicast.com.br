@@ -39,7 +39,7 @@ Para utilizar o script é muito simples.
 
 Você pode rodar o script localmente via **Powershell** ou pelo portal utilizando o **Cloudshell**.
 
-### **Pré-requisitos**
+## **Pré-requisitos**
 
 1. Install-Module ImportExcel
 2. Az CLI

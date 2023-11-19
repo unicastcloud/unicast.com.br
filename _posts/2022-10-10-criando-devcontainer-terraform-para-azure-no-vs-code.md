@@ -19,7 +19,7 @@ Os contêineres são apenas uma maneira de ter um conjunto de dependências que 
 
 Para garantir a qualidade do código e fazer testes eficazes, é essencial no desenvolvimento de código ter consistência entre o ambiente de desenvolvimento local e o pipeline CI/CD que traz o código para produção.
 
-### **O que são DevContainers?**
+## **O que são DevContainers?**
 
 O Visual Studio Code tem um conceito chamado **Visual Studio Code Dev Containers**
 
@@ -33,7 +33,7 @@ Sensacional né? Mas e se este devcontainer estivesse remoto?
 
 Então, necessariamente este conteiner não precisa estar funcionando na sua máquina, e podemos levar esta experiência à um próximo nível com o <a href="https://github.com/features/codespaces" target="_blank">GitHub Codespaces</a> mas fica para um próximo artigo! 
 
-### **Pré-requisitos**
+## **Pré-requisitos**
 
 1. Docker Desktop (Windows)
 2. VS Code
@@ -43,7 +43,7 @@ Uma vez instalados, você também precisa instalar a extensão no VS Code. Para 
 
 ![](/assets/img/39/devcont01.png){: "width=60%" }
 
-### **Construindo o Contêiner**
+## **Construindo o Contêiner**
 
 Para construir nosso container, você pode usar uma das duas opções:
 
@@ -58,7 +58,7 @@ Vou deixar meu repositório caso queria utilizá-lo como modelo:
 
 Aproveita e de uma fortalecida ⭐ no repositório!
 
-### **Clone o repositório e abra em um DevContainer**
+## **Clone o repositório e abra em um DevContainer**
 
 Uma vez que o repositório tenha sido clonado, o VS Code solicitará a abertura do repositório em um contêiner, se isso não acontecer, ele pode ser acionado pelo comando (Ctrl+Shift+p) e selecionar o comando 'Dev Containers: Open Folder in Container'. Na primeira vez, VS Code automaticamente construirá e executará o contêiner localmente, anexando a interface do usuário IDE a ele.
 

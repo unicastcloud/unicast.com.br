@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma sequencia de artigos do Azure-To, então vamos nessa!
 
-### **Sobre Network Security Group (NSG) no Azure**
+## **Sobre Network Security Group (NSG) no Azure**
 
 Os Network Security Groups (NSGs) funcionam no Microsoft Azure como ferramentas de firewall de nível de rede que permitem controlar o tráfego de entrada e saída de uma rede virtual. Eles permitem criar regras de firewall para permitir ou negar tráfego baseado em critérios como endereço IP, porta e protocolo.
 
@@ -23,11 +23,11 @@ Além disso, os NSGs podem ser associados a várias máquinas virtuais, permitin
 
 Os NSGs também podem ser integrados com outras ferramentas de segurança, como o Azure Security Center e o Azure Advanced Threat Protection, para fornecer uma proteção adicional para sua rede virtual.
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, criaremos uma rede virtual, implantaremos uma máquinas virtual nessa rede virtual e as configuraremos um network security group para permitir e controlar o tráfego de entrada e saída deste recurso.
 
-### **1.1 Criar máquina virtual para validação e testes**
+## **1.1 Criar máquina virtual para validação e testes**
 
 Vamos criar uma máquina virtual para implantar nossa VNET e realizar os testes com nosso **network security group (NSG)**.
 
@@ -67,7 +67,7 @@ Na máquina virtual, clique em **Networking**, revise a guia **Inbound port rule
 
 ![](/assets/img/53/nsg03.png){: "width=60%" }
 
-### **2.1 Criar Network Security Group (NSG)**
+## **2.1 Criar Network Security Group (NSG)**
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo**, na caixa de Pesquisa, digite **Network Security Groups** e clique em **+ Add, + Create, + New**.
 
@@ -96,7 +96,7 @@ Siga as etapas necessárias para configurar seu NSG.
 
 ![](/assets/img/53/nsg08.png){: "width=60%" }
 
-### **2.2 Configurar regras de inbound para permitir acesso RDP**
+## **2.2 Configurar regras de inbound para permitir acesso RDP**
 
 Nesta tarefa, permitiremos o tráfego **RDP** para a máquina virtual configurando uma regra de porta de segurança de entrada.
 
@@ -128,7 +128,7 @@ Selecione Adicionar e aguarde o provisionamento da regra, em seguida, tente nova
 
 ![](/assets/img/53/nsg12.png){: "width=60%" }
 
-### **2.3 Configurar regras de outbound para negar o acesso a Internet**
+## **2.3 Configurar regras de outbound para negar o acesso a Internet**
 
 Nesta tarefa, vamos trabalhar de forma inversa, criaremos uma regra de outbound que negará o acesso à Internet de nossa máquina virtual, em seguida, testaremos se a regra está funcionando.
 

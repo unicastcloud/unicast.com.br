@@ -26,7 +26,7 @@ Você precisa passar no exame **AZ-400: Designing and Implementing Microsoft Dev
 
 ![](/assets/img/35/az400-01.png){: "width=60%" }
 
-### **Os temas cobrados no exame são:**
+## **Os temas cobrados no exame são:**
 
 * Configure processes and communications (10—15%)
 * Design and implement source control (15—20%)
@@ -36,7 +36,7 @@ Você precisa passar no exame **AZ-400: Designing and Implementing Microsoft Dev
 
 Segue o link do conteúdo completo que é cobrado na prova: <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VP8d" target="_blank">Skills Measured.</a> 
 
-### **Material utilizado**
+## **Material utilizado**
 
 Como mencionei, além da vontade de ter a certificação de DevOps da Microsoft, tem o lado profissional e comercial, e que neste momento faz todo sentido.
 
@@ -46,7 +46,7 @@ Apesar de não ser um treinamento para o exame, o material abordado cobriu cerca
 
 Desta forma o learning path da Microsoft já foi mais do que suficiente para completar meus estudos.
 
-### **Lista de materiais:**
+## **Lista de materiais:**
 
 Tudo que você precisa, está aqui!
 
@@ -56,7 +56,7 @@ Use e abuse dos laboratórios práticos!
 
 <a href="https://azuredevopslabs.com/" target="_blank"> Azure DevOps Labs</a> 
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Este exame é necessário que você gerencie o tempo com sabedoria, principalmente no estudo de caso, o contexto é longo e é necessário dedicar um bom tempo para a leitura, são poucas perguntas curtas, prepare o inglês que ele será fundamental.
 

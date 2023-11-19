@@ -17,7 +17,7 @@ Diante das recomendações da **OMS** (**Organização Mundial de Saúde**) e do
 
 Com isso as empresas e os profissionais tiveram que sair correndo para se adequar e aderir o modelo de Home Office. Isso trouxe enormes desafios tanto para o colaborador quanto para as empresas.
 
-### **E a saúde mental, como está?**
+## **E a saúde mental, como está?**
 
 ![](/assets/img/29/remoto1.png){: "width=60%" }
 
@@ -36,7 +36,7 @@ O híbrido tem muitos desafios e ressalvas, mas vou deixar este assunto para um 
 
 Vamos la!
 
-### **Empresas**
+## **Empresas**
 
 A verdade é que a grande maioria não estava preparada para o trabalho remoto. O que mais se viu nos primeiros dias de restrição, foram equipes de TI correndo para adequar a infraestrutura da empresa e viabilizar o Home Office.
 
@@ -56,7 +56,7 @@ Além do adicional esforço para fazer o modelo híbrido funcionar, o trabalho r
 
 Reflexo também da concorrência internacional, quebrada a barreira do vínculo presencial, a demanda de vagas internacionais para trabalhar do brasil só aumentam.
 
-### **Colaborador**
+## **Colaborador**
 
 Da mesma maneira, o colaborador terá vários desafios pela frente!
 
@@ -72,7 +72,7 @@ Diferente do trabalho local, em casa você terá inúmeras distrações, você t
 
 Aí você deve estar se perguntando: dá para fazer funcionar? Dá sim, é só seguir algumas dicas e você terá sucesso no trabalho remoto.
 
-### **1 – Local de Trabalho**
+## **1 – Local de Trabalho**
 
 É fundamental criar um espaço de trabalho, defina um cômodo da casa para ser seu escritório. Deixei seu ambiente de trabalho agradável de maneira que você se sinta bem estando ali!
 
@@ -83,7 +83,7 @@ Aí você deve estar se perguntando: dá para fazer funcionar? Dá sim, é só s
 - Você precisa ser produtivo, mas não pode esquecer nunca de sua saúde.
 - E por fim, mantenha seu escritório organizado, não é porque está em casa que você precisa deixar tudo bagunçado. Lembre-se que ainda terá que fazer reuniões!
 
-### **2 – Rotina de Trabalho**
+## **2 – Rotina de Trabalho**
 
 Você está em casa, mas sua jornada de trabalho não precisa ser eterna. É extremamente importante estabelecer uma carga horária de trabalho.
 
@@ -94,7 +94,7 @@ Este é o maior erro dos profissionais que estão começando no Home Office, voc
 
 Só tome cuidado com o convívio familiar, não ter um tempo com a família pode virar um grande problema.
 
-### **3 – Roupa de Trabalho**
+## **3 – Roupa de Trabalho**
 
 Outra dica importante está na vestimenta, por favor, não trabalhe de pijama o dia todo!
 
@@ -103,7 +103,7 @@ Outra dica importante está na vestimenta, por favor, não trabalhe de pijama o 
 
 Não precisa ser a melhor roupa, mas precisa manter a rotina de se arrumar para o trabalho, isso é fundamental.
 
-### **4 – Familiares e Trabalho**
+## **4 – Familiares e Trabalho**
 
 Ponto crucial para o sucesso em Home Office.
 
@@ -115,18 +115,18 @@ Seus familiares precisam entender que embora esteja em casa, no seu escritório,
 
 É imprescindível a compreensão e a cooperação de toda sua família neste processo, se eles não levarem a sério isto, não vai funcionar o trabalho remoto para você!
 
-### **5 – Comunicação**
+## **5 – Comunicação**
 
 Não se isole no Home Office.
 
 •	Mantenha contato com seus colegas de trabalho. Chefes, clientes ou fornecedores.
 •	Não utilize somente e-mails ou programas de mensagem, comunique-se por telefone algumas vezes, escute a voz de outros seres humanos 😊.
 
-### **6 – Cuidado com Informações**
+## **6 – Cuidado com Informações**
 
 Assuntos sigilosos da empresa continuam sendo sigilosos e devem ser tratados com muito cuidado sempre.
 
-### **7 – Saia do Trabalho**
+## **7 – Saia do Trabalho**
 
 Não se torne refém do trabalho, como estamos em casa isso é fácil de acontecer. Você precisa entender que depois de sua jornada de trabalho, precisa ir para casa!
 

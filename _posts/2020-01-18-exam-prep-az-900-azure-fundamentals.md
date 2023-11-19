@@ -32,7 +32,7 @@ Porém, não subestime este exame.
 
 **2 -** O conteúdo da prova é muito bacana e ajuda bastante quem vai seguir na trilha de certificação da Azure, pois você já terá um bom conceito dos principais serviços e tecnologias, facilitando e muito o entendimento dos conceitos abordados nas certificações de nível superior.
 
-### **Os temas cobrados são:**
+## **Os temas cobrados são:**
 
 * Entender os conceitos de nuvem (15-20%)
 * Entender os principais serviços do Azure (30-35%)

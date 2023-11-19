@@ -19,7 +19,7 @@ Windows - Também redefinirá a configuração do serviço de desktop remoto
 
 Linux - Redefinirá uma chave de credenciais/ssh dos usuários existentes, se não existir, criará um novo usuário com privilégios sudo e redefinirá a configuração SSH
 
-### **1.1 Redefinindo senha de máquina virtual Window**
+## **1.1 Redefinindo senha de máquina virtual Window**
 
 Dentro das configurações de sua máquina virtual, vá ao menu na laterla esquerda e procure por Support + troubleshooting em seguida Reset Password.
 
@@ -27,7 +27,7 @@ Dentro das configurações de sua máquina virtual, vá ao menu na laterla esque
 
 Basta ajustar as informações e fazer o update.
 
-### **2.1 Redefinindo senha de máquina virtual Linux**
+## **2.1 Redefinindo senha de máquina virtual Linux**
 
 Dentro das configurações de sua máquina virtual, vá ao menu na laterla esquerda e procure por Support + troubleshooting em seguida Reset Password.
 

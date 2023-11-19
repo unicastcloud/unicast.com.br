@@ -15,11 +15,11 @@ Agora iremos aprender como cria-lo via Azure CLI.
 
 Novamente a dica é simples, mas o intuito é lhe encorajar a utilizar mais comandos via CLI. Afim de você automatizar as tarefas do dia a dia e aumentar seu nível técnico.
 
-### **Objetivo**
+## **Objetivo**
 
 Criar uma Storage Account via Azure CLI.
 
-#### **1.1 Definindo as variáveis de rede**
+### **1.1 Definindo as variáveis de rede**
 
 ```bash
 resourceGroup='lab01-RG'
@@ -29,13 +29,13 @@ sku='Standard_LRS'
 kind='StorageV2'
 ```
 
-### **2.1 Criando o Resource Groups**
+## **2.1 Criando o Resource Groups**
 
 ```bash
 az group create --name $resourceGroup --location $location
 ```
 
-### **3.1 Criando a Storage Account**
+## **3.1 Criando a Storage Account**
 
 ```bash
 az storage account create --name $saName --resource-group $resourceGroup --location $location --sku $sku --kind $kind

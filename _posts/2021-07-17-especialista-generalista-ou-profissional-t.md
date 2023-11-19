@@ -31,12 +31,12 @@ Antes de mais nada, vamos entender uma pouco de cada perfil e voltamos a pergunt
 
 ![](/assets/img/09/habilidade2.jpg){: "width=60%" } _Especialista_
 
-### **Pontos positivos:**
+## **Pontos positivos:**
 
 * **Maiores salários**: não é uma regra, mas sem dúvidas este é o principal motivo para a escolha deste caminho. Especializar em algo leva tempo, logo, a tendencia são salários maiores.
 * **Liderança**: um especialista tem maiores chances de se tornar um líder de equipe.
 
-### **Pontos negativos:**
+## **Pontos negativos:**
 
 * **Inflexibilidade**: uma vez que você concentra todos os esforços em uma única área ou ferramenta, diminui a possibilidade de encontrar vagas fora deste nicho.
 * **Obsoleto**: um especialista corre sérios riscos de se tornar obsoleto, uma vez que dia após dia temos novas ferramentas, linguagens e mudanças no modo de trabalho.
@@ -45,13 +45,13 @@ Antes de mais nada, vamos entender uma pouco de cada perfil e voltamos a pergunt
 
 Um generalista é um profissional que conhece de tudo um pouco, tem habilidades e interesse em várias áreas. Um generalista também pode se tornar um líder, mas tendem a atuar em áreas com atuação mais ampla.
 
-### **Pontos positivos:**
+## **Pontos positivos:**
 
 * **Amplitude**: é comum um generalista, ter conhecimentos além da área técnica, com um conhecimento mais amplo, desta forma pode colaborar em outras áreas e ajudar a empresa como um todo.
 * Flexibilidade: com uma visão mais ampla em diferentes assuntos os generalistas tendem a ter mais oportunidades na carreira.
 * Habilidades transferíveis: com uma ampla variedade de conhecimento, suas habilidades também são mais transferíveis.
 
-### **Pontos negativos:**
+## **Pontos negativos:**
 
 * **Instabilidade**: substituir um generalista pode ser mais fácil do que encontrar um especialista, devido a suas habilidades não serem tão únicas.
 * **Aprovação**: uma vez atuando em várias frentes, um generalista tem mais dificuldade em provar seu potencial.

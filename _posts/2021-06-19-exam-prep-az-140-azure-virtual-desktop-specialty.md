@@ -21,7 +21,7 @@ Mas não nego também que receber um e-mail do nada com sua aprovação é muito
 
 Bom, sem mais delongas, vamos ao que interessa!
 
-### **Os temas cobrados no exame são**
+## **Os temas cobrados no exame são**
 
 * Plan an Azure Virtual Desktop Architecture (10-15%)
 * Implement an Azure Virtual Desktop Infrastructure (25-30%)
@@ -31,7 +31,7 @@ Bom, sem mais delongas, vamos ao que interessa!
 
 Segue o link do conteúdo completo que é cobrado na prova: <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4MFST" target="_blank" alt="">Skills Measured.</a> 
 
-### **Material utilizado**
+## **Material utilizado**
 
 Como o exame ainda estava em beta, ainda não temos um learning path deste exame. Então, a melhor maneira de estudar, é analisar os temas cobrados e buscar as documentações oficiais. 
 
@@ -41,7 +41,7 @@ Para uma revisão mais focada no exame eu assisti uma série de vídeos da Azure
 
 Segue a playlist referente ao exame AZ-140: <a href="https://www.youtube.com/playlist?list=PL-V4YVm6AmwW1DBM25pwWYd1Lxs84ILZT" target="_blank" alt="">Want to ACE The AZ-140 WVD Exam, Start Here! - YouTube</a>
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Caso você já esteja familiarizado com os conceitos do AVD, não creio que você terá muitas dificuldades no exame. Mesmo sendo um exame de nível especialista, quem já trabalha à algum tempo com a tecnologia se sentirá confortável com os temas abordados.
 

@@ -17,7 +17,7 @@ Mas como combinado, à medida que for chegando o material eu vou fazer o possív
 
 Sem mais delongas vamos lá!
 
-### **Essa semana chegou os seguintes itens**
+## **Essa semana chegou os seguintes itens**
 
 - 3 x cartões micro sd de 64GB
 - 1 x cartão micro sd de 128GB
@@ -26,7 +26,7 @@ Sem mais delongas vamos lá!
 - 1 x case Retroflag superpi para raspberry pi 3
 - 1 x case para cluster com 4 layers
 
-### **Problemas encontrados**
+## **Problemas encontrados**
 
 Se você já importou alguma coisa da china, sabe que é comum ter alguns problemas com os produtos, seja por conta da qualidade, problema ou mesmo diferenças no produto comprado.
 
@@ -36,7 +36,7 @@ De problemas, somente o case que vou utilizar no cluster de raspberry. Fiz a com
 
 Como é um produto da china e leva bastante tempo para chegar, pedir a troca está fora de cogitação. Como não é um item caro, vou acabar comprando outro kit para resolver o problema e ficar com algumas peças sobressalentes.
 
-### **Em fase de testes**
+## **Em fase de testes**
 
 Essa semana já coloquei o Switch PoE TP-Link TL-SG1008P e o Dell OptiPlex 3050 para funcionar.
 
@@ -60,7 +60,7 @@ Como mencionei no meu post no Linkedin: Este é o DNS server mais nostálgico qu
 
 ![](/assets/img/25/homelab1-5.jpeg){: "width=60%" }
 
-### **Sobre o Pi-Hole**
+## **Sobre o Pi-Hole**
 
 O Pi-Hole é um bloqueador de anúncios em nível de network que atua como um DNS em sua rede local, assim, quando você acessa algum site e esse site contém algum dos domínios da blacklist, a requisição para exibir o anúncio será bloqueada.
 
@@ -91,7 +91,7 @@ The Pi-hole® is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) th
 
 Segue link do projeto: <a href="https://github.com/pi-hole/pi-hole/blob/master/README.md" target="_blank"> Pi-Hole</a>
 
-### **Atualizando os componentes do projeto**
+## **Atualizando os componentes do projeto**
 
 - [X] Roteador MikroTik hAP Ac2 
 - [X] Switch PoE TP-Link TL-SG1008P
@@ -105,7 +105,7 @@ Segue link do projeto: <a href="https://github.com/pi-hole/pi-hole/blob/master/R
 - [X] Patch Cord UTP CAT6
 - [X] Case Retroflag SuperPI para PI3
 
-### **Conclusão**
+## **Conclusão**
 
 Estou muito animado com o progresso do projeto, o case do PI3 é um show à parte, deixou o cenário lindo por aqui, e quem vê acha mesmo que é um super Nintendo na sua versão miniatura.
 

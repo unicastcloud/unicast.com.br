@@ -7,11 +7,11 @@ categories: [Cloud, Azure]
 tags: [azure, microsoft,management, tags, resourcegroup, cloudshell, azurecli, az104]
 ---
 
-### Saudações Pessoal!!!
+## Saudações Pessoal!!!
 
 No cardápio de hoje vamos servir uma **Automação para Exclusão de Vários Grupos de Recursos do Azure através de Tags**.
 
-### **Sobre Azure Tags**
+## **Sobre Azure Tags**
 
 **TAGS ou Marcas**, tem o propósito de **Identificar Recursos no ambiente Cloud** como se fosse uma "**etiqueta, post it, crachá**" ou qualquer outra coisa que você associe com identificação" e também não é uma exclusividade do Azure, **TAGS** estão presentes na AWS e GCP!!!
 
@@ -21,7 +21,7 @@ Masssssssss..... a **TAG** vai muito além de ajudar a galera da Gestão Finance
 
 O que apresento a seguir também é uma pequena demonstração do conceito da **Infraestrutura como Código ou IaaC**, cujo objetivo é eliminar tarefas repetitivas aumentando a agilidade no trabalho.
 
-### **Objetivo**
+## **Objetivo**
 
 O objetivo deste artigo é **Utilizar TAG para excluir vários Grupos de Recursos com apenas 1 linha de Comando do Azure CLI**.
 
@@ -30,7 +30,7 @@ O objetivo deste artigo é **Utilizar TAG para excluir vários Grupos de Recurso
 
 {: .prompt-warning }
 
-### **1. Criar Grupo de Recursos e vincular 1 VNET a cada um**
+## **1. Criar Grupo de Recursos e vincular 1 VNET a cada um**
 
 1.1 - Crie um Grupo de Recursos na Região Brazil e vincule uma Virtual Network (VNET) padrão, **Sem se preocupar com Range de IP e Subnet!!!**  
 
@@ -56,7 +56,7 @@ O objetivo deste artigo é **Utilizar TAG para excluir vários Grupos de Recurso
 
 ![](/assets/img/61/azure-to-18-tag7.png){: "width=60%" }
 
-### **2. Inserir TAG aos Grupos de Recursos que serão Excluídos**
+## **2. Inserir TAG aos Grupos de Recursos que serão Excluídos**
 
 Ok, agora é o momento em que a **TAG** entra em ação!<br>
 Vamos **Identificar** estes 3 Grupos de Recursos para que sejam **excluídos simultaneamente e sem esforço repetitivo.**
@@ -87,7 +87,7 @@ Será neste ambiente que a **"brincadeira"** vai acontecer rs rs. Por Padrão o 
 ---
 ![](/assets/img/61/azure-to-18-tag14.png){: "width=60%" }
 
-### **3. Executando a Automação**
+## **3. Executando a Automação**
 
 3.1 - O 1º passo é listar de forma resumida os **Grupos de Recursos**  que possuem a **TAG** **"excluir-tudo"** através do comando <br>
 ```az group list --tag=excluir-tudo -otable```

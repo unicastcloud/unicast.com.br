@@ -17,11 +17,11 @@ Para essa atividade será necessário rodar alguns comandos via linha de comando
 
 É um procedimento simples, porém, vale lembrar que haverá algum tempo de indisponibilidade durante a mudança.
 
-### **Objetivo**
+## **Objetivo**
 
 Modificar endereçamento de rede alocado para o Azure Application Gateway.
 
-### **Motivação**
+## **Motivação**
 
 Imagine o seguinte cenário:
 
@@ -53,7 +53,7 @@ Lembrando que você pode criar uma nova vnet e subnet ou mesmo manter a mesma vn
 
 Para este exemplo, criarei mais uma subnet, utilizando a mesma vnet que já estava configurada para o application gateway.
 
-### **Cenário atual**
+## **Cenário atual**
 
 **Address space:** 10.0.0.0/24
 
@@ -65,7 +65,7 @@ Para este exemplo, criarei mais uma subnet, utilizando a mesma vnet que já esta
 
 Veja que estou criando uma nova subnet, pois não tenho mais endereços disponíveis no /24 para aumentar o /28 do application gateway.
 
-### **1.1 Criar nova subnet**
+## **1.1 Criar nova subnet**
 
 Vamos criar mais uma subnet em nossa vnet-unicastlab. O endereço será 10.1.0.0/24.
 
@@ -73,7 +73,7 @@ Vamos criar mais uma subnet em nossa vnet-unicastlab. O endereço será 10.1.0.0
 
 ![](/assets/img/15/appgw6.png){: "width=60%" }
 
-### **2.1 Parando o Application Gateway**
+## **2.1 Parando o Application Gateway**
 
 Você pode utilizar o Cloud Shell.
 
@@ -86,7 +86,7 @@ az network application-gateway stop
 --name NOME_DO_APPGW
 ```
 
-### **2.2 Modificando a subnet**
+## **2.2 Modificando a subnet**
 
 Rode o comando para ober as informações necessárias.
 
@@ -117,7 +117,7 @@ Verifique se seu application gateway já está com a nova subnet configurada.
 
 ![](/assets/img/15/appgw10.png){: "width=60%" }
 
-### **3.1 Iniciando o Application Gateway**
+## **3.1 Iniciando o Application Gateway**
 
 Por padrão, ao executar o comando para mudança da subnet, o application gateway já é iniciado, caso ele ainda esteja com o status de stop, você pode rodar o seguinte comando:
 

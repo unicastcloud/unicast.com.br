@@ -15,13 +15,13 @@ Acabei esperando para fazer um post só, pois estava esperando o restante dos ha
 
 Como o cluster estava praticamente pronto, basicamente foi esperar pela chegada do quarto PI4 e começar os ajustes finos.
 
-### **Novos itens**
+## **Novos itens**
 
 - 1 x Raspberry Pi 4 de 4GB
 - Parafusos de 2,5mm
 - Espaçadores de 2,5mm
 
-### **Sobre o primeiro problema encontrado:**
+## **Sobre o primeiro problema encontrado:**
 
 Com a chegada do kit de espaçadores, consegui resolver o problema do HAT POE e também do espaçamento entre as placas, pois agora consegui misturar várias medidas para ajustar uma altura legal.
 
@@ -37,13 +37,13 @@ Sobre o espaçamento do HAT POE, consegue resolver com algumas porcas 2,5mm que 
 
 Por aqui, entre mortos e feridos, salvaram se todos!
 
-### **Sobre o segundo problema encontrado:**
+## **Sobre o segundo problema encontrado:**
 
 Com os cartões SD originais, tudo certo, sistema funcionando perfeitamente e com excelente desempenho.
 
 E para manter o padrão, todos PI4 estão com cartões SD classe 10 Sandisk (Original) de 32GB.
 
-### **Atualizando os componentes do projeto**
+## **Atualizando os componentes do projeto**
 
 - [X] 1 x Roteador MikroTik hAP Ac2 
 - [X] 1 x Switch PoE TP-Link TL-SG1008P
@@ -62,7 +62,7 @@ Desta forma, o cluster ficou como padrão todos os PIs com 4GB.
 
 Outro ponto importante é que no planejamento inicial também não estava nos planos 4 x PI4s e sim 3 unidades. Acabei optando por 4 unidades para ser possível trabalhar com multicluster no Kubernetes.
 
-### **Novidades e próximos passos**
+## **Novidades e próximos passos**
 
 Se tem algo muito legal em ter um homelab é poder brincar e experimentar várias opções.
 
@@ -76,7 +76,7 @@ A próxima modificação será no OptiPlex, hoje ele está com Windows 2019 Data
 
 Irei instalar o Proxmox para fazer alguns testes e assim que possível escrevo sobre o Hypervisor escolhido.
 
-### **Conclusão**
+## **Conclusão**
 
 Bom, é isso, agora é brincar e estudar! 
 

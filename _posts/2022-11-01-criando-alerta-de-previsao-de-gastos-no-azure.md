@@ -15,14 +15,14 @@ Já falamos em artigos anteriores sobre a importância de otimizar e gerenciar s
 
 Neste artigo vamos focar somente na criação de alertas com base na previsão de gastos do Azure.
 
-### Aritgos Otimização de Custos
+## Aritgos Otimização de Custos
 
 - <a href="https://unicast.com.br/posts/gerenciando-gastos-no-azure-com-azure-cost-management/">Gerenciando gastos no Azure com Azure Cost Management</a>
 - <a href="https://unicast.com.br/posts/5-praticas-para-reduzir-seus-gastos-com-o-microsoft-azure/">5 práticas para reduzir seus gastos com o Microsoft Azure</a>
 
 Então, sem mais delongas, vamos ao que interessa!
 
-### Motivadores
+## Motivadores
 
 Criar alertas com base as previsões de custos do Azure, pode ajudar a ajustar seus gastos antes que ele atinja a meta de orçamento mensal estipulada.
 
@@ -32,7 +32,7 @@ Pense nisso, se você vai atingir seu orçamento mensal no dia 20 do mês em vez
 
 Quanto mais cedo você souber, melhor poderá gerenciar os gastos.
 
-### 1.1 Configurar alertas
+## 1.1 Configurar alertas
 
 Abra seu navegador e acesse o portal Azure em **http://portal.azure.com** e faça login usando sua conta da Microsoft.
 

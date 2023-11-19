@@ -15,13 +15,13 @@ Os Locals são variáveis definidas dentro do arquivo .tf que podem ser utilizad
 
 Se você ainda não conhece os Locals no Terraform, continue lendo esse post que vamos explicar tudo detalhadamente.
 
-### **1. O que são Locals no Terraform?**
+## **1. O que são Locals no Terraform?**
 
 Os **Locals** no **Terraform** são variáveis que são definidas dentro do arquivo `.tf`. Eles permitem que você crie valores intermediários, que podem ser reutilizados várias vezes ao longo do arquivo.
 
 Os Locals são semelhantes às variáveis no código, mas com algumas diferenças. Eles são definidos dentro de um bloco `"locals"`, que pode estar presente em qualquer nível do código. Além disso, os Locals não são expostos fora do módulo, ou seja, eles só podem ser usados dentro do arquivo `.tf`.
 
-### **2. Como usar Locals no Terraform?**
+## **2. Como usar Locals no Terraform?**
 
 Para usar Locals no Terraform, você precisa definir uma variável dentro de um bloco "locals". Você pode fazer isso em qualquer parte do arquivo, desde que a variável seja definida antes de ser usada.
 
@@ -48,7 +48,7 @@ resource "azurerm_virtual_machine" "example" {
 }
 ````
 
-### **3. Exemplos práticos de como utilizar Locals no Terraform**
+## **3. Exemplos práticos de como utilizar Locals no Terraform**
 
 Para ajudar você a entender melhor como usar Locals no Terraform, vamos apresentar alguns exemplos práticos.
 
@@ -155,7 +155,7 @@ resource "azurerm_virtual_machine" "example" {
 
 Neste exemplo, criamos uma máquina virtual com o uso de **Locals**. O recurso é criado com o nome `"my-vm"` na região `"eastus"` com o tamanho `"Standard_DS2_v2"`. Para permitir o acesso remoto, definimos o nome de usuário e senha na variável Local `"admin_username"` e `"admin_password"`. Também criamos uma rede virtual com um subnet e um adaptador de rede.
 
-### **4. Conclusão**
+## **4. Conclusão**
 
 Neste post, explicamos o que são os Locals no Terraform e como utilizá-los. Essa funcionalidade é muito útil para criar valores intermediários que podem ser reutilizados várias vezes no código.
 

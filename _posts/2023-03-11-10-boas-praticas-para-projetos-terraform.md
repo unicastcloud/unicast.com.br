@@ -15,7 +15,7 @@ Neste artigo, vamos explorar algumas boas práticas que podem ajudar a tornar su
 
 Esta é mais uma continuação dos artigos que temos publicado sobre **Terraform**, mostrando como tornar o seu uso mais produtivo e seguro. Então, se você já trabalha com o Terraform ou está pensando em começar, continue lendo para descobrir essas dicas valiosas.
 
-### **1. Use remote state**
+## **1. Use remote state**
 
 O **Remote State** é um recurso do Terraform que permite armazenar o estado da infraestrutura em um local centralizado, como um bucket do S3 na AWS ou um blob do Azure Storage na Microsoft Azure. Isso pode ajudar a manter o estado da infraestrutura consistente em todas as instâncias do Terraform, o que pode ajudar a evitar erros e garantir que todos estejam trabalhando com a versão mais recente da configuração.
 
@@ -25,13 +25,13 @@ Imagine que você precisa gerenciar sua infraestrutura em nuvem em um projeto co
 
 O armazenamento remoto do estado é uma das melhores e mais importantes práticas do Terraform.
 
-### **2. Utilize o modelo de partial configuration**
+## **2. Utilize o modelo de partial configuration**
 
 **Partial Configuration** é um modelo de configuração do Terraform que permite dividir a configuração em vários arquivos e módulos. Isso pode ajudar a manter a configuração organizada e modular, o que pode torná-la mais fácil de entender e manter. Além disso, isso pode ajudar a promover a reutilização de código e a facilitar a colaboração entre membros da equipe.
 
 A utilização do modelo de **partial configuration** no Terraform não apenas ajuda na organização do seu código, mas também pode auxiliar na estratégia de não utilizar hard codes e informações de login e secrets. Você pode gerenciar variáveis sensíveis de forma mais segura, evitando que informações importantes sejam expostas acidentalmente. 
 
-### **3. Utilize uma convenção de nomenclatura consistente**
+## **3. Utilize uma convenção de nomenclatura consistente**
 
 Usar uma **convenção de nomenclatura** consistente pode parecer uma prática simples, mas pode ajudar muito na organização e na legibilidade do seu código. Além disso, seguir uma convenção padrão pode ajudar a manter uma estrutura consistente em todos os projetos, facilitando a colaboração entre a equipe.
 
@@ -47,7 +47,7 @@ Alguns exemplos de convenções de nomenclatura que você pode considerar para s
 
 Seguir uma **convenção de nomenclatura** consistente pode ajudar a manter a organização e a legibilidade do seu código, facilitando a colaboração com sua equipe e tornando a manutenção da infraestrutura mais fácil.
 
-### **4. Use módulos sempre que possível**
+## **4. Use módulos sempre que possível**
 
 O uso de **módulos** no Terraform é uma prática fundamental para manter a organização e a reutilização de código em sua infraestrutura. Ao agrupar recursos relacionados em um único módulo, você pode tornar sua configuração mais modular, reutilizável e fácil de manter.
 
@@ -65,7 +65,7 @@ Algumas dicas para ajudar você a usar **módulos** de forma eficiente no Terraf
 
 O uso de **módulos** no Terraform pode ajudar a tornar sua infraestrutura mais organizada, modular e fácil de manter. Certifique-se de seguir as práticas recomendadas e as convenções de nomenclatura para criar módulos eficientes e reutilizáveis.
 
-### **5. Tire proveito dos Dynamic Blocks**
+## **5. Tire proveito dos Dynamic Blocks**
 
 Os **Dynamic Blocks** são uma das funcionalidades mais poderosas do Terraform. Eles permitem que você crie blocos de recursos dinâmicos com base em dados externos, o que pode ajudar a simplificar sua configuração e torná-la mais flexível.
 
@@ -81,7 +81,7 @@ Algumas dicas para aproveitar ao máximo os **Dynamic Blocks** no Terraform:
 
 Ao usar Dynamic Blocks no Terraform, você pode tornar sua configuração mais dinâmica e flexível, permitindo que ela se adapte a mudanças em seus dados externos.
 
-### **6. Utilize loops e condicionais**
+## **6. Utilize loops e condicionais**
 
 O Terraform oferece suporte a loops e condicionais em sua linguagem **HCL (HashiCorp Configuration Language)**, o que pode tornar a criação de recursos e configurações muito mais eficiente e fácil de gerenciar.
 
@@ -158,7 +158,7 @@ Nesse exemplo, o Terraform criará três instâncias do recurso **azurerm_virtua
 
 Ao usar loops e condicionais no Terraform, você pode economizar tempo e esforço ao criar e gerenciar seus recursos. 
 
-### **7. Utilize Workspaces**
+## **7. Utilize Workspaces**
 
 Utilizar o **Workspace** no Terraform é uma prática recomendada para separar recursos de diferentes ambientes, como **desenvolvimento**, **homologação** e **produção**. Cada workspace contém um estado separado dos recursos gerenciados pelo Terraform, permitindo que diferentes configurações e recursos sejam gerenciados separadamente sem interferir uns nos outros.
 
@@ -168,7 +168,7 @@ Além disso, é importante lembrar que alguns recursos podem não ser compatíve
 
 Ao utilizar **workspaces** no Terraform, é possível gerenciar ambientes separados com maior eficiência e segurança, o que é crucial para projetos de grande escala e que exigem alta disponibilidade e confiabilidade.
 
-### **8. Sempre formate e valide seu código**
+## **8. Sempre formate e valide seu código**
 
 A formatação e validação do código Terraform é uma prática muito importante para garantir que o código seja consistente e esteja livre de erros. 
 
@@ -182,7 +182,7 @@ Já o comando **terraform validate** é usado para validar o código Terraform e
 
 Ao seguir as melhores práticas de formatação e validação do código Terraform, é possível garantir que o código seja consistente, livre de erros e pronto para ser implantado em qualquer ambiente.
 
-### **9. Utilize as extensões do Terraform em suas IDEs**
+## **9. Utilize as extensões do Terraform em suas IDEs**
 
 O Terraform possui diversas extensões disponíveis para as principais IDEs do mercado, como o **Visual Studio Code**, que é uma das mais populares. Essas extensões ajudam a tornar o desenvolvimento com Terraform mais produtivo e eficiente, oferecendo recursos como auto-completação de código, validação de sintaxe em tempo real, realce de sintaxe e muito mais.
 
@@ -190,7 +190,7 @@ No VS Code, por exemplo, a extensão **"HashiCorp Terraform"** é uma das mais u
 
 Ao utilizar essas extensões, você ganha mais agilidade no desenvolvimento e diminui a chance de erros em seu código. Portanto, é altamente recomendado que você explore as opções disponíveis e escolha aquela que melhor se adapta ao seu fluxo de trabalho.
 
-### **10. Utilize ferramentas adicionais para aumentar o potencial do Terraform**
+## **10. Utilize ferramentas adicionais para aumentar o potencial do Terraform**
 
 Existem diversas ferramentas adicionais que podem ajudar a aumentar o potencial do Terraform e melhorar ainda mais a experiência de desenvolvimento. 
 

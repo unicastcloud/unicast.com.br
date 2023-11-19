@@ -13,11 +13,11 @@ Dica rápida neste Azure-To, iremos aprender como criar uma Storage Account via 
 
 A dica é simples, mas o intuito é lhe encorajar a utilizar mais comandos via CLI. Afim de você automatizar as tarefas do dia a dia e aumentar seu nível técnico.
 
-### **Objetivo**
+## **Objetivo**
 
 Criar uma Storage Account via Powershell
 
-#### **1.1 Definindo as variáveis de rede**
+### **1.1 Definindo as variáveis de rede**
 
 ```powershell
 $resourceGroup  = "lab01-RG"
@@ -27,13 +27,13 @@ $sku		= "Standard_LRS"
 $kind		= "StorageV2"
 ```
 
-### **2.1 Criando o Resource Groups**
+## **2.1 Criando o Resource Groups**
 
 ```powershell
 New-AzResourceGroup -Name $ResourceGroup -Location $Location
 ```
 
-### **3.1 Criando a Storage Account**
+## **3.1 Criando a Storage Account**
 
 ```powershell
 New-AzStorageAccount -ResourceGroupName $resourceGroup -Name $saName -Location $location -SkuName $sku -Kind $kind

@@ -17,7 +17,7 @@ Como presto serviço para empresas de telecomunicações e internet, este moment
 
 Desde que o Brasil entrou no radar da pandemia do COVID-19, tudo mudou. O mundo como conhecíamos não existe mais, e o momento exigiu mudanças drásticas em nossa rotina de trabalho.
 
-### **E hoje vou falar um pouco sobre Home Office.**
+## **E hoje vou falar um pouco sobre Home Office.**
 
 Primeiramente, trabalho em Home Office não é trabalho em casa, e sim trabalho remoto, a distância. Necessariamente não precisa ser sua casa, pode ser um escritório particular, hotel ou até mesmo em uma cafeteria.
 
@@ -37,7 +37,7 @@ Diante das recomendações da OMS (Organização Mundial de Saúde) e do Minist�
 
 Com isso as empresas e os profissionais tiveram que sair correndo para se adequar e aderir o modelo de Home Office.
 
-### **Empresas**
+## **Empresas**
 
 A grande maioria não estava preparada para o trabalho remoto. O que mais se viu nos últimos dias, foram equipes de TI correndo para adequar a infraestrutura da empresa e viabilizar o Home Office.
 
@@ -57,7 +57,7 @@ Mesmo diante da desorganização, não deixa de ser uma excelente iniciativa por
 
 Não tenho dúvida que depois que a pandemia acalmar, muitas empresas vão manter o Home Office, resta agora, esperar que neste momento difícil as empresas olhem com mais carinho e se preparem melhor para esta modalidade de trabalho!
 
-### **Colaborador**
+## **Colaborador**
 
 Da mesma maneira, o colaborador terá vários desafios pela frente!
 
@@ -77,7 +77,7 @@ Aí você deve estar se perguntando: dá para fazer funcionar? Dá sim, é só s
 
 Então vamos lá!
 
-### **1 – Local de Trabalho**
+## **1 – Local de Trabalho**
 
 É fundamental criar um espaço de trabalho, defina um cômodo da casa pra ser seu escritório. Deixei seu ambiente de trabalho agradável de maneira que você se sinta bem estando ali!
 
@@ -88,7 +88,7 @@ Então vamos lá!
 * Você precisa ser produtivo, mas não pode esquecer nunca de sua saúde.
 * E por fim, mantenha seu escritório organizado, não é porque está em casa que você precisa deixar tudo bagunçado. Lembre-se que ainda terá que fazer reuniões!
 
-### **2 – Rotina de Trabalho**
+## **2 – Rotina de Trabalho**
 
 Você está em casa, mas sua jornada de trabalho não precisa ser eterna. É extremamente importante estabelecer uma carga horária de trabalho.
 
@@ -99,7 +99,7 @@ Este é o maior erro dos profissionais que estão começando no Home Office, voc
 
 Só tome cuidado com o convívio familiar, não ter um tempo com a família pode virar um grande problema.
 
-###**3 – Roupa de Trabalho**
+##**3 – Roupa de Trabalho**
 
 Outra dica importante está na vestimenta, por favor, não trabalhe de pijama o dia todo!
 
@@ -108,7 +108,7 @@ Outra dica importante está na vestimenta, por favor, não trabalhe de pijama o 
 
 Não precisa ser a melhor roupa, mas precisa manter a rotina de se arrumar para o trabalho, isso é fundamental.
 
-### 4 – **Familiares e Trabalho**
+## 4 – **Familiares e Trabalho**
 Ponto crucial para o sucesso em Home Office.
 
 Seus familiares precisam entender que embora esteja em casa, no seu escritório, aquele é seu ambiente de trabalho.
@@ -119,18 +119,18 @@ Seus familiares precisam entender que embora esteja em casa, no seu escritório,
 
 É imprescindível a compreensão e a cooperação de toda sua família neste processo, se eles não levarem a sério isto, não vai funcionar o trabalho remoto para você!
 
-### **5 – Comunicação**
+## **5 – Comunicação**
 
 Não se isole no Home Office.
 
 * Mantenha contato com seus colegas de trabalho. Chefes, clientes ou fornecedores.
 * Não utilize somente e-mails ou programas de mensagem, comunique-se por telefone algumas vezes, escute a voz de outros seres humanos 😊.
 
-### **6 – Cuidado com Informações**
+## **6 – Cuidado com Informações**
 
 Assuntos sigilosos da empresa continuam sendo sigilosos e devem ser tratados com muito cuidado sempre.
 
-### **7 – Saia do Trabalho**
+## **7 – Saia do Trabalho**
 
 Não se torne refém do trabalho, como estamos em casa isso é fácil de acontecer. Você precisa entender que depois de sua jornada de trabalho, precisa ir para casa!
 

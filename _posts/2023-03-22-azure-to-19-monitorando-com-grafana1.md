@@ -7,11 +7,11 @@ categories: [Cloud, Azure]
 tags: [azure, microsoft, devops, observabillity, monitoramento, grafana, azuread, infraestrutura]
 ---
 
-### Saudações Pessoal!!!
+## Saudações Pessoal!!!
 
 Na programação de hoje o assunto é **Monitoramento de Recursos do Azure através do GRAFANA!!!**.
 
-### **Sobre o Grafana**
+## **Sobre o Grafana**
 
 **"Dashboard anything. Observe everything"** É desta forma que o Grafana se apresenta em seu site oficial
 <a href="https://grafana.com/grafana/" target="_blank">https://grafana.com/grafana/</a>
@@ -22,7 +22,7 @@ As informações chegam ao Grafana através de **Data Sources** e alguns players
 
 O Grafana é um Oceano de possibilidades, visite sempre o Site Oficial e se conecte em comunidades para se aprofundar ainda mais!!!
 
-### **Objetivo**
+## **Objetivo**
 
 O objetivo deste artigo é **Integrar o Grafana ao Azure para Monitorar Virtual Machine, SQL Database e VNET**.
 
@@ -33,7 +33,7 @@ O objetivo deste artigo é **Integrar o Grafana ao Azure para Monitorar Virtual 
 {: .prompt-warning }
 
 
-### **1. Implantação do Grafana**
+## **1. Implantação do Grafana**
 
 1.1 - A partir da **VM Windows 10**, faça conexão SSH com a **VM Linux**, neste exemplo o nome da VM será **VM-Grafana-server** e IP Privado **10.10.0.4**.
 
@@ -69,7 +69,7 @@ O objetivo deste artigo é **Integrar o Grafana ao Azure para Monitorar Virtual 
 ![](/assets/img/63/azgrafana3.png ){: "width=60%" }
 
 
-### **2. Acessar Painel de Gerenciamento**
+## **2. Acessar Painel de Gerenciamento**
 
 2.1 - Por padrão, o Grafana utiliza a porta TCP **3000**. 
 Então abra o seu navegador e digite o **IP do Servidor Linux**. Neste exemplo é ```http://10.10.0.4:3000 ```
@@ -86,7 +86,7 @@ Então abra o seu navegador e digite o **IP do Servidor Linux**. Neste exemplo �
 ![](/assets/img/63/azgrafana5.png ){: "width=60%" }
 
 
-### **3. Registrar o Grafana no Azure**
+## **3. Registrar o Grafana no Azure**
 
 3.1 - Acessar o Portal do Azure com nível de **Privilégio Administrativo na Subscription**. Neste exemplo foi utilizado o usuário **Owner**.
 
@@ -121,7 +121,7 @@ Então abra o seu navegador e digite o **IP do Servidor Linux**. Neste exemplo �
 ![](/assets/img/63/azgrafana12.png ){: "width=60%" }
 
 
-### **4. Vincular as Credenciais do Azure ao Grafana**
+## **4. Vincular as Credenciais do Azure ao Grafana**
 
 4.1 - No Azure AD, acesse **App Registration**, selecione  **Grafana** e copie para um **editor de texto** de sua preferência os
 campos **Application (client) ID** e **Directory (tenant) ID**
@@ -141,7 +141,7 @@ campos **Application (client) ID** e **Directory (tenant) ID**
 ![](/assets/img/63/azgrafana16.png ){: "width=60%" }
 
 
-### **5. Vincular Azure ao Grafana**
+## **5. Vincular Azure ao Grafana**
 
 5.1 - Na Console de Gerenciamento do Grafana, clicar na **Engrenagem** a **Esquerda** e depois em **Data Sources**
 
@@ -156,7 +156,7 @@ campos **Application (client) ID** e **Directory (tenant) ID**
 ![](/assets/img/63/azgrafana19.png ){: "width=60%" }
 
 
-### **6. Criar Dashboard para Monitorar o Servidor Linux-Grafana**
+## **6. Criar Dashboard para Monitorar o Servidor Linux-Grafana**
 
 6.1 - Conforme próxima imagem, clique em **+ New Dashboard**
 
@@ -179,7 +179,7 @@ campos **Application (client) ID** e **Directory (tenant) ID**
 ![](/assets/img/63/azgrafana24.png ){: "width=60%" }
 
 
-### **7. Criar Dashboard para Monitorar a Virtual Network**
+## **7. Criar Dashboard para Monitorar a Virtual Network**
 
 7.1 - Clique no Ícone **Add Panel** conforme imagem e depois em **Add a New Panel**
 
@@ -197,7 +197,7 @@ campos **Application (client) ID** e **Directory (tenant) ID**
 
 ![](/assets/img/63/azgrafana28.png ){: "width=60%" }
 
-### **8. Criar Dashboard para Monitorar SQL Database**
+## **8. Criar Dashboard para Monitorar SQL Database**
 
 8.1 - Clique novamente no Ícone **Add Panel** conforme imagem e depois em **Add a New Panel**
 

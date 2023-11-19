@@ -19,17 +19,17 @@ Então, a idéia é a seguinte: além de continuar trazendo artigos focados no d
 
 E para começar, vamos aprender como criar um conta gratuita no Microsoft Azure, e começar sua jornada em cloud!
 
-### **Sobre o Microsoft Azure**
+## **Sobre o Microsoft Azure**
 
 De acordo com a Wikipedia, **Microsoft Azure**, muitas vezes referido como **Azure** é uma plataforma de computação em nuvem operado pela Microsoft para gerenciamento de aplicativos via data centers distribuídos em todo o mundo . Ele fornece software como serviço (SaaS), **plataforma como serviço (PaaS)** e infraestrutura como serviço (IaaS) e suporta muitas linguagens de programação, ferramentas e frameworks diferentes, incluindo software e sistemas específicos da Microsoft e de terceiros.
 
 A apresentação do serviço foi feita no dia **27 de outubro de 2008**, durante a **Professional Developers Conference**, em Los Angeles; e lançado em **1 de fevereiro de 2010** como **Windows Azure**, para então ser renomeado como **Microsoft Azure** em 25 de março de 2014.
 
-### **Objetivo**
+## **Objetivo**
 
 Criar um conta gratuita no Microsoft Azure.
 
-### **Conta gratuita e lista de serviços**
+## **Conta gratuita e lista de serviços**
 
 Quando você começa a usar o Azure com uma conta gratuita, recebe USD 200 de crédito para gastar nos primeiros 30 dias após a inscrição. Além disso, você obtém mensalidades gratuitas de dois grupos de serviços: serviços populares, que são gratuitos por 12 meses, e mais de 55 outros serviços gratuitos sempre".
 
@@ -53,7 +53,7 @@ Armazenamento de Blobs do Azure
 
 Para saber mais sobre os serviços gratuitos do Azure, consulte: <a href="https://azure.microsoft.com/en-in/free/free-account-faq/#free-services">perguntas frequentes sobre contas gratuitas do Azure | Microsoft Azure</a> 
 
-### **Pré-requisitos para criar uma conta gratuita do Azure**
+## **Pré-requisitos para criar uma conta gratuita do Azure**
 
 Para uma conta no Azure, você deve ter,
 
@@ -61,7 +61,7 @@ Para uma conta no Azure, você deve ter,
 - Id de e-mail ( opcional , você pode criar um novo )
 - Cartão de crédito ( para perspectiva de verificação de identidade ) 
 
-### **1.1 Criando sua conta gratuita do Azure**
+## **1.1 Criando sua conta gratuita do Azure**
 
 Acesse a página: <a href="https://azure.microsoft.com/pt-br/free/">Crie sua conta gratuita do Azure hoje | Página do Microsoft Azure</a> e em seguida, clique em **Início gratuito**.   
 
@@ -88,7 +88,7 @@ Aceite os Termos e Condições e clique em Avançar para prosseguir.
 
 ![](/assets/img/44/freeaz04.png){: "width=60%" }
 
-### **1.2 Adicionando informações de cobrança**
+## **1.2 Adicionando informações de cobrança**
 
 Para a perspectiva de verificação de identidade, você precisará fornecer os detalhes do seu cartão de crédito e clicar no botão Sign up para continuar.
 

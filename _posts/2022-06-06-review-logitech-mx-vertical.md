@@ -41,7 +41,7 @@ Na parte inferior do mouse estão o botão liga/desliga e o botão de canal que 
 
 ![](/assets/img/22/vertical4.jpg){: "width=60%" }
 
-### **Sobre o que achei até agora do MX Vertical.**
+## **Sobre o que achei até agora do MX Vertical.**
 
 É um mouse bastante leve, principalmente por seu tamanho, então clicar em um botão requer que eu segure o lado oposto com o polegar para evitar que o mouse se mova para onde eu queria clicar, o que não acontece com um mouse convencional.
 

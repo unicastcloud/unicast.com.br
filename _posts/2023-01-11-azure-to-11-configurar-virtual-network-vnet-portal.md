@@ -11,15 +11,15 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma sequencia de artigos do Azure-To, então vamos nessa!
 
-### **Sobre Virtual Network no Azure**
+## **Sobre Virtual Network no Azure**
 
 A Rede Virtual do Azure (VNet) é uma abstração para sua rede privada no Azure. A VNet permite que muitos tipos de recursos do Azure, como Máquinas Virtuais (VM) do Azure, se comuniquem com segurança uns com os outros, com a Internet e com redes locais. A VNet é semelhante a uma rede tradicional que você operaria em seu próprio data center, mas traz benefícios adicionais da infraestrutura do Azure, como escala, disponibilidade e isolamento.
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, criaremos uma rede virtual, implantaremos duas máquinas virtuais nessa rede virtual e as configuraremos para permitir que uma máquina virtual comunique com a outra dentro dessa rede virtual.
 
-### **1.1 Criar virtual network (VNET)**
+## **1.1 Criar virtual network (VNET)**
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo**, na caixa de Pesquisa, digite **Virtual networks** e clique em **Create** 
 
@@ -48,7 +48,7 @@ Clique em **Review + Create**.
 
 ![](/assets/img/50/vnet05.png){: "width=60%" }
 
-### **2.1 Criar máquinas virtuais para validação e testes**
+## **2.1 Criar máquinas virtuais para validação e testes**
 
 Agora, precisamos validar se nossa vnet está funcionando corretamente.
 
@@ -68,7 +68,7 @@ No meu caso, estou utilizando 2 VMs com o sistema operacional **Ubuntu**.
 
 ![](/assets/img/50/vnet06.png){: "width=60%" }
 
-### **3.1 Validar comunicação**
+## **3.1 Validar comunicação**
 
 Para finalizar, vamos testar a resolução interna de nomes.
 

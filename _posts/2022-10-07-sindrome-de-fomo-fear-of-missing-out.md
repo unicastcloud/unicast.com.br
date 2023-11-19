@@ -36,7 +36,7 @@ Brincadeiras à parte, o tópico principal é falar sobre **FOMO**.
 
 ![](/assets/img/38/fomo1.jpg){: "width=60%" }
 
-### **O que é FOMO?**
+## **O que é FOMO?**
 
 **FOMO** é a sigla da expressão em inglês **"fear of missing out"**, que em português significa algo como **"medo de ficar de fora" ou “medo de estar perdendo algo/timming”**
 
@@ -77,7 +77,7 @@ A sensação de pânico que vem do FOMO é muito comum em ambientes corporativos
 
 Você precisa entender suas necessidades, expectativas e sonhos. Eles são únicos para você. 
 
-### **Resumindo o FOMO "fear of missing out”**
+## **Resumindo o FOMO "fear of missing out”**
 
 **Sintomas comuns:**
 

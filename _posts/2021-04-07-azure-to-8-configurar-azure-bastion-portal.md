@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Faz tempo que não faço um poste mais técnico então vamos lá. Seguindo nossa série Azure-To hoje vou mostrar como configurar o Azure Bastion.
 
-### **Sobre o Azure Bastion**
+## **Sobre o Azure Bastion**
 
 O serviço Azure Bastion é um serviço PaaS totalmente gerenciado por plataforma que você pode fornecer dentro de sua rede virtual. Ele fornece conectividade RDP/SSH segura e perfeita às suas máquinas virtuais diretamente no portal Azure sobre o Protocolo SSL.
 
@@ -21,7 +21,7 @@ Como ele funciona no protocolo SSL, não é necessário nenhum software adiciona
 
 O Bastion é implantando na rede virtual. O usuário acessa o portal do Azure, seleciona a VM que deseja acessar via Bastion e em seguida é capaz de abrir uma sessão RDP/SSH no próprio navegador.
 
-### **Objetivo**
+## **Objetivo**
 
 Configurar Azure Bastion
 
@@ -36,7 +36,7 @@ Um IP público que deve atender às seguintes características:
 - [X] O endereço IP público deve estar na mesma região do recurso do Bastion.
 - [X] O Azure Bastion suporta apenas o Standard Public IP SKU.
 
-### **1.1 Configurando o Azure Bastion via Portal**
+## **1.1 Configurando o Azure Bastion via Portal**
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo** , na caixa de Pesquisa, digite **Bastion** e clique em **Enter** para obter os resultados da pesquisa.
 
@@ -79,7 +79,7 @@ Volte a configuração do Bastion e complete as informações:
 
 Agora basta clicar em **Revisar + criar.**
 
-### **2.1 Conecte-se a uma máquina virtual**
+## **2.1 Conecte-se a uma máquina virtual**
 
 No portal do Azure vá até a máquina virtual à qual você deseja se conectar e selecione **Conectar**. Selecione **Bastion** no menu suspenso.
 

@@ -17,13 +17,13 @@ Ao lidar com **TCO**, você deve observar dois novos conceitos:
 
 Você precisará gastar dinheiro de uma forma ou de outra para capacitar os serviços e aplicativos que administram os negócios, mas o objetivo, é claro, é ter um sistema confiável e de alto desempenho pelo menor valor necessário. E é aqui que entra em jogo a análise de TCO.
 
-### **Sobre a Calculadora de TCO do Azure**
+## **Sobre a Calculadora de TCO do Azure**
 
 A Calculadora de TCO ajuda você a entender as áreas de custo que afetam seus aplicativos hoje, como hardware de servidor, licenças de software, eletricidade e mão de obra. Recomendando um conjunto de serviços equivalentes no Azure que darão suporte aos seus aplicativos. 
 
 A análise mostrará cada área de custo com uma estimativa de seus gastos locais versus gastos no Azure. E o resultado é um relatório detalhado que mostra quanto dinheiro você pode economizar migrando para o Azure.
 
-### **1.1 Adicionando Workloads na calculadora de TCO**
+## **1.1 Adicionando Workloads na calculadora de TCO**
 
 No navegador, navegue até a página <a href="https://azure.microsoft.com/en-us/pricing/tco/calculator/"> **Total Cost of Ownership (TCO) Calculator**</a>.
 
@@ -92,7 +92,7 @@ Ajuste a moeda para **Brazil - Real (R$) BRL**.
 
 Explore as opções e faça os ajustes necessários, em seguida, clique em **Next**.
 
-### **2.1 Revisando a estimativa de custos de TCO**
+## **2.1 Revisando a estimativa de custos de TCO**
 
 Agora, revisaremos os resultados da Calculadora de TCO do Azure.
 

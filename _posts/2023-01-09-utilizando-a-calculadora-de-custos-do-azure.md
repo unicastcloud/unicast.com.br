@@ -17,13 +17,13 @@ A Calculadora de Preços do Azure é comumente usada para avaliar os custos de d
 
 Neste artigo, utilizaremos a calculadora de preços do Azure para gerar uma estimativa de custo.
 
-### **Sobre a Calculadora do Azure**
+## **Sobre a Calculadora do Azure**
 
 A Calculadora de preços do Azure é uma ferramenta que pode ser utilizada para estimar custos de execução dos serviços no Azure. Ela fornece a estimativa de uma solução completa usando uma combinação de serviços do Azure. 
 
 A calculadora permite que os usuários insiram uma variedade de informações, incluindo o número de serviços do Azure a serem usados, o tamanho dos dados e o número de horas necessárias para concluir a tarefa.
 
-### **1.1 Configurando a calculadora de preços**
+## **1.1 Configurando a calculadora de preços**
 
 No navegador, navegue até a página <a href="https://azure.microsoft.com/en-us/pricing/calculator/"> **Azure Pricing Calculator**</a>.
 
@@ -65,7 +65,7 @@ Modifique as configurações de acordo com sua necessidade.
 
 ![](/assets/img/48/calc10.png){: "width=60%" }
 
-### **2.1 Revisando a estimativa de custos**
+## **2.1 Revisando a estimativa de custos**
 
 Agora, revisaremos os resultados da Calculadora de preços do Azure.
 

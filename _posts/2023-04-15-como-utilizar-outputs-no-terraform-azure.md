@@ -13,13 +13,13 @@ Este é mais um post da série de artigos que estamos escrevendo sobre o **Terra
 
 Neste artigo, vamos falar sobre **outputs** no **Terraform**, uma funcionalidade que permite que você obtenha e imprima valores de recursos criados em sua infraestrutura de nuvem. Vamos ver como declarar **outputs** no Terraform, quais são os benefícios de usá-los e como usá-los na mensagem de impressão no terminal.
 
-### **1. O que são outputs no Terraform?**
+## **1. O que são outputs no Terraform?**
 
 **Outputs** no **Terraform** são valores que você pode obter de recursos criados em sua infraestrutura de nuvem e usá-los em outros recursos ou em mensagens de impressão no terminal. Eles são definidos na seção `output` do arquivo de configuração do **Terraform** e podem ser acessados após a criação dos recursos.
 
 Por exemplo, suponha que você criou uma instância do **Microsoft Azure** usando o **Terraform** e agora deseja acessar o endereço IP público dessa instância em um recurso de segurança. Você pode definir um **output** para o endereço IP público e usá-lo em outro recurso.
 
-### **2. Como declarar outputs no Terraform?**
+## **2. Como declarar outputs no Terraform?**
 
 Para declarar um **output** no **Terraform**, você precisa definir o nome do **output** e o valor que ele deve conter. Aqui está um exemplo de declaração de **output** para um endereço IP público de uma instância do **Microsoft Azure**:
 
@@ -44,7 +44,7 @@ output "vm" {
 
 Neste exemplo, definimos um output chamado `vm` que contém o nome e o ID de uma instância do Microsoft Azure chamada `azurerm_virtual_machine.example`.
 
-### **3. Quais são os benefícios dos outputs do Terraform?**
+## **3. Quais são os benefícios dos outputs do Terraform?**
 
 Usar outputs no Terraform tem vários benefícios. Aqui estão alguns dos principais:
 
@@ -52,7 +52,7 @@ Usar outputs no Terraform tem vários benefícios. Aqui estão alguns dos princi
 - **Reutilização**: Ao definir um output para um valor, você pode reutilizá-lo em outros recursos, evitando a repetição de valores e economizando tempo.
 Comunicação: Outputs também podem ser usados para imprimir mensagens no terminal, permitindo que você comunique informações importantes sobre a infraestrutura criada.
 
-### **4. Como utilizar outputs no terminal?**
+## **4. Como utilizar outputs no terminal?**
 
 Você pode usar a mensagem de impressão no terminal para exibir informações sobre a infraestrutura criada, como o endereço IP público de uma instância ou o nome de um recurso. Para fazer isso, basta usar a interpolação de string do Terraform e o valor do output que você deseja imprimir. 
 
@@ -84,7 +84,7 @@ Isso exibirá a seguinte mensagem:
 O endereço IP público da instância é xxx.xxx.xxx.xxx.
 ````
 
-### **5. Usando um output em outro recurso**
+## **5. Usando um output em outro recurso**
 
 Neste exemplo, vamos criar uma instância do Microsoft Azure e um NSG que usa o endereço IP público da instância. Vamos usar um **output** para obter o endereço IP público da instância e usá-lo no NSG.
 
@@ -143,7 +143,7 @@ resource "example_security_group" "example" {
 
 Neste exemplo, criamos uma instância do Microsoft Azure e definimos um **output** chamado `public_ip_address` que obtém o endereço IP público da instância. Em seguida, criamos um NSG chamado `example_security_group` que usa o endereço IP público da instância em sua configuração. Observe que usamos a interpolação de string para inserir o valor do output no NSG.
 
-### **6. Conclusão**
+## **6. Conclusão**
 
 Os **outputs** no **Terraform** são uma ferramenta útil para extrair informações de recursos criados e reutilizá-las em outros recursos ou para exibi-las no terminal. Eles são fáceis de declarar e podem ser usados em vários cenários diferentes. 
 

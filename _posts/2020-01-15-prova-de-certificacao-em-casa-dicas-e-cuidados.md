@@ -23,7 +23,7 @@ Nos últimos meses realizei 5 provas na modalidade online, todas com parceria da
 
 Neste artigo vou lhe dar dicas valiosas para se sair bem e minimizar ao máximo os riscos de perder sua prova.
 
-### **Inscrição**
+## **Inscrição**
 
 Para fazer a inscrição de seu exame não muda nada, você faz todo o procedimento igual ao realizado nos centros especializados. A única diferença é que na hora de escolher o centro especializado, você terá também a opção de realizar o exame de casa ou escritório, em seguida você escolhe a data e horário e finaliza as questões de pagamento.
 
@@ -35,7 +35,7 @@ Outro ponto importante e garantir que você atende todos os requisitos para real
 
 Para maiores informações: https://home.pearsonvue.com/op/basic-technical-specs
 
-### **Linguagem**
+## **Linguagem**
 
 Mesmo que seu exame seja em português, todo o relacionamento com o proctor (Examinador) é realizado em inglês.
 
@@ -43,7 +43,7 @@ A conversa pode ser realizada via chat ou chamada por voz. Nas minhas provas 5 p
 
 Ou seja, esteja com o inglês afiado!
 
-### **Antes do exame**
+## **Antes do exame**
 
 Por recomendação da Pearson VUE, você deve estar online e disponível para o exame 15 minutos antes ao horário de seu agendamento.
 
@@ -60,7 +60,7 @@ Antes de entrar no ambiente de exame, você deve passar por alguns procedimentos
 
 E este processo até carregar as fotos e enviar tudo leva mais ou menos de 8 a 10 minutos, ou seja, não deixe para fazer isso muito próximo aos 15 minutos de garantia!
 
-### **Do ambiente**
+## **Do ambiente**
 
 Tire **TUDO** que você puder de seu ambiente de prova, deixe apenas o computar/notebook que você irá realizar a prova e mais nada!
 
@@ -80,7 +80,7 @@ Eu tiro tudo do ambiente, deixo somente o armário e as prateleiras vazias, na m
 
 Então mais uma vez, tire **TUDO** da sala!
 
-### **Do sistema**
+## **Do sistema**
 
 Na hora do exame você deve certificar que somente o aplicativo da Pearson VUE esteja aberto em seu PC.
 
@@ -98,7 +98,7 @@ Execute também a simulação do exame. Assim você pode conferir se tudo está 
 
 Simulador da Pearson VUE: https://home.pearsonvue.com/junipernetworks/onvue
 
-### **Do candidato**
+## **Do candidato**
 
 Na hora da prova tenha em mãos sua identificação, mesmo que tenha tirado fotos dela no inicio do processo, pode ser que o proctor venha pedir para ver.
 
@@ -142,14 +142,14 @@ Confesso que nos dias de prova o processo de retirar e recolocar tudo no escrit�
 
 Bom, e para finalizar segue um resumo das vantagens e desvantagens da prova online proctored (OP).
 
-### **Vantagens**
+## **Vantagens**
 
 * Comodidade de conveniência, você pode realizar a prova no conforto de sua casa.
 * Realizar a prova em um ambiente que você conhece e está familiarizado com os equipamentos.
 * Grande variedade em datas e horários para realizar o exame, incluindo sábado, domingo e feriados.
 * Menor custo uma vez que não precisa viajar ou se deslocar até um centro especializado. Especialmente para pessoas que estão em locais que não há centros especializados (meu caso 😊).
 
-### **Desvantagens**
+## **Desvantagens**
 
 * Não atender alguns dos requisitos citados acima podem resultar em perda do exame e dinheiro.
 * Se houver um problema durante a prova, por exemplo, uma falta de energia, seu computador falhar, ou alguém entrar no seu escritório você perde seu exame e seu dinheiro.

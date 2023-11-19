@@ -13,11 +13,11 @@ Se você está trabalhando com **Terraform**, sabe que uma das tarefas mais impo
 
 Pronto para aprender tudo sobre trabalhar com variáveis no Terraform?
 
-### **1. O que são variáveis no Terraform?**
+## **1. O que são variáveis no Terraform?**
 
 Antes de começarmos a trabalhar com variáveis no Terraform, é importante entender o que elas são e por que são importantes. Em resumo, as variáveis são um mecanismo para armazenar e reutilizar valores que podem ser usados em vários locais dentro do seu código Terraform. Isso pode incluir informações de autenticação, configurações de rede e outras informações que precisam ser repetidamente utilizadas em seu código. As variáveis são essenciais para criar código reutilizável, facilitar a manutenção e reduzir a possibilidade de erros.
 
-### **2. Declaração de variáveis no Terraform**
+## **2. Declaração de variáveis no Terraform**
 
 Agora que entendemos a importância das variáveis no Terraform, é hora de aprender como declará-las em seu código. A declaração de variáveis é feita usando o bloco de código `variable`. Você pode criar um novo bloco de variáveis em qualquer lugar do seu código Terraform, mas é uma boa prática mantê-las agrupadas no início do seu código. A sintaxe básica para a declaração de variáveis é a seguinte:
 
@@ -27,7 +27,7 @@ variable "nome_da_variavel" {
 }
 ````
 
-### **3. Tipos de variáveis no Terraform**
+## **3. Tipos de variáveis no Terraform**
 
 O Terraform oferece vários tipos de variáveis que podem ser usados em seu código, dependendo da necessidade. Aqui estão alguns dos tipos de variáveis mais comuns que você encontrará:
 
@@ -222,7 +222,7 @@ resource "azurerm_virtual_machine" "example" {
 
 Neste exemplo, criamos uma variável chamada `vms` que é um mapa que contém as propriedades necessárias para criar cada máquina virtual. Então, usamos o `for_each` para iterar sobre cada item no mapa e criar uma instância de máquina virtual para cada um.
 
-### **4. Usando variáveis no Terraform**
+## **4. Usando variáveis no Terraform**
 
 Agora que você sabe como declarar variáveis no Terraform, é hora de aprender como usá-las em seu código. Para usar uma variável em seu código Terraform, basta chamar o nome da variável usando a sintaxe `${var.nome_da_variavel}`. Por exemplo, se você tiver uma variável chamada `nome` declarada em seu código, você pode usá-la da seguinte maneira:
 
@@ -233,7 +233,7 @@ resource "azurerm_resource_group" "exemplo_rg" {
 }
 ````
 
-### **5. Trabalhando com variáveis no Terraform**
+## **5. Trabalhando com variáveis no Terraform**
 
 Agora que você aprendeu os conceitos básicos de declaração e uso de variáveis no Terraform, é hora de aprender algumas técnicas avançadas. Aqui estão algumas dicas para ajudá-lo a trabalhar com variáveis no Terraform de forma mais eficiente:
 
@@ -290,7 +290,7 @@ locals {
 }
 ````
 
-### **6. Perguntas frequentes**
+## **6. Perguntas frequentes**
 
 **O que acontece se eu não declarar uma variável?**
 
@@ -335,7 +335,7 @@ Neste exemplo, estamos passando o arquivo `variaveis.tfvars` como um argumento p
 
 Se uma variável estiver faltando em seu código Terraform, você receberá um erro informando que a variável é obrigatória. Para corrigir o erro, você precisará fornecer um valor para a variável em seu código ou passar o valor como um argumento na linha de comando do Terraform.
 
-### **7. Conclusão**
+## **7. Conclusão**
 
 Trabalhar com variáveis no Terraform é uma habilidade fundamental que todo usuário do Terraform deve possuir. É importante saber como declarar variáveis, usá-las em seu código e como compartilhá-las entre módulos. Com este guia, você deve estar pronto para começar a trabalhar com variáveis em seu código Terraform.
 

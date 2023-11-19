@@ -15,7 +15,7 @@ Se você já utiliza o **Terraform** em seus projetos, com certeza já deve ter 
 
 Neste artigo, vamos explorar cada um deles e apresentar suas principais diferenças e exemplos de uso em ambientes reais.
 
-### **1. Uma visão geral de loops no Terraform**
+## **1. Uma visão geral de loops no Terraform**
 
 Antes de entrarmos nos detalhes de como usar **loops** no **Terraform**, vamos dar uma olhada em uma visão geral do que é um **loop**. Um **loop** é uma estrutura de controle que permite executar uma ou mais instruções várias vezes, dependendo de uma condição definida pelo desenvolvedor. 
 
@@ -27,7 +27,7 @@ Existem três tipos de loops no Terraform:
 
 Cada tipo de loop tem seus próprios casos de uso e é importante entender as diferenças entre eles para escolher o mais adequado para o seu projeto.
 
-### **2. For Loop**
+## **2. For Loop**
 
 O loop **for** é usado para iterar sobre um bloco de código um número específico de vezes. Isso é útil quando você sabe exatamente quantas vezes deseja executar uma ação. O loop for pode ser usado em conjunto com a string directive e expressions para gerar valores dinâmicos.
 
@@ -50,7 +50,7 @@ resource "azurerm_virtual_machine" "vm" {
 
 Este código criará três instâncias com nomes `"vm-0"`, `"vm-1"` e `"vm-2"`. Observe que estamos usando a expressão `"range(3)"` para criar uma lista com três elementos `(0, 1 e 2)` e depois estamos usando a string directive para criar o nome de cada instância.
 
-### **3. For_each**
+## **3. For_each**
 
 O loop **for_each** é usado para iterar sobre uma coleção de recursos e criar uma instância para cada recurso. Isso é útil quando você precisa criar um conjunto de recursos que não podem ser criados com um único bloco de código. O loop **for_each** é usado em conjunto com expressions.
 
@@ -86,7 +86,7 @@ resource "azurerm_virtual_machine" "vm" {
 
 Este código criará uma instância para cada ambiente de desenvolvimento: `"vm-dev"`, `"vm-staging"` e `"vm-prod"`. Observe que estamos usando o loop `for_each` para iterar sobre a variável `"environments"` e criar uma instância para cada ambiente.
 
-### **4. Count**
+## **4. Count**
 
 O loop **count** é um pouco diferente dos outros loops, pois ele é usado para criar um número específico de recursos. Em vez de iterar por uma lista de recursos, o loop **count** cria uma instância para cada item em uma lista específica. Você pode usar o loop **count** em combinação com o parameter para definir o número de recursos que você deseja criar. 
 
@@ -121,7 +121,7 @@ Neste exemplo, criamos uma rede virtual com base no valor da variável `"virtual
 
 Usamos a diretiva `count` para criar quatro instâncias do recurso azurerm_subnet. Usamos o parâmetro `index` do loop count para garantir que cada recurso tenha um nome exclusivo. O nome da sub-rede é definido como `"example-subnet-${count.index}"`, onde `${count.index}` é o índice do loop count atual.
 
-### **5. Comparação entre, for, for_each e count**
+## **5. Comparação entre, for, for_each e count**
 
 Agora que já discutimos os três tipos de loops no Terraform, vamos fazer uma comparação entre eles para ajudá-lo a decidir qual usar em diferentes situações.
 
@@ -145,7 +145,7 @@ Agora que já discutimos os três tipos de loops no Terraform, vamos fazer uma c
 
 No geral, o loop **for** é o mais simples e fácil de entender dos três loops, mas é limitado a listas estáticas de valores. O loop **count** é semelhante ao loop for, mas é usado para criar um número específico de instâncias de recursos. O loop **for_each** é o mais poderoso dos três loops e pode ser usado para criar recursos com base em listas dinâmicas de valores.
 
-### **6. Conclusão**
+## **6. Conclusão**
 
 Espero que este artigo tenha sido útil para você entender melhor os loops no Terraform e como usá-los em seus projetos. Sei que o tema de loops pode ser difícil de entender de primeira, mas são extremamente importantes para quem utiliza o Terraform.
 

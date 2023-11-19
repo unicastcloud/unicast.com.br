@@ -32,7 +32,7 @@ Uma abordagem adequada na hora de migrar cada um de seus recursos e em que ordem
 > Tempo, Esforço, Custo = **Riscos de Migração**
 {: .prompt-tip }
 
-### **Estratégias de migração para nuvem**
+## **Estratégias de migração para nuvem**
 
 Antes de iniciar uma migração, você deve ter algumas perguntas em mente:
 
@@ -45,27 +45,27 @@ Essas e outras perguntas, podem ajudar no mapeamento das necessidades e auxiliar
 
 É muito importante que o motivo da migração seja bem definido, bem como os resultados esperados.
 
-### **Estratégia 5 R’S para migrar recursos para nuvem**
+## **Estratégia 5 R’S para migrar recursos para nuvem**
 
 Vamos entender a estratégia 5R para migrar workloads para a nuvem da Microsoft. Mas antes, vale lembrar que o modelo utilizado pela Microsoft é um pouco diferente do original 5R’s da Gartner. E isso também acontece com o modelo de outros provedores em nuvem como AWS e GCP.
 
-### **Rehost**
+## **Rehost**
 
 Também conhecido como migração lift-and-shift, é o processo em mover seus workloads para nuvem sem modificações. Essa estratégia envolve menor esforço e risco de migração, e é um dos modelos mais utilizados.
 
-### **Refactor**
+## **Refactor**
 
 No modelo da Microsoft, o refactor é conhecido por ajustar um workload para o modelo baseado em PaaS (plataforma como serviço) deixando de lado o modelo convencional IaaS (infraestrutura como serviço). Nessa estratégia, poucas otimizações são feitas antes de migrar para a nuvem.
 
-### **Rearchitect**
+## **Rearchitect**
 
 O Rearchitect presente no modelo da Microsoft se concentra na modificação e na extensão da funcionalidade do aplicativo e na base de código para otimizar a arquitetura do aplicativo para a escalabilidade da nuvem. Pode ser uma aplicação monolítica migrando para micro serviços ou levar banco de dados relacionais e não relacionais para uma solução de banco de dados totalmente gerenciada.
 
-### **Rebuild**
+## **Rebuild**
 
 A abordagem de rebuild leva a modificação do código-fonte e significa reescrever o aplicativo do zero. Essa decisão é tomada quando as soluções atuais não atendem às necessidades do negócio ou quando um aplicativo legado não pode ser executado em nuvem. Reconstruir aplicativos geralmente requer grandes investimentos de tempo e dinheiro.
 
-### **Replace**
+## **Replace**
 
 Às vezes, aplicativos SaaS (software como serviço) podem fornecer toda a funcionalidade necessária para o workload a ser migrado. Nesses casos, pode ser mais interessante substitui-lo por completo e eliminar o esforço de rearchitect e rebuild da aplicação. Essa abordagem requer pouco esforço, uma vez que só é necessária a carga de dados no novo workload.
 
