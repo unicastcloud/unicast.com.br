@@ -5,6 +5,8 @@ author: asilva
 date: 2023-10-13 09:20:00 -0300
 categories: [Certificação, Notícias]
 tags: [certificação, github, microsoft]
+image:
+  path: /assets/img/77/00.png
 ---
 
 Fala galera! Seis tão baum?
