@@ -13,13 +13,13 @@ Estamos de volta com as notícias mais quentes do mundo da tecnologia, e temos a
 
 A **Microsoft**, que adquiriu o **GitHub em 2018**, recentemente lançou uma trilha de certificações do **GitHub** que promete revolucionar a forma como vemos a colaboração e o desenvolvimento de software. 
 
-### **O que é a trilha de certificações do GitHub?**
+## **O que é a trilha de certificações do GitHub?**
 
 Antes de mergulharmos de cabeça, vamos explicar do que se trata. A Trilha de Certificações do GitHub é um programa de certificação criado pela Microsoft para validar as habilidades dos desenvolvedores em relação às práticas e ferramentas essenciais do GitHub. 
 
 Isso não apenas solidifica o GitHub como uma plataforma líder em desenvolvimento de software colaborativo, mas também proporciona uma oportunidade emocionante para todos os desenvolvedores aprimorarem suas habilidades e avançarem em suas carreiras.
 
-### **Por que é importante?**
+## **Por que é importante?**
 
 O **GitHub** é uma plataforma essencial para desenvolvedores em todo o mundo, e ter uma certificação oficial relacionada a ele pode abrir muitas portas. Isso não apenas demonstra seu compromisso com a comunidade de código aberto e o desenvolvimento colaborativo, mas também pode ser um fator decisivo para empregadores em busca de talento de desenvolvimento.
 
