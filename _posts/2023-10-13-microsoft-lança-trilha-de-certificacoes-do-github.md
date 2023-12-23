@@ -13,17 +13,17 @@ Estamos de volta com as notícias mais quentes do mundo da tecnologia, e temos a
 
 A **Microsoft**, que adquiriu o **GitHub em 2018**, recentemente lançou uma trilha de certificações do **GitHub** que promete revolucionar a forma como vemos a colaboração e o desenvolvimento de software. 
 
-### **O que é a trilha de certificações do GitHub?**
+## **O que é a trilha de certificações do GitHub?**
 
 Antes de mergulharmos de cabeça, vamos explicar do que se trata. A Trilha de Certificações do GitHub é um programa de certificação criado pela Microsoft para validar as habilidades dos desenvolvedores em relação às práticas e ferramentas essenciais do GitHub. 
 
 Isso não apenas solidifica o GitHub como uma plataforma líder em desenvolvimento de software colaborativo, mas também proporciona uma oportunidade emocionante para todos os desenvolvedores aprimorarem suas habilidades e avançarem em suas carreiras.
 
-### **Por que é importante?**
+## **Por que é importante?**
 
 O **GitHub** é uma plataforma essencial para desenvolvedores em todo o mundo, e ter uma certificação oficial relacionada a ele pode abrir muitas portas. Isso não apenas demonstra seu compromisso com a comunidade de código aberto e o desenvolvimento colaborativo, mas também pode ser um fator decisivo para empregadores em busca de talento de desenvolvimento.
 
-### **Certificações disponíveis**
+## **Certificações disponíveis**
 
 A Trilha de Certificações do GitHub inclui várias certificações diferentes, cada uma cobrindo um aspecto específico da plataforma. 
 
@@ -52,13 +52,13 @@ Este Exame irá abranger em conhecimento a colaboração, os produtos do GitHub,
 
 **Material de estudo:** <a href="https://learn.microsoft.com/en-us/collections/mom7u1gzjdxw03" target="_blank"> GitHub Admin.</a> 
 
-### **Como se preparar para as certificações do GitHub**
+## **Como se preparar para as certificações do GitHub**
 
 Agora que você está animado com as certificações do GitHub, é hora de se preparar para elas. A Microsoft fornece recursos de aprendizado, documentação e exames práticos para ajudar você a se preparar. Além disso, a comunidade do GitHub é rica em tutoriais, fóruns de discussão e projetos de código aberto, que são ótimos recursos para aprender e praticar.
 
 **Microsoft Learning:** <a href="https://learn.microsoft.com/pt-br/training/github/" target="_blank"> Onde o mundo cria software.</a> 
 
-### **Conclusão**
+## **Conclusão**
 
 As certificações do **GitHub** são um passo emocionante no mundo do desenvolvimento de software e do código aberto. Elas oferecem a oportunidade de aprender, se destacar na comunidade de desenvolvimento e impulsionar sua carreira. Portanto, se você é um apaixonado pelo GitHub, aproveite essa oportunidade para aprimorar suas habilidades e mergulhar de cabeça nas incríveis possibilidades que essa trilha de certificações oferece.
 

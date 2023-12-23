@@ -13,21 +13,21 @@ Hoje vou começar uma nova série aqui no site. O **Azure-To** será uma maneira
 
 E hoje vamos começar com o deploy mais básico no Azure, que é subir uma máquina virtual via portal.
 
-### **Objetivo**
+## **Objetivo**
 
 Implantar uma VM executando Windows Server 2016 Datacenter via portal.
 
-### **1.1 Acessando o Portal**
+## **1.1 Acessando o Portal**
 
 Abra seu navegador e acesse o portal Azure em **http://portal.azure.com** e faça login usando sua conta da Microsoft.
 
-### **1.2 Criando um recurso**
+## **1.2 Criando um recurso**
 
 No portal da Azure clique em **Create a resource**
 
 ![](/assets/img/01/vm01.png){: "width=60%" }
 
-### **1.3 Azure Marketplace**
+## **1.3 Azure Marketplace**
 
 Pesquise no Azure Marketplace por **Windows Server**. E selecione na lista de resultados de pesquisa.
 
@@ -35,7 +35,7 @@ No menu, escolha a opção **Datacenter [smalldisk] Windows Server 2016** e em s
 
 ![](/assets/img/01/vm02.png){: "width=60%" }
 
-### **1.4 Configuração da Máquina Virtual**
+## **1.4 Configuração da Máquina Virtual**
 
 Agora basta inserir as informações de acordo com sua necessidade, para este laboratório vamos seguir com estas:
 
@@ -56,7 +56,7 @@ Agora basta inserir as informações de acordo com sua necessidade, para este la
 
 Clique em **Next: Disks>**
 
-### **1.5 Configurando os Discos**
+## **1.5 Configurando os Discos**
 
 OS disk type: **Standard HDD**
 
@@ -64,7 +64,7 @@ OS disk type: **Standard HDD**
 
 Clique em Next: Networking >
 
-### **1.6 Configurando a rede**
+## **1.6 Configurando a rede**
 
 Na opção **Virtual Network**, clique em **Create new**. Use o mesmo nome de rede já atribuido anteriormente, modifique o **address range** e crie uma nova **subnet**.
 
@@ -76,7 +76,7 @@ Subnet address range: 10.0.0.0/24
 
 Para este laboratório não vamos alterar mais nenhuma opção, com isso clique em **Next: Management >** em seguida **Next: Advanced >** e **Next: Tags >** e por fim Next: **Review + create.**
 
-### **1.7 Criando a Máquina Virtual**
+## **1.7 Criando a Máquina Virtual**
 
 Será exibida uma tela com o resumo de todas as configurações executadas bem como a validação delas.
 

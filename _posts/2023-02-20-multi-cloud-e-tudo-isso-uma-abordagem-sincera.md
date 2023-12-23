@@ -23,7 +23,7 @@ Antes de tudo, é importante entender o que a multi-cloud significa. A multi-clo
 
 Embora a multi-cloud possa parecer uma boa ideia na teoria, na prática ela é extremamente complicada. Aqui estão algumas das principais razões pelas quais a multi-cloud é uma das maiores mentiras que já lhe contaram:
 
-### **Perspectiva das empresas**
+## **Perspectiva das empresas**
 
 - **É excessivamente complicado de manter**
 
@@ -47,7 +47,7 @@ A maioria das empresas podem obter tudo o que precisam de um único provedor de 
 
 Pensar no modelo multi-cloud é excessivamente complicado, caro, arriscado e ineficiente. Em vez de se aventurar na multi-cloud, as empresas devem escolher um provedor de nuvem confiável que atenda às suas necessidades e ofereça a segurança, redundância e recursos necessários para suas operações na nuvem.
 
-### **Perspectiva dos profissionais**
+## **Perspectiva dos profissionais**
 
 Embora possa parecer que ser especialista em várias plataformas de nuvem é uma vantagem, na prática, isso pode ser problemático.
 
@@ -65,7 +65,7 @@ Calma, é importante ter iniciativa, ser “multifuncional”, mas é muito mais
 
 É melhor se especializar em uma única plataforma de nuvem e desenvolver uma profunda compreensão dos recursos e ferramentas disponíveis nessa plataforma. Isso ajudará a garantir que você tenha habilidades valiosas para a carreira a longo prazo e possa oferecer suporte de alto nível para as empresas que dependem da nuvem para suas operações.
 
-### **A falácia da automação agnóstica e disponibilidade infinita**
+## **A falácia da automação agnóstica e disponibilidade infinita**
 
 Ser multi-cloud não é sinônimo de disponibilidade infinita. De fato, a abordagem de multi-cloud pode apresentar alguns desafios em relação à disponibilidade, especialmente se as equipes de TI não tiverem uma compreensão completa da arquitetura de nuvem em várias plataformas.
 
@@ -95,7 +95,7 @@ Da mesma forma, a abordagem de multi-cloud envolve a adoção de várias platafo
 
 Assim como montar um carro com várias peças diferentes pode ser uma abordagem desafiadora, a estratégia de multi-cloud também pode ser difícil de implementar com sucesso. É importante considerar cuidadosamente as necessidades de nuvem e escolher a plataforma que melhor atenda a essas necessidades, em vez de adotar a abordagem de multi-cloud simplesmente porque é uma tendência atual.
 
-### **Os dados sem o apelo marketeiro**
+## **Os dados sem o apelo marketeiro**
 
 ![](/assets/img/60/multi04.png){: "width=60%" }
 
@@ -111,7 +111,7 @@ Ninguém quer duplicar ou tripiclar o trabalho e aumentar absurdamente a complex
 
 ![](/assets/img/60/multi05.jpg){: "width=60%" }
 
-### **Conclusão**
+## **Conclusão**
 
 ![](/assets/img/60/multi06.png){: "width=60%" }
 

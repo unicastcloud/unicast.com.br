@@ -47,13 +47,13 @@ Dito isso, criei um repositório no **GitHub** para documentar e centralizar tod
 
 Aproveita e dá uma estrelinha lá para fortalecer LoL :)
 
-### **1. Objetivo do projeto**
+## **1. Objetivo do projeto**
 
 - Criar conteúdo técnico para o canal do Youtube.
 - Estudar e melhorar conhecimentos em DevOps e IaC.
 - Criar laboratório de estudos para certificações.
 
-### **2. Premissas do projeto**
+## **2. Premissas do projeto**
 
 - Suportar e executar cargas de trabalho reais
 - Baixo consumo energético
@@ -62,7 +62,7 @@ Aproveita e dá uma estrelinha lá para fortalecer LoL :)
 - Pouco espaço físico
 - Escalável
 
-### **3. Componentes do projeto**
+## **3. Componentes do projeto**
 
 - [X] Roteador MikroTik hAP Ac2 
 - [X] Switch PoE TP-Link TL-SG1008P
@@ -75,7 +75,7 @@ Aproveita e dá uma estrelinha lá para fortalecer LoL :)
 - [X] Carões SD classe 10
 - [ ] Patch Cord UTP CAT6
 
-### **4. Estado atual do projeto**
+## **4. Estado atual do projeto**
 
 | Device                 | CPU        | RAM   | Storage  | Purpose    | Note                |
 | -----------------------|------------|-------|----------|------------|---------------------|

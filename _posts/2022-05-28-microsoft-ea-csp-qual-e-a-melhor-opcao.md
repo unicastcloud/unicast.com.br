@@ -25,7 +25,7 @@ Eu farei uma sequência de artigos falando somente deste tipo de migração, mas
 
 Ambos os contratos oferecem serviços semelhantes e preços semelhantes. Existem vantagens e desvantagens para ambos.
 
-### **Contrato EA (Enterprise Agreement)**
+## **Contrato EA (Enterprise Agreement)**
 
 Com um contrato EA as empresas podem comprar serviços em nuvem e licenças de software sob um contrato de três anos.
 
@@ -51,7 +51,7 @@ O melhor momento para alterar os contratos EAs são na sua data de renovação, 
 * Contrato mínimo de 3 anos.
 * Pagamento antecipado, anual.
 
-### **Contrato CSP (Cloud Solution Provider)**
+## **Contrato CSP (Cloud Solution Provider)**
 
 Já no contrato CSP, o cliente precisa ter um parceiro Microsoft para gerenciar o relacionamento com a Microsoft por meio de suporte e serviços gerenciados. Os clientes pagam uma fatura mensal previsível por meio do parceiro com base no uso exato dos serviços de nuvem da Microsoft, como Azure e M365.
 
@@ -61,7 +61,7 @@ Além disso, por meio do contrato CSP, os parceiros podem oferecer suporte a seu
 
 Com um contrato CSP, os clientes se beneficiam de uma equipe dedicada que conhece o seu ambiente e arquitetura.
 
-### **Vantagens do contrato CSP**
+## **Vantagens do contrato CSP**
 
 * Flexibilidade de preços.
 * Sem número mínimo de usuário e dispositivos.
@@ -69,12 +69,12 @@ Com um contrato CSP, os clientes se beneficiam de uma equipe dedicada que conhec
 * Suporte Premier.
 * Pagamento mensal.
 
-### **Desvantagens do contrato CSP**
+## **Desvantagens do contrato CSP**
 
 * É apenas para serviços em nuvem.
 * Custo variável.
 
-### **Comparativo entre contratos EA x CSP**
+## **Comparativo entre contratos EA x CSP**
 
 | **Pontos de comparação**     | **Contrato (EA)** | **Contrato (CSP)** |
 |:-----------------------------|:-----------------:|:------------------:|
@@ -87,7 +87,7 @@ Com um contrato CSP, os clientes se beneficiam de uma equipe dedicada que conhec
 | **Capacidade de adicionar <br /> ou remover usuários** | A qualquer momento, <br /> mas com faturamento anual | A qualquer momento <br /> conforme necessário |
 | **Licenciamento flexível** | Não disponível | Pague apenas pelo que usar |
 
-### **Qual é o modelo certo para sua empresa/cliente?**
+## **Qual é o modelo certo para sua empresa/cliente?**
 
 Depende, se você estiver procurando por uma solução escalável que permita que sua organização se adapte ao longo do tempo, é melhor escolher um modelo de contrato CSP. O CSP permite adicionar ou remover usuários e produtos instantaneamente e você paga apenas pelas licenças que usar. 
 

@@ -19,7 +19,7 @@ Isso significa que precisamos criar uma estrutura de gerenciamento de configura�
 
 Com esse princípio em mente, vamos explorar duas estratégias principais para gerenciar infraestrutura em múltiplos ambientes no Terraform: separando por diretórios ou por workspaces.
 
-### **1. Separando por diretórios**
+## **1. Separando por diretórios**
 
 A primeira estratégia consiste em separar as definições de recursos por diretórios, um para cada ambiente.
 
@@ -107,7 +107,7 @@ Com essa estratégia, podemos manter uma estrutura organizada e facilmente ident
 
 No entanto, pode ser difícil gerenciar vários ambientes ao mesmo tempo, uma vez que precisamos entrar em cada diretório para aplicar as alterações.
 
-### **2. Separando por workspaces**
+## **2. Separando por workspaces**
 
 A segunda estratégia envolve o uso de **workspaces** no **Terraform** para manter o código para cada ambiente em um único diretório. Um **workspace** é uma instância isolada de um conjunto de recursos no **Terraform**. Por padrão, o Terraform tem um único workspace chamado "**default**", mas você pode criar novos workspaces para gerenciar recursos em diferentes ambientes. Por exemplo, você pode ter um workspace "**dev**", um "**stage**" e um "**prod**".
 
@@ -190,7 +190,7 @@ Isso criará um blob de armazenamento separado para cada workspace chamado **dev
 
 Agora, quando você executar ```terraform apply```, o **Terraform** usará o blob de armazenamento apropriado para cada ambiente, dependendo do workspace atual.
 
-### **3. Comparando as duas estratégias**
+## **3. Comparando as duas estratégias**
 
 Agora que já vimos as duas estratégias de organização de arquivos e pastas do Terraform para trabalhar com múltiplos ambientes, é importante comparar suas vantagens e desvantagens.
 
@@ -227,7 +227,7 @@ No entanto, a estratégia de separação por diretórios pode ser mais fácil de
 
 É importante escolher a estratégia que melhor atenda às necessidades específicas do seu projeto. Em alguns casos, pode até ser possível usar uma combinação de ambas as estratégias para atender às suas necessidades.
 
-### **4. Conclusão**
+## **4. Conclusão**
 
 Ao trabalhar com múltiplos ambientes no **Terraform**, existem várias estratégias que você pode usar. Neste artigo, discutimos duas estratégias: **separando por diretórios** e **separando por workspaces**. Ambas têm prós e contras, e cabe a você decidir qual é a melhor para a sua situação. 
 

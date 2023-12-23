@@ -32,7 +32,7 @@ Hoje vamos falar sobre a ferramenta *Infracost* para estimar custos dos recursos
 
 Um pouco de contexto:
 
-### **O que é Terraform?**
+## **O que é Terraform?**
 
 O Terraform é uma das principais ferramentas de IaC utilizadas no mundo. É uma ferramenta de código aberto criada pela **HashiCorp** e utiliza uma linguagem de configuração declarativa, conhecida como HashiCorp Configuration Language ou HCL.
 
@@ -44,7 +44,7 @@ Esse tipo de automação torna o processo de administração da infra mais confi
 
 Link do Terraform: <a href="https://www.terraform.io/" target="_blank">HashiCorp Terraform</a>  
 
-### **O que é Infracost?**
+## **O que é Infracost?**
 
 ![](/assets/img/40/iac02.png){: "width=60%" }
 
@@ -52,13 +52,13 @@ Já o Infracost, é uma ferramenta auxiliar que mostra estimativas de custo para
 
 Link do projeto: <a href="https://github.com/infracost/infracost" target="_blank">GitHub Infracost</a>  
 
-### **Por que utilizar?**
+## **Por que utilizar?**
 
 Infraestrutura como código (IaC) é utilizada para implementar, manter e facilitar a evolução de ambientes em nuvem. Como qualquer outro tipo de linguagem, ela deve seguir as mesmas boas práticas e passar por etapas de revisão de código, e porque não, revisão de custos? 
 
 Infraestrutura em nuvem tem um custo, e a visibilidade de seus gastos ao utiliza-la é extremamente importante. Ao utilizar IaC o custo nem sempre é destacado na fase de implementação e se você não estiver de olho nos gastos, os custos podem sair mais alto do que o planejado.
 
-### 1.1 **Instalando o Infracost**
+## 1.1 **Instalando o Infracost**
 
 Você pode instalar o Infracost em diversos sistemas operacionais, e independente da sua escolha, são bem semelhantes e fácies de instalar.
 
@@ -90,7 +90,7 @@ infracost --version
 
 Caso você utilize outro sistema operacional, você pode seguir os passos neste link: <a href="https://www.infracost.io/docs/" target="_blank">Get started</a>  
 
-### 2.1 **Instalando a extensão Infracost no VS Code**
+## 2.1 **Instalando a extensão Infracost no VS Code**
 
 Inicie o seu VS Code vá para **"Extensions"**, depois disso, instale a seguinte extensão:
 
@@ -98,7 +98,7 @@ Inicie o seu VS Code vá para **"Extensions"**, depois disso, instale a seguinte
 
 Clique em **install**.
 
-### 3.1 **Autenticando a chave de API do Infracost**
+## 3.1 **Autenticando a chave de API do Infracost**
 
 Agora, precisamos gerar uma chave API, execute o comando abaixo.
 
@@ -112,7 +112,7 @@ Clique na URL e confirme a autenticação clicando em **"Login":**
 
 ![](/assets/img/40/iac08.png){: "width=60%" }
 
-### 4.1 **Estimando custos de infra no Azure (Terminal)**
+## 4.1 **Estimando custos de infra no Azure (Terminal)**
 
 Agora, já podemos testar a funcionalidade do Infracost em nosso código de Terraform.
 
@@ -139,7 +139,7 @@ infracost breakdown --show-skipped --path .
 
 ![](/assets/img/40/iac10.png){: "width=60%" }
 
-### 4.2 **Estimando custos de infra no Azure (Extensão VSCode)**
+## 4.2 **Estimando custos de infra no Azure (Extensão VSCode)**
 
 Com a extensão do Infracost instalada em seu VS Code, você pode verificar a estimativa de custo em tempo real em seu código.
 
@@ -147,7 +147,7 @@ Funciona com blocos de `recursos` e `módulos`.
 
 ![](/assets/img/40/iac11.gif){: "width=60%" }
 
-### 5.1 **Refinando a estimativa de custos**
+## 5.1 **Refinando a estimativa de custos**
 
 O Terraform atualiza, exclui ou cria recursos e salva o estado da infraestrutura em um arquivo chamado **tfstate**. Quando você implanta uma nova versão, o Terraform é capaz de detectar o que precisa ser atualizado, removido e criado após suas alterações. O Infracost depende desse arquivo de estado para mostrar o impacto no custo da alteração atual do plano.
 
@@ -173,7 +173,7 @@ De forma padrão, o Infracost irá estimar os custos de acordo com a calculadora
 
 Caso tenha necessidade de um arquivo customizado, visite a documentação para verificar os parâmetros disponíveis para uso: <a href="https://www.infracost.io/docs/features/config_file/" target="_blank">config File</a>  
 
-### 5.1 **Gerando relatórios da estimativa de custos no Azure**
+## 5.1 **Gerando relatórios da estimativa de custos no Azure**
 
 O Infracost possibilita gerar relatórios para compartilhar a estimativa de custos em diferentes formatos **(HTML, JSON, etc.)** :
 
@@ -185,7 +185,7 @@ infracost breakdown --path . --format html > report.html
 
 ![](/assets/img/40/iac13.png){: "width=60%" }
 
-### **Outras possibilidades**
+## **Outras possibilidades**
 
 Você pode integrar o Infracost com muitas soluções de **CI/CD** como, GitHub Action, Azure Pipelines entre outros, desta forma ao ser criado um Pull Request (PR), ele fará um comentário com o custo da infra atual, e o futuro, como no exemplo que peguei no site deles abaixo!
 

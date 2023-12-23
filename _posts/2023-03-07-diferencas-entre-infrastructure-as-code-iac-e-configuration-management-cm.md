@@ -13,7 +13,7 @@ Duas abordagens comuns de automação de TI são **Infrastructure as Code (IaC)*
 
 ![](/assets/img/62/iac01.png){: "width=60%" }
 
-### **Por que automatizar?**
+## **Por que automatizar?**
 
 Automação de TI tem sido uma ferramenta valiosa para empresas de todos os tamanhos há muitos anos. Com a crescente complexidade da infraestrutura de TI e a necessidade de eficiência e agilidade, a automação tornou-se ainda mais importante. 
 
@@ -30,7 +30,7 @@ Antes de mergulharmos na diferença entre **IaC** e **CM**, é importante entend
 
 Agora, vamos examinar a diferença entre **IaC** e **CM**.
 
-### **O que é Infrastructure as Code (IaC)**
+## **O que é Infrastructure as Code (IaC)**
 
 **Infrastructure as Code (IaC)** é uma abordagem para gerenciar e provisionar infraestrutura de TI usando código. Com **IaC**, a infraestrutura é tratada como se fosse software, com todo o código-fonte armazenado em um repositório de controle de versão. Quando a infraestrutura precisa ser provisionada ou alterada, um script é executado para fazer as alterações necessárias. 
 
@@ -40,7 +40,7 @@ Exemplos populares de ferramentas **IaC** incluem **Terraform**, **Bicep**, **Cl
 
 ![](/assets/img/62/iac02.png){: "width=60%" }
 
-### **Configuration Management (CM)**
+## **Configuration Management (CM)**
 
 **Configuration Management (CM)** é uma abordagem para gerenciar e manter o estado de sistemas de TI. Com **CM**, as configurações de software são gerenciadas e mantidas por meio de scripts e ferramentas de automação. 
 
@@ -50,7 +50,7 @@ Exemplos populares de ferramentas **CM** incluem **Ansible**, **Puppet**, **Salt
 
 ![](/assets/img/62/iac03.png){: "width=60%" }
 
-### **Diferenças entre IaC e CM**
+## **Diferenças entre IaC e CM**
 
 Embora **IaC** e **CM** sejam abordagens de **automação de TI**, há diferenças importantes entre as duas. A principal diferença é que IaC é usado para gerenciar a infraestrutura, enquanto CM é usado para gerenciar a configuração de sistemas de TI.
 
@@ -58,11 +58,11 @@ Embora **IaC** e **CM** sejam abordagens de **automação de TI**, há diferenç
 
 Outra diferença importante é que IaC geralmente é usado em ambientes em nuvem, enquanto CM é usado em ambientes on-premise e em nuvem. Isso ocorre porque a infraestrutura em nuvem é geralmente provisionada e gerenciada usando APIs, tornando a abordagem IaC mais fácil de usar.
 
-### **Tudo junto e misturado**
+## **Tudo junto e misturado**
 
 Embora IaC e CM possam ser usados separadamente, a combinação das duas abordagens pode ser muito poderosa. Ao usar IaC e CM em conjunto, é possível provisionar recursos de infraestrutura e, em seguida, gerenciar sua configuração ao longo do tempo de forma consistente e automatizada. Isso pode levar a um gerenciamento mais eficiente e seguro de sistemas de TI, além de reduzir a carga de trabalho manual dos administradores de sistemas. 
 
-### **O estado da arte**
+## **O estado da arte**
 
 Além de serem usados em conjunto, a integração de **IaC** e **CM** em uma esteira de **CI/CD** pode proporcionar ainda mais benefícios. Ao adicionar IaC e CM em um fluxo de CI/CD, é possível provisionar recursos de infraestrutura, configurá-los automaticamente e implantar o software no topo dessa infraestrutura. 
 
@@ -72,7 +72,7 @@ Por exemplo, se um desenvolvedor precisa implantar uma nova versão do software 
 
 A combinação de **IaC** e **CM** em uma esteira de **CI/CD** pode ajudar a alcançar o **estado da arte em automação de TI**, proporcionando uma solução completa e automatizada para provisionamento de infraestrutura, configuração de sistemas e implantação de software.
 
-### **E no mundo real?**
+## **E no mundo real?**
 
 Um exemplo de automação em nuvem usando **IaC** e **CM** pode ser implementado no **Microsoft Azure**, usando as ferramentas **Terraform** para **IaC** e **Ansible** para **CM**. Para automatizar todo o processo de provisionamento de infraestrutura, configuração de sistemas e implantação de software, podemos usar o **Azure Pipelines** como nossa esteira de **CI/CD**.
 
@@ -86,7 +86,7 @@ Finalmente, podemos usar o **Azure Pipelines** para implantar o software em cima
 
 Com essa abordagem, todo o processo de automação pode ser disparado automaticamente sempre que houver uma nova alteração no repositório, proporcionando uma solução completa de automação.
 
-### **Conclusão**
+## **Conclusão**
 
 **IaC** e **CM** são abordagens importantes para automação de TI, permitindo que a infraestrutura e os sistemas de TI sejam gerenciados de forma consistente e segura. 
 

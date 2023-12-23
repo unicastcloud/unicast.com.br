@@ -17,7 +17,7 @@ Quando a Microsoft anunciou este exame eu fiquei muito empolgado, como muitos sa
 
 O exame de certificação **AZ-720: Troubleshooting Microsoft Azure Connectivity** é um exame de certificação de nível avançado que avalia as habilidades e conhecimentos dos profissionais em solucionar problemas de conectividade em ambientes Microsoft Azure. O exame testa a capacidade dos profissionais em identificar e solucionar problemas de conectividade comuns, como configurações de rede, configurações de segurança, problemas de performance e questões relacionadas ao transporte de dados. Além disso, o exame também avalia a compreensão dos profissionais sobre a implantação e o gerenciamento de soluções de conectividade em grandes ambientes Azure. Obter a certificação AZ-720 é uma prova da capacidade dos profissionais em solucionar problemas de conectividade de forma eficiente e eficaz, e pode ser uma vantagem significativa para sua carreira.
 
-### **Um pouco de contexto**
+## **Um pouco de contexto**
 
 **Troubleshooting** é o processo de identificar e resolver problemas ou falhas em sistemas, equipamentos ou aplicativos. É uma habilidade crítica para profissionais de TI e é aplicada ao longo de todo o ciclo de vida de uma solução, desde a implantação até a manutenção.
 
@@ -38,7 +38,7 @@ O processo de Troubleshooting pode variar dependendo da solução específica e 
 
 Bom, por hora isso que importa, logo eu vou trazer um artigo somente sobre este tema! Voltando ao exame...
 
-### **Os temas cobrados no exame são:**
+## **Os temas cobrados no exame são:**
 
 - Troubleshoot business continuity issues (5–10%)
 - Troubleshoot hybrid and cloud connectivity issues (20–25%)
@@ -49,7 +49,7 @@ Bom, por hora isso que importa, logo eu vou trazer um artigo somente sobre este 
 
 Segue o link do conteúdo completo que é cobrado na prova: <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWVJHf" target="_blank">Skills Measured.</a> 
 
-### **Material de estudo**
+## **Material de estudo**
 
 Por se tratar de um exame relativamente novo, temos poucos materiais de estudo. Minha dica é focar no Learning Path Oficial da Microsoft.
 
@@ -67,7 +67,7 @@ Resolução de problemas não é algo que aprendemos em livros, é prática e di
 
 Porém, o domínio de um bom **Troubleshoot** vem dos perrengues que a gente passa no dia a dia, não tem como.
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Bom, particularmente eu gostei muito do exame. O lance de ter uma prova focada em resolução de problemas é muito show!
 

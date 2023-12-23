@@ -15,7 +15,7 @@ A <a href="https://www.hashicorp.com/blog/terraform-1-5-brings-config-driven-imp
 
 Neste artigo, exploraremos em detalhes esses recursos e discutiremos como eles podem beneficiar os usuários do Terraform.
 
-### **1. Importação de Recursos Existente**
+## **1. Importação de Recursos Existente**
 
 A importação de recursos existentes é um recurso muito aguardado pelos usuários do Terraform. Anteriormente, quando um usuário começava a gerenciar sua infraestrutura com o Terraform, era necessário criar todos os recursos do zero. Com a versão **1.5**, é possível importar recursos existentes em um estado do Terraform, permitindo que você comece a gerenciá-los facilmente.
 
@@ -23,7 +23,7 @@ Imagine que você já tenha provisionado um serviço de armazenamento em nuvem d
 
 Isso facilita a adoção do Terraform em projetos já em andamento e evita a necessidade de recriar recursos manualmente.
 
-### **2. Verificações Orientadas por Configuração**
+## **2. Verificações Orientadas por Configuração**
 
 Outra melhoria importante do Terraform **1.5** são as verificações orientadas por configuração. Essa funcionalidade permite que você defina regras e políticas para garantir que sua infraestrutura esteja configurada corretamente. Anteriormente, a validação de configurações era feita principalmente por meio de ferramentas externas ou scripts personalizados.
 
@@ -31,7 +31,7 @@ Agora, com as verificações orientadas por configuração, você pode adicionar
 
 Por exemplo, você pode definir regras para garantir que determinadas configurações de segurança estejam presentes em todos os recursos provisionados. Isso ajuda a garantir a conformidade com as políticas internas e a reduzir erros de configuração.
 
-### **3. Exemplo de uso**
+## **3. Exemplo de uso**
 
 Vamos ver alguns exemplos de uso desses recursos na prática.
 
@@ -77,7 +77,7 @@ resource "azurerm_virtual_machine" "example" {
 
 Nesse exemplo, a verificação garante que as máquinas virtuais no Azure tenham pelo menos uma tag: `"Environment"`. Se alguma máquina virtual não cumprir essa regra, o Terraform exibirá um erro durante a execução do plano ou da aplicação.
 
-### **4. Conclusão**
+## **4. Conclusão**
 
 O Terraform **1.5** trouxe duas funcionalidades importantes: importação de recursos existentes e verificações orientadas por configuração. Esses recursos permitem que os usuários gerenciem facilmente recursos já provisionados e garantam a conformidade de sua infraestrutura. Ao adotar essas novas funcionalidades, é possível agilizar o gerenciamento de infraestrutura e reduzir erros de configuração.
 

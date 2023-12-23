@@ -7,7 +7,7 @@ categories: [Cloud, AWS]
 tags: [aws, active directory, iam, identidade, infraestrutura, cloud]
 ---
 
-### Saudações Pessoal!!!
+## Saudações Pessoal!!!
 
 Antes de falar sobre o Serviço de Diretório dentro da **laranjinha** , vou pontuar que até poucos anos atrás, sempre mantive a minha cabeça focada no planeta **Microsoft** e aos que também possuem o mesmo histórico profissional, provavelmente vão concordar com a ideia de que se tem algo pelo qual o Windows Server deva ser respeitado e a equipe do **tio Bill** aplaudida, é pela eficiência do **Active Directory** e por tudo o que ele representa dentro do ambiente de administração de redes!!!
 
@@ -18,7 +18,7 @@ O **Active Directory** é um serviço fundamental dentro do ambiente de rede por
 O protocolo LDAP é uma versão "leve" do Directory Access Protocol (DAP), que faz parte do padrão X.500, um padrão para serviços de diretório em uma rede.  
 
 
-### **1. Visão geral do AWS Directory Services**
+## **1. Visão geral do AWS Directory Services**
 
 O **AWS Directory Service** fornece de forma completa ou parcial o Microsoft Active Directory (AD) como um **Serviço Gerenciado** ou seja, você **não se preocupa com o gerenciamento da infraestrutura computacional**. 
 
@@ -30,7 +30,7 @@ A **AWS** oferece até o momento, as seguintes opções de Serviço de Diretóri
 * AD Connector
 * Simple AD
 
-### **2. AWS Managed Microsoft AD**
+## **2. AWS Managed Microsoft AD**
 
 Por ser um **Serviço totalmente Gerenciado**, o **Managed Microsoft AD** oferece:
 
@@ -61,7 +61,7 @@ A imagem abaixo apresenta diversas possibilidades de uso no Managed AD pela AWS.
 
 ![](/assets/img/67/aws-ad01.png){: "width=60%" }
 
-### **3. AD Connector**
+## **3. AD Connector**
 
 O **AD Connector** é um gateway de diretório dentro da AWS que estabelece um link com um Active Directory Principal fora da AWS, seja host físico On Premises ou Virtualizado em Cloud Privada ou Pública.
 
@@ -79,7 +79,7 @@ Você pode usar o AD Connector para autenticação multifator usando infraestrut
 >**Observação:** Não compatível com RDS SQL.
 {: .prompt-warning }
 
-### **4. Simple AD**
+## **4. Simple AD**
 
 O Simple AD é um recurso LDAP  **Compatível** com o Active Directory mas é baseado em **SAMBA LINUX 4**, tendo como características:
 
@@ -114,7 +114,7 @@ A AWS cria dois servidores de diretório e servidores DNS em duas sub-redes dife
 - Não compatível com o servidor RDS SQL.
 - Não oferece suporte a relações de confiança com outros domínios, recurso disponível apenas com **AWS MANAGED AD**.
 
-### **5. Quanto custa a brincadeira ???**
+## **5. Quanto custa a brincadeira ???**
 
 Bom, até aqui vimos que a AWS é bem versátil no quesito Serviço de Diretório, masssss ao transferir parte da **"Dor de Cabeça"** de sustentar uma infra local para Cloud, seja ela qual for, não há como não gastar uns dinheirinhos rs rs.
 

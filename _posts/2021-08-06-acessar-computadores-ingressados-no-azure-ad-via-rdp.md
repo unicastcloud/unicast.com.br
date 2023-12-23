@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Caso você tenha computadores ingressados no Azure Active Directory (Azure AD) e tenha dificuldades para acessa-los remotamente via RDP, confira a dica abaixo para resolver o problema.
 
-### **1.1 Ingressando seu computador no Azure Active Directory**
+## **1.1 Ingressando seu computador no Azure Active Directory**
 
 Você pode ingressar seus computadores ao AzureAD com os seguintes passos:
 
@@ -34,7 +34,7 @@ Você também pode conferir no portal do Azure.
 
 ![](/assets/img/12/rdp5.jpg){: "width=60%" }
 
-### **1.2 Alterando as configurações de acesso remoto**
+## **1.2 Alterando as configurações de acesso remoto**
 
 Agora vamos definir as permissões do RDP para permitir conexões remotas a este computador.
 
@@ -45,7 +45,7 @@ Permita conexões remotas a este computador e remova a caixa de seleção de per
 > Estamos em um ambiente de laboratório, em produção você não deve habilitar o RDP desta forma.
 {: .prompt-danger }
 
-### **2.1 Criar arquivo de configuração RDP personalizado**
+## **2.1 Criar arquivo de configuração RDP personalizado**
 
 Ao tentar logar com seu usuário de AzureAD, você terá o seguinte erro:
 
@@ -68,7 +68,7 @@ enablecredsspsupport:i:0
 authentication level:i:2
 ```
 
-### **2.2 Acessando a máquina via RDP personalizado**
+## **2.2 Acessando a máquina via RDP personalizado**
 
 Abra o arquivo de RDP personalizado e faça o acesso ao ambiente.
 

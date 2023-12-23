@@ -20,22 +20,22 @@ O MikroTik possui vários modelos de dispositivos de rede, sugiro você dar uma 
 >**Atenção:** o IKEv2 foi introduzido na versão 6.38. Portanto, certifique-se de ter uma versão compatível para poder prosseguir com a configuração demonstrada neste artigo.
 {: .prompt-warning }
 
-### **Objetivo**
+## **Objetivo**
 
 Implantar uma VPN Site to Site com Microsoft Azure e Mikrotik RouterOS.
 
-#### **Cenário proposto**
+## **Cenário proposto**
 
 ![](/assets/img/26/mikrotik1.png){: "width=60%" }
 
 Informações relevantes para a configuração do laboratório:
 
-#### **Microsoft Azure**
+## **Microsoft Azure**
 
 - VNET: 10.0.0.0/24
 - Public IP: 13.85.83.ZZ (trocar para seu cenário)
 
-#### **Unicast on-premises**
+## **Unicast on-premises**
 
 - VNET: 172.16.0.0/24
 - Public IP: 47.180.119.YY (trocar para seu cenário)
@@ -50,7 +50,7 @@ Caso você queira reproduzir o laboratório via portal ou Winbox (interface GUI 
 
 Nesta seção, veremos passo a passo como configurar o Site-to-Site VPN no lado do Azure. 
 
-### **1.1 Definindo as variáveis de rede**
+## **1.1 Definindo as variáveis de rede**
 
 ```powershell
 # Declare variables
@@ -71,13 +71,13 @@ Nesta seção, veremos passo a passo como configurar o Site-to-Site VPN no lado 
   $ShareKey = "q1w2e3r4t5"
 ```
 
-### **1.2 Criando o Resource Groups**
+## **1.2 Criando o Resource Groups**
 
 ```powershell
 New-AzResourceGroup -Name $RG -Location $Location
 ```
 
-### **1.3 Criando a Virtual Network**
+## **1.3 Criando a Virtual Network**
 
 ```powershell
 $virtualNetwork = New-AzVirtualNetwork `
@@ -87,7 +87,7 @@ $virtualNetwork = New-AzVirtualNetwork `
   -AddressPrefix $VNetPrefix1
 ```
 
-### **1.4 Criando a Subnet**
+## **1.4 Criando a Subnet**
 
 ```powershell
 $subnetConfig = Add-AzVirtualNetworkSubnetConfig `
@@ -96,32 +96,32 @@ $subnetConfig = Add-AzVirtualNetworkSubnetConfig `
   -VirtualNetwork $virtualNetwork
 ```
 
-### **1.5 Setando as configurações**
+## **1.5 Setando as configurações**
 ```powershell
 $virtualNetwork | Set-AzVirtualNetwork
 ```
 
-### **1.6 Adicionando a subnet do Virtual Network Gateway** 
+## **1.6 Adicionando a subnet do Virtual Network Gateway** 
 
 ```powershell
 $vnet = Get-AzVirtualNetwork -ResourceGroupName $RG -Name $VNetName
 Add-AzVirtualNetworkSubnetConfig -Name $GWSubName -AddressPrefix $GWSubPrefix -VirtualNetwork $vnet
 ```
 
-### **1.7 Definindo a configuração de subnet para a vnet**
+## **1.7 Definindo a configuração de subnet para a vnet**
 
 ```powershell
 $vnet | Set-AzVirtualNetwork
 ```
 
-### **1.8 Criando IP Público** 
+## **1.8 Criando IP Público** 
 
 ```powershell
 $gwpip= New-AzPublicIpAddress -Name $GWIPName -ResourceGroupName $RG -Location $Location `
  -AllocationMethod Dynamic
 ```
 
-### **1.9 Criando a configuração do gateway**
+## **1.9 Criando a configuração do gateway**
 
 ```powershell
 $vnet = Get-AzVirtualNetwork -Name $VNetName -ResourceGroupName $RG
@@ -129,7 +129,7 @@ $subnet = Get-AzVirtualNetworkSubnetConfig -Name $GWSubName -VirtualNetwork $vne
 $gwipconfig = New-AzVirtualNetworkGatewayIpConfig -Name $GWIPconfName -SubnetId $subnet.Id -PublicIpAddressId $gwpip.Id
 ```
 
-### **1.10 Criando o VPN Gateway**
+## **1.10 Criando o VPN Gateway**
 
 ```powershell
 New-AzVirtualNetworkGateway -Name $GWName -ResourceGroupName $RG `
@@ -137,14 +137,14 @@ New-AzVirtualNetworkGateway -Name $GWName -ResourceGroupName $RG `
  -VpnType RouteBased -GatewaySku VpnGw1
 ```
 
-### **1.11 Criando o Local Network Gateway**
+## **1.11 Criando o Local Network Gateway**
 
 ```powershell
 New-AzLocalNetworkGateway -Name $LNGName -ResourceGroupName $RG `
  -Location $Location -GatewayIpAddress '47.180.119.YY' -AddressPrefix $VPNClientAddressPool
 ```
 
-### **1.12 Criando a conexão VPN**
+## **1.12 Criando a conexão VPN**
 
 ```powershell
 $gateway1 = Get-AzVirtualNetworkGateway -Name $GWName -ResourceGroupName $RG
@@ -171,14 +171,14 @@ Lembrando mais uma vez:
 
 Como mencionei, você pode utilizar o **Winbox** para realizar as configuraçãos no MikroTik utilizando uma interface gráfica.
 
-### **2.1 Configurando o IPSEC Profile**
+## **2.1 Configurando o IPSEC Profile**
 
 ```bash
 /ip ipsec profile
 set [ find default=yes ] dh-group=modp1024 enc-algorithm=aes-256,aes-128,3des nat-traversal=no
 ```
 
-### **2.2 Criando o IPSEC Peer**
+## **2.2 Criando o IPSEC Peer**
 
 ```bash
 /ip ipsec peer
@@ -186,21 +186,21 @@ add address=13.85.83.ZZ/32 comment="Unicastlab - VPN Azure to Mikrotik" exchange
     local-address=47.180.119.YY name=mikrotik-to-azure
 ```
 
-### **2.3 Criando o IPSEC Identity**
+## **2.3 Criando o IPSEC Identity**
 
 ```bash
 /ip ipsec identity
 add comment="Unicastlab - VPN Azure to Mikrotik" peer=mikrotik-to-azure secret=q1w2e3r4t5
 ```
 
-### **2.4 Configurando o IPSEC Proposal**
+## **2.4 Configurando o IPSEC Proposal**
 
 ```bash
 /ip ipsec proposal
 set [ find default=yes ] enc-algorithms=aes-256-cbc,aes-128-cbc lifetime=7h30m
 ```
 
-### **2.5 Criando o IPSEC Policy**
+## **2.5 Criando o IPSEC Policy**
 
 ```bash
 /ip ipsec policy
@@ -208,7 +208,7 @@ add comment="Unicastlab - VPN Azure to Mikrotik" dst-address=10.0.0.0/24 peer=mi
     src-address=172.16.0.0/24 tunnel=yes
 ```
 
-### **2.6 Criando regras de NAT**
+## **2.6 Criando regras de NAT**
 
 ```bash
 /ip firewall nat
@@ -218,7 +218,7 @@ add action=accept chain=dstnat comment="Unicastlab - VPN Azure to Mikrotik (DSTN
     dst-address=172.16.0.0/24 log=yes src-address=10.0.0.0/24
 ```
 
-### **2.7 [Extra] Configurando o Bypass de pacotes (Tabela Raw)**
+## **2.7 [Extra] Configurando o Bypass de pacotes (Tabela Raw)**
 
 Caso você esteja com contrack habilitado, você precisa fazer um bypass dos pacotes antes que cheguem até a
 connection tracking, assim será possível pingar e acessar as máquinas sem problemas.
@@ -236,7 +236,7 @@ add action=notrack chain=prerouting dst-address=10.0.0.0/24 src-address=172.16.0
 add action=notrack chain=prerouting dst-address=172.16.0.0/24 src-address=10.0.0.0/24
 ```
 
-### **2.8 [Extra] Configurando o TCP MSS (Tabela Mangle)**
+## **2.8 [Extra] Configurando o TCP MSS (Tabela Mangle)**
 
 Outra dica interessante é o TCP MSS, quando você tem um alto volume de pacotes TCP no túnel VPN é normal ter descartes de pacotes. Com a Mangle você consegue fazer marcas especiais e modificar alguns campos do cabeçalho IP, desta forma é possível melhorar o desempenho no fluxo de dados.
 
@@ -253,7 +253,7 @@ Agora já podemos validar a conexão de ambos os lados e fazer um teste de acess
 >Faça o deploy de uma VM no Azure e teste a conexão com seu ambiente on-premises.
 {: .prompt-tip }
 
-### **Mikrotik**
+## **Mikrotik**
 
 ```bash
 ip ipsec active-peers print 
@@ -266,7 +266,7 @@ Flags: R - responder, N - natt-peer
       13.85.83.ZZ         established        31m53s                  1
 ```
 
-### **Azure (Powershell)**
+## **Azure (Powershell)**
 
 ```powershell
 Get-AzVirtualNetworkGatewayConnection -Name cn-azure-to-mikrotik -ResourceGroupName rg-azure-to-mikrotik

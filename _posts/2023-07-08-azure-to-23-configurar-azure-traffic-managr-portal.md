@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos lá para mais uma sequência de artigos sobre Load Balancers no Microsoft Azure!
 
-### **Sobre Azure Front Door**
+## **Sobre Azure Front Door**
 
 O **Azure Traffic Manager** é um serviço de roteamento de tráfego de **DNS** fornecido pela Microsoft Azure, projetado para melhorar a disponibilidade e o desempenho de aplicativos distribuídos globalmente. Ele permite direcionar o tráfego de entrada para várias regiões do Azure ou até mesmo para endpoints fora do Azure, como sites em servidores locais ou em outras nuvens.
 
@@ -25,7 +25,7 @@ O **Azure Traffic Manager** é um serviço de roteamento de tráfego de **DNS** 
 - **Suporte para Diferentes Tipos de Endpoints:** O serviço suporta vários tipos de endpoints, incluindo pontos de extremidade baseados em endereços IP, URLs ou nomes de domínio.
 - **Integração com Azure Monitor:** O Azure Traffic Manager pode ser integrado ao Azure Monitor para coletar e analisar dados de tráfego e desempenho, permitindo uma visão detalhada do comportamento do seu aplicativo.
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, você definirá uma configuração para o **Azure Traffic Manager** que irá agrupar duas instâncias de um aplicativo Web executado em diferentes regiões do Azure. Uma atuará como um endpoint primário para o Traffic Manager e outra atuará como um endpoint de failover.
 
@@ -33,7 +33,7 @@ O Traffic Manager monitorará continuamente o aplicativo da Web e, se o site pri
 
 ![](/assets/img/75/traffic01.png){: "width=60%" }
 
-### **1.1 Criando os aplicativos Web (Web Apps)**
+## **1.1 Criando os aplicativos Web (Web Apps)**
 
 Este lab requer duas instâncias de um aplicativo Web executado em diferentes regiões do Azure. Ambas as instâncias do aplicativo da Web são executadas no modo Ativo/Ativo, portanto, qualquer uma delas pode receber tráfego. Esta configuração difere de uma configuração Ativa/Stand-By, onde se atua como um failover.
 
@@ -77,7 +77,7 @@ Ficando assim:
 
 ![](/assets/img/75/traffic05.png){: "width=60%" }
 
-### **2.1 Criando o Azure Traffic Manager**
+## **2.1 Criando o Azure Traffic Manager**
 
 Agora, vamos criar e configurar o Azure Traffic Manager.
 
@@ -97,7 +97,7 @@ Forneça os seguintes detalhes:
 
 Selecione **Create.**
 
-### **3.1 Adicionando endpoints no Traffic Manager**
+## **3.1 Adicionando endpoints no Traffic Manager**
 
 Agora, vamos adicionar o site Brazil South como endpoint primário para rotear todo o tráfego do usuário. Em seguida, vamos adicionar o site de East Us como um endpoint de failover. Se o endpoint primário ficar indisponível, o tráfego será roteado automaticamente para o endpoint de failover.
 
@@ -123,7 +123,7 @@ Os dois novos endpoints são exibidos no perfil do Traffic Manager. Observe que 
 
 ![](/assets/img/75/traffic11.png){: "width=60%" }
 
-### **4.1 Testando o Azure Front Door**
+## **4.1 Testando o Azure Front Door**
 
 Agora, vamos testar se nosso Traffic Manager está funcionando e enviando o tráfego com êxito para nossos endpoints.
 

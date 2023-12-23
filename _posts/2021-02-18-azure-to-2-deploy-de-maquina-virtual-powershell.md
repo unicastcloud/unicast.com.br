@@ -13,11 +13,11 @@ Seguindo com nossa série Azure-To no post anterior você aprendeu como criar um
 
 A princípio pode parecer uma pouco complicado, especialmente se você está começando agora e ainda não é familiarizado com o PowerShell, mas se você pretente trabalhar com Azure no dia a dia, você realmente precisa começar a usar o PowerShell.
 
-### **Objetivo**
+## **Objetivo**
 
 Implantar uma VM executando Windows Server 2016 Datacenter via PowerShell.
 
-#### **Para o deploy de nossa VM vamos:**
+## **Para o deploy de nossa VM vamos:**
 
 * Criar um resource group
 * Criar uma virtual network e uma subnet
@@ -32,7 +32,7 @@ Para o deploy você pode utilizar o Cloud Shell direto do Portal da azure ou dir
 
 Vamos lá!
 
-### **1.1 Definindo as variáveis de rede**
+## **1.1 Definindo as variáveis de rede**
 
 ```powershell
 $ResourceGroup  = "lab01-RG"
@@ -44,31 +44,31 @@ $SubnetName     = "subnet0"
 $nsgName        = "lab01-RG-nsg"
 ```
 
-### **2.1 Criando o Resource Groups**
+## **2.1 Criando o Resource Groups**
 
 ```powershell
 New-AzResourceGroup -Name $ResourceGroup -Location $Location
 ```
 
-### **3.1 Criando a Virtual Network**
+## **3.1 Criando a Virtual Network**
 
 ```powershell
 $vNetwork = New-AzVirtualNetwork -ResourceGroupName $ResourceGroup -Name $vNetName -AddressPrefix $AddressSpace -Location $location
 ```
 
-### **3.2 Criando a Subnet**
+## **3.2 Criando a Subnet**
 
 ```powershell
 Add-AzVirtualNetworkSubnetConfig -Name $SubnetName -VirtualNetwork $vNetwork -AddressPrefix $SubnetIPRange
 ```
 
-### **3.3 Setando as configurações**
+## **3.3 Setando as configurações**
 
 ```powershell
 Set-AzVirtualNetwork -VirtualNetwork $vNetwork
 ```
 
-### **4.1 Criando o Network Security Group**
+## **4.1 Criando o Network Security Group**
 
 ```powershell
 $nsgRuleVMAccess = New-AzNetworkSecurityRuleConfig -Name 'allow-vm-access' -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix * -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389 -Access Allow
@@ -76,7 +76,7 @@ New-AzNetworkSecurityGroup -ResourceGroupName $ResourceGroup -Location $location
 ```
 Perceba que neste comando já estamos criando uma regra de inbound com a priority 100 e destino a porta 3389. Assim já teremos o acesso remoto habilitado na criação da VM.
 
-### **5.1 Definindo as variáveis da máquina virtual**
+## **5.1 Definindo as variáveis da máquina virtual**
 
 ```powershell
 $vNet   = Get-AzVirtualNetwork -ResourceGroupName $ResourceGroup -Name $vNetName
@@ -93,7 +93,7 @@ $osDiskName = "$vmName-OsDisk"
 $osDiskType = "Standard_LRS"
 ```
 
-### **6.1 Definindo as credinciais de administrador**
+## **6.1 Definindo as credinciais de administrador**
 
 ```powershell
 $adminUsername = 'labuser'
@@ -101,45 +101,45 @@ $adminPassword = 'Jn77a.lb1234'
 $adminCreds    = New-Object PSCredential $adminUsername, ($adminPassword | ConvertTo-SecureString -AsPlainText -Force)
 ```
 
-### **7.1 Criando IP público e interface de rede NIC**
+## **7.1 Criando IP público e interface de rede NIC**
 
 ```powershell
 $pip = New-AzPublicIpAddress -Name $pipName -ResourceGroupName $ResourceGroup -Location $location -AllocationMethod Static 
 $nic = New-AzNetworkInterface -Name $nicName -ResourceGroupName $ResourceGroup -Location $location -SubnetId $Subnet.Id -PublicIpAddressId $pip.Id -NetworkSecurityGroupId $nsg.Id
 ```
 
-### **8.1 Adicionando as configurações da máquina virtual**
+## **8.1 Adicionando as configurações da máquina virtual**
 
 ```powershell
 $vmConfig = New-AzVMConfig -VMName $vmName -VMSize $vmSize
 Add-AzVMNetworkInterface -VM $vmConfig -Id $nic.Id
 ```
 
-### **9.1 Setando os parâmetros do sistema operacional** 
+## **9.1 Setando os parâmetros do sistema operacional** 
 
 ```powershell
 Set-AzVMOperatingSystem -VM $vmConfig -Windows -ComputerName $vmName -Credential $adminCredsd
 ```
 
-### **10.1 Setando a imagem utilizada na máquina virtual**
+## **10.1 Setando a imagem utilizada na máquina virtual**
 
 ```powershell
 Set-AzVMSourceImage -VM $vmConfig -PublisherName $pubName -Offer $offerName -Skus $skuName -Version 'latest'
 ```
 
-### **11.1 Setando as configurações de disco**
+## **11.1 Setando as configurações de disco**
 
 ```powershell
 Set-AzVMOSDisk -VM $vmConfig -Name $osDiskName -StorageAccountType $osDiskType -CreateOption fromImage
 ```
 
-### **12.1 Desabilitando o diagnóstico de boot**
+## **12.1 Desabilitando o diagnóstico de boot**
 
 ```powershell
 Set-AzVMBootDiagnostic -VM $vmConfig -Disable
 ```
 
-### **13.1 Criando a máquina virtual**
+## **13.1 Criando a máquina virtual**
 
 ```powershell
 New-AzVM -ResourceGroupName $ResourceGroup -Location $location -VM $vmConfig

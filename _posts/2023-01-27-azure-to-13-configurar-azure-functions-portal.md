@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma sequencia de artigos do Azure-To, então vamos nessa!
 
-### **Sobre Azure Functions**
+## **Sobre Azure Functions**
 
 O Azure Functions é uma plataforma de computação em nuvem altamente escalável e flexível da Microsoft, que permite a criação e execução de pequenos pedaços de código, conhecidos como "funções", sem se preocupar com a infraestrutura subjacente. Com o Azure Functions, você pode facilmente criar soluções de back-end para aplicativos web, dispositivos móveis e IoT, além de integrar diferentes serviços e aplicativos na nuvem.
 
@@ -24,11 +24,11 @@ O Azure Functions oferece várias características e vantagens que o tornam uma 
 5. **Execução de tarefas programadas:** O Azure Functions permite a execução de tarefas programadas, o que significa que você pode automatizar tarefas repetitivas e programá-las para ocorrer em momentos específicos.
 6. **Alta disponibilidade:** O Azure Functions é projetado para oferecer alta disponibilidade, o que significa que você pode ter certeza de que suas funções estarão sempre disponíveis quando você precisar.
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, criaremos um Function App para exibir uma mensagem Hello quando houver uma solicitação HTTP.
 
-### **1.1 Criando um Function App**
+## **1.1 Criando um Function App**
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo**, na caixa de Pesquisa, digite **Function App** e clique em **+ Add, + Create, + New**.
 
@@ -53,7 +53,7 @@ Aguarde a notificação de que o recurso foi criado. Quando a implantação for 
 
 ![](/assets/img/55/functions03.png){: "width=60%" }
 
-### **2.1 Criando uma function trigger HTTP**
+## **2.1 Criando uma function trigger HTTP**
 
 Nesta tarefa, usaremos a função Webhook + API para exibir uma mensagem quando houver uma solicitação HTTP.
 
@@ -77,7 +77,7 @@ Assegure-se de que o valor na lista suspensa **Key** esteja definido como **defa
 
 ![](/assets/img/55/functions07.png){: "width=60%" }
 
-### **2.2 Validando o funcionamento**
+## **2.2 Validando o funcionamento**
 
 Chegou a hora de testar nossa função!
 

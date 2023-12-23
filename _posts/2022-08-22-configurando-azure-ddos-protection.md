@@ -44,11 +44,11 @@ Mas fique calmo pequeno gafanhoto, a Microsoft já mitigou um ataque DDoS com tr
 
 Recado dado, vamos nessa!
 
-### **Objetivo**
+## **Objetivo**
 
 Implantar Azure DDoS Protection e configurar alertas.
 
-### **1.1 Criando DDoS Protection Plan**
+## **1.1 Criando DDoS Protection Plan**
 
 O protection plan define um conjunto de redes virtuais que têm proteção contra DDoS habilitada, entre assinaturas. Você pode configurar um plano de proteção para seu ambiente e vincular redes virtuais de várias assinaturas em um único tenant do AAD ao mesmo plano.
 
@@ -65,7 +65,7 @@ Clique em **Review + create**
 
 ![](/assets/img/32/ddos05.png){: "width=60%" }
 
-### **1.2 Habilitando DDoS Protection na VNET**
+## **1.2 Habilitando DDoS Protection na VNET**
 
 Agora vamos habilitar o DDoS em nossa VNET.
 
@@ -97,13 +97,13 @@ Poucos passos e muita proteção para seu ambiente.
 - **Resposta Rápida contra DDo**S: entre em contato com a equipe de DRR (Resposta Rápida da Proteção contra DDoS) para ajuda na investigação e na análise de ataques. Para saber mais, veja Resposta Rápida de DDoS.
 - **Garantia de custo**: receba crédito de serviço de transferência de dados e expansão de aplicativo para custos de recursos incorridos como resultado de ataques DDoS documentados.
 
-### **2.1 Monitorando o ambiente**
+## **2.1 Monitorando o ambiente**
 
 Além de ativar a proteção de DDoS, é muito importante que você monitore o serviço e tenha informações atualizadas sobre a saúde de seu ambiente.
 
 ![](/assets/img/32/ddos09.png){: "width=60%" }
 
-### **2.2 Configurando Alertas**
+## **2.2 Configurando Alertas**
 
 Ainda no **DDoS Protection Plan**, selecione **Alerts** na aba **monitoring**. 
 
@@ -153,7 +153,7 @@ Você deve receber um e-mail de confimação.
 >**Dica:** Considere ativar o **Diagnostic setting** em seus IPs Públicos, coletar logs e métricas de seu DDoS Protection e enivar para uma Log Analytics.
 {: .prompt-tip }
 
-### **3.1 Validando o DDoS Protection**
+## **3.1 Validando o DDoS Protection**
 
 É recomendável testar como o serviço de proteção irá responder a um ataque DDoS, e para isso você pode utilizar alguns sites parceiros da Microsoft para realizar um teste em seu ambiente.
 

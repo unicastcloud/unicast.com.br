@@ -15,13 +15,13 @@ Primeiro artigo do ano, vamos que vamos que 2023 será um ano de muito conteúdo
 
 Neste artigo, discutiremos sobre o Armazenamento do Azure e os diferentes tipos de serviços de armazenamento fornecidos pela plataforma. 
 
-### **O que é o Serviço de Armazenamento do Azure**
+## **O que é o Serviço de Armazenamento do Azure**
 
 O armazenamento do Microsoft Azure oferece uma variedade de opções para os usuários salvarem dados em nuvem. Para cada necessidade há uma opção diferente disponível nos serviços de Armazenamento do Azure. 
 
 Neste artigo iremos abordar dois tipos diferentes de serviços de armazenamento do Azure: armazenamento de arquivos e armazenamento de blob. 
 
-### **Serviços de armazenamento no Azure**
+## **Serviços de armazenamento no Azure**
 
 A Microsoft oferece várias opções para armazenar dados na nuvem. Cada opção tem seu propósito exclusivo de atender a diferentes necessidades de negócios. 
 
@@ -31,7 +31,7 @@ A Microsoft oferece várias opções para armazenar dados na nuvem. Cada opção
 - **Azure Files** - serviço de compartilhamento de arquivos gerenciado para nuvem ou local usando o protocolo SMB/NFS.
 - **Azure Disks** - disco rígido virtual (VHD) de dois tipos: gerenciado e não gerenciado.
 
-### **Azure Blob Storage**
+## **Azure Blob Storage**
 
 A solução de armazenamento de objetos para a nuvem é o Armazenamento de Blobs do Azure. Objetos são dados não estruturados que não requerem nenhum modelo de dados específico. O Armazenamento de Blobs do Azure armazena os objetos utilizando um namespace simples para armazenar arquivos. Embora a convenção de nomenclatura usada pelos usuários possa fazer com que pareça uma estrutura de arquivo normal, isso não é verdade. No Azure Blob Storage, os objetos são armazenados no formato chave-valor, onde a chave é o nome do objeto armazenado e o valor são os dados do objeto.
 
@@ -44,7 +44,7 @@ Por exemplo, os Blobs do Azure são muito úteis para os cenários em que os des
 - Armazenando logs em arquivos.
 - Salvando dados para backup e recuperação.
 
-### **Azure File Storage**
+## **Azure File Storage**
 
 A solução de armazenamento de arquivos, como o nome indica, é o Azure File Storage. Ele deve ser montado ou implantado em qualquer sistema operacional antes da configuração. Além disso, os usuários estão familiarizados com esse tipo de armazenamento, pois ele pode ser relacionado a um sistema de arquivos regular nos sistemas operacionais Windows. A única diferença é que o Armazenamento de Arquivos do Azure é montado remotamente com capacidade de armazenamento ilimitada. 
 
@@ -55,11 +55,11 @@ O Armazenamento de Arquivos do Azure destina-se ao manuseio interno de arquivos 
 - Substituindo servidores de arquivos locais por servidores de arquivos baseados em nuvem.
 - Simplificando o acesso à arquivos salvos na nuvem.
 
-### **Qual a diferença entre Blob e File Storage?**
+## **Qual a diferença entre Blob e File Storage?**
 
 Simplificando, o Azure Blob Storage é um armazenamento de objetos usado para armazenar grandes quantidades de dados não estruturados, enquanto o Azure File Storage é um sistema de arquivos distribuído totalmente gerenciado com base no protocolo SMB.
 
-### **Escalabilidade e Segurança**
+## **Escalabilidade e Segurança**
 
 É importante conhecer a cota e os limites do Armazenamento do Azure para escolher a opção correta. O nível mais alto de representação para capacidade no Armazenamento de Blobs do Azure é **Containers**, enquanto para Arquivos é **Compartilhamento**.
 

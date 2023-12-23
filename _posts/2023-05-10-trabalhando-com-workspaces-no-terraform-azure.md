@@ -13,40 +13,40 @@ Sejam bem-vindos a mais um post da nossa série de artigos sobre **Terraform**. 
 
 Então, pegue sua xícara de café e vamos lá!
 
-### **1. O que é Terraform Workspaces?**
+## **1. O que é Terraform Workspaces?**
 
 Se você já trabalha com **Terraform**, provavelmente já se deparou com a necessidade de gerenciar diferentes estados de configuração para ambientes distintos. É aí que entram os **workspaces**. O **Terraform** **Workspaces** é um recurso que permite criar e gerenciar múltiplos ambientes a partir de uma única configuração.
 
 Em termos simples, se você está executando uma configuração de infraestrutura em um ambiente de desenvolvimento, essa mesma infraestrutura pode ser executada em um ambiente de produção, por exemplo. Com os **workspaces**, é possível isolar os estados de configuração para cada ambiente, evitando conflitos e facilitando a manutenção.
 
-### **2. Como criar um novo Workspace?**
+## **2. Como criar um novo Workspace?**
 
 A criação de um novo **workspace** no Terraform é bastante simples. Basta executar o comando `terraform workspace new <nome-do-workspace>`. Por exemplo, se você deseja criar um **workspace** para o ambiente de desenvolvimento, poderia utilizar `terraform workspace new dev`. O Terraform criará um novo espaço de trabalho com o nome especificado e você estará pronto para configurar sua infraestrutura para esse ambiente.
 
-### **3. Como criar vários workspaces no Terraform?**
+## **3. Como criar vários workspaces no Terraform?**
 
 Criar vários **workspaces** no Terraform é uma tarefa muito útil quando se trata de gerenciar diferentes ambientes. Como mencionado anteriormente, você pode criar um novo workspace utilizando o comando `terraform workspace new <nome-do-workspace>`. 
 
 É possível criar quantos workspaces forem necessários, seja para ambientes de desenvolvimento, teste ou produção.
 
-### **4. Como listar todos os workspaces no Terraform?**
+## **4. Como listar todos os workspaces no Terraform?**
 
 Para listar todos os **workspaces** disponíveis no Terraform, basta executar o comando `terraform workspace list`. O Terraform retornará uma lista com todos os workspaces criados até o momento. Essa funcionalidade é útil para verificar quais ambientes estão configurados e facilitar a navegação entre eles.
 
-### **5. Como alternar entre workspaces no Terraform?**
+## **5. Como alternar entre workspaces no Terraform?**
 
 Agora que você possui vários **workspaces** criados, pode alternar entre eles facilmente. Utilize o comando `terraform workspace select <nome-do-workspace>` para selecionar o workspace desejado. 
 
 Por exemplo, se você deseja alternar para o workspace de produção, execute `terraform workspace select prod`. O Terraform fará a transição para o workspace escolhido e você poderá configurar sua infraestrutura especificamente para esse ambiente.
 
-### **6. Como excluir workspaces no Terraform?**
+## **6. Como excluir workspaces no Terraform?**
 
 Embora seja possível criar quantos **workspaces** forem necessários, é importante também saber como excluir um **workspace** quando ele não for mais utilizado. Para excluir um workspace no Terraform, utilize o comando `terraform workspace delete <nome-do-workspace>`. Tenha cuidado ao utilizar essa funcionalidade, pois a exclusão de um workspace também excluirá o estado de configuração associado a ele. 
 
 >Portanto, certifique-se de fazer backup dos dados importantes antes de prosseguir.
 {: .prompt-warning }
 
-### **7. Como criar uma VM usando um workspace de DEV e PROD?**
+## **7. Como criar uma VM usando um workspace de DEV e PROD?**
 
 Vamos agora mergulhar em um exemplo prático de como criar uma máquina virtual (VM) usando **workspaces** de **desenvolvimento** (DEV) e **produção** (PROD) no Terraform, vamos focar no uso do provedor Azure.
 
@@ -187,7 +187,7 @@ terraform apply
 
 Repita os mesmos passos para o workspace de produção **(PROD)**.
 
-### **8. Conclusão**
+## **8. Conclusão**
 
 Os workspaces no Terraform são uma ferramenta poderosa para o gerenciamento de diferentes ambientes de infraestrutura. Com eles, você pode manter estados de configuração isolados e simplificar a implementação e manutenção de sua infraestrutura. 
 

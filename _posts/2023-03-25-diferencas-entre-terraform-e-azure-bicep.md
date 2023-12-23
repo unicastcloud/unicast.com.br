@@ -15,7 +15,7 @@ Neste artigo, vamos explorar as diferenças entre **Terraform** e **Azure Bicep*
 
 Antes de mergulharmos nas diferenças entre Terraform e Azure Bicep, é importante entender como cada uma das ferramentas funciona. 
 
-### **1. Terraform**
+## **1. Terraform**
 
 Terraform é uma ferramenta de infraestrutura como código (IaC) que permite definir, criar e gerenciar infraestrutura em uma variedade de plataformas, incluindo Azure. Ele usa uma linguagem declarativa para descrever a infraestrutura desejada e é executado em uma variedade de ambientes, incluindo desktops, servidores e em nuvem.
 
@@ -54,7 +54,7 @@ resource "azurerm_virtual_machine" "example" {
 }
 ```
 
-### **2. Azure Bicep**
+## **2. Azure Bicep**
 
 **Azure Bicep** é uma linguagem de **DSL** para provisionamento de recursos no Azure. Ela oferece uma sintaxe mais concisa e intuitiva do que o **Azure Resource Manager (ARM) templates**, tornando mais fácil criar e gerenciar recursos no Azure. Além disso, Azure Bicep suporta herança, modularidade e validação de tipo, tornando mais fácil criar e gerenciar recursos complexos.
 
@@ -142,7 +142,7 @@ resource myVM 'Microsoft.Compute/virtualMachines@2020-06-01' = {
 }
 ```
 
-### **3. Comparando as duas ferramentas**
+## **3. Comparando as duas ferramentas**
 
 Ambas as ferramentas, **Terraform** e **Azure Bicep**, têm suas vantagens e desvantagens e são ótimas opções para provisionamento de infraestrutura no Azure. Embora o **Azure Bicep** seja uma ferramenta relativamente nova, ele já se mostrou uma alternativa sólida ao **Terraform**. 
 

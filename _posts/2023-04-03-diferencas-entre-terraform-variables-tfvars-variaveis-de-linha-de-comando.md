@@ -21,11 +21,11 @@ Existem três tipos diferentes de variáveis no Terraform:
 
 Neste post, vamos discutir as diferenças entre **variable.tf**, **terraform.tfvars** e **variáveis de linha de comando** e como usar cada uma delas para gerenciar suas configurações do Azure com o Terraform.
 
-### **1. Por que usar variáveis no Terraform?**
+## **1. Por que usar variáveis no Terraform?**
 
 As variáveis ​​são uma parte fundamental do Terraform, pois permitem que você passe valores para seu código sem precisar hard-coded. Isso torna seu código mais flexível e reutilizável, permitindo que você o use em diferentes ambientes sem ter que fazer mudanças significativas. Além disso, ao separar as variáveis ​​do seu código, você pode proteger informações confidenciais, como senhas e chaves de API.
 
-### **2. Usando o arquivo variable.tf**
+## **2. Usando o arquivo variable.tf**
 
 O arquivo `variable.tf` é usado para definir variáveis que serão usadas em todo o seu código. Este arquivo é definido como um módulo e contém as definições de variáveis. A vantagem de usar o `variable.tf` é que ele mantém todas as variáveis em um só lugar, o que torna mais fácil gerenciar e manter a consistência em seu código. Por exemplo, digamos que você esteja criando uma infraestrutura no Azure e queira definir a região do Azure a ser usada. Aqui está um exemplo de código usando `variable.tf` para definir essa variável:
 
@@ -38,7 +38,7 @@ variable "azure_region" {
 
 Usando o arquivo **variable.tf**, você pode definir facilmente outras variáveis como o nome do grupo de recursos, o tamanho da instância ou a versão do sistema operacional, que serão usadas em todo o seu código.
 
-### **3. Usando o arquivo terraform.tfvars**
+## **3. Usando o arquivo terraform.tfvars**
 
 O arquivo `terraform.tfvars` é um arquivo separado que contém valores para as variáveis definidas em variable.tf. Este arquivo é opcional, mas é uma maneira fácil de definir valores padrão para suas variáveis. A vantagem de usar o `terraform.tfvars` é que ele pode ser facilmente compartilhado com outros membros da equipe ou usado em diferentes ambientes. Por exemplo, digamos que você queira definir o nome de um recurso do Azure que será usado em todo o código. Aqui está um exemplo de código usando o `terraform.tfvars` para definir essa variável:
 
@@ -48,7 +48,7 @@ azure_resource_name = "my-azure-resource"
 
 Ao usar o arquivo **terraform.tfvars**, você pode definir facilmente outras variáveis como o nome do grupo de recursos, o tamanho da instância ou a versão do sistema operacional que serão usadas em todo o seu código.
 
-### **4. Usando variáveis de linha de comando**
+## **4. Usando variáveis de linha de comando**
 
 As variáveis de linha de comando são usadas para passar valores para variáveis no momento da execução. Isso é útil se você quiser substituir valores em tempo real. A vantagem de usar variáveis de linha de comando é que você pode passar valores diferentes para as variáveis cada vez que executa o comando do Terraform. Por exemplo, digamos que você queira definir o tamanho da instância do Azure de maneira dinâmica. Aqui está um exemplo de código usando variáveis de linha de comando para definir essa variável:
 
@@ -58,7 +58,7 @@ terraform plan -var "azure_instance_size=Standard_D2_v3"
 
 Ao usar variáveis de linha de comando, você pode definir facilmente outras variáveis como a região do Azure, o nome do grupo de recursos ou a versão do sistema operacional.
 
-### **5. Conclusão**
+## **5. Conclusão**
 
 Ao escolher entre **variable.tf**, **terraform.tfvars** e **variáveis de linha de comando**, é importante considerar as necessidades do seu projeto e da sua equipe. Usar o arquivo variable.tf pode ser a melhor opção se você tiver várias variáveis a serem definidas e quiser manter todas em um só lugar. 
 

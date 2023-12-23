@@ -54,11 +54,11 @@ O Kubernetes removeu o **Docker** como **Container Runtime Interface (CRI)** na 
 
 Se você quiser saber mais detalhes sobre meu cluster, confira os artigos da sessão **Homelab**!
 
-### **Objetivo**
+## **Objetivo**
 
 Instalar e configurar Cluster Kubernetes Raspberry PI com Kubeadm e Containerd.
 
-### **Premissas**
+## **Premissas**
 
 Pra simplificar o artigo, não vou me atentar na instalação do sistema operacional, você pode utilizar o **Raspberry Pi imager** e selecionar a distribuição mais adequada.
 
@@ -75,7 +75,7 @@ Após a instalação do sistema operacional, lembre-se de fazer as configuraçõ
 - Acesso SSH
 - Updates
 
-### **Antes de começar**
+## **Antes de começar**
 
 - Uma máquina com sistema operacional Linux compatível. O projeto Kubernetes provê instruções para distribuições Linux baseadas em Debian e Red Hat, bem como para distribuições sem um gerenciador de pacotes.
 - 2 GB ou mais de RAM por máquina (menos que isso deixará pouca memória para as suas aplicações).
@@ -90,7 +90,7 @@ Nunca é demais lembrar: Minimamente você vai precisar de:
 - Três (ou mais) Raspberry Pi 4s (de preferência os modelos de 4 GB de RAM)
 - Sistema operacional ARM64 em todos os Raspberry Pis
 
-### **1.1 Pré-requisitos (Master e Worker)**
+## **1.1 Pré-requisitos (Master e Worker)**
 
 Atualizando o sistema:
 
@@ -131,7 +131,7 @@ EOF
 sudo sysctl --system
 ```
 
-### **1.2 Instalação do containerd (Master Node e Worker Node)**
+## **1.2 Instalação do containerd (Master Node e Worker Node)**
 
 Os pacotes do **containerd.io** são distribuídos pelo Docker (não pelo projeto containerd).
 
@@ -139,7 +139,7 @@ Os pacotes do **containerd.io** são distribuídos pelo Docker (não pelo projet
 sudo apt install containerd
 ```
 
-### **1.3 Configurando o systemd driver cgroup (Master Node e Worker Node)**
+## **1.3 Configurando o systemd driver cgroup (Master Node e Worker Node)**
 
 Para usar o systemd driver cgroup **/etc/containerd/config.toml** com **runc**, defina:
 
@@ -159,7 +159,7 @@ Reinicie o containerd
 sudo systemctl restart containerd
 ```
 
-### **2.1 Instalação do kubeadm, kubelet e kubectl (Somente Master Node)**
+## **2.1 Instalação do kubeadm, kubelet e kubectl (Somente Master Node)**
 
 Atualize o índice de pacotes **apt** e instale os pacotes necessários para utilizar o repositório **apt** do Kubernetes:
 
@@ -187,7 +187,7 @@ sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
 ```
 
-### **2.2 Configurando o memory cgroup (Master Node e Worker Node)**
+## **2.2 Configurando o memory cgroup (Master Node e Worker Node)**
 
 ```bash
 cgroup="$(head -n1 /boot/firmware/cmdline.txt) cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1 swapaccount=1"
@@ -203,7 +203,7 @@ Reinicie o Raspbery Pi
 sudo reboot
 ```
 
-### **2.3 Pull de imagens do Kubernetes (Somente Master Node)**
+## **2.3 Pull de imagens do Kubernetes (Somente Master Node)**
 
 Os objetos que compõem o cluster também são contêineres, vamos baixar as imagens necessárias para o Kubernetes.
 
@@ -211,7 +211,7 @@ Os objetos que compõem o cluster também são contêineres, vamos baixar as ima
 sudo kubeadm config images pull
 ```
 
-### **2.4 Criar e iniciar o cluster (Somente Master Node)**
+## **2.4 Criar e iniciar o cluster (Somente Master Node)**
 
 Vamos utilizar o **kubeadm** para criar e configurar nosso cluster. Vamos aproveitar e passar nosso **CIDR** de rede que utilizaremos em nossos PODs.
 
@@ -262,7 +262,7 @@ kubectl get nodes
 
 Veja que nosso cluster ainda está com status de **NotReady** isso acontece pois ainda não temos um controlador de rede para nosso cluster.
 
-### **2.5 Instalando Addons de rede (Somente Master Node)**
+## **2.5 Instalando Addons de rede (Somente Master Node)**
 
 O Kubernetes tem uma lista de add-ons disponíveis para instalação, fique à vontade para escolher a que melhor se adapta a suas necessidades.
 
@@ -292,7 +292,7 @@ Veja que agora nosso cluster está com o status de **Ready**, isso conclui que e
 
 ![](/assets/img/34/k8spi4-05.png){: "width=60%" }
 
-### **3.1 Configurando Worker Nodes**
+## **3.1 Configurando Worker Nodes**
 
 Basicamente, você precisa seguir o artigo novamente e fazer a instalação dos componentes do Kubernetes nos workers node.
 
@@ -329,7 +329,7 @@ sudo apt-get install -y kubelet kubeadm
 sudo apt-mark hold kubelet kubeadm
 ```
 
-### **3.1 Adicionando Worker Node ao cluster**
+## **3.1 Adicionando Worker Node ao cluster**
 
 Agora, basta adicionar nosso Worker Node ao nosso cluster Kubernetes.
 

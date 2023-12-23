@@ -23,7 +23,7 @@ Este exame pode ser tomado como um primeiro passo opcional para aprender sobre b
 
 Embora seja interessante validar seu conhecimento em um nível fundamental, fazer este exame não é um pré-requisito a para seguir com outras certificações como Azure Database Engineer.
 
-### **Os temas cobrados no exame são**
+## **Os temas cobrados no exame são**
 
 * The content of this exam will be updated on January 27, 2021. Please download the exam skills outline below to see what will be changing.
 * Describe core data concepts (15-20%)
@@ -33,7 +33,7 @@ Embora seja interessante validar seu conhecimento em um nível fundamental, faze
 
 Segue o link do conteúdo completo que é cobrado na prova: <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wsKZ" target="_blank">Skills Measured.</a> 
 
-### **Material utilizado**
+## **Material utilizado**
 
 Para este exame eu utilizei a própria documentação da Microsoft, você pode facilmente entender sobre os conceitos do exame Microsoft Azure Data Fundamentals usando os conceitos de aprendizagem que cobrem vários módulos.
 
@@ -52,7 +52,7 @@ Caso você tenha interesse em outra fonte de estudo, você pode adquirir o curso
 
 <a href="https://www.udemy.com/course/dp900-azure/" target="_blank">DP-900 Azure Data Fundamentals Exam Prep In One Day | Udemy</a>
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Por se tratar de um exame de nível fundamental a prova não é difícil, mesmo que você não tenha conhecimento algum com banco de dados. Lembre-se, este é seu primeiro passo para a sua jornada com banco de dados.
 

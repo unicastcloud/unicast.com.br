@@ -47,7 +47,7 @@ Segue a definição da Cloud Native Computing Foundation:
 >
 >A KCNA demonstrará o conhecimento básico do candidato sobre Kubernetes e tecnologias nativas da nuvem, incluindo como implantar um aplicativo usando comandos básicos do kubectl, a arquitetura do Kubernetes (contêineres, pods, nós, clusters), entendendo o cenário e os projetos nativos da nuvem (armazenamento, rede, GitOps, malha de serviço) e entender os princípios de segurança nativa da nuvem.
 
-### **Os temas cobrados no exame são:**
+## **Os temas cobrados no exame são:**
 
 * Kubernetes Fundamentals 46%
 * Container Orchestration 22%
@@ -57,12 +57,12 @@ Segue a definição da Cloud Native Computing Foundation:
 
 Segue a o link official da prova: <a href="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/" target="_blank">Kubernetes and Cloud Native Associate (KCNA)</a>
 
-### **Material utilizado**
+## **Material utilizado**
 
 > Para este exame eu usei basicamente duas fontes de estudo, e na minha opinião, creio que seja suficiente para você se preparar para a prova.
 {: .prompt-info }
 
-### **Lista de materiais:**
+## **Lista de materiais:**
 
 * Livro - <a href="https://www.amazon.com.br/gp/product/8575227785/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1" target="_blank"> DevOps Nativo de Nuvem com Kubernetes: Como Construir, Implantar e Escalar Aplicações Modernas na Nuvem</a>
 
@@ -73,7 +73,7 @@ Na minha opinião, este livro deveria ser o ponto de partidade para qualquer pro
 
 São mais de 14 horas de estudo e cobre todos os tópicos do exame, tanto na parte teórica como na prática.
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Eu gostei bastante da prova, como estou muito animado com essa nova jornada para o mundo DevOps, eu curti bastante estudar o material e prestar o exame.
 

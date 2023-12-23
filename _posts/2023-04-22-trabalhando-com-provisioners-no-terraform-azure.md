@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Sejam bem-vindos a mais um artigo da nossa série sobre **Terraform**. Hoje vamos falar sobre os Terraform **Provisioners**, um recurso poderoso que pode ajudar muito na gestão das suas infraestruturas.
 
-### **1. Uma visão geral de provisioners no Terraform**
+## **1. Uma visão geral de provisioners no Terraform**
 
 Para começar, vamos dar uma visão geral sobre os **provisioners** no **Terraform**. **Provisioners** são recursos que permitem a execução de scripts e comandos depois que os recursos são criados ou atualizados. Eles são usados para realizar tarefas que não podem ser feitas com recursos nativos do **Terraform**, como a instalação de software, a configuração de serviços e outras atividades específicas.
 
@@ -19,7 +19,7 @@ Existem três tipos de provisioners no Terraform: **file**, **local-exec** e **r
 
 Vamos entender um pouco mais sobre cada um deles.
 
-### **2. file**
+## **2. file**
 
 O provisioner **file** é utilizado para criar arquivos ou diretórios em máquinas provisionadas. Ele pode ser usado para carregar arquivos de configuração, scripts e outros recursos necessários para o funcionamento dos serviços.
 
@@ -38,7 +38,7 @@ resource "azurerm_linux_virtual_machine" "example" {
 }
 ````
 
-### **3. local-exec**
+## **3. local-exec**
 
 O provisioner **local-exec** é utilizado para executar comandos em máquinas provisionadas. Ele pode ser usado para realizar tarefas como a instalação de pacotes, a configuração de serviços e outras atividades específicas.
 
@@ -56,7 +56,7 @@ resource "azurerm_linux_virtual_machine" "example" {
 }
 ````
 
-### **4. remote-exec**
+## **4. remote-exec**
 
 O provisioner **remote-exec** é utilizado para executar comandos em máquinas provisionadas através de uma conexão SSH. Ele pode ser usado para realizar tarefas como a instalação de pacotes, a configuração de serviços e outras atividades específicas.
 
@@ -83,7 +83,7 @@ resource "azurerm_linux_virtual_machine" "example" {
 }
 ````
 
-### **5. Comparação entre, file, local-exec e remote-exec**
+## **5. Comparação entre, file, local-exec e remote-exec**
 
 Cada provisioner tem suas próprias vantagens e desvantagens, e o seu uso depende do cenário em que ele será aplicado. 
 
@@ -96,7 +96,7 @@ Abaixo, segue uma tabela comparativa entre os três tipos de provisioners:
 | **Desvantagens** | Não é adequado para <br /> comandos complexos <br /> ou interativos |  | Pode ser mais lento <br /> que o local-exec <br /> em ambientes locais |
 | **Quando usar**  | Quando você precisa <br /> criar arquivos	| Quando você precisa <br /> executar comandos <br /> simples	| Quando você precisa <br /> executar comandos <br /> complexos ou <br /> remotos |
 
-### **6. Exemplo de uso**
+## **6. Exemplo de uso**
 
 Agora, vamos para um exemplo de uso real que envolve os três tipos de provisioners disponíveis no Terraform. Neste exemplo, vamos criar uma máquina virtual no Azure, instalar o Apache HTTP Server e criar um arquivo HTML simples.
 
@@ -244,7 +244,7 @@ terraform apply
 
 Com isso, o Terraform criará os recursos no Azure e executará os provisioners para configurar a máquina virtual. Após a execução, você poderá acessar a página web em **http://<endereço-ip-da-máquina-virtual>**.
 
-### **7. Conclusão**
+## **7. Conclusão**
 
 Os provisioners no Terraform são uma ótima opção para realizar tarefas específicas que não podem ser feitas com os recursos nativos do Terraform. Cada tipo de provisioner tem suas próprias vantagens e desvantagens, e é importante entender as diferenças entre eles para escolher o mais adequado para o seu cenário.
 

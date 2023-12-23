@@ -17,7 +17,7 @@ Neste artigo, vamos mostrar a você as melhores práticas para dividir o seu arq
 
 Ao final deste artigo, você terá em mãos todas as ferramentas necessárias para transformar o seu código do Terraform em uma obra de arte organizada e de fácil manutenção.
 
-### **1. Por que dividir o arquivo main.tf em vários arquivos?**
+## **1. Por que dividir o arquivo main.tf em vários arquivos?**
 
 À medida que o seu código Terraform cresce, o arquivo `main.tf` pode se tornar extenso e difícil de gerenciar. Dividir esse arquivo em partes menores tem diversos benefícios:
 
@@ -28,7 +28,7 @@ Ao final deste artigo, você terá em mãos todas as ferramentas necessárias pa
 
 Agora que entendemos os benefícios, vamos ver como dividir o arquivo main.tf.
 
-### **2. Como dividir o arquivo main.tf**
+## **2. Como dividir o arquivo main.tf**
 
 Vamos começar examinando um exemplo de código que cria uma Máquina Virtual (VM) no Azure, onde todas as configurações estão em um único arquivo main.tf.
 
@@ -69,11 +69,11 @@ output "vm_ip" {
 
 Agora vamos dividir esse arquivo em partes menores para facilitar a manutenção e a compreensão.
 
-### **3. Identificar recursos e fontes de dados**
+## **3. Identificar recursos e fontes de dados**
 
 Primeiro, identifique os recursos e fontes de dados que podem ser separados em arquivos individuais. No nosso exemplo, temos um recurso de grupo de recursos, uma rede virtual e uma VM.
 
-### **4. Criar arquivos .tf separados para recursos e fontes de dados**
+## **4. Criar arquivos .tf separados para recursos e fontes de dados**
 
 Agora, crie arquivos `.tf` separados para cada recurso e fonte de dados identificados. Vamos criar os seguintes arquivos:
 
@@ -272,7 +272,7 @@ Ao separar as configurações de **providers** e **versions**, seu diretório Te
  ┗ 📜versions.tf
 ````
 
-### **5. Validando e testando o funcionamento**
+## **5. Validando e testando o funcionamento**
 
 Depois de dividir o seu código em arquivos menores, você pode validar e testar o funcionamento usando comandos do Terraform. Certifique-se de que todas as dependências entre os arquivos estejam corretamente configuradas.
 
@@ -282,7 +282,7 @@ Em seguida, utilize o comando `terraform plan` para visualizar as alterações p
 
 Por fim, execute o comando `terraform apply` para aplicar as alterações no ambiente Azure.
 
-### **6. Conclusão**
+## **6. Conclusão**
 
 Dividir o arquivo `main.tf` do Terraform em vários arquivos é uma prática recomendada para organizar e simplificar o gerenciamento do código. Neste artigo, vimos como realizar essa divisão passo a passo, criando arquivos separados para recursos, fontes de dados, variáveis, outputs, providers e versions.
 

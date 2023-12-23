@@ -17,7 +17,7 @@ Se você trabalha com tecnologia, certamente já ouviu falar do **Kubernetes**, 
 
 A **CKA** é uma das certificações mais cobiçadas pelos profissionais de tecnologia, especialmente aqueles que trabalham com **DevOps**. Isso porque a certificação comprova que você é capaz de gerenciar, monitorar e solucionar problemas em clusters do Kubernetes.
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Para se tornar um **Certified Kubernetes Administrator (CKA)**, é necessário passar por um exame **100% prático**, o que significa que você terá acesso a uma máquina virtual com um cluster do Kubernetes e deverá demonstrar suas habilidades em tarefas como implantar, configurar e solucionar problemas em aplicativos no cluster.
 
@@ -35,7 +35,7 @@ Sim, não é nada barato! Por isso, é importante se preparar bem antes de fazer
 
 Segue o link com todos os detalhes do ambiente utilizada na hora do exame: <a href="https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad" target="_blank">Important Instructions: CKA and CKAD.</a> 
 
-### **Os temas cobrados no exame são:**
+## **Os temas cobrados no exame são:**
 
 - Storage 10%
 - Troubleshooting 30%
@@ -45,7 +45,7 @@ Segue o link com todos os detalhes do ambiente utilizada na hora do exame: <a hr
 
 Segue o link do conteúdo completo que é cobrado na prova: <a href="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/" target="_blank">Domains & Competencies.</a> 
 
-### **Material de estudo**
+## **Material de estudo**
 
 Para me preparar para o exame, utilizei o curso <a href="https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/" target="_blank"> **Certified Kubernetes Administrator (CKA) with Practice Tests da KodeKloud**</a>, disponível na plataforma **Udemy**. 
 
@@ -55,7 +55,7 @@ Outra fonte importante de estudo foi a <a href="https://kubernetes.io/docs/home/
 
 Outro recurso útil para a preparação para o exame é a plataforma de laboratórios <a href="https://killer.sh/" target="_blank"> **Killer.sh**</a>. Quando você compra o voucher para a prova, tem direito a duas sessões gratuitas na plataforma. Se você precisar de mais sessões, pode comprá-las por um preço razoável.
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Para mim, a certificação **Certified Kubernetes Administrator (CKA)** foi uma das provas mais desafiadoras e divertidas que já fiz. A prova é totalmente prática, o que a torna muito mais democrática do que outras provas de certificação, já que não é possível decorar as respostas, mas sim aplicar os conhecimentos e habilidades adquiridos.
 

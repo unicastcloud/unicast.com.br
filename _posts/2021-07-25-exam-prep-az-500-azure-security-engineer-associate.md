@@ -18,7 +18,7 @@ O conteúdo da AZ-500 foi atualizado recentemente e com o ritmo de mudanças em 
 
 Bom, sem mais delongas, vamos ao que interessa!
 
-### **Os temas cobrados no exame são**
+## **Os temas cobrados no exame são**
 
 * Manage identity and access (30-35%)
 * Implement platform protection (15-20%)
@@ -27,7 +27,7 @@ Bom, sem mais delongas, vamos ao que interessa!
 
 Segue o link do conteúdo completo que é cobrado na prova: <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VC70" target="_blank">Skills Measured.</a> 
 
-### **Material utilizado**
+## **Material utilizado**
 
 Para este exame eu utilizei a documentação oficial da Microsoft e o <a href="https://www.udemy.com/course/exam-azure-2/" target="_blank">curso AZ-500 Microsoft Azure Security Exam Certification 2021 | Udemy.</a> 
 
@@ -35,7 +35,7 @@ O curso tem bastante material, são mais de 20h de curso e conta com uma sessão
 
 <a href="https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies" target="_blank"> MicrosoftLearning/AZ500-AzureSecurityTechnologies: Microsoft Azure Security Technologies (github.com)</a> 
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Bom, este exame já estava na minha lista de estudos a algum tempo, e devida as necessidades comerciais resolvi prestar o exame.
 

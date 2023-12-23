@@ -15,11 +15,11 @@ Mas afinal o que é **DevOps**, o que é **SRE**, e qual é a diferença entre e
 
 Opa, metodologia, cultura, conceito? Uai, **DevOps** e **SRE** não são títulos? 😲
 
-### **_Calma, meu jovem Padawan!_**
+## **_Calma, meu jovem Padawan!_**
 
 ![](/assets/img/24/devops1.gif){: "width=60%" }
 
-### **Não é um título**
+## **Não é um título**
 
 Sim, DevOps e SRE não são títulos e sim uma prática. Por definição deveria ser assim, na prática não é.
 
@@ -27,7 +27,7 @@ Hoje em dia é comum ver títulos de DevOps Engineer e Site Reliability Engineer
 
 Vou explicar um poco de cada conceito para que essa questão fique mais clara a você.
 
-### **É um título**
+## **É um título**
 
 O mercado está a procura de **DevOps Engineer e Site Reliability Engineer**, e hoje são os cargos de tecnologia mais bem pagos do mundo, então meu amigo, se é o tipo de trabalho que você quer fazer mete ficha e se torne um **DevOps Engineer ou Site Reliability Engineer**.
 
@@ -35,7 +35,7 @@ Se os recrutadores e o Linkedin já entende que é um título/cargo, aproveite o
 
 Bom, antes de mais nada, vamos entender o que é **DevOps** e o que é **SRE**, só assim vamos chegar próximo a pergunta de 1 milhão de dólares: **_Qual é a diferença entre DevOps e SRE._**
 
-### **O que é DevOps?**
+## **O que é DevOps?**
 
 A definição oficial de DevOps foi cunhado pela primeira vez por Patrick Debois em 2008, o objetivo que eles queriam obter com o DevOps era quebrar as barreiras entre as equipes de desenvolvimento e operações. 
 
@@ -61,7 +61,7 @@ Dito isso, já podemos trazer a representação clássica do infinito DevOps. Lo
 
 ![](/assets/img/24/devops3.png){: "width=60%" }
 
-#### **Alguns dos princípios básicos na adoção do DevOps**
+## **Alguns dos princípios básicos na adoção do DevOps**
 
 >A adoção de práticas DevOps requer uma mudança cultural e afeta toda a organização.
 {: .prompt-info }
@@ -92,7 +92,7 @@ Em uma cultura DevOps, um forte foco é colocado na melhoria contínua para mini
 
 Automatizar o maior número possível de procedimentos de desenvolvimento, teste, configuração e implantação é a regra de ouro do DevOps. Ele permite que os especialistas se livrem do trabalho repetitivo demorado e se concentrem em outras atividades importantes que não podem ser automatizadas por sua natureza.
 
-#### **Habilidades principais responsabilidades do DevOps Engineer**
+## **Habilidades principais responsabilidades do DevOps Engineer**
 
 Embora não seja uma regra que para ser um **DevOps Engineer** você seja um administrador de sistemas ou desenvolvedor, é muito importante que você tenha experiência em ambos os lados.
 
@@ -119,7 +119,7 @@ Antonio, eu já vaga de DevOps Engineer Júnior!
 >Estou lhe desanimado a se tornar um DevOps Engineer? De forma alguma, só estou lhe orientando a manter os pés no chão e continuar focado no seu desenvolvimento profissional, a medida que você vai acumulando experiência, o caminho vai se tornando natural.
 {: .prompt-tip }
 
-### **O que é SRE (Site Reliability Engineer)?**
+## **O que é SRE (Site Reliability Engineer)?**
 
 O conceito de SRE surgiu em 2003 por parte da equipe de engenharia do Google e é creditado ao engenheiro Ben Treynor Sloos. Ele descreve o termo SRE como **_"o que acontece quando um engenheiro de software é encarregado do que costumava ser chamado de operações"_**
 
@@ -134,7 +134,7 @@ O Google publicou um livro sobre SRE, ele está disponível gratuitamente on-lin
 
 Segue o link para os livros: <a href="https://sre.google/books/" target="_blank"> SRE Books</a>
 
-#### **De acordo com o Google, os princípios fundamentais do SRE são:**
+## **De acordo com o Google, os princípios fundamentais do SRE são:**
 
 * Adoção do risco: fornece abordagens neutras ao Service Management usando orçamentos de erro.
 * Objetivos de nível de serviço: fornece recomendações para indicadores desintegrados a partir de contratos e examina como o SRE usa os termos.
@@ -145,7 +145,7 @@ Segue o link para os livros: <a href="https://sre.google/books/" target="_blank"
 
 ![](/assets/img/24/devops6.png){: "width=60%" } _Hierarquia de Confiabilidade do Serviço_ 
 
-### **Diferenças entre DevOps e SRE**
+## **Diferenças entre DevOps e SRE**
 
 Verdade seja dita, não há muitas diferenças entre os dois. Ambos se baseiam nos mesmos princípios.
 
@@ -154,7 +154,7 @@ SRE e DevOps não são conceitos concorrentes. Em vez disso, SRE e DevOps são d
 >Simplificando, DevOps está mais para escrever e implantar código. Já o SRE, é mais abrangente, adotando uma perspectiva mais ampla e com foco no 'usuário final'. 
 {: .prompt-tip }
 
-#### **Comparação lado a lado**
+## **Comparação lado a lado**
 
 | **DevOps**                               | **Site Reliability Engineer**     |
 |:----------------------------------------:|:---------------------------------:|
@@ -165,7 +165,7 @@ SRE e DevOps não são conceitos concorrentes. Em vez disso, SRE e DevOps são d
 | Infraestrutura como código               | Plano de capacidade               |
 | **Foco primário:** Velocidade de entrega | **Foco primário:** Confiabildiade |
 
-### **Semelhanças entre DevOps e SRE?**
+## **Semelhanças entre DevOps e SRE?**
 
 Sem dúvida! A verdade é que SRE e DevOps têm muitas coisas em comum, ambos são metodologias implementadas para monitorar e garantir que tudo funcione conforme o esperado.
 
@@ -175,7 +175,7 @@ Como a maior parceria heroica dos quadrinhos!
 
 ![](/assets/img/24/devops7.jpg){: "width=60%" } _Batman e Robin_ 
 
-### **Qual caminho escolher?**
+## **Qual caminho escolher?**
 
 **Resposta de Sênior:** Depende. LoL 😂
 

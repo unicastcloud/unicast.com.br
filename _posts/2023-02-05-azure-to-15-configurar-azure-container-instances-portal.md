@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma sequencia de artigos do Azure-To, então vamos nessa!
 
-### **Sobre Azure Container Instances**
+## **Sobre Azure Container Instances**
 
 O Azure Container Instances é um serviço de contêineres na nuvem fornecido pela Microsoft Azure que permite que os usuários executem facilmente contêineres sem precisar gerenciar a infraestrutura subjacente. Essa plataforma de serviço de contêineres é ideal para aqueles que precisam executar cargas de trabalho de curta duração e escalonamento rápido em contêineres.
 
@@ -19,11 +19,11 @@ Ao contrário das plataformas tradicionais de contêineres, o Azure Container In
 
 Neste post, exploraremos em mais detalhes o que é o Azure Container Instances, como funciona e como pode ser usado para executar contêineres de maneira rápida e fácil. Também veremos como essa plataforma pode ser integrada a outros serviços da nuvem do Azure para oferecer um ambiente de contêiner seguro, escalonável e confiável.
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, criaremos um contêiner usando Azure Container Instances (ACI) no Portal do Azure. O contêiner é um aplicativo da web Welcome to ACI que exibe uma página HTML estática.
 
-### **1.1 Criando o Container Instance**
+## **1.1 Criando o Container Instance**
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo**, na caixa de Pesquisa, digite **Container instances** e clique em **+ Add, + Create, + New**.
 
@@ -54,7 +54,7 @@ DNS name label: **unilabcontainerdn0001**
 
 Clique em **Review and Create** para iniciar o processo de validação automática. Em seguida, clique em **Create** para criar a instância do contêiner.
 
-### **2.1 Validando o deployment do Container Instance**
+## **2.1 Validando o deployment do Container Instance**
 
 Nesta tarefa, verificaremos se a instância do contêiner está em execução garantindo que a página de boas-vindas seja exibida.
 

@@ -23,7 +23,7 @@ Bom, falando um pouco do exame, ele tem nível **associate**, então, não é um
 
 Eu já venho trabalhando com **Terraform** a alguns meses, e mesmo assim senti um pouco de dificuldade em alguns temas, justamente por não ser meu dia a dia e estar longe da área técnica.
 
-### **Os temas cobrados no exame são**
+## **Os temas cobrados no exame são**
 
 * Understand infrastructure as code (IaC) concepts
 * Understand Terraform's purpose (vs other IaC)
@@ -37,12 +37,12 @@ Eu já venho trabalhando com **Terraform** a alguns meses, e mesmo assim senti u
 
 Segue a o link official da prova: <a href="https://www.hashicorp.com/certification/terraform-associate" target="_blank"> HashiCorp Certified: Associado Terraform</a>
 
-### **Material utilizado**
+## **Material utilizado**
 
 > Para este exame eu usei a documentação oficial da Hashicorp e abusei bastante dos laboratórios, na minha visão, a melhor forma de passar neste exame e trabalhar bastante a parte prática para conhecer todos os comandos e simular os mais diversos cenários.
 {: .prompt-info }
 
-### **Basicamente eu usei estes materiais:**
+## **Basicamente eu usei estes materiais:**
 
 * Study Guide - <a href="https://learn.hashicorp.com/tutorials/terraform/associate-study" target="_blank"> Terraform Associate Certification</a>
 * Exam Review - <a href="https://learn.hashicorp.com/tutorials/terraform/associate-review" target="_blank"> Terraform Associate Certification</a>
@@ -59,7 +59,7 @@ Em relação ao material em vídeo, eu utilizei os seguintes materiais:
 
 E para finalizar, eu utilizei este artigo que contém <a href="https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a" target="_blank">250 Perguntas Práticas para a certificação de Terraform.</a>
 
-### **Sobre o exame**
+## **Sobre o exame**
 
 Eu gostei bastante da prova, como estou muito animado com essa nova jornada para o mundo DevOps, eu curti bastante estudar o material e prestar o exame.
 

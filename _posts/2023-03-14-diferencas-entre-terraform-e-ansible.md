@@ -15,50 +15,50 @@ Hoje, daremos continuidade a esse tema, mas agora vamos focar em duas ferramenta
 
 ![](/assets/img/65/tfeansible01.png){: "width=60%" }
 
-### **O que é o Terraform?**
+## **O que é o Terraform?**
 
 **Terraform** é uma ferramenta de gerenciamento de infraestrutura que permite criar, modificar e gerenciar recursos de infraestrutura em diferentes provedores de nuvem, como **AWS**, **Google Cloud**, **Azure**, entre outros. Ele utiliza uma linguagem de configuração declarativa que permite descrever a infraestrutura desejada e, em seguida, cria essa infraestrutura com base nas especificações fornecidas. Além disso, o Terraform permite gerenciar a infraestrutura como código, o que significa que as configurações podem ser armazenadas em repositórios de controle de versão, como o Git.
 
 **Site Oficial:** <a href="https://www.terraform.io/" target="_blank">https://www.terraform.io/</a>
 
-### **O que é o Ansible?**
+## **O que é o Ansible?**
 
 **Ansible** é uma ferramenta de gerenciamento de configuração que permite automatizar o provisionamento e configuração de recursos de infraestrutura. Ele é uma solução de automação open-source que usa uma abordagem baseada em agentless, ou seja, não é necessário instalar nenhum agente em cada servidor gerenciado. Ansible usa uma linguagem de configuração procedural, que permite descrever como um recurso deve ser criado ou configurado. O Ansible permite também gerenciar a infraestrutura como código e possui uma grande biblioteca de módulos que pode ser utilizada para gerenciar diversos tipos de recursos de infraestrutura.
 
 **Site Oficial:** <a href="https://www.ansible.com/" target="_blank">https://www.ansible.com/</a>
 
-### **Similaridades entre Terraform e Ansible**
+## **Similaridades entre Terraform e Ansible**
 
 Tanto o **Terraform** quanto o **Ansible** têm como objetivo automatizar o provisionamento e configuração de recursos de infraestrutura. Ambos permitem gerenciar a infraestrutura como código e armazenar as configurações em um repositório de controle de versão. Além disso, tanto o Terraform quanto o Ansible são ferramentas altamente escaláveis e podem ser usados para gerenciar grandes ambientes de infraestrutura.
 
-### **Diferença entre Terraform vs. Ansible**
+## **Diferença entre Terraform vs. Ansible**
 
 Embora ambas sejam usadas para implementar o conceito de Infrastructure as Code (IaC), elas têm abordagens diferentes e se concentram em aspectos distintos da automação de infraestrutura.
 
 ![](/assets/img/65/tfeansible02.png){: "width=60%" }
 
-### **Orquestração vs. Gerenciamento de Configuração**
+## **Orquestração vs. Gerenciamento de Configuração**
 
 Uma das principais diferenças entre o **Terraform** e o **Ansible** é o seu foco. 
 
 - O **Terraform** é projetado para orquestrar recursos de infraestrutura em vários provedores de nuvem, como Amazon Web Services, Google Cloud Platform e Microsoft Azure. Ele usa uma linguagem de modelagem simples para definir recursos, como servidores, redes e bancos de dados, e gerencia as dependências entre eles. 
 - Já o **Ansible** é projetado para gerenciar a configuração do software instalado em cada um desses recursos. Ele executa "playbooks" para instalar pacotes, configurar arquivos de configuração e executar outras tarefas de gerenciamento de configuração em servidores individuais.
 
-### **Declarativo vs. Processual**
+## **Declarativo vs. Processual**
 
 Outra diferença importante entre **Terraform** e **Ansible** é a linguagem usada para definir as configurações. 
 
 - O **Terraform** usa uma linguagem declarativa para definir a infraestrutura como código, o que significa que o usuário especifica o que deseja que seja criado e o Terraform se encarrega de criar os recursos necessários para atender a essa especificação. 
 - Já o **Ansible** usa uma linguagem processual, em que o usuário especifica uma lista de tarefas que devem ser executadas para configurar um recurso de infraestrutura.
 
-### **Gestão do Estado**
+## **Gestão do Estado**
 
 O **Terraform** e o **Ansible** também diferem em como gerenciam o estado da infraestrutura. 
 
 - O **Terraform** armazena o estado atual da infraestrutura em um arquivo local e usa esse arquivo para determinar as alterações necessárias para atender às especificações de configuração. 
 - O **Ansible**, por outro lado, não possui um mecanismo de gerenciamento de estado incorporado e depende da execução dos playbooks para garantir que a infraestrutura esteja em conformidade com as especificações de configuração.
 
-### **Mutável vs. Imutável**
+## **Mutável vs. Imutável**
 
 Outra diferença importante entre **Terraform** e **Ansible** é a abordagem de gerenciamento de estado. 
 
@@ -70,7 +70,7 @@ Como a força do **Terraform** está em lidar com o **ciclo de vida da infraestr
 
 No que diz respeito às alterações de configuração, o **Ansible** vence a corrida, pois é principalmente uma ferramenta de gerenciamento de configuração. O Ansible também oferece suporte à imutabilidade da infraestrutura, oferecendo a criação de imagens de VM. No entanto, manter essas imagens adicionais requer esforços adicionais.
 
-### **Conclusão**
+## **Conclusão**
 
 Embora o **Terraform** e o **Ansible** possuam funcionalidades distintas, eles podem ser usados em conjunto para criar uma solução completa de automação de infraestrutura. O Terraform é ideal para gerenciar o ciclo de vida dos recursos de infraestrutura, enquanto o Ansible é ideal para garantir a conformidade de configurações e automatizar tarefas em servidores. 
 

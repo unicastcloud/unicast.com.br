@@ -11,15 +11,15 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma sequencia de artigos do Azure-To, então vamos nessa!
 
-### **Sobre o Azure DNS**
+## **Sobre o Azure DNS**
 
 O DNS do Azure é um serviço de hospedagem para domínios DNS que fornece a resolução de nomes usando a infraestrutura do Microsoft Azure. 
 
-### **Objetivo**
+## **Objetivo**
 
 Configurar resolução de nomes DNS para o domínio Unicast Lab. Você criará uma zona DNS privada chamada unicastlab.com.be, e vinculará as VNETSs para registro e resolução, em seguida, criará duas máquinas virtuais para testar a configuração.
 
-### **1.1 Criar zona de DNS privada**
+## **1.1 Criar zona de DNS privada**
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo** , na caixa de Pesquisa, digite **Private DNS zones** e clique em **Create** 
 
@@ -40,7 +40,7 @@ Siga as etapas necessárias para configurar o DNS.
 
 ![](/assets/img/47/dns04.png){: "width=60%" }
 
-### **2.1 Criar Virtual Network**
+## **2.1 Criar Virtual Network**
 
 Vamos criar um VNET para habilitar o registro automático no Azure DNS.
 
@@ -63,7 +63,7 @@ Siga as etapas necessárias para configurar o VNET.
 
 ![](/assets/img/47/dns08.png){: "width=60%" }
 
-### **2.2 Habilitar o registro automático no Azure DNS**
+## **2.2 Habilitar o registro automático no Azure DNS**
 
 Acesse a zona de DNS privada que criamos no início do artigo.
 
@@ -79,7 +79,7 @@ Pronto, agora já podemos testar nosso recurso de auto registro.
 
 ![](/assets/img/47/dns11.png){: "width=60%" }
 
-### **3.1 Criar máquinas virtuais para validação e testes**
+## **3.1 Criar máquinas virtuais para validação e testes**
 
 Agora, precisamos validar se nossa zona de DNS privada está funcionando corretamente.
 
@@ -104,7 +104,7 @@ No meu caso, estou utilizando 2 VMs com o sistema operacional **Ubuntu**.
 
 ![](/assets/img/47/dns12.png){: "width=60%" }
 
-### **3.2 Verificar registros automático de DNS**
+## **3.2 Verificar registros automático de DNS**
 
 Após a criação de nossas VMs, vamos validar se o registro de nomes foi ativado de forma automática em nossa zona de DNS.
 
@@ -116,7 +116,7 @@ Verifique se os registros de host (A) estão listados para ambas as VMs, conform
 
 ![](/assets/img/47/dns14.png){: "width=60%" }
 
-### **4.1 Validar resolução de nomes**
+## **4.1 Validar resolução de nomes**
 
 Para finalizar, vamos testar a resolução interna de nomes.
 

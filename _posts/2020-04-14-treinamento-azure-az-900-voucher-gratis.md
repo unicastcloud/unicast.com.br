@@ -19,7 +19,7 @@ Se você quer saber mais sobre esta certificação, confere este artigo onde eu 
 
 Para participar, basta se cadastrar neste <a href="https://info.microsoft.com/CE-AzureINFRA-WBNR-FY20-04Apr-21-MicrosoftAzureVirtualTrainingDayFundamentalsMaster-SRDEM17525_LP01Registration-ForminBody.html" target="_blank">Link.</a>
 
-### **Datas do treinamento:**
+## **Datas do treinamento:**
 
 Tuesday, April 21, 2020, 09:00 - 12:00
 Tuesday, April 21, 2020, 13:00 - 16:00

@@ -13,13 +13,13 @@ Segundo update do Homelab da Unicast Cloud, essa semana recebi mais alguns perif
 
 Na medida do possível, estou começando a montar os hardwares e dando início nos testes.
 
-### **Essa semana chegou os seguintes itens**
+## **Essa semana chegou os seguintes itens**
 
 - 2 x Raspberry Pi 4 de 4GB
 - 4 x POE Hat para Raspberry Pi 4
 - 2 x Cartões micro SD 1TB
 
-### **Problemas encontrados**
+## **Problemas encontrados**
 
 Problema é o que não faltou essa semana, precisei quebrar a cabeça e testar várias possibilidades para tentar reverter os encontrados.
 
@@ -27,7 +27,7 @@ A premissa mais importante do meu projeto, seria ligar meu cluster raspberry pi 
 
 Bom, o maior problema foi justamente com o PoE.
 
-### **Primeiro problema:**
+## **Primeiro problema:**
 
 Ao acoplar o HAT no raspberry pi, você precisa utilizar espaçadores de 2,5mm para parafusar o conjunto e para minha surpresa o espaçador que vem o HAT e menor que o necessário. Logo, não tem muito o que fazer, preciso arrumar algo para ajustar a diferença e conseguir parafusar o HAT.
 
@@ -49,7 +49,7 @@ Comprei um kit de espaçadores de 2.5mm no aliespress, e espero que com ele eu c
 
 ![](/assets/img/28/home2-04.png){: "width=60%" }
 
-### **Segundo problema**
+## **Segundo problema**
 
 Ao começar os primeiros testes para validar o funcionamento do raspberry pi com o HAT PoE, me deparei com algo muito estranho. Ao tentar acessar o sistema operacional, vi que o PI4 estava demorando muito para pegar IP via DHCP, e depois que ele de fato estava com conectividade, o acesso via SSH também estava extremamente lento.
 
@@ -105,7 +105,7 @@ Ou seja, por hora dá para seguir a vida e começar os testes com o cluster Kube
 
 ![](/assets/img/28/home2-07.jpg){: "width=60%" }
 
-### **Atualizando os componentes do projeto**
+## **Atualizando os componentes do projeto**
 
 - [X] Roteador MikroTik hAP Ac2 
 - [X] Switch PoE TP-Link TL-SG1008P
@@ -119,7 +119,7 @@ Ou seja, por hora dá para seguir a vida e começar os testes com o cluster Kube
 - [X] Patch Cord UTP CAT6
 - [X] Case Retroflag SuperPI para PI3
 
-### **Conclusão**
+## **Conclusão**
 
 Bom, mesmo diante dos problemas encontrados até agora, o projeto está andando, precisa de alguns ajustes, mas já trouxe alguns aprendizados. E de certo modo, eu já esperava ter alguns destes problemas, o fato de comprar na china, demorar para chegar, você está olhando somente uma foto, enfim, muitas possibilidades de dar algo errado.
 

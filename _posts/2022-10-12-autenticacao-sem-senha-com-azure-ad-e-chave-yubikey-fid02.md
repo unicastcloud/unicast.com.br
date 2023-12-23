@@ -23,7 +23,7 @@ A Microsoft possui suporte de autenticação sem senha no Azure AD, possibilitan
 
 Hoje iremos abordar a autenticação sem senha baseada em **FIDO2** com chaves da **Yubico**
 
-### **O que é um YubiKey?**
+## **O que é um YubiKey?**
 
 A Yubikey é uma ferramenta de autenticação por hardware.
 
@@ -33,7 +33,7 @@ Basicamente, é um pendrive produzido pela empresa **Yubico**. Existem vários m
 
 Vale a pena visitar o site do fabricante e conferir a diversidade de produtos: <a href="https://www.yubico.com/products/" target="_blank">https://www.yubico.com/products/</a>  
 
-### **Como funciona um YubiKey?**
+## **Como funciona um YubiKey?**
 
 Como vimos o Yubikey é um dispositivo de segurança na camada de hardware.
 
@@ -54,7 +54,7 @@ A Yubico suporta diversos serviços e aplicativos, entre eles: Microsoft, AWS, G
 
 Consulte a lista de compatibilidade do YubiKey: <a href="https://www.yubico.com/br/works-with-yubikey/catalog/?series=3&sort=popular" target="_blank">https://www.yubico.com/br/works-with-yubikey/catalog/?series=3&sort=popular</a>  
 
-### **Por que usar um YubiKey?**
+## **Por que usar um YubiKey?**
 
 Como qualquer dispositivo de tecnologia, o **Yubikey** tem seus prós e contras.
 
@@ -98,7 +98,7 @@ Segurança é assim, quanto mais engessado, mais seguro, quanto mais flexível, 
 
 Na minha opinião, depois de configurado, a **YubiKey** é a melhor maneira de gerenciar a segurança de suas credenciais.
 
-### **Configurando sua Yubikey com Azure AD**
+## **Configurando sua Yubikey com Azure AD**
 
 Como mencionei no início do artigo, a **Yubico** suporta diversos serviços e aplicativos, em nosso exemplo, vamos configurar nosso **Azure Active Directory.**
 
@@ -152,7 +152,7 @@ Acesse o **portal.azure.com** selecione **Sign-in options** e em seguida **Sign 
 >Por um padrão de segurança da Microsoft, mesmo habilitando seu login via chave física, será necessário adicionar o seu PIN como camada adicional de segurança.
 {: .prompt-info }
 
-### **Vale a pena?**
+## **Vale a pena?**
 
 Na minha opinião, sim! No mundo globalizado em que vivemos, o patrimônio mais importante são nossos dados! 
 

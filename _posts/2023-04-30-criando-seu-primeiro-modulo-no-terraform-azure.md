@@ -19,7 +19,7 @@ Confira aqui:
 
 Basicamente, um módulo é um conjunto de recursos do Terraform que podem ser reutilizados em vários projetos, tornando o código mais legível e fácil de manter. Além disso, a criação de módulos também permite a colaboração entre equipes.
 
-### **1. Preparando o ambiente**
+## **1. Preparando o ambiente**
 
 Antes de começar a criar seu primeiro módulo no **Terraform**, é importante que você configure seu ambiente de desenvolvimento. 
 
@@ -41,7 +41,7 @@ Vamos começar com nossa estrutura de pastas para nosso código. É importante s
 
 Agora que já entendemos a estrutura básica de um módulo no **Terraform**, vamos ver um exemplo prático de como criar um módulo de **storage account** com **blob storage** no **Microsoft Azure**.
 
-### **2. Criando nosso primeiro módulo no Terraform**
+## **2. Criando nosso primeiro módulo no Terraform**
 
 Ao criar um módulo **Terraform**, é altamente recomendável seguir a documentação oficial do módulo, que está disponível no site do **Terraform**. Ao consultar a documentação, você pode verificar quais entradas são possíveis para o módulo, bem como quais entradas são **obrigatórias** e **opcionais**.
 
@@ -134,7 +134,7 @@ Pronto! Agora temos o nosso módulo de **storage accoun**t com **blob storage** 
 
 Mas como utilizá-lo em nosso projeto?
 
-### **3. Configurando nosso primeiro módulo no Terraform**
+## **3. Configurando nosso primeiro módulo no Terraform**
 
 Vamos configurar nosso arquivo ```main.tf``` na raiz do nosso projeto e utilizar o módulo que acabamos de criar:
 
@@ -169,7 +169,7 @@ Repare que estamos passando os valores das variáveis definidas em ```variables.
 
 Por fim, definimos o **output** ```storage_container_url``` para exibir o endereço de acesso ao bloco de storage criado.
 
-### **4. Validando e utilizando nosso primeiro módulo no Terraform**
+## **4. Validando e utilizando nosso primeiro módulo no Terraform**
 
 Agora, para validar e implantar esse recurso no Azure, precisamos executar alguns comandos no terminal.
 
@@ -332,7 +332,7 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
 Isso indica que a criação do recurso foi bem-sucedida. Agora podemos verificar o recurso criado no portal do Azure ou usando o comando **terraform show** para ver a representação do estado atual do nosso ambiente.
 
-### **4. Conclusão**
+## **4. Conclusão**
 
 Neste artigo, aprendemos a criar um módulo **Terraform** para provisionar uma **storage account** com um **blob storage** no **Microsoft Azure**. Vimos como seguir as melhores práticas ao criar um módulo **Terraform**, incluindo a estrutura de pastas para nosso código e o uso de arquivos **main.tf, variables.tf e outputs.tf**. 
 

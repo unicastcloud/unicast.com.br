@@ -11,17 +11,17 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma sequencia de artigos do Azure-To, então vamos nessa!
 
-### **Sobre Azure Policy**
+## **Sobre Azure Policy**
 
 Se você é um administrador de nuvem, pode estar se perguntando como gerenciar o acesso, a conformidade e a segurança dos recursos em sua organização em nuvem. Azure Policy é uma solução que permite gerenciar e aplicar políticas em grande escala para controlar o acesso e o uso dos recursos do Azure. 
 
 É uma ferramenta de governança para ajudá-lo a definir, aplicar e auditar políticas em sua organização, independentemente do tamanho ou complexidade. Neste post, vamos explorar o que é o Azure Policy, como ele funciona e como você pode usá-lo para manter sua infraestrutura em nuvem segura e em conformidade.
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, criaremos uma Política no Azure para restringir a implantação dos recursos do Azure em um local específico.
 
-### **1.1 Criar uma atribuição de política**
+## **1.1 Criar uma atribuição de política**
 
 Na página inicial do Portal do Azure, em **All services**, procure e selecione **Policy**, Na seção **Authoring**, clique em **Definitions**. Reserve um momento para revisar a lista de definições de políticas. 
 
@@ -65,7 +65,7 @@ A atribuição **Regiões Liberadas** agora está listada no painel **Policy - A
 
 ![](/assets/img/58/policy7.png){: "width=60%" }
 
-### **2.1 Validando a política de localização permitida**
+## **2.1 Validando a política de localização permitida**
 
 Nesta tarefa, validaremos a política **Regiões Liberadas** que criamos. 
 
@@ -90,7 +90,7 @@ Se tudo correr bem, você receberá o erro de **deployment failed** informando q
 
 ![](/assets/img/58/policy11.png){: "width=60%" }
 
-### **3.1 Excluir atribuição de política**
+## **3.1 Excluir atribuição de política**
 
 Excluiremos a atribuição de política para garantir que não sejamos bloqueados em nenhum trabalho futuro.
 
@@ -112,7 +112,7 @@ Clique em **Delete Assignment** no menu superior. Confirme que deseja excluir a 
 
 ![](/assets/img/58/policy14.png){: "width=60%" }
 
-### **3.2 Validando a criação de recursos sem a atribuição de política**
+## **3.2 Validando a criação de recursos sem a atribuição de política**
 
 Volte ao item **2.1 Validando a política de localização permitida** e tente criar novamente a **storage accoun** para garantir que a política não esteja mais em vigor.
 

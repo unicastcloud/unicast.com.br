@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Vamos para mais uma sequencia de artigos do Azure-To, então vamos nessa!
 
-### **Sobre Azure Key Vault**
+## **Sobre Azure Key Vault**
 
 O Azure Key Vault é um serviço em nuvem da Microsoft que oferece um armazenamento seguro e centralizado para chaves criptográficas, senhas, certificados e outros segredos. Ele usa técnicas de criptografia avançadas para proteger esses dados e controla o acesso a eles por meio de autenticação e autorização rigorosas.
 
@@ -19,11 +19,11 @@ Uma das características importantes do Azure Key Vault é a sua integração co
 
 Outra característica importante do Azure Key Vault é a sua facilidade de uso e escalabilidade, permitindo que desenvolvedores e empresas gerenciem com facilidade seus segredos e chaves criptográficas, independentemente do tamanho ou complexidade do projeto. Além disso, o Azure Key Vault oferece recursos de auditoria, monitoramento e logging para ajudar a detectar e resolver possíveis ameaças à segurança.
 
-### **Objetivo**
+## **Objetivo**
 
 Neste artigo, criaremos um cofre de chaves do Azure e, em seguida, criaremos um segredo de senha dentro desse cofre de chaves, fornecendo uma senha armazenada com segurança e gerenciada centralmente para uso com aplicativos.
 
-### **1.1 Criando o Azure Key Vault**
+## **1.1 Criando o Azure Key Vault**
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo**, na caixa de Pesquisa, digite **Key vaults** e clique em **+ Add, + Create, + New**.
 
@@ -50,7 +50,7 @@ Clique em **Review+Create** e, em seguida, clique em **Create**. Depois que o no
 >**Observação:** sua conta do Azure é a única autorizada a realizar operações neste novo cofre. Você pode modificar isso se desejar na seção Configurações e, em seguida, na seção Políticas de acesso.
 {: .prompt-warning }
 
-### **2.1 Adicionando secrets no Azure Key Vault**
+## **2.1 Adicionando secrets no Azure Key Vault**
 
 1. Em **Settings**, clique em **Secrets** e, em seguida, clique em **+Generate/Import.**
 

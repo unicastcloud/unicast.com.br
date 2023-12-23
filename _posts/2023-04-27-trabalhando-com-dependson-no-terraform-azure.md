@@ -15,13 +15,13 @@ O **depends_on** é uma maneira de especificar dependências entre recursos no T
 
 A seguir, vamos explicar mais detalhadamente o que é o **depends_on**, como utilizá-lo e quais são seus benefícios.
 
-### **1. O que é o depends_on?**
+## **1. O que é o depends_on?**
 
 O **depends_on** é um argumento que pode ser usado em um recurso no Terraform para especificar dependências entre recursos. Quando você usa o **depends_on**, você está dizendo ao Terraform que um determinado recurso depende de outro recurso para funcionar corretamente.
 
 O **depends_on** é usado para garantir que a ordem de criação ou atualização dos recursos seja a correta. Ele pode ser usado para garantir que um recurso seja criado antes de outro recurso, ou para garantir que um recurso seja atualizado antes de outro recurso.
 
-### **2. Por que utilizar o depends_on?**
+## **2. Por que utilizar o depends_on?**
 
 Existem várias razões pelas quais você pode querer usar o **depends_on** no Terraform. Aqui estão alguns exemplos:
 
@@ -29,7 +29,7 @@ Existem várias razões pelas quais você pode querer usar o **depends_on** no T
 - Você quer controlar a ordem em que os recursos são criados ou atualizados. Com o depends_on, você pode especificar a ordem em que os recursos são criados ou atualizados, garantindo que a infraestrutura seja criada de maneira consistente e confiável.
 - Você quer garantir que um recurso seja criado ou atualizado antes de outro recurso. Com o depends_on, você pode garantir que um recurso seja criado ou atualizado antes de outro recurso, garantindo que a infraestrutura esteja em um estado consistente.
 
-### **3. Como utilizar o depends_on?**
+## **3. Como utilizar o depends_on?**
 
 Para utilizar o **depends_on** no Terraform, basta adicionar o argumento depends_on a um recurso. Aqui está um exemplo:
 
@@ -131,7 +131,7 @@ Observe que o **depends_on** está sendo aplicado no **nível do módulo**, em v
 
 É importante lembrar que o **depends_on** não garante a ordem de execução de recursos, mas sim a ordem em que os recursos são criados ou atualizados. Se você precisa garantir a ordem de execução de recursos, você deve usar o argumento **depends_on** em combinação com o argumento **lifecycle**.
 
-### **4. Conclusão**
+## **4. Conclusão**
 
 O **depends_on** é uma funcionalidade muito útil e importante do **Terraform**. Ele permite que você especifique dependências entre recursos, controlando a ordem em que os recursos são criados ou atualizados. Com o **depends_on**, você pode garantir que a infraestrutura seja criada de maneira consistente e confiável, especialmente quando você tem recursos que dependem de outros recursos para funcionar corretamente.
 

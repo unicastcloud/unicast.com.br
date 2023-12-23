@@ -13,13 +13,13 @@ O **Azure Active Directory (Azure AD)** é uma plataforma de gerenciamento de id
 
 Neste artigo, vamos explorar essa mudança e entender o impacto que ela pode ter para os usuários e organizações que dependem do **Azure AD**.
 
-### **1.O que é o Azure Active Directory (Azure AD)?**
+## **1.O que é o Azure Active Directory (Azure AD)?**
 
 Antes de discutirmos a mudança de nome, é importante entender o que é o **Azure Active Directory (Azure AD)**. O **Azure AD** é um serviço de diretório baseado em nuvem que permite às organizações gerenciar e controlar o acesso a recursos e aplicativos em suas redes. Ele fornece recursos avançados de autenticação, como autenticação multifator e autenticação condicional, para garantir a segurança dos dados e dos usuários.
 
 O **Azure AD** também é amplamente utilizado como um serviço de identidade para habilitar o **Single Sign-On (SSO)** em diferentes aplicativos e serviços, tanto da Microsoft quanto de terceiros. Ele oferece integração com várias soluções, como o **Office 365**, o **Azure**, o **Dynamics 365** e muitos outros.
 
-### **2. A mudança para Microsoft Entra ID**
+## **2. A mudança para Microsoft Entra ID**
 
 A **Microsoft** recentemente decidiu renomear o **Azure Active Directory (Azure AD)** para **Microsoft Entra ID**. Essa mudança de nome reflete uma evolução na estratégia da Microsoft para oferecer uma experiência de identidade mais unificada e consistente para os usuários. Com o **Microsoft Entra ID**, a empresa visa simplificar o gerenciamento de identidade e acesso, tornando-o mais intuitivo e eficiente.
 
@@ -29,7 +29,7 @@ A mudança de nome também está alinhada com a abordagem de marca unificada da 
 
 ![](/assets/img/72/entra02.jpeg){: "width=60%" } _Microsoft Entra admin center_
 
-### **3. Benefícios do Microsoft Entra ID**
+## **3. Benefícios do Microsoft Entra ID**
 
 A mudança para o Microsoft Entra ID traz vários benefícios para os usuários e organizações que utilizam o Azure AD. Alguns dos principais benefícios incluem:
 
@@ -45,7 +45,7 @@ O **Microsoft Entra ID** continua a fornecer recursos avançados de segurança, 
 
 A mudança para o **Microsoft Entra ID** permite uma integração mais estreita com outros serviços e produtos da Microsoft. Isso significa que os usuários poderão aproveitar melhor as soluções e os recursos oferecidos pela Microsoft em seu ecossistema de nuvem.
 
-### **Saiba mais sobre o Microsoft Entra ID**
+## **Saiba mais sobre o Microsoft Entra ID**
 
 Se você deseja obter mais informações sobre o **Microsoft Entra ID** e explorar os recursos e benefícios oferecidos por essa plataforma de gerenciamento de identidade e acesso, aqui estão alguns recursos adicionais para você:
 
@@ -56,7 +56,7 @@ Se você deseja obter mais informações sobre o **Microsoft Entra ID** e explor
 **Anúncio oficial do Microsoft Entra:** <a href="https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-is-becoming-microsoft-entra-id/ba-p/2520436" target="_blank"> Azure AD is Becoming Microsoft Entra ID
 </a> 
 
-### **FAQs (Dúvidas Frequentes)**
+## **FAQs (Dúvidas Frequentes)**
 
 **1. Como a mudança para o Microsoft Entra ID afetará minha organização?**
 
@@ -86,7 +86,7 @@ O Microsoft Entra ID oferece uma variedade de recursos de segurança para proteg
 
 **Relatórios e auditoria:** O Microsoft Entra ID fornece recursos abrangentes de relatórios e auditoria, permitindo que você acompanhe atividades, revise logs de acesso e detecte possíveis violações de segurança.
 
-### **4. Conclusão**
+## **4. Conclusão**
 
 A mudança do **Azure Active Directory (Azure AD)** para **Microsoft Entra ID** representa uma evolução significativa na estratégia de identidade e acesso da Microsoft. Essa mudança visa fornecer uma experiência de identidade mais unificada e consistente, melhorando a segurança e a integração para os usuários e organizações. 
 

@@ -33,13 +33,13 @@ Para contextualizar o assunto, vamos falar sobre Braindumps.
 
 As certificações de TI são uma maneira de provar seu conhecimento em uma determinada tecnologia, mas há um número chocante de pessoas que usam braindumps para ajudá-las a obter o certificado.
 
-### **Mas afinal o que é braindump?**
+## **Mas afinal o que é braindump?**
 
 >**Braindump é uma coleção de perguntas e respostas REAIS do EXAME.**
 
 As perguntas são copiadas digitalmente ou manualmente pelos participantes do teste e, em seguida, repassadas para sites que as vendem esses “simulados”.
 
-### **Resumindo: Braindump é TRAPAÇA!**
+## **Resumindo: Braindump é TRAPAÇA!**
 
 E trapacear é errado, você está dizendo que sabe algo que não sabe!
 
@@ -57,7 +57,7 @@ Pense que lindo seria esta mancha em sua brilhante carreira!
 
 **Segundo**
 
-### **Você não está aprendendo nada.**
+## **Você não está aprendendo nada.**
 
 Isso mesmo, você está roubando de si mesmo.
 
@@ -69,7 +69,7 @@ Ao usar um dump, você não está aprendendo nada, é simplesmente uma ação re
 
 **Terceiro**
 
-### **Você está enriquecendo pessoas que vendem material roubado.**
+## **Você está enriquecendo pessoas que vendem material roubado.**
 
 Sim. **Criminosos**. Como se vê, as empresas que vendem braindumps na maioria dos países ocidentais são fechadas, porque estão violando a lei de direitos autorais.
 

@@ -11,15 +11,15 @@ Fala galera! Seis tão baum?
 
 Faz tempo que não faço uma sequencia dos artigos do Azure-To, então vamos nessa!
 
-### **Sobre o Azure App Service**
+## **Sobre o Azure App Service**
 
 O Serviço de Aplicativo Web (App Service) permite que você rapidamente crie, implante e dimensione aplicativos Web, móveis e de API de nível empresarial executados em qualquer plataforma. Atende aos rigorosos requisitos de desempenho, escalabilidade, segurança e conformidade utilizando uma plataforma totalmente gerenciada pela Microsoft.
 
-### **Objetivo**
+## **Objetivo**
 
 Configurar Azure App Service
 
-### **1.1 Configurando o Azure App Service via Portal**
+## **1.1 Configurando o Azure App Service via Portal**
 
 Na página inicial do Portal do Azure, clique em '**Criar um recurso**' em seguida na página **Novo** , na caixa de Pesquisa, digite **Web App** e clique em **Create** 
 
@@ -53,7 +53,7 @@ Em **Pricing Plan**, clique em **Change size**, selecione o plano que faça mais
 
 ![](/assets/img/43/webapp5.png){: "width=60%" }
 
-### **2.1 Sessão Deployment**
+## **2.1 Sessão Deployment**
 
 Nesta sessão, você pode habilitar o GitHub Actions para implantar continuamente seu aplicativo. O GitHub Actions é uma estrutura de automação que pode criar, testar e implantar seu aplicativo sempre que um novo commit for feito em seu repositório. Se seu código estiver no GitHub, escolha seu repositório e adicione seu arquivo de fluxo de trabalho para implantar automaticamente seu aplicativo no App Service. 
 
@@ -61,7 +61,7 @@ Nesta sessão, você pode habilitar o GitHub Actions para implantar continuament
 
 Em nosso caso, não iremos utilizar a integração com o GitHub, desta forma, basta cliquer em **Next: Networking**.
 
-### **3.1 Sessão Networking**
+## **3.1 Sessão Networking**
 
 Os aplicativos Web podem ser provisionados com o endereço de entrada público na Internet ou isolado em uma rede virtual do Azure. Os Web Apps também podem ser provisionados com tráfego de saída capaz de alcançar endpoints em uma rede virtual e serem controlados por grupos de segurança de rede ou afetados por rotas de rede virtual. Por padrão, seu aplicativo está exposto à Internet e não poderá acessar uma rede virtual. Esses aspectos também podem ser alterados após o provisionamento do aplicativo.
 
@@ -69,7 +69,7 @@ Os aplicativos Web podem ser provisionados com o endereço de entrada público n
 
 Em nosso caso, não iremos utilizar está opção no momento, clique em **Next: Monitoring**.
 
-### **4.1 Sessão Monitoring**
+## **4.1 Sessão Monitoring**
 
 Os insights de aplicativo do Azure Monitor são um serviço de gerenciamento de desempenho de aplicativos (APM) para desenvolvedores e profissionais de DevOps. Habilite-o abaixo para monitorar automaticamente seu aplicativo. Ele detectará anomalias de desempenho e inclui poderosas ferramentas de análise para ajudá-lo a diagnosticar problemas e entender o que os usuários realmente fazem com seu aplicativo. 
 
@@ -77,7 +77,7 @@ Os insights de aplicativo do Azure Monitor são um serviço de gerenciamento de 
 
 Para este laboratório não iremos habilitar o application insights, mas para um ambiente produtivo, recomento fortemente habilitar o **Log Analytics com Application Insights**, clique em **Next: Tags**.
 
-### **4.1 Sessão Tags**
+## **4.1 Sessão Tags**
 
 Adicione as Tags em seu recurso e clique em **Next: Review + create**.
 
@@ -87,7 +87,7 @@ Após a revisão, clique em **Create**.
 
 ![](/assets/img/43/webapp10.png){: "width=60%" }
 
-### **5.1 Validando a Aplicação**
+## **5.1 Validando a Aplicação**
 
 Acesse o **App Service** que criamos e em seguida, clique na **URL** de destino.
 
