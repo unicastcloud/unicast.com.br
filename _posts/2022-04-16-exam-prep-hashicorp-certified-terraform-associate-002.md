@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Exam-Prep] HashiCorp Certified: Terraform Associate"
+title: "[Exam-Prep] HashiCorp Certified: Terraform Associate 002"
 author: asilva
 date: 2022-04-16 09:00:00 -0500
 categories: [Certificação, Exam-Prep]
