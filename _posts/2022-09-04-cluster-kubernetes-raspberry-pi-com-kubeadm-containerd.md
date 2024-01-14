@@ -170,7 +170,7 @@ sudo apt-get install -y apt-transport-https ca-certificates curl
 Faça o download da chave de assinatura pública da Google Cloud:
 
 ```bash
-sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+sudo curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --yes --dearmor -o /usr/share/keyrings/kubernetes-archive-keyring.gpg 
 ```
 
 Adicione o repositório apt do **Kubernetes**:
@@ -312,7 +312,7 @@ sudo apt-get install -y apt-transport-https ca-certificates curl
 Faça o download da chave de assinatura pública da Google Cloud:
 
 ```bash
-sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+sudo curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --yes --dearmor -o /usr/share/keyrings/kubernetes-archive-keyring.gpg 
 ```
 
 Adicione o repositório apt do **Kubernetes**:
