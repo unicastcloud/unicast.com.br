@@ -80,6 +80,16 @@ Essa métrica é utilizada para entender a confiabilidade de um sistema e permit
 
 O Tempo Médio sem Falhas mostra quanto tempo um sistema leva para falhar, contribuindo para o planejamento de ações preventivas.
 
+#### ROI - Return over Investment
+
+A sigla ROI significa **Retorno sobre Investimento**.
+Esse indicador aponta quanto dinheiro a empresa está ganhando a cada investimento realizado.
+
+#### ROE - Return on Equity
+
+O ROE é um indicador financeiro que mede a capacidade de uma empresa gerar lucro a partir do investimento recebido.
+Em outras palavras, ele mostra a eficiência com que a empresa utiliza o patrimônio líquido para gerar retorno. O cálculo do ROE é feito dividindo o lucro líquido pelo patrimônio líquido. 
+
 #### NPI - Número de Problemas Identificados
 
 Esse indicador aponta a quantidade de problemas identificados pela equipe de **TIC**. 
