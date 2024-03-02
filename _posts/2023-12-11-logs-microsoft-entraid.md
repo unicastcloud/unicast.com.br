@@ -3,7 +3,7 @@ layout: post
 title: "Logs de Entrada e Auditoria no Microsoft Entra ID [Portal]"
 author: [rpaliosa]
 date: 2023-12-11 00:01 -0300
-categories: [Cloud, Azure, Microsoft]
+categories: [Cloud, Azure]
 tags: [Azure, Azure Active directory, Microsoft Entra, Logs Entrada, Logs Auditoria, Identidade]
 ---
 

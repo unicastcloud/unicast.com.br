@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Indicadores que todos os profissionais em TI devem conhecer [Portal]"
+title: "Indicadores que todos os profissionais em TI devem conhecer"
 author: [rpaliosa]
 date: 2024-02-23 00:01 -0300
-categories: [SRE, Cloud, Azure, AWS, GCP, Microsoft, Google]
+categories: [DevOps, SRE]
 tags: [Indicadores, SRE, SLA, SLI, SLO, KPI, ROI, Azure, AWS, GCP]
 ---
 
