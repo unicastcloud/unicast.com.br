@@ -66,9 +66,11 @@ Não prometo ser ativo nos stories do Instagram, mas usarei a plataforma para di
 
 ## **Podcast The Unicast DevOps Show**
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/4h44R75Kcg9WQvOr4GxKJK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 Se você ainda não nos acompanha, faça isso agora! 
 
-- **Podcast no Spotify:** <a href="open.spotify.com/show/4h44R75Kcg9WQvOr4GxKJK" target="_blank"> Inscreva-se no podcast</a>
+- **Podcast no Spotify:** <a href="https://open.spotify.com/show/4h44R75Kcg9WQvOr4GxKJK?si=cbbff299e3104e53" target="_blank"> Inscreva-se no podcast</a>
 
 Será somente no formato áudio no **Spotify**, pois o formato em vídeo no YouTube me gera muito trabalho e eu não tenho esse tempo. Além disso, sou da opinião que podcast é áudio, e assim será com o DevOps Show. Lá, a ideia é continuar trazendo convidados para bate-papos interessantes e compartilhar experiências.
 
