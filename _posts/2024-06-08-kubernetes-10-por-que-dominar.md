@@ -95,31 +95,31 @@ Dominar Kubernetes nos principais provedores de cloud é uma habilidade altament
 
 **Kubernetes and Cloud Native Associate (KCNA)**
 
-![](/assets/img/80/k8s06.png){: "width=40%" } 
+![](/assets/img/80/k8s06.png){: height="35%" width="35%" } 
 
 A certificação KCNA é uma introdução aos conceitos e ferramentas fundamentais do Kubernetes e do ambiente cloud native. É ideal para iniciantes que desejam entender o básico antes de avançar para certificações mais complexas.
 
 **Certified Kubernetes Administrator (CKA)**
 
-![](/assets/img/80/k8s07.png){: "width=40%" } 
+![](/assets/img/80/k8s07.png){: height="35%" width="35%" } 
 
 A certificação CKA testa o conhecimento prático sobre a administração de um cluster Kubernetes. É ideal para administradores de sistemas que desejam provar sua competência em Kubernetes.
 
 **Certified Kubernetes Application Developer (CKAD)**
 
-![](/assets/img/80/k8s08.png){: "width=40%" } 
+![](/assets/img/80/k8s08.png){: height="35%" width="35%" } 
 
 A certificação CKAD é focada em desenvolvedores de aplicações que utilizam Kubernetes. Ela testa as habilidades de criação, configuração e implantação de aplicações em um cluster Kubernetes.
 
 **Kubernetes and Cloud Native Security Associate (KCSA)**
 
-![](/assets/img/80/k8s09.png){: "width=40%" } 
+![](/assets/img/80/k8s09.png){: height="35%" width="35%" } 
 
 A certificação KCSA é voltada para profissionais que desejam aprofundar seus conhecimentos em segurança cloud native e Kubernetes. Ela cobre práticas de segurança essenciais para proteger ambientes Kubernetes e cloud native.
 
 **Certified Kubernetes Security Specialist (CKS)**
 
-![](/assets/img/80/k8s10.png){: "width=40%" } 
+![](/assets/img/80/k8s10.png){: height="35%" width="35%" } 
 
 A certificação CKS é voltada para profissionais que desejam demonstrar suas habilidades em segurança dentro de ambientes Kubernetes. Ela cobre aspectos avançados de segurança, como configuração segura de clusters e resposta a incidentes de segurança.
 
