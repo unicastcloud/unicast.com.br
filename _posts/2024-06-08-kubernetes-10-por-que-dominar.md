@@ -9,7 +9,7 @@ tags: [kubernetes, devops, k8s, cluster, cloudnative, containers, docker, micros
 
 Fala galera! Seis tão baum?
 
-![](/assets/img/80/k8s01.svg){: "width=40%" } 
+![](/assets/img/80/k8s01.svg){: "width=%" } 
 
 A exemplo da série de artigos sobre Terraform que fiz no site, quero aproveitar que o Kubernetes completou 10 anos para começar uma série de artigos relacionados ao mundo de containers, micro serviços e cloud native. Vamos mergulhar nessa jornada fascinante, começando pelo básico: o que é Kubernetes e por que você deveria se importar com ele.
 
@@ -75,17 +75,17 @@ O Azure AKS é o serviço gerenciado de Kubernetes da Microsoft Azure. Ele simpl
 
 O GKE, oferecido pelo Google Cloud, é o serviço gerenciado de Kubernetes que mais se aproxima da implementação original do Kubernetes, dado que foi desenvolvido pela própria Google. GKE oferece recursos avançados como balanceamento de carga integrado, atualizações automáticas de segurança e escalabilidade automática. Além disso, GKE se beneficia da vasta experiência da Google em orquestração de containers.
 
-## **A Importância de Aprender a Gerenciar Kubernetes Gerenciados**
+## **A Importância de aprender a gerenciar Kubernetes gerenciados**
 
 **Facilidade e Confiabilidade**
 
 Os serviços gerenciados de Kubernetes como EKS, AKS e GKE lidam com muitas das complexidades de configurar e manter um cluster Kubernetes, como atualizações de segurança e escalabilidade automática. Isso permite que os desenvolvedores e operadores se concentrem em construir e executar aplicações, em vez de gerenciar a infraestrutura subjacente.
 
-**Integração com Outros Serviços**
+**Integração com outros serviços**
 
 Esses serviços gerenciados oferecem integração direta com uma ampla gama de serviços nativos de seus respectivos provedores de cloud, como armazenamento, redes, monitoramento e segurança. Isso facilita a criação de soluções completas e integradas, aumentando a eficiência e a produtividade.
 
-**Habilidades Valorizadas**
+**Habilidades valorizadas**
 
 Dominar Kubernetes nos principais provedores de cloud é uma habilidade altamente valorizada no mercado de trabalho. Profissionais que sabem como configurar, operar e otimizar clusters Kubernetes gerenciados são muito procurados, especialmente em ambientes de TI modernos que adotam práticas de DevOps e arquitetura de micro serviços.
 
@@ -117,13 +117,13 @@ A certificação CKS é voltada para profissionais que desejam demonstrar suas h
 
 **Kubestronaut Program**
 
-![](/assets/img/80/k8s11.png){: "width=60%" } 
+![](/assets/img/80/k8s11.png){: "width=40%" } 
 
 A Linux Foundation oferece um programa especial chamado "**Kubestronaut**" para profissionais que obtêm e mantêm ativas cinco certificações Kubernetes: CKA, CKAD, CKS, KCNA e KCSA. Tornar-se um Kubestronaut demonstra um alto nível de competência e dedicação ao ecossistema Kubernetes e cloud native.
 
 Para mais informações sobre as certificações, visite a <a href="https://training.linuxfoundation.org/resources/kubestronaut-program/" target="_blank">página oficial da Linux Foundation Kubestronaut.</a> 
 
-## **Sugestões de Aprendizado para Iniciantes**
+## **Sugestões de aprendizado para iniciantes**
 
 Se você está começando sua jornada com Kubernetes, aqui estão algumas recomendações de recursos e materiais de estudo:
 
