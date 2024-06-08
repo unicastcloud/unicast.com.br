@@ -9,7 +9,7 @@ tags: [kubernetes, devops, k8s, cluster, cloudnative, containers, docker, micros
 
 Fala galera! Seis tão baum?
 
-![](/assets/img/80/k8s01.svg){: "width=60%" } 
+![](/assets/img/80/k8s01.svg){: "width=40%" } 
 
 A exemplo da série de artigos sobre Terraform que fiz no site, quero aproveitar que o Kubernetes completou 10 anos para começar uma série de artigos relacionados ao mundo de containers, micro serviços e cloud native. Vamos mergulhar nessa jornada fascinante, começando pelo básico: o que é Kubernetes e por que você deveria se importar com ele.
 
