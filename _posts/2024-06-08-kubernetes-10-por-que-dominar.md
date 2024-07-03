@@ -155,6 +155,4 @@ Mas não se preocupe, eu estarei aqui para ajudar com uma série de artigos que 
 
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para compartilhá-los conosco na seção de comentários abaixo!
 
-Nos vemos em breve, meus amigos!
-
 Forte Abraço!
