@@ -17,7 +17,7 @@ Neste artigo, vamos explorar dois dos principais runtimes de contêiner: **Docke
 
 **Docker**
 
-![](/assets/img/82/runtime01.png){: "width=30%" } 
+![](/assets/img/82/runtime01.png){: "width=10%" } 
 
 O <a href="https://docker.com" target="_blank"> Docker</a> foi lançado em 2013 pela Docker, Inc. e rapidamente revolucionou o ecossistema de contêineres. Antes do Docker, a tecnologia de contêineres já existia, mas era complexa e difícil de usar. O Docker simplificou drasticamente a criação, distribuição e execução de contêineres, proporcionando uma ferramenta poderosa e fácil de usar. Com sua interface intuitiva e robusta, o Docker tornou a tecnologia de contêineres acessível a desenvolvedores e operadores, promovendo a adoção generalizada de práticas de desenvolvimento de aplicações cloud-native e arquiteturas de microserviços.
 
