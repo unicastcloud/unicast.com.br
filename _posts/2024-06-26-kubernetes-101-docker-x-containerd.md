@@ -17,7 +17,7 @@ Neste artigo, vamos explorar dois dos principais runtimes de contêiner: **Docke
 
 **Docker**
 
-![](/assets/img/82/runtime01.png){: "width=40%" } 
+![](/assets/img/82/runtime01.png){: "width=30%" } 
 
 O <a href="https://docker.com" target="_blank"> Docker</a> foi lançado em 2013 pela Docker, Inc. e rapidamente revolucionou o ecossistema de contêineres. Antes do Docker, a tecnologia de contêineres já existia, mas era complexa e difícil de usar. O Docker simplificou drasticamente a criação, distribuição e execução de contêineres, proporcionando uma ferramenta poderosa e fácil de usar. Com sua interface intuitiva e robusta, o Docker tornou a tecnologia de contêineres acessível a desenvolvedores e operadores, promovendo a adoção generalizada de práticas de desenvolvimento de aplicações cloud-native e arquiteturas de microserviços.
 
@@ -61,13 +61,11 @@ Com a adoção do **ContainerD**, a arquitetura no ambiente **Kubernetes** torna
 
 A arquitetura com **ContainerD** elimina a necessidade do Docker Shim, resultando em uma integração mais nativa e uma redução na complexidade e no overhead.
 
-## **Funcionalidades e Comparações**
+## **Funcionalidades e comparações**
 
 Como mencionado, inicialmente o **Kubernetes** utilizava o Docker como seu runtime principal. A utilização do Docker Shim permitia essa integração, mas adicionava uma camada extra de complexidade e overhead.
 
 Com a evolução do **Kubernetes**, a comunidade começou a adotar o **ContainerD** como o runtime preferido. **ContainerD** oferece uma integração mais nativa e direta com Kubernetes, eliminando a necessidade do Docker Shim e reduzindo a complexidade. Esta mudança resultou em melhorias significativas de desempenho e eficiência.
-
-## **Comparação de Desempenho**
 
 **ContainerD** demonstra um desempenho superior ao **Docker** quando integrado ao **Kubernetes**, principalmente devido à sua arquitetura mais enxuta e à eliminação do Docker Shim. Testes e benchmarks revelam que **ContainerD** consome menos recursos de **CPU** e **memória**, resultando em tempos de inicialização de contêineres mais rápidos e melhor escalabilidade.
 

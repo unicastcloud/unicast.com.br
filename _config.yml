@@ -49,7 +49,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string 
+google_site_verification:               # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -72,7 +72,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode:   light
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -192,7 +192,7 @@ exclude:
   - package*.json
   - temp
   - TEMP
-  
+
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
