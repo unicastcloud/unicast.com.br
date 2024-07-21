@@ -2,7 +2,7 @@
 layout: post
 title: "[Exam-Prep] Kubernetes and Cloud Native Security Associate (KCSA)"
 author: asilva
-date: 2022-07-21 08:00:00 -0500
+date: 2024-07-21 08:00:00 -0500
 categories: [Certificação, Exam-Prep]
 tags: [certificação, devops, kubernetes, cloudnative, cncf, automacao, iac, cicd, container, linux, linuxfoundation, sre, sysadmin, observabilidade]
 ---
