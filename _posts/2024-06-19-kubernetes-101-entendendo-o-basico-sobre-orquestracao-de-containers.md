@@ -99,6 +99,4 @@ A comunidade Kubernetes é uma das maiores e mais ativas no mundo open-source. I
 
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para compartilhá-los conosco na seção de comentários abaixo!
 
-Nos vemos em breve, meus amigos!
-
 Forte Abraço!
