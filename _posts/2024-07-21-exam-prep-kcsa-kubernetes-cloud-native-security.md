@@ -11,7 +11,7 @@ Fala, galera! Como vocês estão?
 
 Hoje, quero compartilhar com vocês sobre a certificação **KCSA: Kubernetes and Cloud Native Security Associate**, que conquistei no dia 21 de julho de 2024.
 
-![](/assets/img/82/kcsa01.png){: "width=50%" }
+![](/assets/img/83/kcsa01.png){: "width=50%" }
 
 Falando sobre o exame, ele tem nível associate, similar ao do exame **KCNA**: Kubernetes and Cloud Native Associate, que eu já fiz e sobre o qual escrevi um artigo aqui no site.
 
@@ -23,7 +23,7 @@ O **KCSA** é um exame de múltipla escolha com um limite de tempo de 90 minutos
 
 Eu sei, o meme continua o mesmo, mas também vale a mesma premissa que sempre falo: para nós, brasileiros, e mesmo para quem ganha em dólar, as provas da **Linux Foundation** são caras. Não acho que justifique pagar o preço cheio nelas, principalmente nestes exames de nível associate.
 
-![](/assets/img/82/kcsa02.jpg){: "width=60%" }
+![](/assets/img/83/kcsa02.jpg){: "width=60%" }
 
 Minha recomendação é esperar pelos descontos. Ultimamente, a Linux Foundation tem feito muitas promoções, e no mínimo você consegue 40% de desconto (que foi meu caso; paguei $150). Não é o mundo perfeito, mas já ajuda muito, especialmente em provas como a CKA, CKAD e CKS, que custam $395 somente o exame com retake.
 
