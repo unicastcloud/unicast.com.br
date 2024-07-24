@@ -13,18 +13,18 @@ No Kubernetes, um Pod é a unidade básica de execução de um aplicativo. Ele p
 
 ## **Anatomia de um Pod**
 
-1. **O que é um Pod?**
+**O que é um Pod?**
 
 Um **Pod** é a menor unidade de implantação em **Kubernetes**, encapsulando um ou mais **containers**. Ele garante que esses containers compartilhem o mesmo endereço IP, namespace de rede, e volumes de armazenamento, facilitando a comunicação e a gestão de dados entre eles.
 
 ![](/assets/img/83/pod02.png){: "width=30%" } 
 
-![](/assets/img/83/pod03.png){: "width=10%" } 
+![](/assets/img/83/pod03.png){: w="40%" h="40%" }
 
 - **Namespace de rede compartilhado:** Todos os containers em um Pod compartilham o mesmo namespace de rede, permitindo a comunicação através de localhost. Isso é crucial para aplicações que requerem alta interação entre componentes, como microserviços.
 - **Volumes compartilhados:** Volumes podem ser usados para persistência de dados e compartilhamento entre containers. Eles são definidos na especificação do Pod e montados em diretórios específicos dos containers.
 
-2. **Componentes principais**
+**Componentes principais**
 
 - **Containers**: A maioria dos Pods contém apenas um container, mas casos multi-container são usados para fornecer serviços complementares como logging ou proxying. Esses containers compartilham recursos e dependem uns dos outros para executar corretamente.
 - **Volumes**: Volumes são usados para persistir dados e compartilhar entre containers. Eles podem ser de vários tipos, incluindo emptyDir (temporário), hostPath (diretório no nó do host), ou PersistentVolume (para armazenamento durável).
@@ -36,7 +36,7 @@ Um **Pod** é a menor unidade de implantação em **Kubernetes**, encapsulando u
 
 ![](/assets/img/83/pod05.png){: "width=30%" } 
 
-1. **Padrão Sidecar**
+**Padrão Sidecar**
 
 Containers **sidecar** são usados para adicionar funcionalidades auxiliares a um aplicativo principal, como monitoramento, logging, ou proxy. Eles são executados ao lado do container principal e compartilham os mesmos recursos.
 
@@ -45,7 +45,7 @@ Containers **sidecar** são usados para adicionar funcionalidades auxiliares a u
 - **Agente de Log**: Um sidecar que coleta e envia logs para uma central de monitoramento.
 - **Proxy de API**: Um sidecar que gerencia a comunicação segura entre o aplicativo e serviços externos.
 
-2. **Padrão Ambassador**
+ **Padrão Ambassador**
 
 Containers **ambassador** são utilizados para gerenciamento de comunicação entre a aplicação e serviços externos. Eles agem como intermediários, simplificando a lógica de rede dentro do aplicativo.
 
@@ -54,7 +54,7 @@ Containers **ambassador** são utilizados para gerenciamento de comunicação en
 - **Proxy de API:** Facilita a comunicação entre a aplicação e APIs externas, gerenciando autenticação e roteamento.
 - **Gateway de Serviços:** Um ambassador pode servir como um gateway centralizado, gerenciando o tráfego de entrada e saída.
 
-3. **Padrão Adapter**
+**Padrão Adapter**
 
 Adapters são usados para adaptar a saída de um container para que ela se adeque a outro serviço ou processo. Eles podem modificar formatos de dados ou protocolos de comunicação.
 
@@ -65,7 +65,7 @@ Adapters são usados para adaptar a saída de um container para que ela se adequ
 
 ## **A Maneira declarativa e imperativa de iniciar pods**
 
-1. **Método Declarativo**
+**Método Declarativo**
 
 O método **declarativo** é preferido para ambientes de produção, pois facilita o controle de versões e a repetibilidade da configuração. Arquivos **YAML** são usados para descrever o estado desejado dos Pods, que é então aplicado ao cluster.
 
@@ -90,7 +90,7 @@ spec:
 - **Controle de versão:** YAMLs permitem rastrear mudanças na configuração dos Pods, facilitando rollback e auditoria.
 - **Infraestrutura como código**: Promove a prática de infraestrutura como código, essencial para automação e consistência.
 
-2. **Método Imperativo**
+**Método Imperativo**
 
 O método **imperativo** é usado para comandos rápidos e diretos, como criar, atualizar ou excluir Pods. É útil para operações ad-hoc, mas não é ideal para gerenciamento a longo prazo.
 
@@ -103,7 +103,7 @@ kubectl run exemplo-pod --image=nginx:1.17
 
 ## **Entrando nos detalhes dos pods**
 
-1. **Ciclo de vida dos Pods**
+**Ciclo de vida dos Pods**
 
 Entender o ciclo de vida dos Pods é crucial para gerenciamento eficaz. Cada Pod passa por várias fases desde sua criação até a exclusão.
 
@@ -118,7 +118,7 @@ Fases do ciclo de vida:
 - **Unknown**: Estado indeterminado onde não há informações claras sobre o que o Pod está fazendo ou sua localização.
 - **CrashLoopBackoff**: O container falha ao iniciar e o Kubernetes tenta reiniciá-lo repetidamente, com intervalos crescentes entre as tentativas.
 
-1. **Criação de um Pod**
+**Criação de um Pod**
 
 Para entender como os Pods são criados no Kubernetes, vamos examinar um exemplo detalhado do processo:
 
