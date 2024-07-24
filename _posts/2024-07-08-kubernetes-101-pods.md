@@ -19,7 +19,7 @@ Um **Pod** é a menor unidade de implantação em **Kubernetes**, encapsulando u
 
 ![](/assets/img/83/pod02.png){: "width=30%" } 
 
-![](/assets/img/83/pod03.png){: h="40%" }
+![](/assets/img/83/pod03.png){: h="25%" }
 
 - **Namespace de rede compartilhado:** Todos os containers em um Pod compartilham o mesmo namespace de rede, permitindo a comunicação através de localhost. Isso é crucial para aplicações que requerem alta interação entre componentes, como microserviços.
 - **Volumes compartilhados:** Volumes podem ser usados para persistência de dados e compartilhamento entre containers. Eles são definidos na especificação do Pod e montados em diretórios específicos dos containers.
