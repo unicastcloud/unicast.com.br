@@ -21,7 +21,7 @@ Um **Pod** é a menor unidade de implantação em **Kubernetes**, encapsulando u
 
 ![](/assets/img/83/pod02.png){: "width=30%" } 
 
-![](/assets/img/83/pod03.png){: "width=30%" } 
+![](/assets/img/83/pod03.png){: "width=10%" } 
 
 - **Namespace de rede compartilhado:** Todos os containers em um Pod compartilham o mesmo namespace de rede, permitindo a comunicação através de localhost. Isso é crucial para aplicações que requerem alta interação entre componentes, como microserviços.
 - **Volumes compartilhados:** Volumes podem ser usados para persistência de dados e compartilhamento entre containers. Eles são definidos na especificação do Pod e montados em diretórios específicos dos containers.
@@ -136,7 +136,7 @@ Para entender como os Pods são criados no Kubernetes, vamos examinar um exemplo
 8. O Kubelet inicia o Pod em seu nó, chamando o Docker (ou outro runtime de container) e atualiza o estado do container de volta ao servidor de API.
 9. O servidor de API persiste o estado do Pod no etcd.
 
-10. **Container probes**
+**Container probes**
 
 As sondas de container (container **probes**) são usadas no Kubernetes para monitorar a saúde e o status dos containers em um Pod. Elas fornecem informações importantes para o plano de controle do Kubernetes, permitindo decisões sobre o estado dos containers e Pods.
 
