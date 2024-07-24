@@ -11,8 +11,6 @@ Fala galera! Seis tão baum?
 
 No Kubernetes, um Pod é a unidade básica de execução de um aplicativo. Ele pode conter um ou mais **containers** que compartilham recursos de **rede** e **armazenamento**, funcionando como uma entidade de implantação e gerenciamento. Neste artigo vamos explorar em profundidade a estrutura dos Pods, padrões de aplicação, métodos de inicialização, e detalhes operacionais, essenciais para quem busca dominar Kubernetes.
 
-![](/assets/img/83/pod01.svg){: "width=30%" } 
-
 ## **Anatomia de um Pod**
 
 1. **O que é um Pod?**
