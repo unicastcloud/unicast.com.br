@@ -3,7 +3,7 @@ layout: post
 title: "Microsoft lança trilha de certificações do GitHub"
 author: asilva
 date: 2023-10-13 09:20:00 -0300
-categories: [Certificação, Notícias]
+categories: [Certificação, Informações]
 tags: [certificação, github, microsoft]
 ---
 
