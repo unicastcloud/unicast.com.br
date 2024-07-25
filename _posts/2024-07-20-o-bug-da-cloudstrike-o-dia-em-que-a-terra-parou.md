@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "O bug da CrowdStrike: O dia em que a terra parou (e como solucionar)"
+title: "O bug da CrowdStrike: O dia em que a terra parou e impactou a Microsoft"
 author: asilva
 date: 2024-07-20 09:10:00 -0300
 categories: [Tecnologia, Notícias]
