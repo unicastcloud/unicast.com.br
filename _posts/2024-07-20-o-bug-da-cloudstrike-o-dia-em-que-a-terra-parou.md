@@ -89,8 +89,6 @@ Este evento sublinha a importância de estarmos sempre atualizados e comprometid
 
 Além disso, processos robustos de validação, testes e homologação são essenciais no portfólio de um profissional de DevOps. Eles não são apenas práticas recomendadas, mas sim uma necessidade crítica para garantir que o software entregue seja seguro, confiável e funcional. 
 
-Em computação, exceções ocorrem quando algo interfere no fluxo normal de um programa, como acessar um endereço de memória inválido.
-
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para compartilhá-los conosco na seção de comentários abaixo!
 
 É isso galera, espero que gostem!
