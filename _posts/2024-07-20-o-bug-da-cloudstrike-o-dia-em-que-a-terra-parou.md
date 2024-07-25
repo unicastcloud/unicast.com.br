@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "O bug da CrowdStrike: O dia em que a terra parou"
+title: "O bug da CrowdStrike: O dia em que a terra parou (e como solucionar)"
 author: asilva
 date: 2024-07-20 09:10:00 -0300
 categories: [Tecnologia, Notícias]
@@ -69,10 +69,10 @@ Para resolver o problema em máquinas **físicas** e virtuais no **Microsoft Azu
 
 Links que podem ajudar na solução do problema:
 
-Recovery Tool da Microsoft: <a href="https://techcommunity.microsoft.com/t5/intune-customer-success/new-recovery-tool-to-help-with-crowdstrike-issue-impacting/ba-p/4196959" target="_blank">New Recovery Tool to help with CrowdStrike issue impacting Windows endpoints</a>
-Recovery para VMs no Azure: <a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/recovery-options-for-azure-virtual-machines-vm-affected-by/ba-p/4196798" target="_blank">Recovery options for Azure Virtual Machines (VM) affected by CrowdStrike Falcon agent</a>
-Comunicado Oficial da Cloudstrike: <a href="https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/" target="_blank">REMEDIATION AND GUIDANCE HUB: FALCON CONTENT UPDATE FOR WINDOWS HOSTS</a>
-Post da AWS: <a href="https://repost.aws/en/knowledge-center/ec2-instance-crowdstrike-agent" target="_blank">How do I recover AWS resources that were affected by the CrowdStrike Falcon agent?</a>
+- Recovery Tool da Microsoft: <a href="https://techcommunity.microsoft.com/t5/intune-customer-success/new-recovery-tool-to-help-with-crowdstrike-issue-impacting/ba-p/4196959" target="_blank">New Recovery Tool to help with CrowdStrike issue impacting Windows endpoints</a>
+- Recovery para VMs no Azure: <a href="https://techcommunity.microsoft.com/t5/azure-compute-blog/recovery-options-for-azure-virtual-machines-vm-affected-by/ba-p/4196798" target="_blank">Recovery options for Azure Virtual Machines (VM) affected by CrowdStrike Falcon agent</a>
+- Comunicado Oficial da Cloudstrike: <a href="https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/" target="_blank">Remediation and Guidance Hub: Falcon content update for Windows</a>
+- Post da AWS: <a href="https://repost.aws/en/knowledge-center/ec2-instance-crowdstrike-agent" target="_blank">How do I recover AWS resources that were affected by the CrowdStrike Falcon agent?</a>
 
 ## **Lições aprendidas**
 
