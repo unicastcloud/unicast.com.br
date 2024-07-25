@@ -3,7 +3,7 @@ layout: post
 title: "Poster de certificações Microsoft - Julho 2021"
 author: asilva
 date: 2021-07-13 09:00:00 -0500
-categories: [Certificação, Notícias]
+categories: [Certificação, Informações]
 tags: [certificação, azure, m365, microsoft]
 ---
 

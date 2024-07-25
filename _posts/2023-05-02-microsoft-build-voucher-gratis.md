@@ -3,7 +3,7 @@ layout: post
 title: "Microsoft Build 2023 + voucher grátis"
 author: asilva
 date: 2023-05-02 09:20 -0300
-categories: [Certificação, Notícias]
+categories: [Certificação, Informações]
 tags: [certificação, azure, microsoft, microsoftbuild]
 ---
 

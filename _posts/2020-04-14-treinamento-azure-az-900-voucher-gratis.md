@@ -3,7 +3,7 @@ layout: post
 title: "Treinamento Azure [AZ-900] + voucher grátis"
 author: asilva
 date: 2020-04-14 09:00:00 -0500
-categories: [Certificação, Notícias]
+categories: [Certificação, Informações]
 tags: [certificação, azure, microsoft, az900]
 ---
 

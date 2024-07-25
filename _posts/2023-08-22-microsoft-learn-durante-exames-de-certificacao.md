@@ -3,7 +3,7 @@ layout: post
 title: "Microsoft Learn durante exames de certificação"
 author: asilva
 date: 2023-08-22 09:20:00 -0300
-categories: [Certificação, Notícias]
+categories: [Certificação, Informações]
 tags: [certificação, azure, microsoft]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Exame AZ-700 Azure Network Engineer Associate"
 author: asilva
 date: 2021-06-25 09:00:00 -0500
-categories: [Certificação, Notícias]
+categories: [Certificação, Informações]
 tags: [certificação, azure, microsoft, network, az700]
 ---
 
