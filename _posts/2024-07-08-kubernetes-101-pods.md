@@ -98,6 +98,8 @@ kubectl run exemplo-pod --image=nginx
 - **Uso em desenvolvimento:** Útil em ambientes de desenvolvimento e testes rápidos.
 - **Limitações em produção:** Menos controlável e rastreável em comparação com o método declarativo.
 
+![](/assets/img/83/pod09.gif){: h="30%" }
+
 ## **Entrando nos detalhes dos pods**
 
 **Ciclo de vida dos Pods**
