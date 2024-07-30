@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Na última **sexta-feira, dia 18 de julho**, um grande apagão cibernético tomou conta de milhões de computadores ao redor do mundo, causando transtornos em **aeroportos**, **bancos** e diversos outros setores essenciais. A causa deste problema foi um bug no sistema de controle de qualidade da **CrowdStrike**, afetando cerca de **8,5 milhões** de dispositivos rodando **Windows**.
 
-![](/assets/img/84/cloudstrike01.png){: h="30%" }
+![](/assets/img/85/cloudstrike01.png){: h="30%" }
 
 ## **O que aconteceu?**
 
@@ -29,13 +29,13 @@ O **CrowdStrike Falcon** combina antivírus de próxima geração com capacidade
 
 O bug na atualização da **CrowdStrike** teve um impacto **massivo**, causando a paralisação de serviços em **aeroportos**, **bancos** e outras infraestruturas críticas ao redor do mundo. A falha resultou em interrupções significativas, com muitos sistemas essenciais ficando offline e inoperantes. 
 
-![](/assets/img/84/cloudstrike02.jpg){: h="30%" }
+![](/assets/img/85/cloudstrike02.jpg){: h="30%" }
 
 ## **Quem foi o culpado?**
 
 Inicialmente, muitos atribuíram o incidente à **Microsoft**, dada a prevalência da **Tela Azul da Morte (BSOD)** nos sistemas **Windows** afetados. No entanto, investigações posteriores revelaram que o verdadeiro culpado era um bug no processo de controle de qualidade da **CrowdStrike**. A empresa admitiu o erro e detalhou como a atualização problemática foi entregue aos dispositivos finais.
 
-![](/assets/img/84/cloudstrike03.jpg){: h="30%" }
+![](/assets/img/85/cloudstrike03.jpg){: h="30%" }
 
 O **CEO** da **CrowdStrike**, **George Kurtz**, emitiu um pedido de desculpas público. Em uma declaração transmitida no programa "**Today**" da **NBC News**, **Kurtz** expressou seu arrependimento pelo impacto negativo causado a clientes, viajantes e outros afetados pela falha no sistema.
 
