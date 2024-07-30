@@ -85,6 +85,8 @@ spec:
 - **Controle de versão:** YAMLs permitem rastrear mudanças na configuração dos Pods, facilitando rollback e auditoria.
 - **Infraestrutura como código**: Promove a prática de infraestrutura como código, essencial para automação e consistência.
 
+![](/assets/img/83/pod08.gif){: h="30%" }
+
 **Método Imperativo**
 
 O método **imperativo** é usado para comandos rápidos e diretos, como criar, atualizar ou excluir Pods. É útil para operações ad-hoc, mas não é ideal para gerenciamento a longo prazo.
