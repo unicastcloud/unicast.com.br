@@ -143,6 +143,8 @@ kubectl edit replicaset nginx-replicaset
 
 Isso abrirá o editor padrão, permitindo a edição direta do **ReplicaSet**. No entanto, é importante notar que se você fizer mudanças diretamente no cluster usando `kubectl edit`, o arquivo de **manifesto original** não será atualizado automaticamente. 
 
+![](/assets/img/84/replicaset05.gif){: h="30%" }
+
 Isso pode levar a inconsistências entre o estado atual do cluster e o estado desejado descrito nos arquivos de configuração. Para manter a consistência, você deve atualizar o arquivo de manifesto e reaplicar usando `kubectl replace`:
 
 **Método Imperativo**
@@ -152,6 +154,8 @@ Exemplo de comando:
 ````bash
 kubectl scale replicaset nginx-replicaset --replicas=5
 ````
+
+![](/assets/img/84/replicaset06.gif){: h="30%" }
 
 ## **Conclusão**
 
