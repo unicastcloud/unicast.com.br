@@ -145,7 +145,7 @@ Isso abrirá o editor padrão, permitindo a edição direta do **ReplicaSet**. N
 
 ![](/assets/img/84/replicaset05.gif){: h="30%" }
 
-Isso pode levar a inconsistências entre o estado atual do cluster e o estado desejado descrito nos arquivos de configuração. Para manter a consistência, você deve atualizar o arquivo de manifesto e reaplicar usando `kubectl replace`:
+Isso pode levar a inconsistências entre o estado atual do cluster e o estado desejado descrito nos arquivos de configuração. Para manter a consistência, você deve atualizar o arquivo de manifesto e reaplicar usando `kubectl replace`.
 
 **Método Imperativo**
 
