@@ -110,6 +110,8 @@ Relação entre Deployment, ReplicaSet e Pods
 
 Ficando assim a representação dos objetos: **exemplo-deployment-abc123-1a2b3c**
 
+![](/assets/img/85/deployment04.gif){: h="25%" }
+
 ## **Atualizações e Rollouts**
 
 Deployments suportam atualizações contínuas, permitindo que você faça mudanças na aplicação de forma gradual. Isso é particularmente útil para evitar downtime e garantir que a aplicação funcione corretamente antes que todas as instâncias sejam atualizadas.
@@ -137,6 +139,8 @@ Output esperado:
 ````shell
 deployment "exemplo-deployment" successfully rolled out
 ````
+
+![](/assets/img/85/deployment05.gif){: h="25%" }
 
 ## **Rollback**
 
@@ -172,6 +176,8 @@ Se precisar reverter para uma revisão específica:
 ````shell
 kubectl rollout undo deployment/exemplo-deployment --to-revision=1
 ````
+
+![](/assets/img/85/deployment06.gif){: h="25%" }
 
 **Comandos Adicionais: Pause, Resume e Restart**
 
