@@ -80,17 +80,9 @@ O **ReplicaSet** é responsável por garantir que o número especificado de rép
 
 ![](/assets/img/84/replicaset02.png){: h="25%" }
 
-## **Métodos Declarativo e Imperativo de gerenciamento de replicaSets**
-
-**Método Declarativo**
+## **Criando um ReplicaSets**
 
 No método **declarativo**, você define o estado desejado de um recurso, como um ReplicaSet, em arquivos **YAML** ou **JSON**. Estes arquivos especificam detalhes como o número de réplicas, a imagem do container, e outras configurações relevantes. Depois de definir o estado desejado, o arquivo é aplicado ao cluster utilizando o comando `kubectl apply`. O Kubernetes então trabalha para alinhar o estado atual do cluster ao estado desejado especificado, criando ou removendo Pods conforme necessário.
-
-Exemplo de comando:
-
-````bash
-kubectl apply -f replicaset.yaml
-````
 
 Exemplo de arquivo YAML para um ReplicaSet:
 
@@ -111,22 +103,16 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14.2
+        image: nginx
 ````
-
-Este método é amplamente utilizado em ambientes de produção devido à sua capacidade de manter o controle de versão e de permitir uma gestão de configuração mais consistente.
-
-**Método Imperativo**
-
-O método imperativo envolve o uso direto de comandos `kubectl` para criar ou modificar recursos no cluster. Este método é mais adequado para operações rápidas e **ad-hoc**, onde mudanças imediatas são necessárias. No entanto, não é ideal para ambientes de produção devido à falta de rastreabilidade e consistência nas mudanças.
 
 Exemplo de comando:
 
 ````bash
-kubectl create replicaset nginx-replicaset --image=nginx:1.14.2 --replicas=3
+kubectl apply -f replicaset.yaml
 ````
 
-Este comando cria um ReplicaSet com o nome `nginx-replicaset`, utilizando a imagem `nginx:1.14.2` e especificando **três** réplicas.
+![](/assets/img/84/replicaset03.gif){: h="30%" }
 
 ## **Escalabilidade de réplicas**
 
@@ -144,8 +130,10 @@ spec:
 ````
 
 ````bash
-kubectl apply -f replicaset.yaml
+kubectl replace -f replicaset.yaml
 ````
+
+![](/assets/img/84/replicaset04.gif){: h="30%" }
 
 Outra abordagem é usar o comando `kubectl edit` para editar o recurso diretamente no cluster:
 
@@ -155,11 +143,9 @@ kubectl edit replicaset nginx-replicaset
 
 Isso abrirá o editor padrão, permitindo a edição direta do **ReplicaSet**. No entanto, é importante notar que se você fizer mudanças diretamente no cluster usando `kubectl edit`, o arquivo de **manifesto original** não será atualizado automaticamente. 
 
-Isso pode levar a inconsistências entre o estado atual do cluster e o estado desejado descrito nos arquivos de configuração. Para manter a consistência, você deve atualizar o arquivo de manifesto e reaplicar usando `kubectl replace`:
+![](/assets/img/84/replicaset05.gif){: h="30%" }
 
-````bash
-kubectl replace -f replicaset.yaml
-````
+Isso pode levar a inconsistências entre o estado atual do cluster e o estado desejado descrito nos arquivos de configuração. Para manter a consistência, você deve atualizar o arquivo de manifesto e reaplicar usando `kubectl replace`.
 
 **Método Imperativo**
 
@@ -168,6 +154,8 @@ Exemplo de comando:
 ````bash
 kubectl scale replicaset nginx-replicaset --replicas=5
 ````
+
+![](/assets/img/84/replicaset06.gif){: h="30%" }
 
 ## **Conclusão**
 
