@@ -167,6 +167,10 @@ Entender o funcionamento dos ReplicaSets é um passo crucial para qualquer admin
 
 Com isso, espero que este artigo tenha fornecido uma visão clara e detalhada sobre como os ReplicaSets operam e como você pode utilizá-los para fortalecer a resiliência e a escalabilidade de suas aplicações no Kubernetes.
 
+Além de ler este artigo, encorajo fortemente que você consulte a documentação oficial do Kubernetes para obter informações mais detalhadas e atualizadas. A documentação oficial é uma excelente fonte de conhecimento e irá complementar o que foi abordado aqui.
+
+Você pode acessar a documentação oficial aqui: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/" target="_blank">ReplicaSet</a>
+
 É isso galera, espero que gostem!
 
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para compartilhá-los conosco na seção de comentários abaixo!

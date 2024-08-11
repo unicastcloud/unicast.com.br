@@ -217,6 +217,10 @@ kubectl rollout restart deployment/exemplo-deployment
 
 Os Deployments são uma ferramenta poderosa no Kubernetes, proporcionando controle granular sobre o ciclo de vida das aplicações. Eles complementam os ReplicaSets, oferecendo funcionalidades adicionais como rollouts, rollbacks, pausas, retomadas e reinicializações, essenciais para ambientes de produção. Essa flexibilidade garante atualizações contínuas e seguras, minimizando downtime e mantendo a estabilidade dos serviços.
 
+Além de ler este artigo, encorajo fortemente que você consulte a documentação oficial do Kubernetes para obter informações mais detalhadas e atualizadas. A documentação oficial é uma excelente fonte de conhecimento e irá complementar o que foi abordado aqui.
+
+Você pode acessar a documentação oficial aqui: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/" target="_blank">Deployment</a>
+
 Nos próximos artigos, exploraremos mais a fundo as práticas recomendadas para Deployments e outros recursos avançados do Kubernetes. Vamos abordar como otimizar a utilização dos Deployments, estratégias de atualização, e como solucionar problemas comuns.
 
 Fique ligado!

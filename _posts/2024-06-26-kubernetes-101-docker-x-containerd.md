@@ -93,6 +93,10 @@ A transição do **Docker** para o **ContainerD** como runtime padrão no **Kube
 
 Embora o **Docker** continue sendo uma ferramenta robusta, o **ContainerD** e outras alternativas como o **CRI-O** estão se estabelecendo como as melhores opções para ambientes Kubernetes devido às suas capacidades otimizadas e integração nativa.
 
+Além de ler este artigo, encorajo fortemente que você consulte a documentação oficial do Kubernetes para obter informações mais detalhadas e atualizadas. A documentação oficial é uma excelente fonte de conhecimento e irá complementar o que foi abordado aqui.
+
+Você pode acessar a documentação oficial aqui: <a href="https://kubernetes.io/docs/setup/production-environment/container-runtimes/" target="_blank">Container Runtimes</a>
+
 É isso galera, espero que gostem!
 
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para compartilhá-los conosco na seção de comentários abaixo!

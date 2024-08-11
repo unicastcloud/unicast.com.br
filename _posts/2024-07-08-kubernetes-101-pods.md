@@ -158,6 +158,10 @@ A criação de Pods é um processo que envolve múltiplos componentes do Kuberne
 
 Com tudo isso em mente, o conhecimento sobre Pods é o primeiro passo para dominar esta poderosa plataforma de orquestração de containers.
 
+Além de ler este artigo, encorajo fortemente que você consulte a documentação oficial do Kubernetes para obter informações mais detalhadas e atualizadas. A documentação oficial é uma excelente fonte de conhecimento e irá complementar o que foi abordado aqui.
+
+Você pode acessar a documentação oficial aqui: <a href="https://kubernetes.io/docs/concepts/workloads/pods/" target="_blank">Pods</a>
+
 É isso galera, espero que gostem!
 
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para compartilhá-los conosco na seção de comentários abaixo!

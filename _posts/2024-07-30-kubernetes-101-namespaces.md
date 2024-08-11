@@ -48,6 +48,17 @@ local-path-storage   Active   7d23h
 
 ![](/assets/img/88/namespaces02.gif){: h="25%" }
 
+> Ao utilizar comandos como `kubectl get` sem especificar um namespace, o Kubernetes assume que o comando deve ser executado no namespace default. Isso significa que se você não indicar um namespace, o comando irá buscar informações no namespace padrão (**default**).
+{: .prompt-info }
+
+Você pode alterar o namespace padrão da sua configuração de contexto atual com o seguinte comando:
+
+````shell
+kubectl config set-context --current --namespace=<novo-namespace>
+````
+
+sso ajusta o namespace padrão para a sua sessão atual, e todos os comandos subsequentes que não especificarem um namespace usarão o novo namespace configurado.
+
 ## **Criando e gerenciando Namespaces**
 
 Para criar e gerenciar **Namespaces** no Kubernetes, você pode utilizar tanto o método **declarativo** quanto o **imperativo**, dependendo das necessidades da sua operação.
@@ -183,6 +194,10 @@ Além disso, é possível limitar o número de objetos que um Namespace pode cri
 ## **Conclusão**
 
 **Namespaces** são uma ferramenta crucial para a organização e o isolamento de recursos no Kubernetes. Eles permitem que você compartilhe um cluster entre diferentes projetos ou equipes, garantindo que os recursos sejam bem segmentados e controlados. Contudo, é essencial estar atento à comunicação entre Namespaces, já que ela pode impactar a segurança e o desempenho da sua aplicação, especialmente em ambientes de produção.
+
+Além de ler este artigo, encorajo fortemente que você consulte a documentação oficial do Kubernetes para obter informações mais detalhadas e atualizadas. A documentação oficial é uma excelente fonte de conhecimento e irá complementar o que foi abordado aqui.
+
+Você pode acessar a documentação oficial aqui: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/" target="_blank">Namespaces</a>
 
 No próximo artigo, vamos explorar os **Services** em Kubernetes, um conceito fundamental para gerenciar a comunicação entre Pods e permitir o acesso às suas aplicações. Fique ligado!
 
