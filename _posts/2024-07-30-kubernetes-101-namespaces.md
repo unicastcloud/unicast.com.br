@@ -57,7 +57,7 @@ Você pode alterar o namespace padrão da sua configuração de contexto atual c
 kubectl config set-context --current --namespace=<novo-namespace>
 ````
 
-sso ajusta o namespace padrão para a sua sessão atual, e todos os comandos subsequentes que não especificarem um namespace usarão o novo namespace configurado.
+Isso ajusta o namespace padrão para a sua sessão atual, e todos os comandos subsequentes que não especificarem um namespace usarão o novo namespace configurado.
 
 ## **Criando e gerenciando Namespaces**
 
