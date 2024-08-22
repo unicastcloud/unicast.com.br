@@ -171,7 +171,7 @@ spec:
   type: LoadBalancer
 ````
 
-![](/assets/img/89/service11gif){: h="25%" }
+![](/assets/img/89/service12.gif){: h="25%" }
 
 No exemplo acima, `loadBalancerIP` pode ser um IP público estático previamente configurado no Azure. Se você não especificar `loadBalancerIP`, o **AKS** atribuirá automaticamente um IP público.
 
@@ -193,7 +193,7 @@ kubectl get svc meu-service-3
 curl <IP-externo-do-LoadBalancer>
 ````
 
-![](/assets/img/89/service12.gif){: h="25%" }
+![](/assets/img/89/service13.gif){: h="25%" }
 
 ### **ExternalName**
 
