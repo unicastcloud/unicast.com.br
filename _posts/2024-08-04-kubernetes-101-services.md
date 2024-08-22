@@ -9,7 +9,7 @@ tags: [kubernetes, devops, k8s, cluster, cloudnative, containers, docker, micros
 
 Fala galera! Seis tão baum?
 
-No capítulo de hoje da nossa série **"Kubernetes 101"**, vamos explorar um dos conceitos mais essenciais no Kubernetes: os **Services**. Se você já leu sobre Pods e Deployments, agora é hora de entender como esses componentes se comunicam entre si e com o mundo externo. Vamos mergulhar nos detalhes de como os Services funcionam, suas variações, como escolher o tipo certo de Service, e como testá-los na prática.
+No capítulo de hoje da nossa série **"Kubernetes 101"**, vamos explorar um dos conceitos mais essenciais no Kubernetes: os **Services**. Se você já leu sobre **Pods** e **Deployments**, agora é hora de entender como esses componentes se comunicam entre si e com o mundo externo. Vamos mergulhar nos detalhes de como os Services funcionam, suas variações, como escolher o tipo certo de Service, e como testá-los na prática.
 
 ## **O que é um Service?**
 
@@ -55,7 +55,13 @@ Quando uma requisição é feita para um Service no Kubernetes, o processo de re
 
 O Kubernetes oferece cinco tipos principais de Services, cada um com funcionalidades específicas:
 
-### **ClusterIP (Padrão)**
+- **ClusterIP**: Use para comunicações internas no cluster, como serviços de backend, bancos de dados, e caches.
+- **NodePort**: Use para acesso externo limitado, geralmente em ambientes de desenvolvimento ou onde você implementará sua própria solução de balanceamento de carga.
+- **LoadBalancer**: Escolha este para exposições públicas de aplicações, como APIs e websites, especialmente em ambientes de produção.
+- **ExternalName**: Ideal para redirecionar o tráfego para serviços externos usando o DNS.
+- **Headless**: Para descobertas de serviço mais avançadas ou quando você precisa lidar diretamente com os Pods, sem passar pelo Kubernetes Service proxy.
+
+## **ClusterIP (Padrão)**
 
 O **ClusterIP** é o tipo de Service padrão. Ele expõe o Service em um IP interno do cluster, que só é acessível de dentro do cluster. É ideal para comunicação interna entre Pods, como comunicação entre microserviços ou acesso a bancos de dados.
 
@@ -97,7 +103,7 @@ kubectl run curl-pod --image=alpine:latest -it --rm -- sh -c "apk add curl && cu
 
 ![](/assets/img/89/service09.gif){: h="25%" }
 
-### **NodePort**
+## **NodePort**
 
 O **NodePort** expõe o Service em um porto estático em cada Node do cluster, tornando-o acessível externamente através do IP de qualquer Node e do porta especificada. Isso permite que você acesse o Service fora do cluster, utilizando o IP de qualquer Node e o NodePort configurado. 
 
@@ -146,7 +152,7 @@ curl IP-do-Node:30007 -I
 
 ![](/assets/img/89/service11.gif){: h="25%" }
 
-### **LoadBalancer**
+## **LoadBalancer**
 
 Os **LoadBalancer** Services são expostos fora do seu cluster usando um recurso de balanceador de carga externo. Isso requer uma conexão com um provedor de balanceamento de carga, o que geralmente é alcançado integrando seu cluster ao ambiente de nuvem. Ao criar um serviço **LoadBalancer**, o Kubernetes provisiona automaticamente um novo componente de infraestrutura de balanceador de carga na sua conta de nuvem. Essa funcionalidade é configurada automaticamente quando você utiliza um serviço gerenciado de Kubernetes, como **Amazon EKS**, **Google GKE** ou **Azure AKS**.
 
@@ -195,7 +201,7 @@ curl <IP-externo-do-LoadBalancer>
 
 ![](/assets/img/89/service13.gif){: h="25%" }
 
-### **ExternalName**
+## **ExternalName**
 
 O **ExternalName** mapeia um Service para um nome de** DNS externo**, redirecionando o tráfego para fora do cluster. Ele é útil para quando você precisa acessar serviços externos como se estivessem dentro do cluster, sem necessidade de proxies adicionais.
 
@@ -223,7 +229,7 @@ spec:
 kubectl create service externalname meu-service-4 --external-name=minha-aplicacao-externa.com
 ````
 
-### **Headless Services**
+## **Headless Services**
 
 Um **Headless** Service permite que você direcione diretamente para os Pods sem passar pelo proxy de serviços do Kubernetes. Isso é útil quando você deseja lidar diretamente com os endereços IP dos Pods, por exemplo, em sistemas de descoberta de serviços mais avançados ou quando utiliza stateful applications.
 
@@ -253,12 +259,6 @@ kubectl expose pod nginx --port=80 --name=meu-headless-service --cluster-ip=None
 ## **Qual tipo de Service devo usar?**
 
 A escolha do tipo de Service correto depende de como sua aplicação será acessada:
-
-- **ClusterIP**: Use para comunicações internas no cluster, como serviços de backend, bancos de dados, e caches.
-- **NodePort**: Use para acesso externo limitado, geralmente em ambientes de desenvolvimento ou onde você implementará sua própria solução de balanceamento de carga.
-- **LoadBalancer**: Escolha este para exposições públicas de aplicações, como APIs e websites, especialmente em ambientes de produção.
-- **ExternalName**: Ideal para redirecionar o tráfego para serviços externos usando o DNS.
-- **Headless**: Para descobertas de serviço mais avançadas ou quando você precisa lidar diretamente com os Pods, sem passar pelo Kubernetes Service proxy.
 
 | Característica                 | ClusterIP                                              | NodePort                                                                 | LoadBalancer                                                          | ExternalName                                                              | Headless                                                              |
 |--------------------------------|--------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------|
