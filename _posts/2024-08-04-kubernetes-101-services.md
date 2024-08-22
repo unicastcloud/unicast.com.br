@@ -276,7 +276,7 @@ Sempre que possível, **teste** e **valide cuidadosamente** a configuração dos
 
 E, como sempre, não se esqueça de consultar a documentação oficial do Kubernetes para mais detalhes e práticas recomendadas sobre o uso de Services!
 
-Você pode acessar a documentação oficial aqui: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/" target="_blank">Services</a>
+Você pode acessar a documentação oficial aqui: <a href="https://kubernetes.io/docs/concepts/services-networking/service/" target="_blank">Services</a>
 
 É isso, galera! Espero que tenham gostado!
 
