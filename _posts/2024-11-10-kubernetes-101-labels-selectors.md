@@ -2,7 +2,7 @@
 layout: post
 title: "Kubernetes 101: Label e Selectors"
 author: asilva
-date: 2024-12-10 09:20:00 -0300
+date: 2024-11-10 09:20:00 -0300
 categories: [DevOps, Kubernetes]
 tags: [kubernetes, devops, k8s, cluster, cloudnative, containers, docker, microservices]
 ---
