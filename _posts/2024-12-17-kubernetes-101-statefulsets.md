@@ -29,43 +29,7 @@ Um **StatefulSet** tem os seguintes componentes principais:
 - **Headless Service**: Um Service sem IP próprio (ClusterIP: None) para resolução de DNS entre os pods.
 - **PersistentVolumeClaims (PVCs)**: Cada pod tem seu próprio volume persistente e não compartilha com outros pods.
 
-Exemplo de StatefulSet:
-
-````yaml 
-apiVersion: apps/v1
-kind: StatefulSet
-metadata:
-  name: meu-statefulset
-spec:
-  serviceName: "meu-servico"
-  replicas: 3
-  selector:
-    matchLabels:
-      app: meu-app
-  template:
-    metadata:
-      labels:
-        app: meu-app
-    spec:
-      containers:
-      - name: meu-container
-        image: nginx
-        volumeMounts:
-        - name: meu-volume
-          mountPath: /usr/share/nginx/html
-  volumeClaimTemplates:
-  - metadata:
-      name: meu-volume
-    spec:
-      accessModes: [ "ReadWriteOnce" ]
-      resources:
-        requests:
-          storage: 1Gi
-````
-
-Esse exemplo cria um StatefulSet de 3 réplicas, cada uma com um volume persistente.
-
-## **Exemplo de StatefulSet com Banco de Dados**
+**Exemplo de StatefulSet com Banco de Dados**
 
 Vamos criar um StatefulSet para um banco de dados PostgreSQL com armazenamento persistente:
 
