@@ -65,16 +65,6 @@ spec:
 
 Esse exemplo cria um StatefulSet de 3 réplicas, cada uma com um volume persistente.
 
-## StatefulSet vs Deployment
-
-| Característica                 | StatefulSet                            | Deployment                     |
-|--------------------------------|----------------------------------------|--------------------------------|
-| **Identidade dos Pods**        | Sim (fixa)                              | Não                            |
-| **Ordem de inicialização**     | Garantida                              | Não                            |
-| **Volume Persistente**         | Individual                             | Compartilhado/Volátil          |
-| **Uso comum**                  | Bancos de dados, sistemas distribuídos | Aplicações stateless, web apps |
-| **Atualização Rolling Update** | Sim (controlada)                       | Sim (rápida)                   |
-
 ## **Exemplo de StatefulSet com Banco de Dados**
 
 Vamos criar um StatefulSet para um banco de dados PostgreSQL com armazenamento persistente:
