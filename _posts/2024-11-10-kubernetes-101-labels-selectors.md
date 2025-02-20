@@ -94,6 +94,7 @@ Esse seletor retorna todos os objetos que têm o Label `app` com valores **“mi
 Vamos ver como um Service utiliza Selectors para direcionar o tráfego para os Pods corretos.
 
 **Pods com Labels**
+
 Primeiro, criamos alguns Pods com Labels:
 
 ````yaml 
