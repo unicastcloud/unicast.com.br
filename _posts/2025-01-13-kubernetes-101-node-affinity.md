@@ -78,7 +78,7 @@ Caso queiramos apenas preferir esses nós, podemos substituir `requiredDuringSch
 | **Força da Restrição**   | Preferencial ou obrigatória (required ou preferred)             | NoSchedule, PreferNoSchedule, NoExecute         |
 | **Uso Comum**            | Garantir que aplicações rodem em nós com certas características | Isolamento de workloads, nós dedicados          |
 
-Quando Usar Cada Um?
+Quando Usar cada Um?
 
 - **Node Affinity**: Quando queremos garantir que um pod rode em um nó específico, mas sem impedir que outros pods sejam executados nele.
 - **Taints e Tolerations:** Quando queremos evitar que determinados pods sejam agendados em um nó ou removê-los se já estiverem em execução.
