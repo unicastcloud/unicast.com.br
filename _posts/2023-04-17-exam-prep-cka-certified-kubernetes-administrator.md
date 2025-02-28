@@ -17,8 +17,6 @@ Se você trabalha com tecnologia, certamente já ouviu falar do **Kubernetes**, 
 
 A **CKA** é uma das certificações mais cobiçadas pelos profissionais de tecnologia, especialmente aqueles que trabalham com **DevOps**. Isso porque a certificação comprova que você é capaz de gerenciar, monitorar e solucionar problemas em clusters do Kubernetes.
 
-## **Sobre o exame**
-
 Para se tornar um **Certified Kubernetes Administrator (CKA)**, é necessário passar por um exame **100% prático**, o que significa que você terá acesso a uma máquina virtual com um cluster do Kubernetes e deverá demonstrar suas habilidades em tarefas como implantar, configurar e solucionar problemas em aplicativos no cluster.
 
 O exame possui **2 horas** de duração e é composto de **15 à 20 questões** e cada questão tem um peso diferente. As questões são baseadas em cenários práticos e requerem que o candidato execute tarefas em um cluster Kubernetes. O exame é projetado para testar a capacidade do candidato em lidar com situações comuns que os administradores do **Kubernetes** enfrentam em seu trabalho diário.
