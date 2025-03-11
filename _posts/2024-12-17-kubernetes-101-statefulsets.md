@@ -117,11 +117,11 @@ postgres-storage-1  Bound    pvc-abc  2Gi        RWO            standard       9
 
 | Característica                 | StatefulSet                            | Deployment                         |
 |--------------------------------|----------------------------------------|------------------------------------|
-| **Identidade dos Pods**        | Sim (fixa)                              | Não                                |
+| **Identidade dos Pods**        | Sim (fixa)                             | Não                                |
 | **Ordem de inicialização**     | Garantida                              | Não                                |
 | **Volume Persistente**         | Individual                             | Compartilhado/Volátil              |
 | **Uso comum**                  | Bancos de dados, sistemas distribuídos | Aplicações stateless, web apps     |
-| **Atualização Rolling Update** | Sim (controlada)                       | Sim (rápida)                      |
+| **Atualização Rolling Update** | Sim (controlada)                       | Sim (rápida)                       |
 
 ## **Quando usar StatefulSets?**
 
