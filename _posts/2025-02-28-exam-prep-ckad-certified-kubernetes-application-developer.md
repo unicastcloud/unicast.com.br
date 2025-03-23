@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Hoje vou falar sobre a certificação **Certified Kubernetes Application Developer (CKAD)** e o exame que realizei recentemente no dia 27/02/2025. 
 
-![](/assets/img/104/ckad01.png){: "style="max-width: 50%" }
+![](/assets/img/106/ckad01.png){: "style="max-width: 50%" }
 
 Seguindo minha jornada no mundo Kubernetes, esta é a minha quarta certificação — e confesso que já fazia um tempo que eu queria fazer esse exame. Fui adiando, mas, como o voucher estava prestes a expirar, precisei me movimentar!
 
@@ -32,14 +32,14 @@ O exame tem duração de 2 horas e é composto por 15 a 20 questões, cada uma c
 
 Durante a prova, você terá acesso a um ambiente real, onde precisará agir como um verdadeiro Kubernetes Application Developer.
 
-![](/assets/img/104/ckad02.png){: "width=60%" }
+![](/assets/img/106/ckad02.png){: "width=60%" }
 
 O exame CKAD pode ser adquirido por meio da **Linux Foundation** por **US$ 445,00** — e vale lembrar que o retake (segunda chance) já está incluído no preço.
 
 > Agora, uma dica importante: NÃO pague o valor cheio! 
 {: .prompt-danger }
 
-![](/assets/img/104/ckad03.png){: "width=60%" }
+![](/assets/img/106/ckad03.png){: "width=60%" }
 
 Por mais que essa certificação tenha grande peso e credibilidade, US$ 445,00 é um valor bem salgado. A minha sugestão? Espere pelas promoções de fim e começo de ano — é comum encontrar descontos entre 30% e 50%. Mesmo assim, ainda não é barato, mas já alivia bastante!
 
@@ -71,13 +71,13 @@ Confira a série Kubernetes 101: <a href="https://unicast.com.br/categories/kube
 
 E, para os alunos da **TFTEC**, já está disponível o meu novo curso **Kubernetes and Cloud Native Associate (KCNA)** — um treinamento completo e preparatório para o exame oficial, totalmente em português 🇧🇷.
 
-![](/assets/img/104/ckad04.jpeg){: "width=60%" } 
+![](/assets/img/106/ckad04.jpeg){: "width=60%" } 
 
 - **Treinamento KCNA:** <a href="https://portal.tftecprime.com.br/m/c/certificacao-kubernetes-and-cloud-native-associate" target="_blank"> Página oficial do treinamento</a>
 
 Quer ir além? Também tenho um curso focado em **AKS (Azure Kubernetes Service)**, perfeito para quem quer dominar Kubernetes dentro do ecossistema da Microsoft.
 
-![](/assets/img/104/ckad05.jpeg){: "width=60%" } 
+![](/assets/img/106/ckad05.jpeg){: "width=60%" } 
 
 - **Treinamento AKS:** <a href="https://portal.tftecprime.com.br/m/c/curso-aks" target="_blank"> Página oficial do treinamento</a>
 
@@ -97,7 +97,7 @@ Outro recurso útil para a preparação para o exame é a plataforma de laborat�
 
 Falando sobre o exame, na minha opinião, provas práticas como a **CKAD** deveriam ser o padrão em certificações. Esse formato ajuda a inibir, pelo menos em parte, o problema do comércio ilegal de **dumps** — infelizmente, muita gente ainda recorre a esses métodos, decora respostas, passa na prova, e corre para postar no LinkedIn. Mas o dia a dia cobra — e cobra caro.
 
-![](/assets/img/104/ckad06.jpg){: "width=60%" } 
+![](/assets/img/106/ckad06.jpg){: "width=60%" } 
 
 Dito isso, para mim, provas práticas são sempre muito divertidas. Elas exigem que você realmente aplique os conhecimentos adquiridos nos estudos, testando suas habilidades em um ambiente real.
 
@@ -127,7 +127,7 @@ O conteúdo das certificações evolui constantemente, então acompanhar essas m
 
 De ponto negativo, somente a **PSI**. Infelizmente, as provas são monitoradas por eles, e é sem dúvida a pior plataforma para provas online. Sempre tenho problemas com eles — o processo é moroso, complicado e, muitas vezes, muito estressante.
 
-![](/assets/img/104/ckad07.gif){: "width=60%" } 
+![](/assets/img/106/ckad07.gif){: "width=60%" } 
 
 Você se prepara, dedica horas de estudo, investe um mundo de dinheiro, vai para a prova já com a pressão normal de qualquer exame, e aí, no check-in, eles conseguem te deixar irritado!
 
