@@ -2,7 +2,7 @@
 layout: post
 title: "Kubernetes 101: Role-Based Access Control (RBAC)"
 author: asilva
-date: 2025-02-22 09:20:00 -0300
+date: 2025-02-05 09:20:00 -0300
 categories: [DevOps, Kubernetes]
 tags: [kubernetes, devops, k8s, cluster, cloudnative, containers, docker, microservices]
 ---
