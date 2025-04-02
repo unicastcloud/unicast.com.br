@@ -11,6 +11,8 @@ Fala galera! Seis tão baum?
 
 Resolvi atualizar este artigo porque estou estudando para a certificação **Certified Kubernetes Security Specialist (CKS)** e vou precisar usar mais meu cluster. Então, decidi não apenas atualizar o **Kubernetes**, mas também o **sistema operacional dos Raspberry Pis**. Dessa forma, trago aqui uma versão revisada e melhorada deste artigo.
 
+![](/assets/img/107/k8spi00.jpg){: "width=60%" }
+
 Na primeira versão do artigo, eu estava utilizando o **Flannel** como **CNI**. No entanto, como a ideia agora é estudar para a **CKS**, preciso de um **CNI** com suporte a **Network Policies**. Por isso, nesta atualização, vamos utilizar o **Calico**.
 
 Além disso, o **Ubuntu 20.04 (que era o sistema utilizado anteriormente)** terá seu fim do suporte **standard** em **31 de maio de 2025**. Dessa forma, vamos utilizar uma versão mais atualizada de sistema operacional:** Raspberry Pi OS Lite (64-bit)**. Ele é basicamente um port do **Debian Bookworm**, que é minha distribuição preferida. Sempre utilizei **Debian** nos meus projetos ao longo da vida, então faz sentido tê-lo aqui.
@@ -19,7 +21,7 @@ Para o **Kubernetes**, vamos utilizar a versão **1.32**.
 
 Outro ponto interessante é que estou revitalizando meu **homelab**. Nas próximas semanas, pretendo começar a montar um **NAS** com Raspberry Pi. A ideia é que ele seja minha mídia de backup para arquivos pessoais e também sirva de volume para o cluster Kubernetes.
 
-O plano é utilizar um **Raspberry Pi 5** com um** HAT SATA e 4 HDDs**. Acho que vai ficar bem legal! Com isso, devo aposentar o **Raspberry Pi 3** que hoje roda meu **DNS Pi-hole** e movê-lo para dentro do cluster Kubernetes ou talvez para meu **Proxmox** (o que provavelmente será o destino final dele), mas ainda não tenho certeza. Aguarde cenas dos próximos capítulos.
+O plano é utilizar um **Raspberry Pi 5** com um **HAT SATA e 4 HDDs**. Acho que vai ficar bem legal! Com isso, devo aposentar o **Raspberry Pi 3** que hoje roda meu **DNS Pi-hole** e movê-lo para dentro do cluster Kubernetes ou talvez para meu **Proxmox** (o que provavelmente será o destino final dele), mas ainda não tenho certeza. Aguarde cenas dos próximos capítulos.
 
 Agora, vamos às atualizações técnicas!
 
@@ -343,20 +345,20 @@ Feito o join você terá a saída abaixo:
 
 ![](/assets/img/107/k8spi03.png){: "width=60%" }
 
->Caso você esteja enfrentando dificuldades para estabelecer comunicação com o Master Node, provavelmente o comando de join está apontando para o nome qualificado do nó mestre. Você pode resolver isso de várias formas: Adicionando no arquivo hosts os nomes e IPs dos seus dispositivos ou editando o comando de join para substituir o nome do Master Node pelo seu IP, seguido da porta correspondente. 
+>Caso você esteja enfrentando dificuldades para estabelecer comunicação com o Master Node, provavelmente o comando de join está apontando para o nome qualificado do control-plane. Você pode resolver isso de várias formas: Adicionando no arquivo hosts os nomes e IPs dos seus dispositivos ou editando o comando de join para substituir o nome do Master Node pelo seu IP, seguido da porta correspondente. 
 {: .prompt-info }
 
 Volte ao Master Node e verifique se o Worker Node está ativo no cluster.
 
 ```bash
-kubectl get nodes 
+kubectl get nodes -o wide
 ```
 
 ![](/assets/img/107/k8spi04.png){: "width=60%" }
 
-Pronto! Agora temos um C**luster Kubernetes** atualizado com **Calico** rodando no **Raspberry Pi OS Lite (64-bit).**
+Pronto! Agora temos um **Cluster Kubernetes** atualizado com **Calico** rodando no **Raspberry Pi OS Lite (64-bit).**
 
-Nos próximos passos, vou continuar aprimorando o homelab e explorar como configurar um **NAS** utilizando um **Raspberry Pi 5**!
+Nos próximos passos, vou continuar aprimorando o HomeLab e explorar como configurar um **NAS** utilizando um **Raspberry Pi 5**!
 
 É isso, galera! Se você gostou do artigo, comenta ou mande pra galera que também quer aprender mais sobre HomeLabs e Kubernetes! 
 
