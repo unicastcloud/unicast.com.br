@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Update Cluster Kubernetes Raspberry PI"
+title: "[Update] Cluster Kubernetes Raspberry PI"
 author: asilva
 date: 2025-03-05 09:00:00 -0500
 categories: [DevOps, Kubernetes]
