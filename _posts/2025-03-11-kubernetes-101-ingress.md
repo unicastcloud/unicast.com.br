@@ -47,7 +47,7 @@ O **Kubernetes** não vem com um **Ingress Controller embutido** — você preci
 - Mantido como projeto oficial dentro da comunidade Kubernetes.
 - Ideal para a maioria dos casos de uso.
 
-Documntaçaão: <a href="https://kubernetes.github.io/ingress-nginx" target="_blank">NGINX Ingress Controller</a> 
+Documentação: <a href="https://kubernetes.github.io/ingress-nginx" target="_blank">NGINX Ingress Controller</a> 
 
 **HAProxy Ingress**
 
@@ -56,7 +56,7 @@ Documntaçaão: <a href="https://kubernetes.github.io/ingress-nginx" target="_bl
 - Recomendado para quem já usa HAProxy fora do Kubernetes.
 - Suporta autenticação, WAF, e customizações avançadas.
 
-Documntaçaão: <a href="https://www.haproxy.com/documentation/kubernetes/latest/" target="_blank">HAProxy Ingress</a> 
+Documentação: <a href="https://www.haproxy.com/documentation/kubernetes/latest/" target="_blank">HAProxy Ingress</a> 
 
 **Traefik**
 
@@ -66,7 +66,7 @@ Documntaçaão: <a href="https://www.haproxy.com/documentation/kubernetes/latest
 - Ótima integração com Let’s Encrypt para TLS automático.
 - Bom para ambientes com mudanças frequentes.
 
-Documntaçaão: <a href="https://doc.traefik.io/traefik/" target="_blank">Traefik</a> 
+Documentação: <a href="https://doc.traefik.io/traefik/" target="_blank">Traefik</a> 
 
 **Istio (Gateway + VirtualService)**
 
@@ -75,7 +75,7 @@ Documntaçaão: <a href="https://doc.traefik.io/traefik/" target="_blank">Traefi
 - Oferece roteamento L7 avançado, segurança mTLS, e observabilidade de ponta.
 - Ideal para arquiteturas complexas e ambientes com Service Mesh.
 
-Documntaçaão: <a href="https://istio.io/latest/docs/tasks/traffic-management/ingress/ingress-control/" target="_blank">Istio</a> 
+Documentação: <a href="https://istio.io/latest/docs/tasks/traffic-management/ingress/ingress-control/" target="_blank">Istio</a> 
 
 **Kong Ingress Controller**
 
@@ -84,7 +84,7 @@ Documntaçaão: <a href="https://istio.io/latest/docs/tasks/traffic-management/i
 - Ótimo para cenários de API Management.
 - Compatível com Gateway API.
 
-Documntaçaão: <a href="https://docs.konghq.com/kubernetes-ingress-controller/" target="_blank">Kong Ingress Controller</a> 
+Documentação: <a href="https://docs.konghq.com/kubernetes-ingress-controller/" target="_blank">Kong Ingress Controller</a> 
 
 **Application Gateway Ingress Controller (AGIC) – Microsoft Azure**
 
@@ -97,7 +97,7 @@ Para clusters **Kubernetes** rodando no **Azure** (como **AKS**), você pode uti
 - Suporte completo a rotas baseadas em host e path, respeitando as regras definidas nos manifests do Kubernetes.
 - Pode ser usado como único ponto de entrada (entrypoint) externo do cluster em arquiteturas corporativas.
 
-Documntaçaão: <a href="https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview" target="_blank">AGIC Ingress Controller</a> 
+Documentação: <a href="https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview" target="_blank">AGIC Ingress Controller</a> 
 
 ## **Como escolher o melhor Ingress Controller?**
 
