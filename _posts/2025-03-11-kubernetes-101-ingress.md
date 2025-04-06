@@ -113,9 +113,7 @@ A seleção do controlador apropriado deve considerar fatores como complexidade 
 > Dica 1: Você também pode rodar mais de um Ingress Controller no mesmo cluster, desde que cada Ingress seja associado ao seu respectivo controller via anotações.
 {: .prompt-tip }
 
-> Dica 2: Outros provedores de nuvem também oferecem suas próprias soluções:
-  **AWS** → AWS Load Balancer Controller
-  **GCP** → Google Cloud Load Balancer com GKE Ingress
+> Dica 2: Outros provedores de nuvem também oferecem suas próprias soluções: **AWS** → AWS Load Balancer Controller e **GCP** → Google Cloud Load Balancer com GKE Ingress
 {: .prompt-tip }
 
 ## **Diferença entre Service e Ingress**
