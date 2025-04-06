@@ -39,17 +39,17 @@ Como dito anteriormente, é importante entender que o recurso **Ingress** por si
 
 O **Kubernetes** não vem com um **Ingress Controller embutido** — você precisa instalar um por conta própria. Existem vários disponíveis, cada um com suas particularidades. Abaixo estão os mais usados e suas principais características:
 
-1. **NGINX Ingress Controller**
+**NGINX Ingress Controller**
 
 - O mais popular e amplamente utilizado.
 - Fácil de instalar (via Helm ou YAMLs diretos).
--Suporta TLS, redirecionamentos, reescritas, autenticação básica, canary releases, rate limiting, etc.
+- Suporta TLS, redirecionamentos, reescritas, autenticação básica, canary releases, rate limiting, etc.
 - Mantido como projeto oficial dentro da comunidade Kubernetes.
 - Ideal para a maioria dos casos de uso.
 
 <a href="https://kubernetes.github.io/ingress-nginx" target="_blank">NGINX Ingress Controller</a> 
 
-2. **HAProxy Ingress**
+**HAProxy Ingress**
 
 - Baseado no conhecido proxy HAProxy.
 - Alta performance, suporte sólido a TCP e HTTP.
@@ -58,7 +58,7 @@ O **Kubernetes** não vem com um **Ingress Controller embutido** — você preci
 
 <a href="https://www.haproxy.com/documentation/kubernetes/latest/" target="_blank">HAProxy Ingress</a> 
 
-3. **Traefik**
+**Traefik**
 
 - Foco em simplicidade e observabilidade.
 - Configuração dinâmica via CRDs.
@@ -68,7 +68,7 @@ O **Kubernetes** não vem com um **Ingress Controller embutido** — você preci
 
 <a href="https://doc.traefik.io/traefik/" target="_blank">Traefik</a> 
 
-4. **Istio (Gateway + VirtualService)**
+**Istio (Gateway + VirtualService)**
 
 - Parte do service mesh Istio.
 - Substitui o Ingress tradicional por objetos como Gateway e VirtualService.
@@ -77,7 +77,7 @@ O **Kubernetes** não vem com um **Ingress Controller embutido** — você preci
 
 <a href="https://istio.io/latest/docs/tasks/traffic-management/ingress/ingress-control/" target="_blank">Istio</a> 
 
-5. **Kong Ingress Controller**
+**Kong Ingress Controller**
 
 - Baseado no API Gateway Kong.
 - Oferece plugins para autenticação JWT, rate-limiting, cache, etc.
@@ -86,7 +86,7 @@ O **Kubernetes** não vem com um **Ingress Controller embutido** — você preci
 
 <a href="https://docs.konghq.com/kubernetes-ingress-controller/" target="_blank">Kong Ingress Controller</a> 
 
-6. **Application Gateway Ingress Controller (AGIC) – Microsoft Azure**
+**Application Gateway Ingress Controller (AGIC) – Microsoft Azure**
 
 Para clusters **Kubernetes** rodando no **Azure** (como **AKS**), você pode utilizar o **Azure Application Gateway como Ingress Controller**. Essa integração é feita por meio do **AGIC** (**Application Gateway Ingress Controller**), que permite que o **Application Gateway** gerencie o tráfego de entrada com base nos recursos Ingress definidos no cluster.
 
