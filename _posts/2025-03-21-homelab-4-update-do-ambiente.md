@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 Depois do update no meu cluster de Raspberry Pi, seguimos com as atualizações do home lab. Como mencionei anteriormente, estou montando um **PiNAS** — um **NAS caseiro com Raspberry Pi**. Recentemente finalizei a compra dos componentes, e agora, com tudo em mãos, chegou a hora de começar a brincadeira.
 
-![](/assets/img/109/rpi-homelab-01.png){: "width=60%" }
+![](/assets/img/110/rpi-homelab-01.png){: "width=60%" }
 
 Este artigo não é somente sobre o **PiNAS**, mas sim sobre toda a evolução do meu home lab. Vou compartilhar com vocês o que mudou no meu setup, o que funcionou e o que ainda precisa melhorar.
 
@@ -19,7 +19,7 @@ Este artigo não é somente sobre o **PiNAS**, mas sim sobre toda a evolução d
 
 Para quem acompanha meu projeto, talvez se lembre que meus Raspberry Pi são alimentados via **PoE (Power over Ethernet)**. Para isso, cada placa possui um **HAT** com dissipadores passivos e um mini cooler.
 
-![](/assets/img/109/rpi-homelab-02.jpg){: "width=60%" }
+![](/assets/img/110/rpi-homelab-02.jpg){: "width=60%" }
 
 No entanto, o primeiro problema surgiu aí: com o tempo, esses mini fans começaram a fazer barulho excessivo. Como são muito pequenos, não têm manutenção adequada — uma simples limpeza não resolveu. 
 
@@ -31,7 +31,7 @@ Por isso, deixei o cluster desligado por um bom tempo, só ligando em caso de ne
 
 A solução que encontrei foi radical: removi os fans. O silêncio foi imediato — uma maravilha! Mas aí veio o outro problema: temperatura. A combinação placa + HAT PoE sem ventilação virou praticamente uma churrasqueira. Lembrou os antigos AMD Duron "du quente"...
 
-![](/assets/img/109/rpi-homelab-03.png){: "width=60%" }
+![](/assets/img/110/rpi-homelab-03.png){: "width=60%" }
 
 ## **Novo Rack e reestruturação física**
 
@@ -66,7 +66,7 @@ Outro desafio no meu home lab sempre foi a questão da alimentação elétrica. 
 
 **A solução: Carregador Rocoren GaN 200W com 6 portas**
 
-![](/assets/img/109/rpi-homelab-04.png){: "width=60%" }
+![](/assets/img/110/rpi-homelab-04.png){: "width=60%" }
 
 **Especificações principais:**
 
@@ -85,11 +85,11 @@ Outro desafio no meu home lab sempre foi a questão da alimentação elétrica. 
 - Pi 3: C3 (45W)
 - Painel e letreiro de LED: A1 e A2
 
-![](/assets/img/109/rpi-homelab-05.png){: "width=60%" }
+![](/assets/img/110/rpi-homelab-05.png){: "width=60%" }
 
 Para minha surpresa, tudo funcionou perfeitamente, especialmente o HAT SATA, que eu achava que daria problema. Usei um cabo USB-C PD de 12V para o conector DC exigido. A organização dos cabos ficou impecável — talvez a parte mais satisfatória de toda a reestruturação!
 
-![](/assets/img/109/rpi-homelab-06.png){: "width=60%" }
+![](/assets/img/110/rpi-homelab-06.png){: "width=60%" }
 
 ## **Construção do PiNAS com OpenMediaVault**
 
@@ -102,17 +102,17 @@ Com a parte energética resolvida, avancei para a montagem do PiNAS.
 - HDs SSDs
 - Pequeno rack reaproveitado do cluster antigo
 
-![](/assets/img/109/rpi-homelab-07.png){: "width=60%" }
+![](/assets/img/110/rpi-homelab-07.png){: "width=60%" }
 
 O HAT da RADXA vem com tudo necessário para instalação. Apenas adicionei um rack personalizado para combinar com o restante do cluster.
 
-![](/assets/img/109/rpi-homelab-08.png){: "width=60%" }
+![](/assets/img/110/rpi-homelab-08.png){: "width=60%" }
 
 **Instalação do OpenMediaVault (OMV)**
 
 Depois da montagem física, instalei o OpenMediaVault, formatei os discos e configurei o RAID. Não entrarei em detalhes técnicos aqui, pois o foco do post é a jornada de construção, mas se quiserem, posso escrever outro artigo só sobre isso.
 
-![](/assets/img/109/rpi-homelab-09.png){: "width=60%" }
+![](/assets/img/110/rpi-homelab-09.png){: "width=60%" }
 
 Recomendo muito o vídeo do Caio Delgado, que tem praticamente o mesmo setup que o meu e fez um guia completo em vídeo/artigo.
 

@@ -27,19 +27,19 @@ Esse benefício é chamado de **ESL (English as a Second Language)** e está dis
 
 2. Vá até o menu esquerdo e clique em **Exam Registration** e em seguida **Exam accommodations**.
 
-![](/assets/img/110/aws-time-01.png){: "width=60%" }
+![](/assets/img/111/aws-time-01.png){: "width=60%" }
 
 3. Na página **Exam accommodations**, clique em Request Exam Accommodations (Solicitar Acomodações para o Exame).
 
-![](/assets/img/110/aws-time-02.png){: "width=60%" }
+![](/assets/img/111/aws-time-02.png){: "width=60%" }
 
 4. Escolha a opção **ESL +30 minutes** (Inglês como Segunda Língua – mais 30 minutos) e clique em **Request Accommodation**.
 
-![](/assets/img/110/aws-time-03.png){: "width=60%" }
+![](/assets/img/111/aws-time-03.png){: "width=60%" }
 
 5. Após preencher e confirmar o pedido, aguarde a aprovação.
 
-![](/assets/img/110/aws-time-04.png){: "width=60%" }
+![](/assets/img/111/aws-time-04.png){: "width=60%" }
 
 Depois da aprovação, ao agendar sua próxima prova, o tempo adicional já aparecerá automaticamente.
 
