@@ -61,8 +61,8 @@ Se o CAF é o **mapa**, o **Well-Architected Framework (WAF)** é o **manual de 
 
 ![](/assets/img/109/caf03.svg){: "width=60%" }
 
-Documentação oficial: <a href="https://learn.microsoft.com/pt-br/azure/well-architected/" target="_blank">Estrutura de Well-Architected do Azure</a>
-Documentação oficial: <a href="https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/" target="_blank">Landing Zone</a>
+- Documentação oficial: <a href="https://learn.microsoft.com/pt-br/azure/well-architected/" target="_blank">Estrutura de Well-Architected do Azure</a>
+- Documentação oficial: <a href="https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/" target="_blank">Landing Zone</a>
 
 ## **Como usar o CAF na prática**
 
