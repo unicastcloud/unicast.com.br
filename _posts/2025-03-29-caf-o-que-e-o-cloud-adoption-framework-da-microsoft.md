@@ -59,7 +59,7 @@ Se o CAF é o **mapa**, o **Well-Architected Framework (WAF)** é o **manual de 
 - Otimização de custos
 - Excelência operacional
 
-![](/assets/img/109/caf03.png){: "width=60%" }
+![](/assets/img/109/caf03.svg){: "width=60%" }
 
 Documentação oficial: <a href="https://learn.microsoft.com/pt-br/azure/well-architected/" target="_blank">Estrutura de Well-Architected do Azure</a>
 Documentação oficial: <a href="https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/" target="_blank">Landing Zone</a>
