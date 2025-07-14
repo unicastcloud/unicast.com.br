@@ -96,18 +96,6 @@ Nos próximos artigos, vamos explorar os demais pilares do CAF — começando pe
 
 Se curtiu esse conteúdo, compartilha com a galera da cloud e comenta aí o que achou!
 
-Forte Abraço!
-
-
-
-
-
-
-
-
-
-
-
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para compartilhá-los conosco na seção de comentários abaixo!
 
 Forte Abraço!
