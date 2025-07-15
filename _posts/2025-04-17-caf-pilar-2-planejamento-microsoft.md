@@ -10,7 +10,8 @@ tags: [azure, microsoft, caf, waf, landingzone]
 Fala galera! Seis tão baum?
 
 No artigo anterior falamos sobre o **Pilar Estratégia** do CAF — onde definimos as motivações e objetivos da jornada para a nuvem. Se você ainda não conferiu, dá uma olhadinha aqui:  
-👉 [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft/)
+
+[CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft/)
 
 Agora vamos para o **Pilar 2 - Planejamento**, onde a estratégia começa a tomar forma e se transforma num plano de ação estruturado, com times, responsabilidades e governança.
 

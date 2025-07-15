@@ -11,7 +11,8 @@ Fala galera! Seis tão baum?
 
 Depois de falarmos sobre os pilares de **Estratégia** e **Planejamento**, chegou a hora de botar a mão na massa e preparar o terreno para a adoção de nuvem com o Azure. Seja bem-vindo ao **Pilar 3 - Pronto (Ready)**!
 
-👉 Se você ainda não leu os artigos anteriores, dá uma passada por lá:
+Se você ainda não leu os artigos anteriores, dá uma passada por lá:
+
 - [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft/)
 - [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft/)
 
