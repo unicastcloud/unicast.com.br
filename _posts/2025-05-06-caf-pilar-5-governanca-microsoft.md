@@ -13,7 +13,8 @@ Chegamos ao **Pilar 5 - Governança** da nossa série sobre o Cloud Adoption Fra
 
 Agora é hora de **estabelecer os limites, controles e políticas** que vão garantir que tudo isso funcione com segurança, conformidade e eficiência.
 
-👉 Série completa até aqui:
+Série completa até aqui:
+
 - [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft)
 - [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft)
 - [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft)
