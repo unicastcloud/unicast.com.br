@@ -7,7 +7,7 @@ categories: [Cloud, Azure]
 tags: [azure, microsoft, waf, wellarchitected, arquitetura]
 ---
 
-FFala galera! Seis tão baum?
+Fala galera! Seis tão baum?
 
 Depois da nossa série completa sobre o **Cloud Adoption Framework (CAF)**, chegou a hora de falar sobre outro pilar fundamental da arquitetura em nuvem: o **Well-Architected Framework (WAF)** da Microsoft.
 
