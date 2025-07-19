@@ -27,7 +27,7 @@ Fiz a prova na sexta-feira, **18/07**, e uma das estratégias que mais me ajudou
 
 Com os **30 minutos adicionais** (já escrevi sobre como solicitar no blog, pra quem faz exame em outro idioma).
 
-- Link do artigo sobre tempo extra: [https://unicast.com.br/posts/tempo-extra-para-provas-de-certificacao-aws-copy](https://unicast.com.br/posts/tempo-extra-para-provas-de-certificacao-aws-copy){:target="_blank"}
+- Link do artigo sobre tempo extra: [https://unicast.com.br/posts/tempo-extra-para-provas-de-certificacao-aws-copy](https://unicast.com.br/posts/tempo-extra-para-provas-de-certificacao-aws){:target="_blank"}
 
 ## **Os temas cobrados no exame são:**
 
