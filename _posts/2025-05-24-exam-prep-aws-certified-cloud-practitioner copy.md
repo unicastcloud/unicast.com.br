@@ -27,6 +27,8 @@ Essa foi minha segunda vez fazendo o exame. Lá atrás, quando comecei na área 
 
 Então, eu não estava começando do zero. Já tinha conhecimento prévio da prova e da nuvem como um todo, o que me permitiu dedicar apenas uma semana de estudos e ainda assim me sair bem. Se você está iniciando agora na área, recomendo um tempo maior de preparação, mas não se preocupe: essa certificação é fundamental, ou seja, uma excelente porta de entrada.
 
+![](/assets/img/112/practitioner01.png){: "width=60%" }
+
 ## **Os temas cobrados no exame são:**
 
 O conteúdo da prova é dividido em quatro domínios principais:
