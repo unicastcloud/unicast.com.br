@@ -13,8 +13,6 @@ Dando continuidade à jornada de certificações em nuvem, venho compartilhar ma
 
 ![](/assets/img/113/saa03-01.png){: "width=60%" }
 
-## **TL;DR**
-
 Confesso que fui pego de surpresa pela aprovação! 😅  
 
 Essa prova estava marcada há algum tempo, e eu já tinha reagendado duas vezes — o limite permitido pela PearsonVUE. Não estava 100% preparado como gosto de estar, mas como não dava mais pra adiar, tive que encarar e colocar o conhecimento à prova.
