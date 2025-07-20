@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WAF: Pilar 3 - Otimização de Custos"
+title: "WAF: Pilar 3 - Otimização de Custos (Microsoft)"
 author: asilva
 date: 2025-07-12 09:00:00 -0500
 categories: [Cloud, Azure]
