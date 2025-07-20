@@ -27,7 +27,7 @@ Ele é baseado em **5 pilares fundamentais** que representam os principais atrib
 | **Excelência operacional**   | Automatizar, monitorar e manter operações eficientes  |
 | **Eficiência de desempenho** | Escalar e responder a demandas com agilidade          |
 
-- Documentação oficial: [Well-Architected Framework - Microsoft Learn](https://learn.microsoft.com/pt-br/azure/well-architected/)
+- Documentação oficial: [Well-Architected Framework - Microsoft Learn](https://learn.microsoft.com/pt-br/azure/well-architected/){:target="_blank"}
 
 ## **WAF como ferramenta de conversa com o cliente**
 
@@ -42,7 +42,7 @@ Ao responder essas perguntas, o cliente te ajuda a:
 - Priorizar ações com base em impacto técnico e de negócio
 - Gerar recomendações personalizadas com links e materiais oficiais
 
-Ferramenta oficial: [Azure Well-Architected Review Assessment](https://learn.microsoft.com/en-us/assessments/azure-architecture-review/)
+Ferramenta oficial: [Azure Well-Architected Review Assessment](https://learn.microsoft.com/en-us/assessments/azure-architecture-review/){:target="_blank"}
 
 > Se você tem dificuldade em **extrair informações da infraestrutura do cliente**, o WAF já entrega esse roteiro pronto — você só precisa guiar a conversa e documentar as respostas.
 

@@ -15,17 +15,17 @@ O **Pilar 6 - Segurança** do Cloud Adoption Framework (CAF) é onde você prote
 
 Série completa até aqui:
 
-- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft)
-- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft)
-- [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft)
-- [CAF: Pilar 4 - Adoção](https://unicast.com.br/posts/caf-pilar-4-adocao-microsoft)
-- [CAF: Pilar 5 - Governança](https://unicast.com.br/posts/caf-pilar-5-governanca-microsoft)
+- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft){:target="_blank"}
+- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft){:target="_blank"}
+- [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft){:target="_blank"}
+- [CAF: Pilar 4 - Adoção](https://unicast.com.br/posts/caf-pilar-4-adocao-microsoft){:target="_blank"}
+- [CAF: Pilar 5 - Governança](https://unicast.com.br/posts/caf-pilar-5-governanca-microsoft){:target="_blank"}
 - 
 ## **Pilar Segurança: protegendo sua jornada na nuvem**
 
 A segurança no Azure deve ser **proativa, contínua e integrada**. O CAF recomenda que você adote os princípios de **Confiança Zero (Zero Trust)**, onde nada é confiável por padrão — tudo precisa ser verificado, monitorado e protegido.
 
-- Documentação oficial: [CAF - Segurança](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/secure/overview)
+- Documentação oficial: [CAF - Segurança](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/secure/overview){:target="_blank"}
 
 ## **Etapas práticas para aplicar Segurança no Azure**
 
@@ -38,7 +38,7 @@ Princípios básicos:
 - Segmentação de rede e proteção de dados
 - Monitoramento contínuo e resposta a incidentes
 
-- Ferramenta útil: [Microsoft Zero Trust Adoption Framework](https://learn.microsoft.com/pt-br/security/zero-trust/)
+- Ferramenta útil: [Microsoft Zero Trust Adoption Framework](https://learn.microsoft.com/pt-br/security/zero-trust/){:target="_blank"}
 
 ### 2. **Proteja identidade e acesso**
 
@@ -49,7 +49,7 @@ Use os serviços do Microsoft Entra ID para:
 - Gestão de identidades privilegiadas (PIM)
 - Revisões periódicas de acesso
 
-- Ferramenta útil: [Microsoft Entra ID](https://learn.microsoft.com/pt-br/entra/)
+- Ferramenta útil: [Microsoft Entra ID](https://learn.microsoft.com/pt-br/entra/){:target="_blank"}
 
 ### 3. **Implemente segurança de rede**
 
@@ -57,7 +57,7 @@ Use os serviços do Microsoft Entra ID para:
 - Configure DNS privado e segmentação de subnets
 - Proteja pontos de entrada com Azure Front Door e Application Gateway
 
-- Ferramenta útil: [Design de segurança de rede no Azure](https://learn.microsoft.com/pt-br/azure/architecture/guide/security/security-start-here)
+- Ferramenta útil: [Design de segurança de rede no Azure](https://learn.microsoft.com/pt-br/azure/architecture/guide/security/security-start-here){:target="_blank"}
 
 ### 4. **Proteja dados e segredos**
 
@@ -65,7 +65,7 @@ Use os serviços do Microsoft Entra ID para:
 - Habilite criptografia em repouso e em trânsito
 - Aplique políticas de proteção de dados com Azure Information Protection
 
-- Ferramenta útil: [Azure Key Vault](https://learn.microsoft.com/pt-br/azure/key-vault/general/overview)
+- Ferramenta útil: [Azure Key Vault](https://learn.microsoft.com/pt-br/azure/key-vault/general/overview){:target="_blank"}
 
 ### 5. **Monitore e responda a ameaças**
 
@@ -73,7 +73,7 @@ Use os serviços do Microsoft Entra ID para:
 - Use Microsoft Sentinel para SIEM/SOAR
 - Configure alertas com Azure Monitor e Log Analytics
 
-- Ferramenta útil: [Microsoft Defender for Cloud](https://learn.microsoft.com/pt-br/azure/defender-for-cloud/)
+- Ferramenta útil: [Microsoft Defender for Cloud](https://learn.microsoft.com/pt-br/azure/defender-for-cloud/){:target="_blank"}
 
 ## **Exemplo prático: Segurança que evita prejuízo**
 

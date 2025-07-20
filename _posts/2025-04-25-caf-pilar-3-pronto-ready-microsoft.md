@@ -13,8 +13,8 @@ Depois de falarmos sobre os pilares de **Estratégia** e **Planejamento**, chego
 
 Se você ainda não leu os artigos anteriores, dá uma passada por lá:
 
-- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft/)
-- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft/)
+- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft/){:target="_blank"}
+- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft/){:target="_blank"}
 
 ## **Pilar Pronto (Ready): preparando a fundação da nuvem**
 
@@ -22,7 +22,7 @@ O Pilar **Pronto** — ou **Ready** no original — tem como objetivo principal 
 
 Aqui é onde você estrutura os ambientes, define padrões técnicos, cria práticas de segurança e governança e se prepara para começar a migrar ou construir workloads.
 
-- Documentação oficial: [CAF - Ready](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/)
+- Documentação oficial: [CAF - Ready](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/){:target="_blank"}
 
 ## **Etapas práticas para aplicar o Pilar Ready**
 
@@ -35,7 +35,7 @@ Monte uma estrutura mínima com:
 - Política de tags obrigatórias
 - Naming conventions para recursos
 
-Ferramenta útil: [CAF Ready Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/checklist/)
+Ferramenta útil: [CAF Ready Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/checklist/){:target="_blank"}
 
 ### 2. **Implemente uma Landing Zone**
 
@@ -45,7 +45,7 @@ A **Landing Zone** é um ambiente preparado com padrões de governança, seguran
 - Usar os Azure Verified Modules recomendados pela Microsoft
 - Aproveitar arquiteturas como Enterprise-Scale ou Start Small, Expand
 
-- [Design de Landing Zones](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/design-areas/)
+- [Design de Landing Zones](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/design-areas/){:target="_blank"}
 
 ### 3. **Configure práticas de segurança e identidade**
 
@@ -56,7 +56,7 @@ Aqui você já pode aplicar:
 - Azure AD para autenticação e autorização
 - Defender for Cloud para visibilidade de riscos
 
-- [Microsoft Defender for Cloud - Overview](https://learn.microsoft.com/en-us/azure/defender-for-cloud/)
+- [Microsoft Defender for Cloud - Overview](https://learn.microsoft.com/en-us/azure/defender-for-cloud/){:target="_blank"}
 
 ### 4. **Planeje conectividade e rede**
 
@@ -64,7 +64,7 @@ Aqui você já pode aplicar:
 - Configure DNS privado e regras de firewall
 - Avalie uso de Azure Firewall, Bastion, NSG e Private Link
 
-- Ferramenta útil: [CAF Network Topology Guide](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/network-topologies/)
+- Ferramenta útil: [CAF Network Topology Guide](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/network-topologies/){:target="_blank"}
 
 ## **Exemplo prático: Fundação robusta evita retrabalho**
 

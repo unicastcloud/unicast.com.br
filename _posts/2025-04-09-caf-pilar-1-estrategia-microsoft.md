@@ -26,7 +26,7 @@ O pilar de **Estratégia** do CAF ajuda você a:
 - Criar uma **justificativa comercial sólida**
 - Escolher o **primeiro projeto** com base em valor e aprendizado
 
-Fonte oficial: [CAF - Estratégia](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/strategy/)
+Fonte oficial: [CAF - Estratégia](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/strategy/){:target="_blank"}
 
 ## **Etapas práticas para aplicar o Pilar Estratégia**
 
@@ -40,7 +40,7 @@ As motivações podem ser técnicas, financeiras ou estratégicas. Exemplos:
 | **Eficiência operacional** | Redução de custos, simplificação de infraestrutura, automação                         |
 | **Inovação**               | Lançamento de novos produtos, expansão geográfica, melhoria da experiência do cliente |
 
-- [Cloud Adoption Strategy Evaluator](https://learn.microsoft.com/en-us/assessments/cloud-adoption-strategy-evaluator/)
+- [Cloud Adoption Strategy Evaluator](https://learn.microsoft.com/en-us/assessments/cloud-adoption-strategy-evaluator/){:target="_blank"}
 
 ### **2. Defina os resultados de negócio**
 
@@ -52,7 +52,7 @@ Documente os **benefícios esperados** com a adoção da nuvem:
 - Melhoria na experiência do cliente
 - Atendimento a requisitos de segurança e conformidade (LGPD, ISO etc.)
 
-- [Business Outcomes Template](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/)
+- [Business Outcomes Template](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/){:target="_blank"}
 
 ### **3. Crie uma justificativa comercial**
 
@@ -63,7 +63,7 @@ Construa um caso de negócio com base em:
 - Redução de riscos e continuidade operacional
 - Custo evitado (ex: renovação de datacenter físico)
 
-- Ferramenta útil: [Calculadora de TCO do Azure](https://azure.microsoft.com/pt-br/pricing/tco/calculator/)
+- Ferramenta útil: [Calculadora de TCO do Azure](https://azure.microsoft.com/pt-br/pricing/tco/calculator/){:target="_blank"}
 
 ### **4. Escolha o primeiro projeto**
 

@@ -21,19 +21,19 @@ Cada pilar representa uma etapa estratégica para garantir que sua organização
 
 ## **Os 7 Pilares do CAF**
 
-| Pilar                 | Objetivo                                                     | Link para o artigo                                                                               |
-|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| 🧠 **Estratégia**     | Entender motivações e definir objetivos de negócio           | [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft)       |
-| 🗺️ **Planejamento**   | Estruturar equipes, roadmap e lacunas de conhecimento        | [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft)   |
-| 🚧 **Pronto (Ready)** | Criar fundação técnica com governança e segurança            | [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft) |
-| 🚀 **Adoção**         | Migrar ou construir workloads cloud-native com foco em valor | [CAF: Pilar 4 - Adoção](https://unicast.com.br/posts/caf-pilar-4-adocao-microsoft)               |
-| 🔐 **Governança**     | Controlar, auditar e aplicar políticas na nuvem              | [CAF: Pilar 5 - Governança](https://unicast.com.br/posts/caf-pilar-5-governanca-microsoft)       |
-| 🔒 **Segurança**      | Proteger identidade, rede, dados e aplicações                | [CAF: Pilar 6 - Segurança](https://unicast.com.br/posts/caf-pilar-6-seguranca-microsoft)         |
-| 📊 **Gerenciamento**  | Operar, monitorar e sustentar o ambiente com confiabilidade  | [CAF: Pilar 7 - Gerenciamento](https://unicast.com.br/posts/caf-pilar-7-gerenciamento-microsoft) |
+| Pilar                 | Objetivo                                                     | Link para o artigo                                                                                                 |
+|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| 🧠 **Estratégia**     | Entender motivações e definir objetivos de negócio           | [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft){:target="_blank"}       |
+| 🗺️ **Planejamento**   | Estruturar equipes, roadmap e lacunas de conhecimento        | [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft){:target="_blank"}   |
+| 🚧 **Pronto (Ready)** | Criar fundação técnica com governança e segurança            | [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft){:target="_blank"} |
+| 🚀 **Adoção**         | Migrar ou construir workloads cloud-native com foco em valor | [CAF: Pilar 4 - Adoção](https://unicast.com.br/posts/caf-pilar-4-adocao-microsoft){:target="_blank"}               |
+| 🔐 **Governança**     | Controlar, auditar e aplicar políticas na nuvem              | [CAF: Pilar 5 - Governança](https://unicast.com.br/posts/caf-pilar-5-governanca-microsoft){:target="_blank"}       |
+| 🔒 **Segurança**      | Proteger identidade, rede, dados e aplicações                | [CAF: Pilar 6 - Segurança](https://unicast.com.br/posts/caf-pilar-6-seguranca-microsoft){:target="_blank"}         |
+| 📊 **Gerenciamento**  | Operar, monitorar e sustentar o ambiente com confiabilidade  | [CAF: Pilar 7 - Gerenciamento](https://unicast.com.br/posts/caf-pilar-7-gerenciamento-microsoft){:target="_blank"} |
 
 ## **Como aplicar o CAF no dia a dia?**
 
-- Use os recursos oficiais da Microsoft: [Cloud Adoption Framework - Microsoft Learn](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/)
+- Use os recursos oficiais da Microsoft: [Cloud Adoption Framework - Microsoft Learn](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/){:target="_blank"}
 - Combine com outras práticas como Well-Architected Framework e Landing Zones
 - Implemente com IaC (Terraform ou Bicep) e GitOps
 - Mantenha uma postura de melhoria contínua — revisite seus pilares regularmente

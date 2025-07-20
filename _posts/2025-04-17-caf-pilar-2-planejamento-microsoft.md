@@ -11,7 +11,7 @@ Fala galera! Seis tão baum?
 
 No artigo anterior falamos sobre o **Pilar Estratégia** do CAF — onde definimos as motivações e objetivos da jornada para a nuvem. Se você ainda não conferiu, dá uma olhadinha aqui:  
 
-[CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft/)
+[CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft/){:target="_blank"}
 
 Agora vamos para o **Pilar 2 - Planejamento**, onde a estratégia começa a tomar forma e se transforma num plano de ação estruturado, com times, responsabilidades e governança.
 
@@ -21,7 +21,7 @@ O Pilar **Planejamento** do Cloud Adoption Framework ajuda a sua organização a
 
 Esse momento é essencial para alinhar expectativas, identificar lacunas de conhecimento e garantir que todos estejam **na mesma página** antes de começar a colocar a mão na massa.
 
-- Fonte oficial: [CAF - Planejamento](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/plan/)
+- Fonte oficial: [CAF - Planejamento](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/plan/){:target="_blank"}
 
 ## **Etapas práticas para aplicar o Pilar Planejamento**
 
@@ -37,7 +37,7 @@ Mapeie os principais papéis envolvidos no projeto:
 | **Equipes de produto/aplicação**      | Migrar e evoluir workloads                           |
 | **Suporte & Operações**               | Sustentar ambiente pós-migração                      |
 
-- Recurso útil: [Cloud Operating Model](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/plan/cloud-operating-model/)
+- Recurso útil: [Cloud Operating Model](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/plan/cloud-operating-model/){:target="_blank"}
 
 ### 2. **Identifique lacunas de conhecimento**
 
@@ -47,7 +47,7 @@ Use uma avaliação de prontidão técnica e organizacional. Exemplos de pergunt
 - Existe equipe de segurança familiarizada com Azure Policy ou Defender?
 - Há ferramentas de automação e IaC em uso (ex: Terraform, Bicep)?
 
-- Ferramenta útil: [Cloud Skills Readiness Plan](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/skills-readiness-plan/)
+- Ferramenta útil: [Cloud Skills Readiness Plan](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/skills-readiness-plan/){:target="_blank"}
 
 ### 3. **Crie um plano de adoção inicial**
 
@@ -58,7 +58,7 @@ Organize os primeiros passos:
 - Planeje migração ou construção cloud-native
 - Inclua indicadores de sucesso (KPI)
 
-- [Migration Readiness Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/migration-considerations/)
+- [Migration Readiness Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/migration-considerations/){:target="_blank"}
 
 ### 4. **Estabeleça práticas de governança**
 
@@ -69,7 +69,7 @@ Antes de migrar qualquer recurso, alinhe:
 - Estrutura de grupos de gerenciamento e subscription
 - Tags obrigatórias e controle de custos
 
-- Ferramenta útil: [CAF Governance Benchmark](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/governance-benchmark/)
+- Ferramenta útil: [CAF Governance Benchmark](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/governance-benchmark/){:target="_blank"}
 
 ## **Exemplo prático: Planejamento que evita dores de cabeça**
 

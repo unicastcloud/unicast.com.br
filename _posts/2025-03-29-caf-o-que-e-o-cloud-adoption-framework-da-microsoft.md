@@ -82,9 +82,9 @@ Se o CAF é o **mapa**, o **Well-Architected Framework (WAF)** é o **manual de 
 
 Você pode aplicar o CAF de forma incremental, começando por:
 
-- **Avaliar sua estratégia atual** com o [Cloud Adoption Strategy Evaluator](https://learn.microsoft.com/en-us/assessments/cloud-adoption-strategy-evaluator/)
-- **Criar uma Landing Zone** com os [Azure Verified Modules](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-landing-zone/)
-- **Realizar revisões de arquitetura** com o [Well-Architected Review Tool](https://learn.microsoft.com/en-us/assessments/azure-well-architected-review/)
+- **Avaliar sua estratégia atual** com o [Cloud Adoption Strategy Evaluator](https://learn.microsoft.com/en-us/assessments/cloud-adoption-strategy-evaluator/){:target="_blank"}
+- **Criar uma Landing Zone** com os [Azure Verified Modules](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-landing-zone/){:target="_blank"}
+- **Realizar revisões de arquitetura** com o [Well-Architected Review Tool](https://learn.microsoft.com/en-us/assessments/azure-well-architected-review/){:target="_blank"}
 
 Essas ferramentas ajudam a transformar boas intenções em **ações concretas**, com base em experiências reais de clientes e parceiros da Microsoft.
 

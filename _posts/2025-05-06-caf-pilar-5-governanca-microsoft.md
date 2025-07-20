@@ -15,16 +15,16 @@ Agora é hora de **estabelecer os limites, controles e políticas** que vão gar
 
 Série completa até aqui:
 
-- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft)
-- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft)
-- [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft)
-- [CAF: Pilar 4 - Adoção](https://unicast.com.br/posts/caf-pilar-4-adocao-microsoft)
+- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft){:target="_blank"}
+- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft){:target="_blank"}
+- [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft){:target="_blank"}
+- [CAF: Pilar 4 - Adoção](https://unicast.com.br/posts/caf-pilar-4-adocao-microsoft){:target="_blank"}
 
 ## **Pilar Governança: criando guardrails para a nuvem**
 
 O Pilar **Governança** do CAF define como sua organização **controla, monitora e audita** o uso da nuvem. Ele estabelece os chamados **guardrails** — políticas, procedimentos e ferramentas que regulam o comportamento dos recursos e usuários no Azure.
 
-- Documentação oficial: [CAF - Governança](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/govern/)
+- Documentação oficial: [CAF - Governança](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/govern/){:target="_blank"}
 
 ## **Etapas práticas para aplicar Governança no Azure**
 
@@ -38,7 +38,7 @@ Monte um time responsável por:
 - Monitorar conformidade
 - Reportar riscos e desvios
 
-- Ferramenta útil: [Cloud Governance RACI Matrix](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/cloud-governance-raci-matrix/)
+- Ferramenta útil: [Cloud Governance RACI Matrix](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/cloud-governance-raci-matrix/){:target="_blank"}
 
 ### 2. **Avalie riscos de nuvem**
 
@@ -52,7 +52,7 @@ Identifique riscos específicos da sua organização:
 | **Custos**                   | Recursos ociosos, falta de tags                        |
 | **Dados e IA**               | Uso indevido de dados sensíveis, modelos não auditados |
 
-- Ferramenta útil: [Cloud Risk Assessment Guide](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/cloud-risk-assessment/)
+- Ferramenta útil: [Cloud Risk Assessment Guide](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/cloud-risk-assessment/){:target="_blank"}
 
 ### 3. **Documente políticas de governança**
 
@@ -62,7 +62,7 @@ Crie documentos que definem:
 - Quais recursos devem seguir padrões específicos
 - Quais tags, nomes e estruturas são obrigatórios
 
-- Ferramenta útil: [Azure Policy](https://learn.microsoft.com/pt-br/azure/governance/policy/overview)
+- Ferramenta útil: [Azure Policy](https://learn.microsoft.com/pt-br/azure/governance/policy/overview){:target="_blank"}
 
 ### 4. **Aplique políticas com ferramentas do Azure**
 
@@ -72,7 +72,7 @@ Use automação para garantir conformidade:
 - **Azure Blueprints**: implanta ambientes com políticas e RBAC
 - **Resource Graph**: monitora recursos em larga escala
 
-- Ferramenta útil: [Azure Governance Tools](https://azure.microsoft.com/pt-br/solutions/governance/)
+- Ferramenta útil: [Azure Governance Tools](https://azure.microsoft.com/pt-br/solutions/governance/){:target="_blank"}
 
 ### 5. **Monitore e audite continuamente**
 
@@ -82,7 +82,7 @@ Configure alertas e relatórios:
 - Alertas de não conformidade
 - Auditorias periódicas com trilhas de auditoria
 
-- Ferramenta útil: [Governance Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/cloud-governance-checklist/)
+- Ferramenta útil: [Governance Checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/cloud-governance-checklist/){:target="_blank"}
 
 ## **Exemplo prático: Governança que evita caos**
 

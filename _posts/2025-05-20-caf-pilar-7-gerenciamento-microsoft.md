@@ -14,12 +14,12 @@ Chegamos ao último capítulo da nossa série sobre o **Cloud Adoption Framework
 O **Pilar 7 - Gerenciamento** é onde você estrutura as operações, monitora o ambiente e garante que sua nuvem continue entregando valor com confiabilidade e eficiência.
 
 👉 Série completa até aqui:
-- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft)
-- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft)
-- [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft)
-- [CAF: Pilar 4 - Adoção](https://unicast.com.br/posts/caf-pilar-4-adocao-microsoft)
-- [CAF: Pilar 5 - Governança](https://unicast.com.br/posts/caf-pilar-5-governanca-microsoft)
-- [CAF: Pilar 6 - Segurança](https://unicast.com.br/posts/caf-pilar-6-seguranca-microsoft)
+- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft){:target="_blank"}
+- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft){:target="_blank"}
+- [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft){:target="_blank"}
+- [CAF: Pilar 4 - Adoção](https://unicast.com.br/posts/caf-pilar-4-adocao-microsoft){:target="_blank"}
+- [CAF: Pilar 5 - Governança](https://unicast.com.br/posts/caf-pilar-5-governanca-microsoft){:target="_blank"}
+- [CAF: Pilar 6 - Segurança](https://unicast.com.br/posts/caf-pilar-6-seguranca-microsoft){:target="_blank"}
 
 ## **Pilar Gerenciamento: sustentando operações confiáveis**
 
@@ -32,7 +32,7 @@ O Pilar **Gerenciamento** do CAF ajuda sua organização a manter o ambiente de 
 | **Monitor (Monitorar)**      | Acompanhar integridade, desempenho e alertas                  |
 | **Protect (Proteger)**       | Garantir confiabilidade, continuidade e resposta a incidentes |
 
-- Documentação oficial: [CAF - Gerenciamento](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/manage/)
+- Documentação oficial: [CAF - Gerenciamento](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/manage/){:target="_blank"}
 
 ## **Etapas práticas para aplicar Gerenciamento no Azure**
 
@@ -42,7 +42,7 @@ O Pilar **Gerenciamento** do CAF ajuda sua organização a manter o ambiente de 
 - Documente processos e fluxos de trabalho
 - Crie planos de resposta a incidentes e continuidade
 
-- Ferramenta útil: [Cloud Operating Model](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/plan/cloud-operating-model/)
+- Ferramenta útil: [Cloud Operating Model](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/plan/cloud-operating-model/){:target="_blank"}
 
 ### 2. **Administre recursos e mudanças**
 
@@ -50,7 +50,7 @@ O Pilar **Gerenciamento** do CAF ajuda sua organização a manter o ambiente de 
 - Controle custos com Azure Cost Management
 - Acompanhe conformidade com Azure Policy e Blueprints
 
-- [Ferramentas de administração no Azure](https://azure.microsoft.com/pt-br/solutions/governance/)
+- [Ferramentas de administração no Azure](https://azure.microsoft.com/pt-br/solutions/governance/){:target="_blank"}
 
 ### 3. **Monitore continuamente**
 
@@ -58,7 +58,7 @@ O Pilar **Gerenciamento** do CAF ajuda sua organização a manter o ambiente de 
 - Configure alertas com Action Groups
 - Visualize dados com Workbooks e Dashboards
 
-- Ferramenta útil: [Azure Monitor Overview](https://learn.microsoft.com/pt-br/azure/azure-monitor/overview)
+- Ferramenta útil: [Azure Monitor Overview](https://learn.microsoft.com/pt-br/azure/azure-monitor/overview){:target="_blank"}
 
 ### 4. **Proteja operações e confiabilidade**
 
@@ -66,7 +66,7 @@ O Pilar **Gerenciamento** do CAF ajuda sua organização a manter o ambiente de 
 - Use Defender for Cloud para detectar ameaças
 - Planeje continuidade com zonas de disponibilidade e replicação
 
-- [Ferramentas de proteção no Azure](https://learn.microsoft.com/pt-br/azure/defender-for-cloud/)
+- [Ferramentas de proteção no Azure](https://learn.microsoft.com/pt-br/azure/defender-for-cloud/){:target="_blank"}
 
 ## **Exemplo prático: Gerenciamento que garante tranquilidade**
 

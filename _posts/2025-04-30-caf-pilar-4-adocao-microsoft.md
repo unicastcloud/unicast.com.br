@@ -14,15 +14,15 @@ Vamos falar do **Pilar 4 - Adoção**, que é onde a mágica realmente começa a
 
 Série completa até aqui:
 
-- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft)
-- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft)
-- [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft)
+- [CAF: Pilar 1 - Estratégia](https://unicast.com.br/posts/caf-pilar-1-estrategia-microsoft){:target="_blank"}
+- [CAF: Pilar 2 - Planejamento](https://unicast.com.br/posts/caf-pilar-2-planejamento-microsoft){:target="_blank"}
+- [CAF: Pilar 3 - Pronto (Ready)](https://unicast.com.br/posts/caf-pilar-3-pronto-ready-microsoft){:target="_blank"}
 
 ## **Pilar Adoção: entregando valor na nuvem**
 
 O Pilar **Adoção** tem como foco principal colocar workloads em produção com segurança, eficiência e valor agregado. Aqui você escolhe entre **migrar** sistemas existentes ou **construir soluções cloud-native**.
 
-- Documentação oficial: [CAF - Adoção](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/adopt/)
+- Documentação oficial: [CAF - Adoção](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/adopt/){:target="_blank"}
 
 ## **Duas abordagens principais**
 
@@ -41,7 +41,7 @@ Quando sua aplicação já existe e você quer aproveitar a nuvem para moderniza
 
 > Quer entender melhor como escolher a melhor estratégia de migração? Recomendo esse artigo onde detalho os 5 R’s da nuvem — Rehost, Refactor, Rearchitect, Rebuild e Replace — e quando aplicar cada um:  <a href="https://unicast.com.br/posts/os-5-rs-para-migrar-seus-recursos-para-nuvem/" target="_blank">Os 5 R’S para migrar seus recursos para nuvem</a>
 
-- Ferramenta útil: [Azure Migration Guide](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/)
+- Ferramenta útil: [Azure Migration Guide](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/){:target="_blank"}
 
 ### 2. **Adoção por Inovação (Cloud-Native)**
 
@@ -63,7 +63,7 @@ Cada carga migrada ou construída deve ser acompanhada por indicadores como:
 - SLA e disponibilidade
 - Satisfação do cliente ou usuário interno
 
-- [Azure Monitor](https://learn.microsoft.com/pt-br/azure/azure-monitor/overview) + [Application Insights](https://learn.microsoft.com/pt-br/azure/azure-monitor/app/app-insights-overview) são ótimos para isso
+- [Azure Monitor](https://learn.microsoft.com/pt-br/azure/azure-monitor/overview) + [Application Insights](https://learn.microsoft.com/pt-br/azure/azure-monitor/app/app-insights-overview){:target="_blank"} são ótimos para isso
 
 ## **Exemplo prático: Adoção bem feita = valor entregue**
 

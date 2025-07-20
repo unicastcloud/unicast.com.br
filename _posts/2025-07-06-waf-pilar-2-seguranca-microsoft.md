@@ -13,8 +13,8 @@ Dando sequência à nossa série sobre o **Well-Architected Framework (WAF)** da
 
 Se você ainda não viu os artigos anteriores, recomendo começar por aqui:  
 
-- [WAF: O que é o Well-Architected Framework da Microsoft](https://unicast.com.br/posts/waf-o-que-e-o-well-architected-framework-da-microsoft/)  
-- [WAF: Pilar 1 - Confiabilidade](https://unicast.com.br/posts/waf-pilar-1-confiabilidade/)
+- [WAF: O que é o Well-Architected Framework da Microsoft](https://unicast.com.br/posts/waf-o-que-e-o-well-architected-framework-da-microsoft/){:target="_blank"} 
+- [WAF: Pilar 1 - Confiabilidade](https://unicast.com.br/posts/waf-pilar-1-confiabilidade/){:target="_blank"}
 
 ## **Pilar Segurança: protegendo dados, identidades e aplicações**
 
@@ -22,8 +22,8 @@ Segurança é sobre **confidencialidade, integridade e disponibilidade**. No Azu
 
 O WAF propõe uma abordagem baseada em **Zero Trust**, onde nada é confiável por padrão e tudo precisa ser verificado, monitorado e protegido.
 
-- Documentação oficial: [Security Pillar - Microsoft Learn](https://learn.microsoft.com/en-us/azure/well-architected/security/overview)  
-- Guia prático: [Cloud Security as a City Planner](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/cloud-security-as-a-city-planner-a-guide-to-azure-well-architected-framework%E2%80%99s-s/4382706)
+- Documentação oficial: [Security Pillar - Microsoft Learn](https://learn.microsoft.com/en-us/azure/well-architected/security/overview){:target="_blank"}  
+- Guia prático: [Cloud Security as a City Planner](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/cloud-security-as-a-city-planner-a-guide-to-azure-well-architected-framework%E2%80%99s-s/4382706){:target="_blank"}
 
 ## **Práticas recomendadas para segurança no Azure**
 
@@ -33,7 +33,7 @@ O WAF propõe uma abordagem baseada em **Zero Trust**, onde nada é confiável p
 - Aplique políticas com Azure Policy e Blueprints
 - Audite e revise periodicamente
 
-- [Governance Benchmark](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/governance-benchmark/)
+- [Governance Benchmark](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/governance-benchmark/){:target="_blank"}
 
 ### 2. **Implemente identidade como controle primário**
 
@@ -41,7 +41,7 @@ O WAF propõe uma abordagem baseada em **Zero Trust**, onde nada é confiável p
 - Ative MFA e acesso condicional
 - Implemente RBAC e PIM para controle de privilégios
 
-- Ferramenta útil: [Microsoft Entra ID](https://learn.microsoft.com/pt-br/entra/)
+- Ferramenta útil: [Microsoft Entra ID](https://learn.microsoft.com/pt-br/entra/){:target="_blank"}
 
 ### 3. **Proteja dados com classificação e criptografia**
 
@@ -49,7 +49,7 @@ O WAF propõe uma abordagem baseada em **Zero Trust**, onde nada é confiável p
 - Use Azure Key Vault para armazenar segredos e chaves
 - Criptografe dados em repouso e em trânsito
 
-- [Azure Key Vault](https://learn.microsoft.com/pt-br/azure/key-vault/general/overview)
+- [Azure Key Vault](https://learn.microsoft.com/pt-br/azure/key-vault/general/overview){:target="_blank"}
 
 ### 4. **Segmente redes e controle tráfego**
 
@@ -57,7 +57,7 @@ O WAF propõe uma abordagem baseada em **Zero Trust**, onde nada é confiável p
 - Implemente microsegmentação e Private Link
 - Ative proteção contra DDoS
 
-- Ferramenta útil: [Network Security Design](https://learn.microsoft.com/pt-br/azure/architecture/guide/security/security-start-here)
+- Ferramenta útil: [Network Security Design](https://learn.microsoft.com/pt-br/azure/architecture/guide/security/security-start-here){:target="_blank"}
 
 ### 5. **Monitore e responda a ameaças**
 
@@ -65,7 +65,7 @@ O WAF propõe uma abordagem baseada em **Zero Trust**, onde nada é confiável p
 - Implemente Microsoft Sentinel para SIEM/SOAR
 - Crie planos de resposta a incidentes e simule ataques
 
-- Ferramenta útil: [Microsoft Defender for Cloud](https://learn.microsoft.com/pt-br/azure/defender-for-cloud/)
+- Ferramenta útil: [Microsoft Defender for Cloud](https://learn.microsoft.com/pt-br/azure/defender-for-cloud/){:target="_blank"}
 
 ## **Exemplo prático: Segurança que evita prejuízo**
 

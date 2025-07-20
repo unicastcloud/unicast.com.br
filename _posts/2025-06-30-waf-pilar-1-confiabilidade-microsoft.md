@@ -13,7 +13,7 @@ Dando sequência à nossa nova série sobre o **Well-Architected Framework (WAF)
 
 Se você ainda não viu o artigo introdutório, recomendo começar por aqui:  
 
-- [WAF: O que é o Well-Architected Framework da Microsoft](https://unicast.com.br/posts/waf-o-que-e-o-well-architected-framework-da-microsoft/)
+- [WAF: O que é o Well-Architected Framework da Microsoft](https://unicast.com.br/posts/waf-o-que-e-o-well-architected-framework-da-microsoft/){:target="_blank"}
 
 ## **Pilar Confiabilidade: projetando para sobreviver a falhas**
 
@@ -21,8 +21,8 @@ Confiabilidade é a capacidade de um sistema de **recuperar-se de falhas e conti
 
 No mundo da nuvem, falhas são inevitáveis — seja por problemas de rede, bugs, limitações de serviço ou até erros humanos. O segredo está em **projetar com resiliência desde o início**.
 
-- Documentação oficial: [Reliability design principles - Microsoft Learn](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles)  
-- Avaliação oficial: [Well-Architected Reliability Assessment](https://github.com/Azure/Well-Architected-Reliability-Assessment)  
+- Documentação oficial: [Reliability design principles - Microsoft Learn](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles){:target="_blank"}  
+- Avaliação oficial: [Well-Architected Reliability Assessment](https://github.com/Azure/Well-Architected-Reliability-Assessment){:target="_blank"} 
 
 ## **Práticas recomendadas para confiabilidade no Azure**
 
@@ -51,8 +51,8 @@ No mundo da nuvem, falhas são inevitáveis — seja por problemas de rede, bugs
 - Faça testes regulares de recuperação
 - Mantenha backups imutáveis e consistentes
 
-- [Azure Backup](https://learn.microsoft.com/pt-br/azure/backup/backup-overview)  
-- [Azure Site Recovery](https://learn.microsoft.com/pt-br/azure/site-recovery/site-recovery-overview)
+- [Azure Backup](https://learn.microsoft.com/pt-br/azure/backup/backup-overview){:target="_blank"} 
+- [Azure Site Recovery](https://learn.microsoft.com/pt-br/azure/site-recovery/site-recovery-overview){:target="_blank"}
 
 ### 4. **Monitore e antecipe falhas**
 
@@ -60,7 +60,7 @@ No mundo da nuvem, falhas são inevitáveis — seja por problemas de rede, bugs
 - Configure alertas com Action Groups
 - Implemente auto-healing e automação de correção
 
-- Ferramenta útil: [Azure Monitor Overview](https://learn.microsoft.com/pt-br/azure/azure-monitor/overview)
+- Ferramenta útil: [Azure Monitor Overview](https://learn.microsoft.com/pt-br/azure/azure-monitor/overview){:target="_blank"}
 
 ## **Exemplo prático: Confiabilidade que salva o dia**
 
