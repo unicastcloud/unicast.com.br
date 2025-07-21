@@ -2,7 +2,7 @@
 layout: post
 title: "WAF: Pilar 4 - Excelência Operacional (Microsoft)"
 author: asilva
-date: 2025-07-21 09:00:00 -0500
+date: 2025-07-21 08:00:00 -0500
 categories: [Cloud, Azure]
 tags: [azure, microsoft, waf, operacional, arquitetura]
 ---
