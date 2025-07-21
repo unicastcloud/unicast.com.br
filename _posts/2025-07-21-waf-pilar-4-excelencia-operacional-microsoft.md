@@ -80,4 +80,4 @@ No próximo artigo da série, vamos explorar o último pilar: **Eficiência de D
 
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para compartilhá-los conosco na seção de comentários abaixo!
 
-Forte abraço!  
+Forte abraço!
