@@ -17,7 +17,7 @@ Hoje vamos falar sobre o **CAF**, que é o guia definitivo pra você entender su
 
 ## **CAF na prática: Como o Cloud Adoption Framework guia sua jornada na nuvem**
 
-O **Cloud Adoption Framework (CAF) da Microsoft **é muito mais que um conjunto de boas práticas. Ele é uma **metodologia completa** que orienta desde os primeiros passos na nuvem até a maturidade operacional. Com ele, você não vai simplesmente "**jogar cargas no Azure**", mas sim seguir um caminho claro e estratégico.
+O **Cloud Adoption Framework (CAF) da Microsoft** é muito mais que um conjunto de boas práticas. Ele é uma **metodologia completa** que orienta desde os primeiros passos na nuvem até a maturidade operacional. Com ele, você não vai simplesmente "**jogar cargas no Azure**", mas sim seguir um caminho claro e estratégico.
 
 > **A bússola do arquiteto Azure**
 
