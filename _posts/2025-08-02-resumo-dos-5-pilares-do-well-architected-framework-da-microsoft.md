@@ -2,7 +2,7 @@
 layout: post
 title: "WAF: Resumo dos 5 Pilares do Well-Architected Framework da Microsoft"
 author: asilva
-date: 2025-08-03 08:00:00 -0500
+date: 2025-08-02 08:00:00 -0500
 categories: [Cloud, Azure]
 tags: [azure, microsoft, waf, arquitetura]
 ---
