@@ -21,6 +21,8 @@ São **58 melhorias** no total:
 - [Release oficial no blog do Kubernetes](https://kubernetes.io/blog/2025/08/27/kubernetes-v1-34-release/){:target="_blank"}  
 - [Changelog completo no GitHub](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md){:target="_blank"}
 
+Bom, sem mais delongas, bora falar das principais novidades!
+
 ## DRA: alocação dinâmica de recursos agora é produção
 
 O **Dynamic Resource Allocation (DRA)** finalmente chegou ao **GA**. Se você já sofreu pra alocar GPU, FPGA ou qualquer hardware especial, o DRA vai ser seu novo melhor amigo.
@@ -85,7 +87,6 @@ spec:
       tolerance: 0.05
     scaleDown:
       tolerance: 0.15
-
 ```
 
 Isso resolve um problema antigo: o modelo fixo de 10% para todo mundo.
