@@ -46,27 +46,27 @@ Esse post é um comparativo prático e objetivo pra te ajudar a escolher a ferra
 
 ## **Critérios para escolher (prático)**
 
-1. **Onde seu código vive?**  
+**Onde seu código vive?**  
 
 - GitHub → GitHub Actions tende a ser a escolha mais natural.  
 - Azure Repos ou múltiplos hosts → Azure Pipelines facilita centralizar CI.  
 
-2. **Nível de controle e compliance** 
+**Nível de controle e compliance** 
 
 - Requisitos fortes de governança e auditoria → Azure Pipelines tem recursos de políticas e approvals mais maduros.  
 - Regras de proteção por ambiente e revisão → GitHub Actions com Environments resolve boa parte.  
 
-3. **Custo e escala**  
+**Custo e escala**  
 
 - Uso intenso de runners macOS ou Windows → compare créditos; agentes self-hosted podem reduzir custos.  
 - Projetos open source → GitHub Actions oferece generosas cotas gratuitas.  
 
-4. **Velocidade de entrega e experimentação**  
+**Velocidade de entrega e experimentação**  
 
 - Se quer iterar rápido com ações prontas → GitHub Actions acelera entrega.  
 - Pipelines complexos com dependências e gates → Azure Pipelines dá mais previsibilidade.  
 
-5. **Ferramentas adicionais**  
+**Ferramentas adicionais**  
 
 - Integração nativa com Azure Monitor, Boards, Artifacts → Azure Pipelines.  
 - Integração com Dependabot, code scanning, packages do GitHub → GitHub Actions.  
