@@ -16,7 +16,7 @@ Elas são a **fundação arquitetural recomendada pela Microsoft** para garantir
 
 Landing Zones são **implementações padronizadas de ambientes no Azure**, com tudo que você precisa para receber workloads com segurança e governança desde o primeiro dia.
 
-Elas fazem parte do [Cloud Adoption Framework da Microsoft](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/) {:target="_blank"} e são compatíveis com os princípios do [Well-Architected Framework](https://learn.microsoft.com/pt-br/azure/architecture/framework/) {:target="_blank"}.
+Elas fazem parte do [Cloud Adoption Framework da Microsoft](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/){:target="_blank"} e são compatíveis com os princípios do [Well-Architected Framework](https://learn.microsoft.com/pt-br/azure/architecture/framework/){:target="_blank"}.
 
 ## **O que uma Landing Zone inclui?**
 
@@ -28,7 +28,7 @@ Elas fazem parte do [Cloud Adoption Framework da Microsoft](https://learn.micros
 - **Identidade com Entra ID, PIM e Conditional Access**
 - **Auditoria e compliance com Azure Security Center e Blueprints**
 
-Tudo isso pode ser implementado com **Infraestrutura como Código (IaC)** usando [Terraform](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/terraform/) {:target="_blank"}, [Bicep](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/bicep/) {:target="_blank"} ou ARM Templates.
+Tudo isso pode ser implementado com **Infraestrutura como Código (IaC)** usando [Terraform](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/terraform/){:target="_blank"}, [Bicep](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/bicep/){:target="_blank"} ou ARM Templates.
 
 ## **Tipos de Landing Zones**
 
@@ -38,7 +38,7 @@ Tudo isso pode ser implementado com **Infraestrutura como Código (IaC)** usando
 | **Enterprise-Scale** | Grandes empresas, múltiplas equipes | Alta         | Terraform, Bicep |
 | **Custom**           | Ambientes com requisitos específicos | Variável     | Adaptável        |
 
-A Microsoft mantém um repositório oficial com exemplos e módulos reutilizáveis: [GitHub - Azure Landing Zones](https://github.com/Azure/Enterprise-Scale) {:target="_blank"}
+A Microsoft mantém um repositório oficial com exemplos e módulos reutilizáveis: [GitHub - Azure Landing Zones](https://github.com/Azure/Enterprise-Scale){:target="_blank"}
 
 ## **Benefícios reais de usar Landing Zones**
 
@@ -51,28 +51,28 @@ A Microsoft mantém um repositório oficial com exemplos e módulos reutilizáve
 
 ## **Como começar com Landing Zones**
 
-1. **Estude os fundamentos**  
+**Estude os fundamentos**  
 
-- [Documentação oficial do Azure Landing Zones](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/) {:target="_blank"}
+- [Documentação oficial do Azure Landing Zones](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/){:target="_blank"}
 
-2. **Escolha a abordagem de IaC**  
+**Escolha a abordagem de IaC**  
 
-- [Terraform](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/terraform/) {:target="_blank"}  
-- [Bicep](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/bicep/) {:target="_blank"}
+- [Terraform](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/terraform/){:target="_blank"}  
+- [Bicep](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/ready/landing-zone/bicep/){:target="_blank"}
 
-3. **Clone os repositórios oficiais**  
+**Clone os repositórios oficiais**  
 
-- [GitHub - Azure Landing Zones Terraform](https://github.com/Azure/terraform-azurerm-caf-enterprise-scale) {:target="_blank"}  
-- [GitHub - Azure Landing Zones Bicep](https://github.com/Azure/ALZ-Bicep) {:target="_blank"}
+- [GitHub - Azure Landing Zones Terraform](https://github.com/Azure/terraform-azurerm-caf-enterprise-scale){:target="_blank"}  
+- [GitHub - Azure Landing Zones Bicep](https://github.com/Azure/ALZ-Bicep){:target="_blank"}
 
-4. **Adapte para seu cenário**  
+**Adapte para seu cenário**  
 
 - Número de subscriptions  
 - Conectividade com on-premises  
 - Requisitos de segurança e compliance  
 - Naming conventions e tagging
 
-5. **Implemente com GitOps e pipelines**  
+**Implemente com GitOps e pipelines**  
 
 - Azure DevOps ou GitHub Actions  
 - Validação com `terraform plan` ou `bicep build`  
@@ -88,10 +88,10 @@ A Microsoft mantém um repositório oficial com exemplos e módulos reutilizáve
 
 ## **Recursos complementares**
 
-- [CAF - Cloud Adoption Framework](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/) {:target="_blank"}  
-- [WAF - Well-Architected Framework](https://learn.microsoft.com/pt-br/azure/architecture/framework/) {:target="_blank"}  
-- [Azure Architecture Center](https://learn.microsoft.com/pt-br/azure/architecture/) {:target="_blank"}  
-- [Microsoft Learn - Módulo de Landing Zones](https://learn.microsoft.com/pt-br/training/modules/intro-enterprise-scale-landing-zones/) {:target="_blank"}
+- [CAF - Cloud Adoption Framework](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/){:target="_blank"}  
+- [WAF - Well-Architected Framework](https://learn.microsoft.com/pt-br/azure/architecture/framework/){:target="_blank"}  
+- [Azure Architecture Center](https://learn.microsoft.com/pt-br/azure/architecture/){:target="_blank"}  
+- [Microsoft Learn - Módulo de Landing Zones](https://learn.microsoft.com/pt-br/training/modules/intro-enterprise-scale-landing-zones/){:target="_blank"}
 
 ## **Conclusão**
 
