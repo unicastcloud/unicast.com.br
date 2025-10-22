@@ -10,6 +10,7 @@ tags: [aws, us-east-1, cloud, falha, infraestrutura]
 Fala galera! Seis tão baum?
 
 Na última **segunda-feira, 20 de outubro de 2025**, uma falha crítica na região **US-EAST-1 da AWS** provocou instabilidade em sites e aplicativos por cerca de **15 horas**.  
+
 Empresas como **iFood**, **Mercado Livre** e **PicPay** no Brasil, além de gigantes globais como **Prime Video**, **Zoom**, **Duolingo**, **Snapchat** e até jogos como **Fortnite**, foram afetados.  
 
 ![](/assets/img/114/awsdown01.jpeg){: "width=60%" }
@@ -19,7 +20,7 @@ Segundo a própria AWS, mais de **500 empresas** sofreram impactos diretos duran
 ## Linha do tempo do incidente
 
 - **04h11 (horário de Brasília)** — A AWS identificou **taxas de erro significativas** no **DynamoDB** e em serviços de **EC2** na região **US-EAST-1 (N. Virginia)**.  
-- **Manhã e tarde** — O [Downdetector](https://downdetector.com.br/) {:target="_blank"} registrou picos de reclamações em aplicativos de delivery, bancos digitais, e-commerces e plataformas de streaming.  
+- **Manhã e tarde** — O [Downdetector](https://downdetector.com.br/){:target="_blank"} registrou picos de reclamações em aplicativos de delivery, bancos digitais, e-commerces e plataformas de streaming.  
 - **18h30** — A AWS reportava ainda **76 recursos com instabilidade** e **66 já resolvidos** em sua página de status.  
 - **19h01 (horário de Brasília)** — A AWS informou que **todos os serviços haviam retornado ao funcionamento normal**, encerrando oficialmente o incidente.
 
