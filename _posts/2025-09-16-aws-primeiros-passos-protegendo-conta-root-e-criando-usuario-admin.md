@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS - Primeiros Passos: Protegendo sua conta root e criando usuário admin"
+title: "Primeiros Passos: Protegendo sua conta root e criando usuário admin na AWS"
 author: asilva
 date: 2025-09-16 08:00:00 -0300
 categories: [Cloud, AWS]
@@ -425,8 +425,6 @@ Veja como fica seu workflow após essa configuração:
 **Ferramentas:**
 - [Google Authenticator](https://googleauthenticator.net/){:target="_blank"}
 - [Microsoft Authenticator](https://www.microsoft.com/security/mobile-authenticator-app){:target="_blank"}
-- [Authy](https://authy.com/){:target="_blank"}
-- [1Password](https://1password.com/){:target="_blank"} - Gerenciador de senhas
 
 ## **Conclusão**
 
