@@ -428,11 +428,6 @@ Veja como fica seu workflow após essa configuração:
 - [Authy](https://authy.com/){:target="_blank"}
 - [1Password](https://1password.com/){:target="_blank"} - Gerenciador de senhas
 
-**Próximos passos:**
-- [AWS IAM: Princípios de segurança e boas práticas](link-do-artigo-anterior) - Aprofunde em IAM
-- AWS Organizations - Para múltiplas contas
-- AWS Control Tower - Governança em escala
-
 ## **Conclusão**
 
 Parabéns! Agora sua conta AWS está muito mais segura do que 90% das contas por aí. A configuração de segurança inicial leva apenas alguns minutos, mas pode te salvar de muita dor de cabeça (e dinheiro) no futuro.
