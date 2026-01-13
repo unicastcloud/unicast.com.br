@@ -2,7 +2,7 @@
 layout: post
 title: "AWS - Primeiros Passos: Protegendo sua conta root e criando usuário admin"
 author: asilva
-date: 2025-09-16 09:00:00 -0300
+date: 2025-09-16 08:00:00 -0300
 categories: [Cloud, AWS]
 tags: [aws, iam, segurança, mfa, conta-root]
 ---
