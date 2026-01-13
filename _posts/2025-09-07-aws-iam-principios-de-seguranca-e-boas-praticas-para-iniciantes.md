@@ -33,11 +33,15 @@ O **IAM** é o serviço de gerenciamento de identidade e acesso da AWS. Ele perm
 ## **Componentes principais**
 
 ### Usuários
+
 Representam pessoas ou sistemas que precisam acessar recursos. Cada usuário pode ter credenciais (senha para console e/ou access keys para CLI/API).
 
 ### Grupos
+
 Coleções de usuários que compartilham permissões. Exemplo: grupo “Developers” com acesso a S3 e CloudWatch.
+
 ### Access Keys
+
 As **Access Keys** são credenciais de longo prazo compostas por um **Access Key ID** e uma **Secret Access Key**. Elas permitem que usuários ou aplicações acessem a AWS programaticamente via CLI, SDKs ou APIs.
 
 **Quando usar:**
@@ -57,6 +61,7 @@ As **Access Keys** são credenciais de longo prazo compostas por um **Access Key
 - Monitore uso com CloudTrail
 
 ### MFA (Multi-Factor Authentication)
+
 O MFA adiciona uma camada extra de segurança exigindo um segundo fator de autenticação além da senha. Pode ser:
 
 - **MFA virtual**: Apps como Google Authenticator, Microsoft Authenticator ou Authy
@@ -68,7 +73,9 @@ O MFA adiciona uma camada extra de segurança exigindo um segundo fator de auten
 - Obrigatório para conta root
 - Recomendado para todos os usuários com acesso ao console
 - Pode ser exigido via policies condicionais
+
 ### Roles
+
 IAM Roles (Funções do IAM) na AWS são identidades que definem um conjunto de permissões para fazer solicitações a serviços da AWS, mas, ao contrário dos usuários do IAM, elas não estão associadas a uma pessoa ou credenciais de longo prazo (como senhas ou chaves de acesso permanentes). Em vez disso, as funções fornecem credenciais de segurança temporárias que são automaticamente gerenciadas pela AWS Security Token Service (STS). 
 
 Como Funcionam: As IAM Roles são projetadas para serem assumidas por entidades autorizadas, que podem ser:
@@ -86,6 +93,7 @@ Como Funcionam: As IAM Roles são projetadas para serem assumidas por entidades 
 ![](/assets/img/115/iam-03.png){: "width=60%" }
 
 ### Policies
+
 As Políticas IAM (Identity and Access Management) da AWS são documentos no formato JSON que definem permissões, controlando quais ações uma entidade (usuário, grupo, ou função/role) pode realizar em quais recursos da AWS. Elas são a base do controle de acesso na AWS. 
 
 Exemplo de policy mínima para listar buckets no S3:
